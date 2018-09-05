@@ -1,0 +1,59 @@
+<br />
+<table class="forumline" style="border-style:none;float:center;width:100%" cellpadding="3" cellspacing="1">
+  <tr>
+    <td class="row1"><span class="gen">_(QUEST)</span></td>
+    <td class="row2"><big><b><a href="{U_QUEST}"{S_TARGET}>{S_QUEST_NAME}</a></big></td>
+  </tr>
+  <tr>
+    <td class="row1"><span class="gen">_(REWARD)</span></td>
+    <td class="row2">
+<!-- IF U_QUEST_REWARD ne '' -->
+<a href="{U_QUEST_REWARD}"{S_TARGET}>
+<!-- ENDIF -->
+      <img src="{U_QUEST_REWARD_IMG}" style="border:0;width:24px;height:24px;display:inline-block;vertical-align:middle" alt="{S_QUEST_REWARD}" title="{S_QUEST_REWARD}" /><span style="font-size:larger;display:inline-block;vertical-align:middle">&nbsp;{S_QUEST_REWARD}</span>
+<!-- IF U_QUEST_REWARD ne '' -->
+</a>
+<!-- ENDIF -->
+    </td>
+  </tr>
+  <tr>
+    <td class="row1"><span class="gen">_(DONTHAVE)</span></td>
+    <td class="row2">
+<!-- BEGIN not_started -->
+<a href="{not_started.U_CHAR_PROFILE}"{S_TARGET}>{not_started.S_CHAR_NAME_FIRST}</a>&nbsp;<span style="font-size:65%">({not_started.S_CHAR_ADV_LEVEL})</span>
+<!-- END not_started -->
+<!-- IF $_not_started_count == 0 -->
+<i>_(NONE)</i>
+<!-- ENDIF -->
+    </td>
+  </tr>
+<!-- BEGIN in_progress -->
+  <tr>
+    <td class="row1" style="white-space:nowrap"><span class="gen">{in_progress.S_STEP}</span></td>
+    <td class="row2" width="95%">
+<!-- BEGIN column -->
+<!-- IF in_progress.column.B_SEPARATOR -->
+ | 
+<!-- ENDIF -->
+<span title="{in_progress.column.S_CHAR_QUEST_STAGE}"><a href="{in_progress.column.U_CHAR_PROFILE}"{S_TARGET}>{in_progress.column.S_CHAR_NAME_FIRST}</a>&nbsp;<span style="font-size:65%">({in_progress.column.S_CHAR_ADV_LEVEL})</span></span>
+<!-- END column -->
+<!-- IF $_column_count == 0 -->
+<i>_(NONE)</i>
+<!-- ENDIF -->
+    </td>
+  </tr>
+<!-- END in_progress -->
+  <tr>
+    <td class="row1"><span class="gen">_(COMPLETED)</span></td>
+    <td class="row2">
+<!-- BEGIN completed -->
+<a href="{completed.U_CHAR_PROFILE}"{S_TARGET}>{completed.S_CHAR_NAME_FIRST}</a>&nbsp;<span style="font-size:65%">({completed.S_CHAR_ADV_LEVEL})</span>
+<!-- END completed -->
+<!-- IF $_completed_count == 0 -->
+<i>_(NONE)</i>
+<!-- ENDIF -->
+    </td>
+  </tr>
+</table>
+<br />
+<br />

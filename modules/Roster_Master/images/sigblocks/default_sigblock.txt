@@ -1,0 +1,45 @@
+// Size of the border margin around the signature block image (if any),
+// in pixels. Avatars will be rescaled proportionally to fit the
+// calculated height.
+// BORDER_MARGIN <int pixels>
+BORDER_MARGIN	2
+
+// Allocate image color(s). Don't allocate more colors than you need.
+// Colors are defined using a hexadecimal notation for the combination
+// of Red, Green, and Blue color values (RGB). The lowest value that can
+// be given to one light source is 0 (hex #00). The highest value is 255
+// (hex #FF). Colors must be defined before you can use them. This is
+// the same notation used in CSS and HTML color values.
+// COLOR <string colorName> <string hexRGB>
+COLOR		White FFFFFF
+//COLOR		Black 000000
+//COLOR		ForestGreen 228B22
+//COLOR		LightSkyBlue 87CEFA
+//COLOR		Yellow FFFF00
+
+// Avatar type and placement. Placement is relative.
+// (DEFAULT|ARCH|CLASS|RANK|EQ2) (TOP|MIDDLE|BOTTOM) (LEFT|RIGHT)
+AVATAR	DEFAULT MIDDLE RIGHT
+
+// Guild rank insignia placement. Placement is absolute.
+// RANK <int x> <int y>
+RANK	103 8
+
+// Lines of text.
+// Text area indentation, in pixels.
+TEXT_LEFTINDENT		110
+TEXT_RIGHTINDENT	5
+
+// TEXT <int size>[A|I] <int indent> <int y> <string color> <string fontfilename> <string text>
+
+// Character name and lastname.
+TEXT	16 13 25 White VINERITC.TTF {$FullName}
+
+// Adventurer class/level and artisian class/level.
+TEXT	12  0 50 White VINERITC.TTF {$type_class} {$type_level}, {$tradeskill_class} {$tradeskill_level}
+
+// Server name.
+TEXT	12  0 70 White VINERITC.TTF {$Server} Server
+
+// I <3 me!
+TEXT	8  0 90 White FreeSansBoldOblique.ttf Roster Master for Dragonfly v9

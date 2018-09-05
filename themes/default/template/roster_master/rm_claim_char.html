@@ -1,0 +1,85 @@
+<br />
+<center><table style="border:none;width:60%">
+  <tr>
+    <td style="text-align:center">
+      <form action="{U_BASELINK}" method="post" name="post">
+        <table style="border:none;width:100%" cellspacing="2" cellpadding="2">
+          <tr>
+            <td style="text-align:left;white-space:nowrap"><span class="nav">_(NEWCLAIM)</span></td>
+          </tr>
+          <tr>
+            <td>
+              <table class="forumline" cellpadding="4" cellspacing="1" width="100%">
+                <tr>
+                  <td><strong>_(CHARACTER)</strong></td>
+                  <td><strong>_(TYPE)</strong></td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td><select name="characterId">{S_SELECT_LIST}</select></td>
+                  <td><select name="char_type"><option selected="selected">Primary</option><option>Secondary</option><option>Utility</option></select></td>
+                  <td><input type="hidden" name="rm" value="rm_save_claim" /><input type="submit" value="_(SAVECLAIM)" /></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center">
+      <table style="border:none;width:100%" cellspacing="2" cellpadding="2">
+        <tr>
+          <td style="text-align:left;white-space:nowrap"><span class="nav">_(CURRENTCLAIM):</span></td>
+        </tr>
+      </table>
+      <table class="forumline" cellpadding="4" cellspacing="1" width="100%">
+        <tr>
+          <th class="thCornerL" height="25"><strong>_(CHARACTER)</strong></th>
+          <th class="thTop"><strong>_(TYPE)</strong></th>
+          <th class="thCornerR"><strong>_(ADMIN)</strong></th>
+        </tr>
+<!-- BEGIN claims -->
+<!-- IF claims.B_NONE -->
+        <tr>
+          <td class="row1" style="text-align:center" colspan="3"><i>_(NONE)</i></td>
+        </tr>
+<!-- ELSE -->
+        <tr>
+          <td class="{claims.S_ROWCLASS}">
+
+            <table style="border-style:none;width:100%" cellspacing="0" cellpadding="0">
+              <tr style="vertical-align:middle">
+                <td style="text-align:left;white-space:normal">
+<!-- IF (claims.U_CHAR_PROFILE ne '') -->
+<a href="{claims.U_CHAR_PROFILE}"{S_TARGET}>
+<!-- ENDIF -->
+{claims.S_CHAR_NAME_FIRST}
+<!-- IF (claims.S_CHAR_NAME_LAST ne '') -->
+ {claims.S_CHAR_NAME_LAST}
+<!-- ENDIF -->
+<!-- IF (claims.U_CHAR_PROFILE ne '') -->
+</a>
+<!-- ENDIF -->
+                </td>
+                <td style="text-align:right">
+<!-- BEGIN manage_claims -->
+&nbsp;<a href="{claims.manage_claims.U_COLLECTIONS}"><img src="{claims.manage_claims.U_COLLECTIONS_IMG}" style="border:0;width:16px;height:16px" alt="{claims.manage_claims.S_COLLECTIONS_TITLE}" title="{claims.manage_claims.S_COLLECTIONS_TITLE}" /></a>
+&nbsp;<a href="{claims.manage_claims.U_SIG}"><img src="{claims.manage_claims.U_SIG_IMG}" style="border:0;width:16px;height:16px" alt="{claims.manage_claims.S_SIG_TITLE}" title="{claims.manage_claims.S_SIG_TITLE}" /></a>
+<!-- END manage_claims -->
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td class="{claims.S_ROWCLASS}">{claims.S_CHAR_TYPE}</td>
+          <td class="{claims.S_ROWCLASS}">[&nbsp;<a href="{claims.U_CLAIM_EDIT}">_(EDITCLAIM)</a> |&nbsp;<a href="{claims.U_CLAIM_DELETE}">_(DELCLAIM)</a>&nbsp;]</td>
+        </tr>
+<!-- ENDIF -->
+<!-- END claims -->
+      </table>
+    </td>
+  </tr>
+</table></center>
+<br />
+<br />

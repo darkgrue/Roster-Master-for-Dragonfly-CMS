@@ -1,0 +1,147 @@
+<br />
+<table style="border-style:none;width:100%" cellspacing="0" cellpadding="0">
+<!-- IF (U_TOGGLE_ALTS ne '') -->
+  <tr>
+    <td style="text-align:left">{S_ALTS_SHOWING} [&nbsp;<a href="{U_TOGGLE_ALTS}">{S_ALTS_TOGGLE}</a>&nbsp;]</td>
+  </tr>
+<!-- ENDIF -->
+  <tr>
+    <td>
+	<div id="mid{I_MID}_QuestMaster:scroller" style="overflow-y:scroll;height:400px">
+      <table id="QuestMaster" class="forumline" cellpadding="2" cellspacing="1"{S_ROWHIGHLIGHT}>
+        <thead>
+          <tr>
+            <th class="thCornerL" style="text-align:right;vertical-align:middle">_(REWARD):</th>
+<!-- BEGIN header1 -->
+            <th class="{header1.S_COLCLASS}" style="text-align:center;vertical-align:bottom">
+<!-- IF (header1.U_QUEST_REWARD ne '') -->
+<a href="{header1.U_QUEST_REWARD}"{S_TARGET}>
+<!-- ENDIF -->
+              <img src="{header1.U_QUEST_REWARD_IMG}" style="border:0;width:24px;height:24px" alt="{header1.S_QUEST_REWARD}" title="{header1.S_QUEST_REWARD}" />
+<!-- IF (header1.U_QUEST_REWARD ne '') -->
+</a>
+<!-- ENDIF -->
+            </th>
+<!-- END header1 -->
+          </tr>
+          <tr>
+            <th class="thCornerL" style="height:3px;vertical-align:bottom"><span style="text-align:left;float:left;display:inline;white-space:nowrap">_(NAME)
+<!-- IF (S1_SORT_INDICATOR ne '') and (S1_SORT_FIELD eq 'name_first') -->
+&nbsp;<a href="{U_S1_SORT_SWAP}" style="color:inherit;text-decoration:inherit">{S1_SORT_INDICATOR}</a>
+<!-- ENDIF -->
+&nbsp;(_(ADVLEVELT)
+<!-- IF (S1_SORT_INDICATOR ne '') and (S1_SORT_FIELD eq 'type_level') -->
+&nbsp;<a href="{U_S1_SORT_SWAP}" style="color:inherit;text-decoration:inherit">{S1_SORT_INDICATOR}</a>
+<!-- ENDIF -->
+)&nbsp;&nbsp;</span>
+              <span style="float:right;display:inline;text-align:right">_(QUEST):</span>
+            </th>
+<!-- BEGIN header2 -->
+            <th class="thTop" style="height:3px;text-align:center;vertical-align:bottom">
+              <a href="{header2.U_QUEST}" class="statlink"{S_TARGET} title="{header2.S_QUEST_NAME}">{header2.S_QUEST}
+<!-- IF (S1_SORT_INDICATOR ne '') and (S1_SORT_FIELD eq header2.S_QUEST) -->
+</a>&nbsp;<a href="{U_S1_SORT_SWAP}" style="color:inherit;text-decoration:inherit">{S1_SORT_INDICATOR}</a>
+<!-- ELSE -->
+</a>
+<!-- ENDIF -->
+</th>
+<!-- END header2 -->
+          </tr>
+          <tr>
+            <th class="thTop" style="height:3px;text-align:right;vertical-align:bottom"><span style="font-size:65%">_(QUERY):</span></th>
+<!-- BEGIN header3 -->
+            <th class="thTop" style="height:3px;text-align:center;vertical-align:bottom"><span style="font-size:65%"><a href="{header3.U_SUBQUERY}" class="statlink" title="_(QUERYQS): {header3.S_QUEST_NAME}">[<b>?</b>]</a></span></th>
+<!-- END header3 -->
+          </tr>
+        </thead>
+        <tbody>
+<!-- BEGIN character_row -->
+<!-- IF character_row.B_NONE -->
+          <tr>
+            <td class="row1" colspan="{character_row.S_COLSPAN}" style="text-align:center"><i>_(ERR_CLAIMNONE)</i></td>
+          </tr>
+<!-- ELSE -->
+          <tr>
+            <td class="{character_row.S_ROWCLASS}" style="text-align:left;white-space:nowrap">
+  <!-- IF character_row.U_CHAR_PROFILE ne '' -->
+              <a href="{character_row.U_CHAR_PROFILE}"{S_TARGET}>
+  <!-- ENDIF -->
+{character_row.S_CHAR_NAME_FIRST}
+  <!-- IF character_row.U_CHAR_PROFILE ne '' -->
+</a>
+  <!-- ENDIF -->
+&nbsp;<span style="font-size:65%">({character_row.S_CHAR_ADV_LEVEL})</span>
+            </td>
+<!-- BEGIN quest_column -->
+            <td class="{character_row.S_ROWCLASS}" style="text-align:center{character_row.quest_column.S_BACKGROUNDCOLOR}">
+  <!-- IF (character_row.quest_column.I_CHAR_QUEST_STEP < 0) -->
+&nbsp;
+  <!-- ELSE -->
+    <!-- IF (character_row.quest_column.B_TL_COMPLETE) -->
+<img {character_row.quest_column.S_PROGRESS_IMG} alt="{character_row.quest_column.S_PROGRESS_TITLE}: {character_row.quest_column.S_QUEST}" title="{character_row.quest_column.S_PROGRESS_TITLE}: {character_row.quest_column.S_QUEST}" />
+    <!-- ELSE -->
+      <!-- IF (character_row.quest_column.I_CHAR_QUEST_STAGE > 8000) -->
+<img {character_row.quest_column.S_PROGRESS_IMG} alt="{character_row.quest_column.S_PROGRESS_TITLE}: (_(STEP) {character_row.quest_column.I_CHAR_QUEST_STEP}, _(STAGE) _(END)) {character_row.quest_column.S_QUEST}" title="{character_row.quest_column.S_PROGRESS_TITLE}: (_(STEP) {character_row.quest_column.I_CHAR_QUEST_STEP}, _(STAGE) _(END)) {character_row.quest_column.S_QUEST}" />
+      <!-- ELSE -->
+<img {character_row.quest_column.S_PROGRESS_IMG} alt="{character_row.quest_column.S_PROGRESS_TITLE}: (_(STEP) {character_row.quest_column.I_CHAR_QUEST_STEP}, _(STAGE) {character_row.quest_column.I_CHAR_QUEST_STAGE}) {character_row.quest_column.S_QUEST}" title="{character_row.quest_column.S_PROGRESS_TITLE}: (_(STEP) {character_row.quest_column.I_CHAR_QUEST_STEP}, _(STAGE) {character_row.quest_column.I_CHAR_QUEST_STAGE}) {character_row.quest_column.S_QUEST}" />
+      <!-- ENDIF -->
+    <!-- ENDIF -->
+  <!-- ENDIF -->
+            </td>
+<!-- END quest_column -->
+          </tr>
+<!-- ENDIF -->
+<!-- END character_row -->
+        </tbody>
+      </table>
+	</div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <hr style="border:1px solid;{S_HRSTYLE}height:6px" noshade="noshade"{S_HRRESIZE} size="6" />
+      <div style="border:thin solid;margin:0;padding:5px">
+        <table style="border-style:none;width:100%" cellspacing="0" cellpadding="0">
+          <tr>
+            <td style="text-align:left">
+              <form style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0" method="post" action="{U_QUEST_DISPLAY}">
+                <table style="border-style:none">
+                  <tr>
+                    <td colspan="3" style="padding-bottom:8px">{S1_EXPANSION_OPTIONS}</td>
+                    <td width="15">&nbsp;</td>
+                    <td rowspan="3" style="vertical-align:middle"><input type="submit" value="_(SORT)" /></td>
+                  </tr>
+                  <tr>
+                    <td><select name="s1">{S1_SORT_OPTIONS}</select></td>
+                    <td style="white-space:nowrap"><label><input type="radio" name="s1d" value="a" style="border-style:none;bottom:2px;position:relative;vertical-align:middle"{S1_A_CHECKED} />_(ASCENDING)</label></td>
+                    <td style="white-space:nowrap"><label><input type="radio" name="s1d" value="d" style="border-style:none;bottom:2px;position:relative;vertical-align:middle"{S1_D_CHECKED} />_(DESCENDING)</label></td>
+                    <td width="15">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td colspan="2"><label><input type="checkbox" value="1"{SCO_CHECKED} name="sco" style="border-style:none;bottom:1px;position:relative;vertical-align:middle" />_(SHOWCO)</label></td>
+                    <td width="15">&nbsp;</td>
+                  </tr>
+                </table>
+              </form>
+            </td>
+            <td style="text-align:left">
+              <b>_(LEGEND):</b><br />
+<!-- BEGIN table_legend -->
+              &nbsp;&nbsp;&nbsp;<img {table_legend.S_PROGRESS_IMG} alt="{table_legend.S_PROGRESS_TITLE}" />&nbsp;{table_legend.S_PROGRESS_TITLE}<br />
+<!-- END table_legend -->
+            </td>
+          </tr>
+        </table>
+      </div>
+    </td>
+  </tr>
+<!-- IF (U_TOGGLE_ALTS ne '') -->
+  <tr>
+    <td style="text-align:left">{S_ALTS_SHOWING} [&nbsp;<a href="{U_TOGGLE_ALTS}">{S_ALTS_TOGGLE}</a>&nbsp;]</td>
+  </tr>
+<!-- ENDIF -->
+</table>
+{S_SCROLLTABLE}
+<br />
+<br />

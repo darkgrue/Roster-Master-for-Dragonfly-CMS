@@ -1,0 +1,110 @@
+<br />
+<center><form action="{U_BASELINK}" method="post" name="post">
+  <table style="border:none" cellspacing="2" cellpadding="2">
+    <tr>
+      <td style="text-align:left;white-space:nowrap"><span class="nav">_(EDITCLAIM)</span></td>
+    </tr>
+    <tr>
+      <td>
+        <table class="forumline" cellpadding="4" cellspacing="1">
+          <tr>
+            <td><strong>_(CHARACTER)</strong></td>
+            <td><strong>_(TYPE)</strong></td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>
+<!-- IF (U_CHAR_PROFILE ne '') -->
+<a href="{U_CHAR_PROFILE}"{S_TARGET}>
+<!-- ENDIF -->
+{S_CHAR_NAME_FIRST}
+<!-- IF (U_CHAR_PROFILE ne '') -->
+</a>
+<!-- ENDIF -->
+</td>
+            <td><select name="char_type">{S_SELECT_LIST}</select></td>
+            <td><input type="hidden" name="rm" value="rm_save_claim" />
+            <input type="hidden" name="characterId" value="{S_CHAR_CHARACTERID}" />
+            <input type="submit" value="_(SAVECLAIM)" /></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</form></center>
+<!-- IF B_SIGBLOCK -->
+<center><table style="border:none" cellspacing="2" cellpadding="2">
+  <tr>
+    <td style="text-align:left;white-space:nowrap"><span class="nav">_(SIGPREVIEW)</span></td>
+  </tr>
+  <tr>
+    <td>
+      <table class="forumline" cellpadding="4" cellspacing="1" width="100%">
+        <tr>
+          <td><img src="{U_SIG_PREVIEW}" style="border:0;width:{S_WIDTH}px;height:{S_HEIGHT}px" alt="" /></td>
+        </tr>
+        <tr>
+          <td>
+            <table style="border:none;width:100%" cellspacing="2" cellpadding="2">
+              <tr>
+                <td style="text-align:left;white-space:nowrap"><span class="nav">_(SIGIMG):</span></td>
+              </tr>
+            </table>
+            <table class="forumline" cellpadding="4" cellspacing="1" width="100%">
+              <tr>
+                <td class="row1" style="text-align:left"><strong>_(HTML)</strong></td>
+                <td class="row1">&lt;img src="{U_SIGLINK}" style="border:0;width:{S_WIDTH}px;height:{S_HEIGHT}px" alt="" /&gt;</td>
+              </tr>
+              <tr>
+                <td class="row2" style="text-align:left"><strong>_(BBCODE)</strong></td>
+                <td class="row2">[img]{U_SIGLINK}[/img]</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+<!-- IF (U_CHAR_PROFILE ne '') -->
+        <tr>
+          <td>
+            <table style="border:none;width:100%" cellspacing="2" cellpadding="2">
+              <tr>
+                <td style="text-align:left;white-space:nowrap"><span class="nav">_(LINKTOCHAR):</span></td>
+              </tr>
+            </table>
+            <table class="forumline" cellpadding="4" cellspacing="1" width="100%">
+              <tr>
+                <td class="row1" style="text-align:left"><strong>_(HTML)</strong></td>
+                <td class="row1">&lt;a href="{U_CHAR_PROFILE}"&gt;&lt;img src="{U_SIGLINK}" style="border:0;width:{S_WIDTH}px;height:{S_HEIGHT}px" alt="" /&gt;&lt;/a&gt;</td>
+              </tr>
+              <tr>
+                <td class="row2" style="text-align:left"><strong>_(BBCODE)</strong></td>
+                <td class="row2">[url={U_CHAR_PROFILE}][img]{U_SIGLINK}[/img][/url]</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+<!-- ENDIF -->
+<!-- IF (U_SIG_CACHE ne '') -->
+        <tr>
+          <td>
+            <table style="border:none;width:100%" cellspacing="2" cellpadding="2">
+              <tr>
+                <td style="text-align:left;white-space:nowrap"><span class="nav">_(LINKTOCACHED):</span></td>
+              </tr>
+            </table>
+            <table class="forumline" cellpadding="4" cellspacing="1" width="100%">
+              <tr>
+                <td class="row1" style="text-align:left"><strong>_(URL)</strong></td>
+                <td class="row1"><a href="{U_SIG_CACHE}">{U_SIG_CACHE}</a></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+<!-- ENDIF -->
+      </table>
+      <br />
+    </td>
+  </tr>
+</table></center>
+<!-- ENDIF -->
+<br />
+<br />

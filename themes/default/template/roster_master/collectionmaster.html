@@ -1,0 +1,62 @@
+<br />
+<table style="border-style:none;width:100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+      <table class="forumline" style="border-style:none;width:100%" cellpadding="4" cellspacing="0">
+        <tr>
+		  <td style="vertical-align:middle;text-align:center" width="100%">
+            <big><b><a href="{U_CHAR_PROFILE}"{S_TARGET}>{S_CHAR_NAME_FIRST}{S_CHAR_NAME_LAST}</a></b>, _(LEVEL) {S_CHAR_ADV_LEVEL} {S_CHAR_CLASS}</big><br />
+			{S_COLLECTIONS_ACTIVE} _(COLLECTIONS) _(ACTIVE), {S_COLLECTIONS_COMPLETE} _(COLLECTIONS) _(COMPLETED), {S_TOTAL} _(TOTAL) ({S_DONTHAVE} _(DONTHAVE))<br /><br />
+			[ _(DISPLAYING) {S_SHOWING} _(OF) {S_CENSUS_TOTAL} _(CENSUS) _(COLLECTIONS) ]
+          </td>
+          <td width="30">&nbsp;</td>
+          <td>
+            <form style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0" method="post" action="{U_ROSTER_DISPLAY}">
+              <table style="border-style:none">
+                <tr>
+                  <td><span title="_(SORTPRI)"><select name="s1">{S1_SORT_OPTIONS}</select></span></td>
+                  <td style="white-space:nowrap"><label title="_(ASCENDING)"><input type="radio" name="s1d" value="a" style="border-style:none;bottom:1px;position:relative;vertical-align:middle"{S1_A_CHECKED} />_(ASC)</label></td>
+                  <td style="white-space:nowrap"><label title="_(DESCENDING)"><input type="radio" name="s1d" value="d" style="border-style:none;bottom:1px;position:relative;vertical-align:middle"{S1_D_CHECKED} />_(DESC)</label></td>
+                  <td rowspan="2" width="15">&nbsp;</td>
+                  <td style="vertical-align:middle" rowspan="2"><input type="submit" value="_(SORT)" /></td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="white-space:nowrap">
+				    <label><input type="checkbox" value="1"{SIQ_CHECKED} name="siq" style="border-style:none;bottom:1px;position:relative;vertical-align:middle" />_(SHOWIQ)</label><br />
+					<label><input type="checkbox" value="1"{SCQ_CHECKED} name="scq" style="border-style:none;bottom:1px;position:relative;vertical-align:middle" />_(SHOWCQ)</label>
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+<!-- BEGIN collection_row -->
+  <tr>
+    <td class="{collection_row.S_ROWCLASS}" style="padding:8px;white-space:nowrap">
+      <div class="gen" style="font-size:larger"><a href="{collection_row.U_COLLECTION}"{S_TARGET}>{collection_row.S_NAME}</a><!-- IF collection_row.B_ISCLASS --> <span style="font-size:60%;font-weight:bold;background-color:black;color:white;display:inline-block;vertical-align:middle">_(CLASS)</span><!-- ENDIF --><!-- IF collection_row.B_ISMETA --> <span style="font-size:60%;font-weight:bold;background-color:black;color:white;display:inline-block;vertical-align:middle">_(META)</span><!-- ENDIF --> (_(LEVEL) {collection_row.S_LEVEL}, <!-- IF collection_row.S_CATEGORY eq '' -->_(NONE)<!-- ELSE -->{collection_row.S_CATEGORY}<!-- ENDIF -->)</div><br />
+	  <div style="text-indent:50px">
+<!-- BEGIN item_column -->
+        <a href="{collection_row.item_column.U_ITEM}"{S_TARGET}><img src="{collection_row.item_column.U_ITEM_IMG}"
+<!-- IF collection_row.item_column.B_HAS -->
+style="border:0;width:25px;height:25px;position:relative;vertical-align:middle" alt="{collection_row.item_column.S_NAME}" title="{collection_row.item_column.S_NAME}" />
+<!-- ELSE -->
+style="border:1px dotted grey;border-radius:5px;width:19px;height:19px;position:relative;vertical-align:middle;opacity:0.5" alt="_(COLLECTABLE): {collection_row.item_column.S_NAME}" title="_(COLLECTABLE): {collection_row.item_column.S_NAME}" />
+<!-- ENDIF -->
+</a>&nbsp;
+<!-- END item_column -->
+        <!-- IF collection_row.S_COUNT == collection_row.S_TOTAL -->_(COMPLETED)<!-- ELSE -->{collection_row.S_COUNT} _(OF) {collection_row.S_TOTAL}<!-- ENDIF -->
+	  </div>
+    </td>
+  </tr>
+<!-- END collection_row -->
+<!-- IF $_collection_row_count == 0 -->
+  <tr>
+    <td class="row1" style="padding:8px;white-space:nowrap"><i>_(NONE)</i></td>
+  </tr>
+<!-- ENDIF -->
+</table>
+<br />
+<br />

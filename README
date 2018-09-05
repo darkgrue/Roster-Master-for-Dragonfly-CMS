@@ -1,0 +1,462 @@
+/***********************************************************************
+  Roster Master for Dragonfly(TM) CMS
+  **********************************************************************
+  Copyright (C) 2005-2018 by Dark Grue
+
+  EverQuest II guild roster management, quest tracker, and dynamic
+  signature generator that integrates with the Dragonfly(TM) Content
+  Management System (CMS).
+
+  Based on Roster Master by Rex "SaintPeter" Schrader.
+
+  With gratitude for the support from:
+    The Roster Master Project (http://www.rostermaster.org/),
+    The EverQuest II Community (http://forums.daybreakgames.com/eq2/),
+    The Dragonfly CMS Community (http://www.dragonflycms.org), and
+    Roster Master users worldwide.
+
+  License:
+  This program is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation; either version 2 of the License, or (at
+  your option) any later version.
+
+  This program is distributed in the hope that it will be useful, but
+  WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+  General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program; if not, write to the Free Software
+  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA
+  02111-1307 USA
+***********************************************************************/
+
+
+********************** Installation Requirements ***********************
+Roster Master for Dragonfly (RM4DF) is a Dragonfly CMS module. For basic
+installation, Dragonfly version 9.4 or greater is required. Other RM4DF
+features may require additional dependencies, and are described below.
+
+
+**************************** Module Install ****************************
+This module is easy to install with no hassle from SQL files. It uses
+Dragonfly's module management system to make it easier for everyone.
+
+To install, just upload the content of this zip to your website "root"
+directory so that the dirctories line up, like for like:
+
+	blocks   => blocks
+	language => language
+	modules  => modules
+	etc.
+
+You may be warned: "Do you want to overwrite the folders?"... just say
+yes; these won't replace or remove the wrong files.
+
+In the "modules/Roster_Master/signatures",
+"modules/Roster_Master/images/sigblocks", and "Roster_Master/fonts"
+directories are "htaccess" files. The directives are not necessary for
+the core operation of Roster Master, but can prevent wasted resources
+and block external indexing from web spiders. Conversely, the .htaccess
+file in /modules/Roster_Master provides additional functionality (URL
+rewriting for signature blocks, primarily).
+
+Edit modules/Roster_Master/config.inc to select the appropriate options
+for your site. At a minimum, you MUST edit the values of the
+$config['guild_id'] variable. If you do not know your Guild ID, there is
+a search function in the Roster Master Administration menu to assist
+you.
+
+If you have chosen to use the logfile (by setting "$config['logfile']"
+to anything other than zero), set the appropriate ownership and
+permissions on the "modules/Roster_Master/logfile.inc" file. It is
+recommended that it be owned/writable by the user the webserver runs
+under. Some users who are running on hosted services may have to set
+this file world-read/writable. Regardless of the situation, it is HIGHLY
+recommended that this file be set to the most restrictive set of
+permissions possible.
+
+If you have chosen to use dynamic signatures (by setting
+"$config['dynamic_sigs']" to "1"), ensure that the webserver process has
+write access to the "modules/Roster_Master/signatures/" directory.
+
+The Diagnostics page in the Roster Master Administration menu can be
+extremely helpful in making sure that all module prerequisites are met.
+
+Login as admin and go to the "Modules Administration" page, which will
+autodetect the new module and check the cpg_inst.php file.
+
+The cpg_inst.php file runs the necessary SQL commands to setup the tables
+and make the appropriate changes to the database (select "Install").
+
+When you see the module in the list of modules, check the "Active" box to
+turn on the module to complete the installation.
+
+That's all!
+
+NOTE1: This module requires outbound HTTP connectivity to the
+census.daybreakgames.com Website on TCP Port 80. Make sure your server
+can connect outbound, or the module will be unable to function
+(characterized by "FATAL: Gave up trying to contact the guild summary
+page." and "FATAL Gave up trying to contact the roster page." messages in
+the logfile). Fedora Core users (possibly others) will need to edit the
+/etc/selinux/targeted/booleans.local file and add
+"httpd_can_network_connect=1" (without the quotes). Other systems may
+need similiar changes. Read the httpd_selinux(8) man page for more
+information on this if your system uses this feature.
+
+NOTE2: Do not use Dreamweaver to edit the Roster Master or Dragonfly PHP
+files, there are known issues with Dreamweaver that can cause file
+corruption and complicate troubleshooting. Use a plain-text editor (such
+as Notepad or WordPad), or a programming editor, such as jEdit or
+Notepad++.
+
+NOTE3: The Guild Wall of Fame block stores a copy of its output in the
+"content" field of the "{prefix}_blocks" table, and pulls from there
+rather than re-run all the queries (until the block needs to be
+updated). This works perfectly well until the stored block exceeds the
+TEXT field type it's stored in which has a maximum length of 65,535
+(2^16 - 1) characters. This condition would pretty much only exists if
+$config['breakdown_shownames'] = 1, since the block stays a constant
+length that's within the limits of the TEXT field. Also, people with
+very small guilds, can possibly duck under the limit, even with it
+enabled. To work around this, the Roster Master installer will change
+the field type of the table from TEXT to MEDIUMTEXT. This should have no
+impact on the operation of the Dragonfly CMS core, or to database
+efficiency. However, please note that if you subsequently upgrade the
+Dragonfly CMS core, there is a good chance that the CMS installer will
+revert the field type back to TEXT, in which case it would have to be
+remedied once again by hand (using whatever SQL management interface
+that you are comfortable with). The relevant command is (make
+appropriate substitutions):
+
+	ALTER TABLE {prefix}_blocks CHANGE content content MEDIUMTEXT
+
+If you need to disable this caching behavior in the block (useful for
+testing), set the $DEBUG variable in the block-Guild_Wall_of_Fame.php
+file to TRUE.
+
+
+************************* Module Instantiation *************************
+Multiple instances of this module can be created by making a copy of the
+module directory and adding an underscore followed by an integer to the
+name of the directory (e.g. "Roster_Master_2"). The module will detect
+this and automagically configure itself.
+
+NOTE: The module will check $mod_basename against its installation
+directory. Blocks that reference this module MUST be configured
+separately to reference the new instance (e.g. naming to
+"block-Guild_Wall_of_Fame_2.php").
+    
+The naming of the module installation directory and block filenames are
+set to follow a pattern. Both blocks and modules check against a
+hardcoded base name and then look for an instantiation extension; the
+module will NOT function if it does not pass that sanity check. The
+correct naming convention is the base module installation directory
+followed by an underscore and a number. Blocks follow the same pattern.
+ 
+The module name may be changed from the default name of the installation
+directory by going into the Module Administration Panel, selecting the
+"Edit" option, and entering the desired title in the "Custom Title"
+field, then pressing "Save Changes". Users using multiple instances will
+almost certainly want to do this, to avoid unhelpful titles such as
+"Roster Master", "Roster Master 2", "Roster Master 3", etc... Blocks can
+be similiarly renamed from the Block Administration panel, selecting
+"Edit", and entering the desired block title in the "Title" field, then
+pressing "Save Changes".
+
+NOTE: Don't rename the module's installation directory after you have
+installed the module - neither the module nor the installer will be able
+to find the module's tables, and you will be unable to uninstall the
+module until it is renamed back to the original name the module was
+installed under.
+
+
+********************* JavaScript Scrolling Tables **********************
+The Quest Master features (heritage, key, and timeline) offer by default
+a JavaScript scrolling table and row highlighter in order to make
+reading through the respective grids easier. These features can be
+turned on or off by setting $config['qm_scrolltable'] and
+$config['qm_rowhighlight'], in the config.inc file respectively.
+
+The JavaScript re-writes the tracker pages dynamically, and is designed
+to work with valid XHTML source. The script has been tested on IE,
+Firefox, and Opera, but may display differently on other browsers, or
+not work at all. If you experience problems, you may wish to check the
+validity of your theme first to make sure it validates as XHTML. The
+W3C Validator (http://validator.w3.org/) is the best method to check
+your pages.
+
+
+******************************** Avatars *******************************
+Avatars are stored in the modules/Roster_Master/images/avatars
+directory. In order to associate avatar images with a particular
+character, place them in the
+modules/Roster_Master/images/avatars/characterId subdirectory and name
+them by the Character ID (e.g. "281167207.png").
+
+The default avatar image for both the roster and signature blocks is
+"anon.png". In order to use avatars, at least the "anon.png" file must be
+present, as it is the file that the system falls back to if no other
+appropriate one is available.
+
+When the ARCH and RANK directives are in use, guild officers can be
+differentiated with files prefixed by "officer_" (e.g.
+"officer_priest.png"). If no officer avatar is available, it will fall
+through to the member icon, and if the member icon is not available, it
+will fall through to the default. Officers are indicated by populating
+the $config['officers'] array with the RANK NUMBERS in the config.inc
+file.
+
+The ARCH directive selects one of four images, based on the character's
+class archetype (Fighter, Mage, Priest, Scout). Filenames are the
+archetype name in lowercase (e.g. "fighter.png).
+
+The CLASS directive selects one of four images, based on the character's
+class (Assassin, Berserker, Brigand, Bruiser, etc.). Filenames are the
+class name in lowercase (e.g. "defiler.png).
+
+The EQ2 directive selects a random icon (selections are not saved from
+view to view) from the standard SoE EQ2 icons. Filenames are of the form
+"eq2_*.png".
+
+The RANK directive selects between two icons, "officer_anon.png" and
+the default "anon.png".
+
+Regardless of the avatar directive setting, Roster Master always shows
+first preference to Character ID avatars.
+
+Avatar images in the roster are hardcoded to display at 50 x 50 (set in
+the config.inf file by the $config['avatar_size']['width'] and
+$config['avatar_size']['height'] variables). As long as avatars are
+square, they won't be distorted. However, keep in mind that if you are
+using large avatars, the server is still transferring the entire image:
+the browser is doing the scaling (so be mindful of your bandwidth).
+
+
+********************* Dynamic Signature Generator **********************
+Roster Master has the option of being able to generate dynamic signature
+block images from the roster database. A caching system helps offload
+resources from the PHP subsystem and the Web server. The cache works in
+the following way:
+
+* Registers a shutdown function to destory GD image resources.
+* Gets the Character_ID from the server environment and casts it to
+  integer.
+* Gets the record matching the Character_ID from the roster, validating
+  that it exists at the same time.
+* Checks the server environment to see if a forced refresh has been
+  requested by a CMS user, if it has, skip the caching logic.
+* The caching logic starts by seeing if a signature block file already
+  exists, gets the last modified time of the file, and checks that the
+  file is at least as new as the latest information for that character
+  in the roster. The roster is configured by default (see config.inc and
+  the $config['cache_update_time'] parameter) to check Census data on
+  the next roster or heritage quest tracker access after six hours.
+* It then checks to see if the file modification time is greater than the
+  If-Modified-Since header sent by the client. If it is, it pushes the
+  cached file and exits. If it is not, it sends a 304 response and exits.
+* If the caching logic has been skipped or exited, the module creates the
+  image file, saves it to the cache directory, pushes it to the client,
+  and exits.
+
+This feature requires GD 2.0.1 or later and the FreeType library, both
+of which are compile-time options for PHP. You must meet both of these
+requirements in order to turn this feature on.
+
+To enable the Signature Master feature, set the 
+"$config['dynamic_sigs'] = 1" option in the
+"modules/Roster_Master/config.inc" file.
+
+You must also set the appropriate ownership and permissions on the
+"modules/Roster_Master/signatures" directory. It is recommended that it be
+owned/writable by the user the webserver runs under. Some users who are
+running on hosted services may have to set this file world-read/writable.
+Regardless of the situation, it is HIGHLY recommended that this file be set
+to the most restrictive set of permissions possible.
+
+Be aware that broswer caching performance/compatibility works best
+(or at all) only with Dragonfly's Link Engine Optimization (LEO)
+feature turned on. The difference is that without LEO, all signature
+block links looks like:
+
+	index.php?name=Roster_Master&rm=rm_sig&characterId=xxxxxxxxxx
+
+Which really is just saying file "index.php". Without LEO on, your
+entire Dragonfly site pretty much points to index.php, and most caches
+will not be able to distinguish between the sifferent pages. That is,
+the query/fragment portion of the URL is not (seldom) used as a
+distinguisher in client caching schemes. With LEO on, a signature
+block link looks like:
+
+	Roster_Master/rm=rm_sig/characterId=xxxxxxxxxx.html
+
+Which is unique, and therefore easier to distinguish as a cacheable
+entity. Thus, it's recommended that LEO be used with the Signature
+Master feature. (LEO in general is beneficial for your site, especially
+if searchability by major indexing services like Google is important to
+you.)
+
+The signature block generator is set to generate 400 x 100 JPEG images,
+suitable for use on the EQ2 forums, or other places. The maximum
+allowed signature size on the EQ2 forums as of Live Update #29:
+November 14, 2006 (Echoes of Faydwer) is 500 x 150 total, text and
+images.
+
+Block and avatar images may be GIF, JPEG, or PNG images. The module is
+configured to get PNG images by default. Filenames may be changed by
+editing the source of the
+"modules/Roster_Master/functions/sigmaster.inc" file.
+
+Base signature blocks need to be sized 400 x 100, and are stored in the
+"modules/Roster_Master/images/sigblocks" directory.
+
+Signature block directives are selected in the config.inc file by
+setting "$config['sigblock_type']". The ARCH directive works much like
+that for avatars. Blocks are named of the form
+"<block basename>_officer_<archetype>.png" or
+"<block basename>_<archetype>.png" (e.g.
+"CFLogo_sigblock_officer_scout.png"). The CLASS directive replaces the
+archetype with the class name, but otherwise uses the same naming
+convention.
+
+Signature blocks use the same avatar images as the roster. Avatar images
+may be any size up to 100 x 100; smaller images will be centered in the
+rightmost 100 x 100 corner of the base signature block.
+
+Signature block templates are file-based. The template that Signature
+Master will look for must be named the same as the signature block
+image file (set by "$config['sigblock_file']" in config.inc and case-
+sensitive), but with the "txt" extension. For example, if your
+sigblock_file is named "CFLogo_sigblock.png", then your template file
+should be named "CFLogo_sigblock.txt" and placed in the same directory.
+If directives are in use, templates can be further broken down for each
+sigblock image file, or one template may be used (named off the block
+basename).
+
+Sample files, "default_sigblock.txt" (the default) and
+"CFLogo_sigblock.txt" have been provided for reference.
+
+NOTE: Roster Master does not come with TrueType fonts, you must obtain
+and install your own. Font configuration is in the "$font" and "$font2"
+variables in the "modules/Roster_Master/functions/sigmaster.inc" file;
+the default template is preconfigured to look for the VINERITC.TTF and
+FreeSansBoldOblique.ttf fonts. System paths and font file names are
+case-sensitive.
+
+TrueType fonts are placed in the "modules/Roster_Master/fonts" directory.
+You may want to check resources such as the Free UCS Outline Fonts
+(http://www.nongnu.org/freefont/) for unencumbered TrueType fonts. Be
+aware that some fonts that you may have available to you on your local
+system might not be licensed for Web use. Read your licensing
+information carefully before using such fonts with Roster Master.
+
+Generally speaking, use no more than two fonts. If you mix too many font
+styles, it tends to look more like a ransom note than a professional-
+looking design. If the bleeding eyeballs of your viewers don't convince
+you, please consider that each font you use is consuming process memory!
+
+The dynamic signature generator is an advanced feature of Roster Master,
+and can be very difficult to troublshoot, as it is highly reliant upon
+your PHP binary and the libraries it links to. However, some debugging
+features have been included to assist with narrowing down problems. If
+your sigs aren't working properly (not rendering at all, red X's, etc.),
+follow the troubleshooting steps below which are also outlined in the
+functions/sigmaster.inc code:
+
+	1. Open functions/sigmaster.inc.
+	2. Look below the header comments for the DEBUG variable.
+	3. Set DEBUG to TRUE.
+	4. Save/upload the changes.
+	5. Try to view a signature image via a direct URL. (This is the
+	   URL that's linked to the white-page-with-blue-quill graphic
+	   on the Manage Characters and Manage Roster pages.)
+
+Instead of a broken image, you should see a templated error page with an
+error message that should tell you exactly why your sigs aren't being
+generated properly.
+
+Don't forget to set DEBUG back to FALSE once you're satisfied that your
+signatures are being rendered as intended.
+
+NOTE: If you intend to use your signature on the EQ2Players forums, be
+aware that the boards put your signature in a 400 x 100 DIV block. If
+you add additional text or display elements to your signature in your
+forum profile besides the signature block image itself, it will clip
+your signature image.
+
+NOTE: Some content management systems that use BBCode filter the IMG
+tag, and do not allow URLs that contain certain characters (such as "%",
+"?", or "="), which are required for the Signature Master feature. In
+that case, you can try directly linking to the image file:
+"http://www.yoursite.com/modules/Roster_Master/signatures/sig_<characterId>.jpg"
+Note that the cached image has to exist, and that linking to the image
+in this way will not trigger an automatic update of the signature image.
+
+
+********************** Upgrading to A New Version **********************
+IMPORTANT: As of version 7.1.1, Roster Master no longer allows upgrades
+from versions older than 7.0.0 (Any versions prior to 7.1.1 aren't
+functional due to the everquest2.com structure changes anyway.) Users
+upgrading from a version prior to 7.0.0 must uninstall the previous
+version, then install a new version. NOTE: Character claims will not be
+preserved (as per a fresh install).
+
+You should always do a database backup AND CONFIRM THE BACKUP IS GOOD
+before any major work on your CMS. You can backup the full database from
+the Database control panel, or just backup the Roster Master module
+tables by navigating to
+"Administration Menu > > Modules Administration", selecting "Edit" next
+to Roster Master, and choosing "Backup".
+
+There are two parts to a module upgrade in Dragonfly: updating the
+module files, and updating the database. The first part involves copying
+over the module's files, in a fashion similiar to a fresh install. You
+may wish to choose to move the current installations directory aside and
+install the new version as if it were a "fresh" install in order to
+avoid leaving behind old files or directories that may have been moved
+or changed between versions.
+
+Once you have copied the new module/block files over, the next step is
+to update the Dragonfly tables. The cpg_inst.php file is also used to
+provide Dragonfly with the necessary support routines to run the
+necessary SQL commands to setup the tables and make the appropriate
+changes to the database.
+
+To update the tables and complete the upgrade process, go into
+"Administration Menu > > Modules Administration" in the Dragonfly admin
+panel, scroll down to the name of the module, select "Edit" and press
+the "Upgrade to x" link on the "Version" line. The installer should
+(ideally) return with success, and you're good to go on the next
+version.
+
+One of the most common upgrading errors is to see SQL errors of the form
+"...the following error occured: Unknown column..." after upgrading the
+module. Generally, this is usually caused by a failure to run the
+upgrade portion of the installer in the Modules Administration, as
+described above. This can be solved by checking that the installer has
+indeed been run, adding the column by hand, or by completely
+uninstalling the module and reinstalling.
+
+The "{prefix}_roster_master_users" table can be backed up and later
+restored to preserve character claims. Uninstalling the module and
+deleteing all the Roster Master tables to perform a full reinstall can
+resolve most upgrade issues. The users table can be then restored to
+recover character claims.
+
+NOTE: If you have used a previous version of the Roster Master module
+that placed language files in "modules/Roster_Master/language", be sure
+to remove that directory (and its contents) before upgrading.
+
+
+********************** Uninstalling Roster Master **********************
+When you upgrade a module, go into "Administration Menu > > Modules
+Administration" in the Dragonfly admin panel, scroll down to the name of
+the module, and select "Uninstall". You may then delete the module
+directory ("modules\Roster_Master"), template files
+("themes\default\template\rostermaster"), language files
+("language/english/roster_master.php"), and blocks. File locations may
+differ slightly for older versions of RM4DF, refer to your original
+installation archive manifest for file names and locations if you are
+unsure.

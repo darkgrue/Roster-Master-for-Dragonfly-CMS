@@ -1,0 +1,296 @@
+<br />
+<table style="border-style:none;width:100%" cellspacing="0" cellpadding="0">
+<!-- IF (S_RELINK ne '') -->
+<!-- IF B_EXCLUDE_ALTS -->
+  <tr>
+    <td style="text-align:left">_(SHOWPRI) [&nbsp;<a href="{S_RELINK}">_(DISPALL)</a>&nbsp;]</td>
+  </tr>
+<!-- ELSE -->
+  <tr>
+    <td style="text-align:left">_(SHOWALL) [&nbsp;<a href="{S_RELINK}">_(DISPPRI)</a>&nbsp;]</td>
+  </tr>
+<!-- ENDIF -->
+<!-- ENDIF -->
+<!-- IF (B_SHOW_UPDATED or B_SHOW_ADV_SORT) -->
+  <tr>
+    <td>
+      <table class="forumline" style="border-style:none" cellpadding="4" cellspacing="1" width="100%">
+        <tr>
+<!-- IF B_SHOW_UPDATED -->
+          <td style="vertical-align:middle;text-align:center" width="100%">
+            <big><b>_(GUILDNAME):</b> <a href="{U_GUILD_URL}"{S_TARGET}>{S_GUILD_NAME}</a>,
+<!-- IF (S_SERVER_NAME ne '') -->
+<!-- IF (U_SERVER_URL ne '') -->
+<a href="{U_SERVER_URL}"{S_TARGET}>{S_SERVER_NAME} _(SERVER)</a>
+<!-- ELSE -->
+{S_SERVER_NAME} _(SERVER)
+<!-- ENDIF -->
+<!-- ELSE -->
+_(UNKNOWN)
+<!-- ENDIF -->
+</big><br />
+            <b>_(LASTUPDATE):</b> {S_LAST_UPDATED}
+<!-- IF S_UPDATE_WARNING ne '' -->
+{S_UPDATE_WARNING}
+<!-- ENDIF -->
+<br />
+<!-- IF B_EXCLUDE_ALTS -->
+            <b>_(MEMBERCOUNT):</b> {S_TOTAL_LISTED} _(PRIMARY) ({S_TOTAL_ROSTER} _(TOTAL))<br />
+<!-- ELSE -->
+            <b>_(TOTALMEM):</b> {S_TOTAL_LISTED}<br />
+<!-- ENDIF -->
+            <b>_(GUILDLEVEL):</b> {S_GUILD_LEVEL}
+          </td>
+<!-- ENDIF -->
+<!-- IF B_SHOW_ADV_SORT -->
+<!-- IF B_SHOW_UPDATED -->
+          <td width="30">&nbsp;</td>
+<!-- ENDIF -->
+          <td>
+            <form style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0" method="post" action="{U_ROSTER_DISPLAY}">
+              <table style="border-style:none">
+                <tr>
+                  <td><span title="_(SORTPRI)"><select name="s1">{S1_SORT_OPTIONS}</select></span></td>
+                  <td style="white-space:nowrap"><label title="_(ASCENDING)"><input type="radio" name="s1d" value="a" style="border-style:none;bottom:1px;position:relative;vertical-align:middle"{S1_A_CHECKED} />_(ASC)</label></td>
+                  <td style="white-space:nowrap"><label title="_(DESCENDING)"><input type="radio" name="s1d" value="d" style="border-style:none;bottom:1px;position:relative;vertical-align:middle"{S1_D_CHECKED} />_(DESC)</label></td>
+                  <td rowspan="2" width="15">&nbsp;</td>
+                  <td style="vertical-align:middle" rowspan="2"><select name="gb"><option value="0">_(UNGROUPED)</option><option value="1"{GROUPED_SELECTED}>_(GROUPED)</option></select></td>
+                  <td rowspan="2" width="15">&nbsp;</td>
+                  <td style="vertical-align:middle" rowspan="2"><input type="submit" value="_(SORT)" /></td>
+                </tr>
+                <tr>
+                  <td><span title="_(SORTSEC)"><select name="s2">{S2_SORT_OPTIONS}</select></span></td>
+                  <td><label title="_(ASCENDING)"><input type="radio" name="s2d" value="a" style="border-style:none;bottom:1px;position:relative;vertical-align:middle"{S2_A_CHECKED} />_(ASC)</label></td>
+                  <td><label title="_(DESCENDING)"><input type="radio" name="s2d" value="d" style="border-style:none;bottom:1px;position:relative;vertical-align:middle"{S2_D_CHECKED} />_(DESC)</label></td>
+                </tr>
+                <tr>
+                  <td colspan="7"><label><input type="checkbox" value="1"{SCO_CHECKED} name="sco" style="border-style:none;bottom:1px;position:relative;vertical-align:middle" />_(SHOWCO)</label></td>
+                </tr>
+              </table>
+            </form>
+          </td>
+<!-- ENDIF -->
+        </tr>
+      </table>
+<!-- ENDIF -->
+      <table class="forumline" cellpadding="4" cellspacing="1" width="100%">
+        <thead>
+          <tr style="vertical-align:bottom">
+<!-- BEGIN header -->
+            <th class="{header.S_COLCLASS}" height="25">{header.S_HEADER}</th>
+<!-- END header -->
+          </tr>
+        </thead>
+        <tbody>
+<!-- BEGIN character_row -->
+<!-- IF (character_row.S_GROUPHEADER ne '') -->
+           <tr>
+             <td class="cat" colspan="{character_row.S_COLSPAN}"><span class="cattitle">{character_row.S_GROUPHEADER}</span></td>
+           </tr>
+<!-- ENDIF -->
+          <tr>
+<!-- BEGIN character_column -->
+<!-- ### AVATAR ### -->
+<!-- IF character_row.character_column.S_COLTYPE eq 'a' -->
+            <td class="{character_row.S_ROWCLASS}">
+<!-- IF (character_row.U_CHAR_PROFILE ne '') -->
+<a href="{character_row.U_CHAR_PROFILE}"{S_TARGET}>
+<!-- ENDIF -->
+<img src="{character_row.U_AVATAR_IMG}" style="border:0;width:{character_row.S_AVATAR_WIDTH}px;height:{character_row.S_AVATAR_HEIGHT}px" alt="{character_row.S_CHAR_NAME_FIRST}" title="{character_row.S_CHAR_NAME_FIRST}" />
+<!-- IF (character_row.U_CHAR_PROFILE ne '') -->
+</a>
+<!-- ENDIF -->
+            </td>
+<!-- ### USERNAME ### -->
+<!-- ELSEIF character_row.character_column.S_COLTYPE eq 'u' -->
+            <td class="{character_row.S_ROWCLASS}">
+  <!-- IF character_row.S_CHAR_USERID eq '' -->
+{character_row.S_CHAR_USERNAME}
+  <!-- ELSE -->
+<a href="{character_row.U_CHAR_USERID}"{S_TARGET}>{character_row.S_CHAR_USERNAME}</a>
+  <!-- ENDIF -->
+            </td>
+<!-- ### CHARACTER TYPE ### -->
+<!-- ELSEIF character_row.character_column.S_COLTYPE eq 'ct' -->
+            <td class="{character_row.S_ROWCLASS}">{character_row.S_CHAR_TYPE}</td>
+<!-- ### CHARACTER NAME ### -->
+<!-- ELSEIF character_row.character_column.S_COLTYPE eq 'n' -->
+            <td class="{character_row.S_ROWCLASS}">
+              <table style="border-style:none" cellspacing="0" cellpadding="0" width="100%">
+                <tr style="vertical-align:middle">
+                  <td style="text-align:left;white-space:normal">
+<!-- IF (character_row.U_CHAR_PROFILE ne '') -->
+<a href="{character_row.U_CHAR_PROFILE}"{S_TARGET}>
+<!-- ENDIF -->
+{character_row.S_CHAR_NAME_FIRST}
+<!-- IF (character_row.S_CHAR_NAME_LAST ne '') -->
+ {character_row.S_CHAR_NAME_LAST}
+<!-- ENDIF -->
+<!-- IF (character_row.U_CHAR_PROFILE ne '') -->
+</a>
+<!-- ENDIF -->
+                    </td>
+                  <td style="text-align:right;white-space:nowrap">
+<!-- IF (character_row.S_ALTLIST ne '') -->
+<img src="{character_row.U_ALTS_IMG}" style="border:0;width:16px;height:16px" alt="_(ALTS) {character_row.S_ALTLIST}" title="_(ALTS) {character_row.S_ALTLIST}" />
+<!-- ENDIF -->
+<!-- IF (character_row.U_COLLECTIONS ne '') -->
+<a href="{character_row.U_COLLECTIONS}"><img src="{character_row.U_COLLECTIONS_IMG}" style="border:0;width:16px;height:16px" alt="{character_row.S_COLLECTIONS_TITLE}" title="{character_row.S_COLLECTIONS_TITLE}" /></a>
+<!-- ENDIF -->
+<!-- IF (character_row.U_EDIT_CLAIM ne '') -->
+<a href="{character_row.U_EDIT_CLAIM}"><img src="{character_row.U_EDIT_CLAIM_IMG}" style="border:0;width:16px;height:16px" alt="_(EDITCLAIM)" title="_(EDITCLAIM)" /></a>
+<!-- ENDIF -->
+                  </td>
+                </tr>
+              </table>
+            </td>
+<!-- ### GUILD RANKNAME ### -->
+<!-- ELSEIF character_row.character_column.S_COLTYPE eq 'disabled.gr' -->
+            <td class="{character_row.S_ROWCLASS}">{character_row.S_GUILD_RANKNAME}</td>
+<!-- ELSEIF character_row.character_column.S_COLTYPE eq 'gr' -->
+            <td class="{character_row.S_ROWCLASS}">
+              <table style="border-style:none" cellspacing="0" cellpadding="0">
+                <tr style="vertical-align:middle">
+                  <td><img src="{character_row.U_RANK_IMG}" style="border:0;width:18px;height:19px" alt="{character_row.S_GUILD_RANKNAME}" title="{character_row.S_GUILD_RANKNAME}" /></td>
+                  <td>&nbsp;</td>
+                  <td style="text-align:left;white-space:normal">{character_row.S_GUILD_RANKNAME}</td>
+                </tr>
+              </table>
+            </td>
+<!-- ### CHARACTER RACE ### -->
+<!-- ELSEIF character_row.character_column.S_COLTYPE eq 'disabled.r' -->
+            <td class="{character_row.S_ROWCLASS}">{character_row.S_CHAR_TYPE_GENDER} {character_row.S_CHAR_TYPE_RACE}</td>
+<!-- ELSEIF character_row.character_column.S_COLTYPE eq 'r' -->
+            <td class="{character_row.S_ROWCLASS}">
+              <table style="border-style:none" cellspacing="0" cellpadding="0">
+                <tr style="vertical-align:middle">
+                  <td><img src="{character_row.U_RACE_IMG}" style="border:0;width:{character_row.S_AVATAR_WIDTH}px;height:{character_row.S_AVATAR_HEIGHT}px;vertical-align:middle" alt="{character_row.S_CHAR_TYPE_RACE}" title="{character_row.S_CHAR_TYPE_RACE}" /></td>
+                  <td>&nbsp;</td>
+                  <td style="text-align:left;white-space:normal">{character_row.S_CHAR_TYPE_GENDER} {character_row.S_CHAR_TYPE_RACE}</td>
+                </tr>
+              </table>
+            </td>
+<!-- ### ADVENTURER CLASS ### -->
+<!-- ELSEIF character_row.character_column.S_COLTYPE eq 'disabled.ac' -->
+            <td class="{character_row.S_ROWCLASS}">{character_row.S_CHAR_ADV_CLASS}</td>
+<!-- ELSEIF character_row.character_column.S_COLTYPE eq 'ac' -->
+            <td class="{character_row.S_ROWCLASS}">
+              <table style="border-style:none" cellspacing="0" cellpadding="0">
+                <tr style="vertical-align:middle">
+                  <td><img src="{character_row.U_CLASS_IMG}" style="border:0;width:{character_row.S_AVATAR_WIDTH}px;height:{character_row.S_AVATAR_HEIGHT}px;vertical-align:middle" alt="{character_row.S_CHAR_ADV_CLASS}" title="{character_row.S_CHAR_ADV_CLASS}" /></td>
+                  <td>&nbsp;</td>
+                  <td style="text-align:left;white-space:normal">{character_row.S_CHAR_ADV_CLASS}</td>
+                </tr>
+              </table>
+            </td>
+<!-- ### ADVENTURER LEVEL ### -->
+<!-- ELSEIF character_row.character_column.S_COLTYPE eq 'al' -->
+            <td class="{character_row.S_ROWCLASS}" style="text-align:center">{character_row.S_CHAR_ADV_LEVEL}</td>
+<!-- ### ADVENTURER CLASS/LEVEL ### -->
+<!-- ELSEIF character_row.character_column.S_COLTYPE eq 'disabled.acl' -->
+            <td class="{character_row.S_ROWCLASS}">{character_row.S_CHAR_ADV_CLASS}&nbsp;({character_row.S_CHAR_ADV_LEVEL})</td>
+<!-- ELSEIF character_row.character_column.S_COLTYPE eq 'acl' -->
+            <td class="{character_row.S_ROWCLASS}">
+              <table style="border-style:none" cellspacing="0" cellpadding="0">
+                <tr style="vertical-align:middle">
+                  <td><img src="{character_row.U_CLASS_IMG}" style="border:0;width:{character_row.S_AVATAR_WIDTH}px;height:{character_row.S_AVATAR_HEIGHT}px;vertical-align:middle" alt="{character_row.S_CHAR_ADV_CLASS}" title="{character_row.S_CHAR_ADV_CLASS}" /></td>
+                  <td>&nbsp;</td>
+                  <td style="text-align:left;white-space:normal">{character_row.S_CHAR_ADV_CLASS}</td>
+                  <td>&nbsp;</td>
+                  <td style="text-align:left">({character_row.S_CHAR_ADV_LEVEL})</td>
+                </tr>
+              </table>
+            </td>
+<!-- ### TRADESKILL CLASS ### -->
+<!-- ELSEIF character_row.character_column.S_COLTYPE eq 'disabled.tc' -->
+            <td class="{character_row.S_ROWCLASS}">{character_row.S_CHAR_ART_CLASS}</td>
+<!-- ELSEIF character_row.character_column.S_COLTYPE eq 'disabled.tc' -->
+            <td class="{character_row.S_ROWCLASS}">{character_row.S_CHAR_ART_CLASS}</td>
+<!-- ELSEIF character_row.character_column.S_COLTYPE eq 'tc' -->
+            <td class="{character_row.S_ROWCLASS}">
+              <table style="border-style:none" cellspacing="0" cellpadding="0">
+                <tr style="vertical-align:middle">
+                  <td><img src="{character_row.U_TRADESKILL_IMG}" style="border:0;width:{character_row.S_AVATAR_WIDTH}px;height:{character_row.S_AVATAR_HEIGHT}px;vertical-align:middle" alt="{character_row.S_CHAR_ART_CLASS}" title="{character_row.S_CHAR_ART_CLASS}" /></td>
+                  <td>&nbsp;</td>
+                  <td style="text-align:left;white-space:normal">{character_row.S_CHAR_ART_CLASS}</td>
+                </tr>
+              </table>
+            </td>
+<!-- ### TRADESKILL LEVEL ### -->
+<!-- ELSEIF character_row.character_column.S_COLTYPE eq 'tl' -->
+            <td class="{character_row.S_ROWCLASS}" style="text-align:center">{character_row.S_CHAR_ART_LEVEL}</td>
+<!-- ### TRADESKILL CLASS/LEVEL ### -->
+<!-- ELSEIF character_row.character_column.S_COLTYPE eq 'disabled.tcl' -->
+            <td class="{character_row.S_ROWCLASS}">{character_row.S_CHAR_ART_CLASS}&nbsp;({character_row.S_CHAR_ART_LEVEL})</td>
+<!-- ELSEIF character_row.character_column.S_COLTYPE eq 'tcl' -->
+            <td class="{character_row.S_ROWCLASS}">
+              <table style="border-style:none" cellspacing="0" cellpadding="0">
+                <tr style="vertical-align:middle">
+                  <td><img src="{character_row.U_TRADESKILL_IMG}" style="border:0;width:{character_row.S_AVATAR_WIDTH}px;height:{character_row.S_AVATAR_HEIGHT}px;vertical-align:middle" alt="{character_row.S_CHAR_ART_CLASS}" title="{character_row.S_CHAR_ART_CLASS}" /></td>
+                  <td>&nbsp;</td>
+                  <td style="text-align:left;white-space:normal">{character_row.S_CHAR_ART_CLASS}</td>
+                  <td>&nbsp;</td>
+                  <td style="text-align:left">({character_row.S_CHAR_ART_LEVEL})</td>
+                </tr>
+              </table>
+            </td>
+<!-- ### ADORNING LEVEL ### -->
+<!-- ELSEIF character_row.character_column.S_COLTYPE eq '2tsa' -->
+            <td class="{character_row.S_ROWCLASS}" style="text-align:right">{character_row.S_CHAR_2TS_AD_LEVEL}</td>
+<!-- ### TINKERING LEVEL ### -->
+<!-- ELSEIF character_row.character_column.S_COLTYPE eq '2tst' -->
+            <td class="{character_row.S_ROWCLASS}" style="text-align:right">{character_row.S_CHAR_2TS_TINK_LEVEL}</td>
+<!-- ### SECONDARY TRADESKILL CLASS/LEVEL ### -->
+<!-- ELSEIF character_row.character_column.S_COLTYPE eq '2tsc' -->
+            <td class="{character_row.S_ROWCLASS}">
+              <table style="border-style:none" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td>_(ADORNING)</td>
+                  <td>&nbsp;</td>
+                  <td style="text-align:right">({character_row.S_CHAR_2TS_AD_LEVEL})</td>
+                </tr>
+                <tr>
+                  <td>_(TINKERING)</td>
+                  <td>&nbsp;</td>
+                  <td style="text-align:right">({character_row.S_CHAR_2TS_TINK_LEVEL})</td>
+                </tr>
+              </table>
+            </td>
+<!-- ### QUESTS COMPLETED ### -->
+<!-- ELSEIF character_row.character_column.S_COLTYPE eq 'q' -->
+            <td class="{character_row.S_ROWCLASS}" style="text-align:right">{character_row.S_CHAR_QUESTS_COMPLETE}</td>
+<!-- ### GUILD STATUS ### -->
+<!-- ELSEIF character_row.character_column.S_COLTYPE eq 's' -->
+            <td class="{character_row.S_ROWCLASS}" style="text-align:right">{character_row.S_CHAR_GUILD_STATUS}</td>
+<!-- ELSE -->
+            <td>{character_row.character_column.S_COLTYPE}</td>
+<!-- ENDIF -->
+<!-- END character_column -->
+          </tr>
+<!-- END character_row -->
+<!-- IF $_character_row_count == 0 -->
+          <tr>
+            <td class="row1" colspan="12"><i>_(NONE)</i></td>
+          </tr>
+<!-- ENDIF -->
+        </tbody>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>{S_VERSIONBANNER}</td>
+  </tr>
+<!-- IF (S_RELINK ne '') -->
+<!-- IF B_EXCLUDE_ALTS -->
+  <tr>
+    <td style="text-align:left">_(SHOWPRI) [&nbsp;<a href="{S_RELINK}">_(DISPALL)</a>&nbsp;]</td>
+  </tr>
+<!-- ELSE -->
+  <tr>
+    <td style="text-align:left">_(SHOWALL) [&nbsp;<a href="{S_RELINK}">_(DISPPRI)</a>&nbsp;]</td>
+  </tr>
+<!-- ENDIF -->
+<!-- ENDIF -->
+</table>
+<br />
+<br />

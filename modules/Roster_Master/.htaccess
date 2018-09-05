@@ -1,0 +1,24 @@
+<IfModule mod_rewrite.c>
+  # NOTE: +FollowSymLinks must be enabled for any rules to work, this is
+  # a security requirement of the rewrite engine. Normally it's enabled
+  # in the root and you shouldn't have to add it, but it doesn't hurt
+  # to do so.
+  # Although highly unlikely, your host may have +FollowSymLinks enabled
+  # at the root level, yet disallow its addition in .htaccess; in which
+  # case, adding +FollowSymLinks will break your setup (probably causing
+  # a 500 error), so just comment/remove it.
+  Options +FollowSymlinks
+
+  RewriteEngine On
+  RewriteOptions Inherit
+
+  # modules/Roster_Master/diagnostics.html
+  RewriteCond %{REQUEST_URI} ^/modules/Roster_Master(_[0-9]+)?
+  RewriteRule ^/?diagnostics.html$ /index.php?name=Roster_Master%1&rm=diagnostics [L]
+  # modules/Roster_Master/sig_nnnnnn.jpg
+  RewriteCond %{REQUEST_URI} ^/modules/Roster_Master(_[0-9]+)?
+  RewriteRule ^/?sig_([0-9]+)\.jpg$ /index.php?name=Roster_Master%1&rm=sm_sig&characterId=$1 [L]
+  # Prevent image hotlinking.
+  RewriteCond expr "! %{HTTP_REFERER} -strmatch '*://%{HTTP_HOST}/*'"
+  RewriteRule \.(jpe?g?|gif|png|bmp)$ - [F,NC,L]
+</IfModule>

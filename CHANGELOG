@@ -1,0 +1,1380 @@
+/***********************************************************************
+  Roster Master for Dragonfly(TM) CMS
+  **********************************************************************
+  Copyright (C) 2005-2018 by Dark Grue
+
+  EverQuest II guild roster management, quest tracker, and dynamic
+  signature generator that integrates with the Dragonfly(TM) Content
+  Management System (CMS).
+
+  Based on Roster Master by Rex "SaintPeter" Schrader.
+
+  With gratitude for the support from:
+    The Roster Master Project (http://www.rostermaster.org/),
+    The EverQuest II Community (http://forums.daybreakgames.com/eq2/),
+    The Dragonfly CMS Community (http://www.dragonflycms.org), and
+    Roster Master users worldwide.
+
+  License:
+  This program is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation; either version 2 of the License, or (at
+  your option) any later version.
+
+  This program is distributed in the hope that it will be useful, but
+  WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+  General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program; if not, write to the Free Software
+  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA
+  02111-1307 USA
+***********************************************************************/
+
+
+Changelog:
+* TODO: Check for new key quests. Would appreciate any feedback on useful quests to include here (such as relevant raid flags).
+* TODO: Migrate remaining administrative functions to panel (maybe - they might be more convenient where they are).
+
+9.1.1
+* Corrected version number in file headers.
+* Made some changes to parser logic to make it less fragile to anomalies in the
+  Census data, thanks to Demetrios for finding the issue.
+* Fixed some spelling errors in comments.
+* Added sort of collection quest by number collected.
+* Improved highlighting style of missing collection objects.
+* Added count of collection quests that have not been started.
+* Added indicator for collection quest class-restricted and meta-collections.
+* Added new collections for Seeds of Vengeance (GU106).
+* Added new collections for Return to Guk (GU107).
+
+9.1.0
+* Improved Alt logic.
+* Added the ability to show only claimed characters in Quest Master. Thanks to
+  Tulvarus, for the feature suggestion.
+* Fixed bug in Quest Master where resort links weren't preserving Expansion
+  selections.
+* Query Quest Status now honors the current show_alts and show claimed
+  characters search options.
+* Added vertical centering to sort checkboxes and radio button labels.
+* Replaced references to http://forums.station.sony.com/eq2/ with
+  http://forums.daybreakgames.com/eq2/ link.
+* Fixed database errors with references to "rm.id".
+* Fixed problem with multiple crc entries for the same characterID being
+  present in the roster_master_quest_status table.
+* Fixed old RM4DF version number in sigblock templates.
+* Fixed Signature Master not pulling signature block avatars from the correct
+  subdirectories and defaulting to the eq2 logos.
+* Some template cleanup.
+* Moved administration display strings into language file.
+* Additional diagnostics messages.
+* Cleaned up installer's database upgrade strategy.
+* Remove obsolete statistics from block.
+* Updated documentation.
+* Updated contib/history.sql file to reflect new events.
+* New feature: addition of Collection Master!
+  + Reports on a character's collection quests.
+  + Like Quest Master, automatically updated from Census.
+  + Note: Collection Master can only know about collection quests that exist
+    in Census, quests have been known to be held back for new expansions.
+* Reworked parser to increase efficiency:
+  + Reduced use of globals and reworked data structures to be more efficient
+    for write operations, rather than replicate the structures used to build
+	the roster pages.
+  + SQL query optimizations.
+  + Massive speed improvements during roster update; NOTE: this comes at the
+    cost of detailed logging of roster changes (eliminating the loops to do
+	comparisons solely for logging purposes had a significant performance
+	cost).
+  + Removed XML parsers in favor of JSON, for a 25% data savings advantage.
+* Thanks to Feldon with helping with the Census query syntax and suggestions
+  on effeciency improvements.
+
+9.0.0
+* Fixed sitewide "Accessed Denied" error when module is uninstalled.
+* Added missing Aerakyn race icons.
+* Added missing Channeler class icon and fixed missing display logic.
+* Getting ready for 2038, changed DB time representations to BIGINT.
+* Added tooltips to sort options to clarify interface.
+* Minor cleanup to SQL query syntax.
+* Deprecated use of id field for character data (characterId is now
+  canonical).
+* New feature: major update to Quest Master!
+  + Quests automatically updated from Census, no need to manually
+    set quest status!!!!
+  + Adding new quests doesn't require DB schema changes.
+  + Updated sort dialogs with tooltips for abbreviated items.
+  + Note that extensive internal changes have been made, files have been
+    added and removed.
+  + Better handling of sort options.
+* Rework to XML parsers.
+* Removed $config['qm_exclude_inactive'] option.
+* Fixed table resize JavaScript functionality that was preventing the feature
+  from working.
+* Sort direction indicators are now clickable to change sort direction for
+  that column.
+* Removed obsolete access quests (tSS, NekC_tR, CoK, tSC).
+* Added Census service ID for the Roster Master application. Please refer to
+  http://census.daybreakgames.com for documentation of this api.
+* A number of latent bugs removed incidentally. Several added for good
+  measure.
+
+8.3.4
+* Fixed missing "http://" in version string link.
+* Fixed image hotlinking diagnostics.
+* Fixed table scroll JavaScript functionality that was causing misalignment
+  between the header and the table column widths.
+* Increased Max Hit stat field sizes to BIGINT.
+* Added High Keep: The Bloodless Incursion Timeline heritage quest.
+* Added Goblin Skull Earring heritage quest.
+
+8.3.3
+* Updated list of servers in admin panel.
+* Fixed errors/assumptions in guild search in admin panel.
+
+8.3.2
+* Fixed cURL initialization parameter problems that cropped up in 8.3.4
+  update.
+* Fixed out-of-sync file header information in module files.
+
+8.3.1
+* Updated REST API URLs as a result of the domain change to
+  census.daybreakgames.com on April 30, 2015.
+
+8.3.0
+* Fixed logging error in fetch_URL() function.
+* Reworked mod_rewrite rules in .htaccess file to fix bug affecting multiple
+  module instances.
+* Fixed some issues with the control panel and multiple instances of Roster
+  Master.
+* Added PHP core info page to Administration interface.
+* Add Heritage quests from Live Update #65: November 13, 2012 (Chains of
+  Eternity).
+* Add Heritage quests from Live Update #68: November 12, 2013 (Tears of
+  Veeshan).
+
+8.2.1
+* Thanks to Dethdlr to reporting numerous errors in the 8.2.0 release that
+  somehow got overlooked:
+  + Replaced missing themes\default\template\roster_master\do_commands.html
+    file.
+  + Fixed templating errors.
+  + Fixed SQL error message in adwait.inc file.
+  + Changed cast of BIGINT data items to PHP string instead of integer to
+    fix issue with 32-bit systems that have PHP_INT_SIZE=4.
+  + Found Dragonfly CMS dependency on version 9.5.2.1 of template_enc.php
+    file.
+  + Fixed extended Guild Wall of Fame statistics broken links to character
+    profiles.
+* Alts list no longer lists the character it is for as an alt of itself.
+* Alt lists now sorted using natural sort.
+* Updated documentation.
+* Fixed bad math in diagnostic time display in Guild Wall of Fame block.
+* Fixed error in parser.inc involving closing the cURL filehandle
+  prematurely.
+* Fixed division-by-zero in compression statistics diagnostic message for
+  cURL retrieval using compression.
+* Fixed sorting (again) to force characters with no data to end of sort,
+  regardless of sort direction.
+* Fixed sort by adventurer level in Questmaster.
+* Fixed secondary column sort direction.
+* Changed logging level default.
+* Updated tradeskill icons.
+* Fixed unecessary chattiness in log file.
+* Added ability to silence logging of changes by field using regex (see
+  $config['exclude_log_field']).
+* Changed last_update to DECIMAL(19,7) as per 3/20/2012 REST API.
+* Fixed roster alt displaying empty alt list (it's possible to have an
+  altlist that only contains the character it's attached to - that is, if
+  opt-in is set for a character, REST always considers it an alts of
+  itself).
+
+8.2.0
+* Redirected guild and character detail links to the brand-new EQU site.
+  Grats Dethdlr and Feldon, well done!
+* Added files to modules/Roster_Master/contrib/GEM to address inteface
+  issues with GEM.
+* Added mod_expires directive to .htacces files in static image
+  directories to request clients cache for 60 days. Requires that the 
+  Apache mod_expires module be active.
+* Added cURL support to allow Content-Encoding compression methods to
+  operate if available. Using cURL for this purpose allows the server to
+  benefit considerably from compression on the XML requests. The feature
+  Falls back automagically to the previously used internal fsockopen()
+  method if cURL isn't available.
+* Fixed templating for characters that don't have data in the Character
+  collection.
+* Fixed missing Soulfire Timeline Quest icon.
+* Fixed missing language definition for _CONFRESET dialog.
+* Added new interface icons.
+* Fixed many broken image links.
+* Added (rudimentary) alts display to roster.
+* Fixed language file collisions that conflict with other modules.
+* Fixed group by guild rank display.
+
+8.1.0
+* Redid DoV Heritage Quest icons to reflect item types better.
+* Added modules/Roster_Master/contrib/rn2a/includes/api/rmdfly.php file
+  to address inteface issues with Raid Ninja.
+* Reworked the upgrade to v8.0.0 to resolve installer issue. Rebuilding
+  the roster_master table (a known issue in 8.0.0-8.0.1) should no
+  longer be necessary.
+* Fixed error introduced by changes to sync_active_claims() function.
+* Added modules/Roster_Master/contrib/history.sql file to build your own
+  This Day in History table with EverQuest, EverQuest II, and a few
+  other relevant dates. Please use care with the .sql file, as it
+  includes a table drop statement, it will erase your existing history
+  table.
+* Added more robust function checks in the diagnostics page.
+* Changed guild name search string filtering and made it explicit the
+  Guild ID search can use regular expression syntax. Thanks to eqHunter
+  for reporting it.
+* Implemented parser changes from the 1/31/2012 API changes.
+
+8.0.1
+* Fixed usage of the URL class that got ahead of the Dragonfly version 9
+  users, that's a class that's introduced in Version 10. Thanks to
+  Nashbry for reporting it.
+
+8.0.0
+* Version 8 is the first use of the new SOE data server and the REST
+  API. Thanks to Zoltaroth and Dan Kinney at SOE for implementing this
+  and staying involved with the community. Also a big thanks to Feldon
+  and Dethdlr at EQ2Wire for their assitance in gettin the Roster Master
+  project talking to the right people. And finally thanks to Lantis for
+  making things happen and pioneering the Roster Master port to the new
+  data interface.
+* Added Destiny of Velious Heritage Quests.
+* Fixed quest reward link text for Paw of Opolla heritage quest.
+* Created new Administraton panel and moved most (of the infrequently
+  used) administrative functions there.
+  + New Lookup Guild ID function added to administration panel.
+  + New Unclaimed Characters display added to the Dragonfly
+    administration panel status area.
+* Improvements to diagnostics page style and tests.
+* Fixed error in roster expiration duration warning.
+* Updated rm4df_update.sh shell script to reflect new data sources.
+* Added Beastlord class to the Scout archetype.
+* Extensive changes to the parser. Most (but not nearly all) available
+  data fields are parsed, but are not currently templated for display.
+  Thanks to Lantis for collaborating on parser design and other
+  internals.
+* Nonexistant avatar and rank image files are no longer fatal errors in
+  Signature Master.
+* Fixed longstanding error with the avatar CLASS keyword that prevented
+  it from working correctly in Signature Master.
+* Guild Wall of Fame block has been updated with new field data, new
+  leaderboards.
+* Added class, race, rank, and tradeskill images to the roster template.
+  Thanks to Seagoat to take the time to get these out of the DDS format
+  and into the more palatable PNG format we all like to use, as well
+  as graciously consenting to allow her efforts to be included in the
+  RM4DF distribution.
+* More debugging hooks for my development use, and a few more
+  informational system logs (e.g. execution times are now collected for
+  the roster).
+* CONFIG CHANGE: As field name have changed, names in the Signature
+  Master templates have changed. See the template_variables.csv file to
+  see what template names are available. Also refer to the example.
+  Signature Master generates the 'FullName', 'Server', and
+  'guild_rankname' internally, which are also available for templating.
+* CONFIG CHANGE: The structure of the 'images' directory has changed to
+  facilitate the new roster logic and column templates.
+* CONFIG CHANGE: The semantics of the $config['columns'] variable have
+  changed. Refer to the config.inc file.
+* CONFIG CHANGE: Custom character avatars have been moved into the
+  'characterId' subdirectory of the 'avatar' directory, where they were
+  previously, to help with file organization.
+* CONFIG CHANGE: Removed $config['use_XML_parser'] parameter from the
+  config.inc file, input is all XML now.
+* CONFIG CHANGE: Removed $config['lookup_rank'] parameter from the
+  config.inc file, ranks are parsed from guild XML now.
+* CONFIG CHANGE: Changed $config['officers'] and
+  $config['exclude_ranks'] to use rank numbers now, instead of rank
+  names. Should eliminate the need to update the configuration for most
+  guild structures.
+* CONFIG CHANGE: Removed $config['breakdown_limit20plus'], as the pre-
+  Level 20 classes have been eliminated from gameplay.
+* CONFIG CHANGE: The name of the theme templates directory has changed
+  from 'rostermaster' to 'roster_master' to maintain consistency with
+  the module directory name.
+* CONFIG CHANGE: The refresh period set by $config['cache_update_time']
+  hes been changed from 6 hours to 1 hour, since now new data should be
+  available as soon as a character zones or logs out. For now, be wary
+  of giving this a low value, until performance issues are better
+  understood.
+* CONFIG CHANGE: The French language file has been removed, as I'm
+  unable to maintain it. Any Francophile who wishes to take a stab at it
+  is welcome to submit it to the project.
+* DATABASE SCHEMA CHANGE: Both the roster_master and roster_master_guild
+  tables have changed significantly, and will be in flux for the near
+  future.
+* Updated documentation.
+* KNOWN ISSUE: The Dragonfly installer may behave in a nondeterministic 
+  fashion during the upgrade process, performing a table DROP after,
+  instead of before a CREATE. If you see errors indicating your 
+  roster_master table is missing, recreate it by using the included
+  roster_master.sql file with the Import SQL File function in the
+  Dragonfly Database administration panel. You will need to edit the
+  table names in the file if you have a different table prefix or
+  suffix.
+
+7.2.1
+* Fixed a secondary issue with characterId being cast to an integer and
+  getting overflowed. Bug reported by dsotmlynx.
+* Added additional parser diagnostics for parser processing failure
+  (caused during January 12, 2011 outage of EQ2Players.com).
+
+7.2.0
+* Fixed a long-standing bug in the sig_image_rewrite_hack feature. This
+  would cause installations where the server root and Dragonfly root
+  were not the same to fail to perform the image rewrite correctly (the
+  rewrite rule always assumed the roots were the same). This fix, along
+  with the new diagnostics page, should allow the hack to work on nearly
+  all systems that meet the prequisites, as well as make it clearer why
+  it doesn't work on systems that don't meet them. Big thanks to
+  Demetrios for working ceaselessly with me to work this feature out.
+* Added automated diagnostics to determine what features are available
+  from the CMS module. This is the page you'll want to look at first
+  when troubleshooting RM4DF features, and it also has the information
+  you'll need to know for reporting problems. The Diagnostics page is
+  accessed from the RM4DF Administraion menu bar. Thanks to Demetrios
+  for field-testing this feature before release.
+* Moved Signature Master system diagnostics from that module to the new
+  Diagnostics page. The $DEBUG flag still enables debugging information
+  for that module, but now it's limited to runtime error diagnosis.
+* Signature Master no longer defaults to an internal default signature
+  block template if the corresponding template file cannot be located.
+  It will continue to default to default_sigblock.png as the default
+  signature block image if the image configured in
+  $config['sigblock_basename'] cannot be located; however, there is now
+  a default_sigblock.txt file that contains the corresponding signature
+  block template. If the image file exists, but the template does not,
+  Signature Master will now return a 404 error (or an appropriate DF
+  error if the Signature Master $DEBUG flag is set).
+* Fixed quest link for Paw of Opolla heritage quest.
+* Added in missing heritage quest icons. Thanks to penbrock for pointing
+  out the oversight.
+* Updated rm4df_update.sh script.
+* Corrected minor typos in comments and templates.
+* CONFIG CHANGE: Added roster avatars option "CLASS" for the
+  $config['avatars'] setting. Feature requested by Demetrios, class
+  icons extracted and contributed by Seagoat.
+* CONFIG CHANGE: Removed $config['show_lastname'] from the config.inc
+  file, as this setting has been nonfunctional since version 7.0.0 -
+  you'll want to edit
+  themes\default\template\rostermaster\rostermater.html to change the
+  display characteristics of the roster (in other words, this parameter
+  was removed as redundant with the purpose of the templates). In this
+  case, you'd want to remove or comment out the
+  {character_row.S_CHAR_LASTNAME} element in the template. Bug reported
+  by Demetrios.
+* CONFIG CHANGE: Roster Master no longer allows upgrades from versions
+  older than 7.0.0 (Any versions prior to 7.1.1 aren't functional
+  due to the everquest2.com structure changes anyway.) Users upgrading
+  from a version prior to 7.0.0 must uninstall the previous version,
+  then install 8.3.0. NOTE: Character claims will not be preserved (as
+  per a fresh install).
+* Updated documentation.
+
+7.1.1
+* DATABASE SCHEMA CHANGE: The characterID field used as a primary key in
+  almost all of the RM4DF tables can overflow a INTEGER field, and needs
+  to be increased to a BIGINT type. Bug and fix reported by Lantis.
+
+7.1.0
+* Added Sentinel's Fate Heritage Quests.
+* Updated parser to use new EQ2Players source pages (now
+  everquest2.com). Parser now has to get the server name from the Guild
+  Summary page (parser has to complete at least once) before link to
+  Guild page can be calculated and displayed. Requires that you update
+  your config.inc file with the new one in this version in addition to
+  the other changed files.
+* Fixed long-standing error in the parser debug output (you wouldn't
+  have noticed, confused me though).
+* Added "Unknown" (the string, not something unknown) to language file.
+* Added Sentinel's Fate Heritage and Timeline quests.
+* Improved clarity of notifications and errors returned by the
+  fetch_URL() function.
+
+7.0.1
+* Added The Shadow Odyssey Timeline quest.
+* Fixed warning in questmaster.ini realted to missing required level
+  in quest data.
+* Fixed error in qm_manage_claims.html that caused inability to update
+  any Access/Heritage/Timeline Quests. Bug reported by eqHunter
+  and Crysthallia.
+
+7.0.0
+* Formatting change to command menu header (removed small tag).
+* Formatting change to roster view (removed small tag, fixed radio
+  button label wrapping).
+* Fixed HTML syntax error in character heritage quest claims form.
+* Fixed HTML syntax error in Quest Master.
+* Removed use of nowrap="nowrap" tag in favor of inline CSS.
+* Created the most "Dragonfly" version of RM4DF yet with the addition of
+  full templating for the module. NOTE: Don't forget to install
+  the new files located in the themes/default/template/rostermaster
+  directory!
+* Numerious minor errors in formatting and conditional formatting logic
+  corrected (and most likely, added as well).
+* Added sort to character heritage quest claims form.
+* Moved include/ directory and its contents to the includes/ directory.
+  NOTE: Don't forget to install the new files, or remove the old
+  directory!
+* Quest data moved to files in the includes/ directory. NOTE: Don't
+  forget the new files or Quest Master won't work!
+
+6.4.1
+* Fixed typo in documentation.
+* Fixed quest pointer for Dark Mail Gauntlets HQ.
+* Fixed inexplicable field name change from "Average Member Level" to
+  "AverageMemberLevel" in the data feed, which broke the HTML data
+  scrubber. Bug reported by Lantis.
+
+6.4.0
+* Replaced usage of depreciated gmtime() function.
+* Made RM4DF tolerant of the STRICT_TRANS_TABLES sql_mode being set. Bug
+  reported by Jimena.
+* Removed unecessary use of $BASEHREF that duplicated innate getlink()
+  functionality.
+* Fixed logspam where guild roster contained data that translated into
+  HTML entities (such as in custom Guild Ranks). Bug reported by
+  Wizairde.
+* Fixed error in the is_visible property in questmaster.inc file.
+* Added ability to filter quests by expansion.
+* Added The Shadow Odyssey Heritage Quests to the Heritage Quest
+  Tracker.
+* Heritage quest tracker claim interface now groups by (and has header
+  labels for) the applicable game expansion.
+* CONFIG CHANGE: Added experimental rewrite rule to work around BBCode
+  IMG tag URI filters that prevent linking directly to a URI containing
+  a query string. The URL to use should be of the form:
+  {$BASEHREF}modules/{$mod_dirname}/sig_{$char_info['characterId']}.jpg
+  but requires that Apache be complied with mod_rewrite.c enabled.
+  If you wish to enable this UNSUPPORTED feature, see
+  $config['sig_image_rewrite_hack'] in the config.inc file.
+
+6.3.1
+* Fixed horizontal avatar margins when LEFT alignment directive is used.
+  Bug reported and fixed by Seagoat.
+* Added "Optimize Tables" administrative command to delete all widowed
+  and orphaned claims all at once.
+* Added Rise of Kunark Raid Flagging Timeline to the Access Quest
+  Tracker.
+* Added link to cached signature image (when it is present in the cache)
+  to the Edit Character Claim page. This is to help people work around
+  URL filtering that some CMSes perform.
+* The reap_sigcache() function now checks the cache for files that are
+  excluded by the $config['exclude_ranks'] array.
+* Added "Fill Signature Block Cache" administrative command to
+  pregenerate the signature block cache for all valid characters.
+* CONFIG CHANGE: Added $config['force_sig_cache'] directive to allow the
+  selective regeneration of the signature block cache to be forced every
+  time the roster data is updated. NOTE: Using this feature may cause
+  Roster Master to exceed the maximum script execution time (see source
+  for explanation).
+* CONFIG CHANGE: Roster Master no longer allows upgrades from versions
+  older than 6.0.0 (Any versions prior to 6.2.0 aren't functional
+  due to the EQ2Players structure changes anyway.) Users upgrading from
+  a version prior to 6.0.0 must uninstall the previous version, then
+  install 6.5.0. NOTE: Character claims will not be preserved (as per
+  a fresh install).
+
+6.3.0
+* Fixed problem for new installs where the Access Quest Tracker list
+  would not including the character name, only the level. Bug reported
+  by Bloo and Kelfly.
+* CONFIG CHANGE: The default primary and secondary sort option and
+  direction are now settable in the config.inc file. If an invalid
+  configuration option is selected, the default fallback is still "r",
+  "d", "al", "d". Feature suggested by Seagoat.
+* CONFIG CHANGE: The default list grouping is now settable by
+  $config['group_by'] in the config.inc file. If an invalid
+  configuration option is selected, the default fallback is ungrouped.
+  Feature suggested by Seagoat.
+* Added A(bsolute) and I(nherit) modifiers to the size definition of the
+  TEXT sigblock directive. Using an A immediately after the font size
+  will mean turn off the text fitting and use the font size exactly as
+  written. Using an I will use whatever the last font size selected
+  (whether from auto-fit or as set). Feature suggested by Seagoat.
+* Fixed roster grouping when not displaying a groupable primary sort.
+* Fixed incorrect quest link. Bug reported by Bloo.
+* CONFIG CHANGE: The formatted date string for the logfile and the "Last
+  Updated" display on the guild roster is now configurable by the
+  $config['updated_date_fmt'] and $config['logfile_date_fmt'] settings
+  in the config.inc file.
+* Changed include() to require() to protect against situations where the
+  open_basedir restriction is in effect. Bug reported by Apina.
+* NULL, "Unskilled", and "none" fields now sort last.
+* CONFIG CHANGE: Added $config['short_titles'] setting to specify if
+  short heading titles will always be used, never used, or only when
+  columns are grouped. Featured suggesed by Seagoat.
+* CONFIG CHANGE: Added $config['columns'] setting to control what
+  columns appear in the roster, and in what order. Feature suggested by
+  Seagoat.
+* CONFIG CHANGE: $config['show_avatars'] renamed to $config['avatars'],
+  semantics and default changed.
+* CONFIG CHANGE: removed $config['show_usernames'], option superseded by
+  $config['columns'] setting.
+* Row grouping is now enabled for Secondary Tradeskill Class in addition
+  to the already available Character Type, Rank, Adventurer Class, and
+  Artisan Class.
+* Fixed problem affecting guilds with "Anonymous" characters not being
+  added to the parse correctly. Changed $parsed_roster_data to
+  superglobal for storage consistency and indexed by characterId rather
+  than name. Bug reported by Lantis.
+* Fixed header row alignment problem. Bug reported by Seagoat.
+* Fixed logfile spam (symptom of database roster not being read
+  correctly on roster update). Bug reported by Seagoat.
+
+6.2.0
+* CONFIG CHANGE: Removed $config['guild_name'] setting. Minimal
+  installation is easier and now only requires setting the
+  $config['guild_id'] parameter.
+* CONFIG CHANGE: Changed default configuration of
+  $config['sigblock_basename'] to 'default_sigblock'.
+* Improved parser debugging output. Timing output is now clearer and
+  parse data size is provided.
+* Fatal parser errors no longer block roster when logged in as
+  administrator. Debugging output is now a trigger_error().
+* Fixed error notice when roster refresh time has expired.
+* Fixed last name not displaying in guild roster when 
+  $config['show_lastname'] is set.
+* Fixed HTML typo in Advanced Sort Options.
+* EQ2 Players Rise of Kunark Release (3.4), November 12, 2007
+  + Parser updated. An XML parser has been re-implemented. Use of the
+    XML parser requires that PHP has been compliled with the --with-xml
+    argument prior to make and make install.
+  + SCHEMA CHANGE: Significant changes to the roster_master, and minor
+    changes to the roster_master_guild tables. See the cpg_inst.php file
+    for the new table structure.
+  + CONFIG CHANGE: Added $config['use_XML_parser'], default is Roster
+    Master will use the XML parser if the function library is available.
+  + User-provided last name data removed. Last name data is now pulled
+    from the XML feed.
+  + CONFIG CHANGE: Removed $config['show_currentstats'] parameter. Since
+    dateJoined is no longer provided data, Newest Character cannot be
+    displayed, which is the only line item in this section.
+  + Added secondaryTradeskillClass and secondaryTradeskillLevel to
+    roster display.
+* Fixed single-column sorting not working correctly when a column header
+  is clicked. Single-column sorts will now toggle between an ascending
+  and descending sort as intended.
+* Improved operation of the header_link() function.
+* Improved functionality of text margins in signature block template.
+  Text margins are now absolute relative to the base image and are only
+  reduced if the avatar placement intrudes into those bounds.
+* Increased default setting of $config['JPEG_quality'] from 75 to 90.
+* Implemented row grouping (as per RMSA 2.3.0  Beta 4). Row grouping is
+  enabled for Character Type, Rank, Adventurer Class, and Artisan Class.
+  When the "Grouped" option is selected, the primary sort key will
+  automatically select the group by, and that column will be removed
+  from the display. Thanks goes to Lantis for implementing this
+  functionality in RMSA.
+* "Character Timeline Quest Claims" now read correctly instead of
+  referring to Access Quests. Bug reported by Seagoat.
+* Purging the roster table now resets the table last_updated date to
+  zero.
+* Latest Item Discovered should log cleaner now.
+* Fixed level not appearing after character name in Quest Master table
+  if not logged in as admin or the user that claimed the character. Bug
+  reported by Bloo.
+* Thanks to Seagoat for finding and correcting several bugs in new
+  features in the Beta and Release Candidates.
+
+6.1.2
+* Fixed SQL error in Quest Master when
+  $config['qm_exclude_inactive'] = 1 and $config['show_alts'] = 0 are
+  both set. Bug reported by Faush.
+  <http://forums.daybreakgames.com/eq2/posts/list.m?start=465&topic_id=346728#4383388>
+* Fixed variable scoping issue with the sync_active_claims() function
+  when it's called from the cpg_inst.php file.
+* Fixed "Sync Active Claims" not displaying as an administrative option
+  for Quest Master.
+* Fixed outdated configuration variable reference in INSTALL.txt file.
+* Fixed "Display All"/"Display Primary" links not working in Quest
+  Master.
+  
+6.1.1
+* Fixed sorT order wHen guild ranks are substrings of one anothEr. Also
+  fixed some unreported sorting bugs and an existing inCompAtibility
+  with Postgres in the sort query. Should worK better now. Bug reportEd
+  by Nomandis.
+* Added AoAx4 access quest. Also added missing Deathtoll access quest
+  (this quest also demonstrates the abIlity of QueSt MAster to handLe
+  multI-stEp quests in any of the quest trackers). Bug reported by Bati.
+
+6.1.0
+* Repaired broken links to the EQ2i wiki that were introduced in the
+  version 6.0.7 update to the quest data.
+* Significant updates to quest information and links. Quest data
+  structure has been reorganized.
+* Quest trackers now highlight column sorts.
+* DATABASE SCHEMA CHANGE: Removed access quests that are no longer
+  required by the game.
+* DATABASE SCHEMA CHANGE: Added roster_master_timeline table to support
+  the new timeline quests.
+* CONFIG CHANGE: There is now only one configuration section for Quest
+  Master, rather than one for Heritage Master and Key Master.
+* STRUCTURE CHANGE: Changed name of "icon_hm.png" to "icon_heritage.png"
+  and added "icon_timeline.png". Added "key.jpg" icon for the Key Master
+  roster.
+* NEW FEATURE: Heritage Master and Key Master are now no more, and have
+  been incorporated into Quest Master which now handles Heritage,
+  Access, and (the oft-requested) Timeline quests. This change comes
+  bundled with major changes and improvements to the quest tracker code.
+* Fixed some sigblock template keyword case-sensitivity issues. The
+  intent is for keywords to be cAsE-iNsEnSiTiVe.
+* Added CLASS keyword to the AVATAR sigblock directive. Feature
+  requested by alterEgosego.
+  <http://forums.daybreakgames.com/eq2/posts/list.m?start=405&topic_id=346728#top>
+* Added Dragonfly 9.1.2.8 compatibility (new blocks class).
+* Quest claim forms now group and sort like the in-game Quest Journal,
+  to make entering quests easier.
+* Added rm4df_update script file to aid in updating the roster from an
+  external process. This is an UNSUPPORTED feature.
+* Fixed Force Update link not working/not returning correctly. Force
+  Update now always returns to the roster page. Bug reported by Beldak.
+* Fixed JavaScript table displaying horizontal scroll bar in Firefox.
+  Bug reported by Beldak.
+
+6.0.7
+* DATABASE SCHEMA CHANGE: Changed primary key in roster_master table
+  from Name to Character_ID, existing implementation caused uniqueness
+  problems with some character sets and collations (unable to have two
+  different characters whose names would only differ by their accents).
+  Bug reported by Lantis.
+  <http://forums.daybreakgames.com/eq2/posts/list.m?start=345&topic_id=346728#4219967>
+* Changed installer to alter the blocks table on new install as well.
+  Bug reported by CammanCMC.
+  <http://forums.daybreakgames.com/eq2/posts/list.m?start=345&topic_id=346728#4221608>
+* Added Unique Members statistic.
+* Increased max_execution time in the HTML roster retreval loop to start
+  at five minutes. NOTE: This function has no effect when PHP is running
+  in safe mode. There is no workaround other than turning off safe mode
+  or changing the time limit in the php.ini file. The current effective
+  setting of safe mode and the PHP max_execution_time directive can be
+  viewed in the Dragonfly administration panel at
+  "Administration Menu > > System Info > > PHP Core". The Apache TimeOut
+  directive (default of 300 seconds) is another limiting factor, the
+  shorter of the two durations will be effective.
+* Changed link references from www.eq2i.com to the eq2.wikia.com site.
+* Roster updates through externally-managed processes (such as cron) are
+  now available. First, disable automated updates by setting
+  $config['cache_update_time'] = 0 in the config.inc file. Next, create
+  a cron task that will launch the update like this (edit the URL
+  appropriately):
+  0 0,6,12,18 * * *	wget --bind-address=128.1.1.1 --output-document=/dev/null --quiet 'http://<yoursitename>/index.php?name=Roster_Master&force_update=1'
+  [This example requires that wget be installed on your system and will
+  update the roster every six hours. You may use any HTTP client that
+  allows binding to the 128.1.1.1 (localhost) address.]
+  If you have a large guild that takes a lot of time to update, you can
+  do it automatically at scheduled intervals.
+* DATABASE SCHEMA CHANGE: Changed schema to use INTEGER instead of INT,
+  and SMALLINT instead of TINYINT in order to resolve PostgresSQL
+  compatibility issues. Bug reported by Lantis.
+  <http://forums.daybreakgames.com/eq2/posts/list.m?start=375&topic_id=346728#4231796>
+* CONFIG CHANGE: Added new bitflag to logfile parameter to log parser
+  statistics and to suppress logging of guild status changes. Also
+  reordered some of the lesser-used log bitflags.
+* CONFIG CHANGE: Added $config['block_autoupdate'] to control whether
+  Guild Wall of Fame block will now force a roster refresh if the roster
+  data is stale when it goes to updates its cache. This can impace page
+  load times if the update takes long (page won't load until update is
+  complete). Default is off.
+* REQUIREMENTS CHANGE: Use of internal Dragonfly multibyte wrappers has
+  been implemented. Requires versions of Dragonfly after the 9.0.6.1
+  version.
+
+6.0.6
+* Revised parser to be more UTF-8-friendly by replacing the /w?
+  shorthand with a plain .*? search. Pattern strings are now treated as
+  UTF-8. This modifier is available from PHP 4.1.0 or greater on Unix
+  and from PHP 4.2.3 on win32. UTF-8 validity of the pattern is checked
+  since PHP 4.3.5. Bug reported by Wolffire, code changes supplied by
+  Lantis.
+  <http://forums.daybreakgames.com/eq2/posts/list.m?start=300&topic_id=346728#4174449>
+  <http://forums.daybreakgames.com/eq2/posts/list.m?start=300&topic_id=346728#4177126>
+* Changed roster sort from usort() to a purely SQL sort to improve UTF-8
+  compatibility.
+
+6.0.5
+* Re-re-fixed parser in response to changes to the way 'Latest Item
+  Discovered' is presented on the EQ2Players.com site. Bug reported by
+  Seagoat.
+  <http://forums.daybreakgames.com/eq2/posts/list.m?start=180&topic_id=346728#4019675>
+* Corrected typo in sigmaster.inc that would cause the 'RANK' directive
+  for $config['sigblock_type'] to fail to work correctly. Bug reported
+  by Seagoat.
+  <http://forums.daybreakgames.com/eq2/posts/list.m?start=210&topic_id=346728#4034438>
+* Fixed logic error in keymaster.inc that would cause a DB error if
+  invalid sort options were passed by the client. Bug reported by
+  Beldak.
+  <http://forums.daybreakgames.com/eq2/posts/list.m?start=225&topic_id=346728#4047241>
+* Turned $DEBUG off by default in the Hall of Fame block.
+* Congrats to the winners of the Roster Master for Dragonfly Logo
+  Contest! Ronja took the Grand Prize for her entry, with Seagoat
+  netting the Community Choice award.
+
+6.0.4
+* Re-fixed parser in response to changes to the way 'Latest Item
+  Discovered' is presented on the EQ2Players.com site. Last fix was
+  incomplete, and caused log spam. Bug reported by Kelia. Based on
+  reference fix by Seagoat.
+  <http://forums.daybreakgames.com/eq2/posts/list.m?start=150&topic_id=346728#3998869>
+* CONFIG CHANGE: Added $config['show_usernames'] to allow usernames to
+  be supressed in the roster. Feature requested by Belin.
+  <http://forums.daybreakgames.com/eq2/posts/list.m?start=150&topic_id=346728#4000390>
+
+6.0.3
+* Fixed minor typo in config.inc comment, and another typo in
+  sigmaster.inc that would cause officer archetype avatars to not be
+  found. Bug reported by Seagoat.
+* Fixed display of character level in Key and Signature Master. Bug
+  reported by Seagoat.
+* CONFIG CHANGE: Added $config['show_Arena']) to control display of
+  Arena kills in block. Feature requested by Seagoat.
+* Added character level to quest query display.
+* Added new category to quest query display: "Not Started (Below
+  Required Level -1)". This differentiates those who haven't started the
+  quest from those who can't or aren't close.
+
+6.0.2
+* Changed signature image size attributes in rostermaster.inc to be
+  based off of the sigblock base selected in the
+  $config['sigblock_basename'] setting, based on an implementation by
+  Seagoat.
+  <http://forums.daybreakgames.com/eq2/posts/list.m?start=30&topic_id=346728#3959987>
+* Signature Master will now look for Class- and Archetype-specific image
+  files that have spaces replaced with underscores (e.g.
+  "<sigblockbasename>_Shadow_Knight.png" or "Shadow_Knight.png"). The
+  previous behavior required that the space be embedded in the file
+  name. Change suggest by Seagoat.
+  <http://forums.daybreakgames.com/eq2/posts/list.m?start=45&topic_id=346728#3966126>
+* Block and parser fixed in response to changes to the way 'Latest Item
+  Discovered' is presented on the EQ2Players.com site. Code submitted by
+  Beldak and Seagoat.
+  <http://forums.daybreakgames.com/eq2/posts/list.m?start=90&topic_id=346728#3983526>
+  <http://forums.daybreakgames.com/eq2/posts/list.m?start=90&topic_id=346728#3984719>
+* CONFIG CHANGE: Added $config['avatar_size']['width'] and
+  $config['avatar_size']['height'] to specify the geometry of avatars in
+  the roster. Change suggested by Beldak.
+* Replaced HQ reward icons with those used in-game. Thanks to Seagoat
+  for extracting and compositing the DDS files.
+  <http://forums.daybreakgames.com/eq2/posts/list.m?start=75&topic_id=346728#3976304>
+
+6.0.1
+* Removed hardcoded signature size in rostermaster.inc, as suggested by
+  Seagoat.
+  <http://forums.daybreakgames.com/eq2/posts/list.m?start=30&topic_id=346728#3959623>
+* Fixed typos in sync_active_claims() that would throw a DB error.
+  <http://forums.daybreakgames.com/eq2/posts/list.m?start=30&topic_id=346728#3959623>
+* Fixed typos in source comments.
+
+6.0.0
+* Added error message to indicate that the rank insignia feature failed
+  as a result of a misconfiguration in the $config['lookup_rank'] array.
+* XML parser has been removed. A hybrid HTML/CSV parser is now the
+  default. As a result, and for the moment, Roster Master no longer
+  requires a PHP binary compiled with XML support. Last of the legacy
+  code removed from the parser.inc file.
+* Fixed a long-standing logic error in *_sync_active_claims() functions.
+* Fixed logic error in rostermaster.inc that would cause the "Display
+  Primary" link to continue to display all characters. Bug reported by
+  Excalibre3377.
+* DATABASE SCHEMA CHANGE: Fixed guildRank field size bug for new
+  installs (was VARCHAR 20 instead of VARCHAR 40). Bug reported by
+  Caela.
+* DATABASE SCHEMA CHANGE: Major changes to the schema, especially the
+  roster_master table. Some changes should improve compatibility with
+  PostgreSQL. Fields have been renamed or dropped! See the cpg_inst.php
+  file for the new DB schema.
+* DATABASE SCHEMA CHANGE: Changes the "content" field in the core
+  Dragonfly CMS table "blocks" from type "TEXT" to "MEDIUMTEXT". This is
+  to address a problem where the block size would overflow the field and
+  get truncated, causing sever rendering issues when the block would
+  attempt to read from its cache.  
+* Added ability to sort rows by Adventurer Level in Key Master and
+  Heritage Master. Code contributed by Seagoat20.
+* Added fix for alpha-channel transparency in signature overlays.
+  Code contributed by Seagoat20.
+* Live Update #29: November 14, 2006 (Echoes of Faydwer)
+  + As a result of changes in EQ2Players.com, serverside-calculated
+    guild leaderboard data is no longer available.
+  + New Guild Achievement data added to schema.
+  + Added five new heritage quests: In Honor and Service, War and
+    Wardrobe, The Staff of the Observers, Casualties of the War of
+    the Fae, The Symbol in the Flesh, and Cloak of Flames. Thank you
+    to Kitra for submitting code changes and images for the new heritage
+    quests.
+  + Changed heritage quest preferred quest provider to EQ2i.
+* New avatar graphics for archetype and alpha-channel blended guild
+  rank icons have been added. Many thanks to Seagoat20 for providing
+  them.
+* Added extended templating support for avatars in Signature Master
+  based on an implementation suggested by Seagoat. New directives
+  (DEFAULT|ARCH|EQ2|RANK) have been added to the AVATAR templating
+  command.
+* CONFIG CHANGE: Added additional configuration commands to the Roster
+  Master avatar display options in the roster. See the
+  $config['show_avatars'] setting in the config.inc file. Based on an
+  implementation suggested by Seagoat20.
+* CONFIG CHANGE: New configuration setting, $config['sigblock_type'],
+  has been added to support extended sigblock selections based on an
+  implementation suggested by Seagoat.
+* CONFIG CHANGE: New configuration setting, $config['officers'], along
+  with additional constants and functions have been added to the
+  config.inc file to support the extended avatar templating in both
+  Roster and Signature Master.
+* CONFIG CHANGE: $config['sigblock_basename'] setting replaces the
+  $config['sigblock_file'] setting, and has a new semantic.
+* CONFIG CHANGE: $config['show_PvP'] setting added to control the
+  display of PvP statistics (which are really only relevant to PvP
+  servers). Feature suggested by Dyse.
+* Updated HQ icons in Heritage Master to indicate quests from
+  expansions by adding a colored stripe (the color is *very*
+  roughly derived from the predominant color in the expansion's
+  title logo, with some fidging to make it more visible, or in
+  some cases where the color choices collided, unique).
+* Significant updates/clarifications to the documentation.
+
+Special thanks to the users of Roster Master who contributed to this
+major release and provided user support, enhancements, bug reports,
+and bug fixes. Especially Belin, Caela, Excalibre3377, Kevlin, and
+VulcanDarksoul. Extra-special special thanks goes to Seagoat20 for
+exceptional support of the user base, innovative features, and donating
+her time and talents to the project. Super job, folks! It's truly a
+privilege to work with you.
+
+5.1.4
+* CONFIG CHANGE: Added $config['sigblock_file'] to allow the user to
+  select the signature block image file name. This file must be
+  located in the "modules/{$mod_dirname}/images/sigblocks/" directory
+  and readable by the web server user. If this file cannot be found,
+  Signature Master will fall back to using "default_sigblock.png" in
+  that directory as the file name before giving up.
+* CONFIG CHANGE: Added $config['JPEG_quality'] to control the output
+  quality of the signature file.
+* Added category and level elements to key_quests array. Character
+  access quest Claim form and access quest tooltips now display
+  Quest Category and Quest Level to assist players with finding quests
+  in the in-game Journal.
+* NEW FEATURE: Vastly improved templating in Signature Master.
+* Fixed a several typos and logic errors in Signature Master.
+* Signature Master error messages when DEBUG is set are more explicit
+  about what has gone wrong, and should work more predictably.
+* Template for ranks excluded from having a signature have been
+  removed. Instead, ranks in exclusion list will send a 404 error if
+  a signature is requested. Also, the signature block link/icon will
+  not be displayed for excluded ranks.
+
+5.1.3
+* Fixed lastname display logic when $config['show_lastname'] = 1,
+  reported by Belin.
+* Fixed CMS Warning line 66: The expected module directory,
+  "Roster_Master", does not exist error reported by Kevlin.
+* CONFIG CHANGE: Added $config['use_XML_parser'] to allow the user to
+  force the XML parser off. Improved table display logic in the case of
+  mixed XML/HTML data and to properly reflect the setting.
+  NOTE1: As of May 17, EQ2Players.com is not providing the XML data
+  feed, until this condition is fixed, please set this value to "FALSE"
+  (the default).
+  NOTE2: Use the Purge Roster Table command to remove the extended XML
+  information from the roster table. This will keep oddball stuff from
+  messing up your roster table since you'll have some missing columns
+  otherwise. This won't muck up your Claims at all, it just forces a
+  complete refresh of the roster table in the DB.
+* Live Update #24: June 14, 2006; The following zones no longer require
+  an access quest. The is_visible flag has been set to FALSE for these
+  quests (quests that are in the DB are trackable, but will not be shown
+  on the large table):
+    The Firemyst Gully
+    The Sanctum of Fear
+    Bloodskull Valley: The Excavation Site
+    The Eternal Gorge
+    Miragul's Menagerie
+    Icespire Summit
+    The Forbidden Sepulcher
+    The Trembling Lagoon
+    The Obelisk of Lost Souls
+    The Darkblade Den of Assassins
+    The Serpent's Lair
+    The Murkwater Nook
+    Maiden's Gulch
+    The Vault of Flames
+    Nektropos Castle
+    The Lair of the Necromancer
+    The Vestibule
+    Heroic: The Sullon Mines
+    Heroic: The Tallon Hording Halls
+    Heroic: The Darkened Den
+    Icebound
+    The Bastion of Flames
+    The Cove of Decay: A Treaty for Treasure
+    The Ruins of Varsoon
+
+5.1.2
+* Fixed level for "Putting Maltena to Rest" to 42, reported by Voken.
+* Fixed "There was an error during the parse operation" fatal error
+  during the guild summary parse operation. Thanks to Kelia and
+  Seagoat20 for reporting the problem.
+* DATABASE SCHEMA CHANGE: Added "The Wonderous Inventions of a Crazed
+  Gnome", "A Thorn of Old", and "Draco Mortuus Vos Liberatio" heritage
+  quests. Changed "GoTD" column to "GotD".
+* STRUCTURE CHANGE: Renamed file "modules/Roster_Master/images/GoTD.jpg"
+  to "modules/Roster_Master/images/GotD.jpg". Added
+  "modules/Roster_Master/images/BCG.jpg",
+  "modules/Roster_Master/images/TB.jpg", and
+  "modules/Roster_Master/images/Ws.jpg". Icon color for
+  "modules/Roster_Master/images/icon_hm.png" changed from blue to a
+  more appropriate gold. Added
+  "modules/Roster_Master/images/caution.png".
+* CONFIG CHANGE: Added $config['read_file_hack'] to activate UNSUPPORTED
+  file input hack. Don't ask about it.
+* Removed the 3-day expired member deletion holdoff time. Guild members
+  are immediately removed from the roster. Members who return to the
+  roster will automatically re-bind to claims. Otherwise, residual
+  claims can be removed from the widowed/orphaned claims administration
+  interface. Thanks to Seagoat20 for suggesting the change.
+* Added new option to Heritage and Key Master to hide quests from the
+  roster. Set the "is_visible" element FALSE to hide it. Access quests
+  for Zek, Feerrott, and Everfrost have been hidden by default. Thanks
+  to Belin for suggesting it.
+* Links now include both character first and last name, instead of just
+  the first name. Thanks to Belin for siggesting the change.
+* Parse errors no longer halt the roster if user is not logged in as a
+  module (or superuser) administrator. Warning icon now appears on roster
+  next to update time if the roster is overdue for an update (visible if
+  $config['show_updated'] is set).
+* Signature cache synchronization with the roster has been fixed.
+  Roster updates should trigger a signature refresh. Thanks to Belin
+  for reporting the problem. This also fixed the function of the
+  signature cache reaper, which was not functioning properly.
+* Improved inline comments for sigmaster.inc, based upon the signature
+  block tweaking documentation created by Censeo.
+* Fixed some characters' names not being listed in the class breakdowns
+  (when $config['breakdown_shownames'] = 1). Bug reported by Caela.
+
+5.1.1
+* Reapplied fix for table sizing bug in Opera that caused the first
+  heading column cell to stretch when the table is converted to
+  scrolling. Results in a compromise in the visual style, but one that's
+  not entirely unpleasant.
+* SECURITY FIX:
+  + Fixed XSS vulnerability for log and table purge operations.
+  + Fixed XSS vulnerability for character claim deletions.
+  + Fixed XSS vulnerability for signature block cache purge operation.
+* Added partial French language translation, provided by Christophe
+  Dauvissat.
+
+5.1.0
+* Fixed "Unknown column 'cmsusers.Char_ID' in 'on clause'" in
+  rostermaster.inc (line 1412) affecting MySQL 4.0.x users, reported by
+  Nomandis.
+* Fixed "Unknown column 'rmu.active' in 'where clause'" in
+  heritagemaster.inc (line 713) and keymaster.inc (line 913), reported
+  by SandKap.
+* Fixed access control problem that would prevent some operations if the
+  admin was not also logged in as a user.
+* Fixed time misalignment in block-Guild_Wall_of_Fame.php reported by
+  Seagoat20.
+* Fixed failure to load language file for anything other than the
+  primary instance of the module.
+* Fixed some missing localizations in page titles.
+* Fixed inability to save claims for instanced versions of Roster Master
+  beyond the first one (i.e. can't save claims for Roster_Master_2,
+  Roster_Master_3, etc.), reported by Erladdin.
+* Fixed "Force Update" function having no effect from the log display.
+* STRUCTURE CHANGE: Added file
+  "modules/Roster_Master/table_js.inc" to cut down on duplicated
+  code between Heritage and Key Master.
+* STRUCTURE CHANGE: Added file
+  "modules/Roster_Master/functions/parser.inc" to break down the parsing
+  functions and make way for the implementation of XML roster.
+* DATABASE SCHEMA CHANGE: Added the "Capturing Day and Night" access
+  quest.
+* DATABASE SCHEMA CHANGE: Added lastonline, highestmeleehit, and
+  highestmagichit columns for data from the XML feed.
+* CONFIG CHANGE: Added $config['xml_roster_url'] to point to the XML
+  roster data page.
+* CONFIG CHANGE: Added $config['km_rowhighlight'] and
+  $config['hm_rowhighlight'] to toggle the row highlighter in Key and
+  Heritage Master. Added $config['rowhighlight_color'] to control the
+  on-click row highlight color. (Unfortunately, there's no way to set it
+  from the theme template.)
+* Added row highlighting JavaScript function to the Heritage and Key
+  Master tables. Clicking the mouse locks the row highlight (in gold),
+  click again anywhere on the table to unlock.
+* Removed ", __FILE__, __LINE__" part in SQL method calls since it's
+  obsolete.
+* Added note regarding "httpd_can_network_connect=1" setting for Fedora,
+  researched by Jarrod.
+* Restructured the table headers for Heritage and Key Master.
+* Added "Query Quest Status" link to Heritage and Key Master. This
+  links to a report detailing the quest, quest reward/access, and a
+  tabular listing of all characters in each of the three quest states
+  (Don't Have, In Progress, and Completed). Swapping the columns and
+  rows of the tables was technically feasible (even had a working
+  prototype), but it wonked up the sorting mechanism (which would
+  have had to be redone from scratch), and just didn't look good at all.
+* Added XML guild roster parser. To parse XML with PHP, you must
+  configure PHP with the --with-xml argument prior to make and make
+  install. Roster Master will automatically fall back to using the HTML
+  parser if the XML parser doesn't exist or fails. NOTE: The XML feed
+  sends KVD data as integer, not float data types. You lose a little
+  precision as a result. Go figure.
+* Added segments to Guild Wall of Fame Block for Highest Melee Hit,
+  Highest Magic Hit, and Most Recent Member Online (latter is commented
+  out). Note that all three only display if the XML roster data is
+  present.
+* Added logging options for highest melee/magic hit and last online.
+* Updated required levels for heritage quests.
+* Changed source file headers to use ISO 8601 date format.
+
+5.0.1
+* Reverted roster_master_key column names to eliminate colon (":")
+  characters from use. MySQL 4.0 doesn't properly handle quoted
+  identifiers in update queries...
+* Fixed heritage quest tracker links in character manager.
+
+5.0.0
+* Re-fixed "Guild Summary: $field was..." in logfile problem.
+* Added administration command to purge the log. If log is empty, an
+  appropriate message is displayed when the log is viewed.
+* Fixed "Data array mismatch." error when editing heritage quest claims,
+  reported by Belin.
+* Re-fixed error in the way that Roster Master handles timestamps that
+  introduced a serious error in the way that Signature Master handled
+  the signature block cache.
+* NEW FEATURE: Added the first version of Roster Master's Key Master
+  in response to a request by Kevlin.
+* DATABASE SCHEMA CHANGE: Heritage quests moved to their own table.
+  Added lastname column to roster_master_users table. Added
+  roster_master_keys table.
+* CONFIG CHANGE: Added configuration section for the Key Master.
+  Renamed configuration variables for the Heritage Master. Added
+  $config['show_lastname'] variable to Roster Feature Options.
+* STRUCTURE CHANGE: In accordance with the Dragonfly coding standards,
+  the language file have been moved from the original location at
+  "modules/Roster_Master/language/lang-english.php" to
+  "language/english/roster_master.php". Those upgrading should remove
+  the previous directory before installing the upgrade. Bonus feature -
+  there is no need to make additional copies of the language file(s)
+  when using the automatic instantiation feature.
+* Improved response in returning a signature image by specifying the
+  HTTP connection closes immediately.
+* Reorganized Signature Master's options to group the appearance
+  options for the signature block image in response to feedback from
+  Erladdin. Changing the block still requires editing the sigmaster.inc
+  file. Improved comments to assist customization.
+* Renamed internal functions to be more consistent with the component
+  (Roster Master, Heritage Master, Key Master, Signature Master) they
+  belong to.
+* Rewrote the claims management user interface. It is now possible to
+  edit a claim, rather than only delete it. Added the ability to add a
+  last name to a character claim.
+* Improved some error-handling functions and logic.
+* Moved Heritage/Key Master sort menu to the left to improve the UI.
+
+4.0.1
+* Two bugs and a suggestion by Belin:
+  + Fixed problem with config['show_avatars'] = 1 not showing username
+    in row data.
+  + Fixed it so that rostermaster and signaturemaster functions both
+    look for PNG avatars, instead of JPG and PNG.
+  + Signature link now honors the $config['popup'] setting.
+* Fixed Character Quest Claims page returning a blank page on save,
+  found by Kanoldari.
+* Fixed "Guild Summary: $field was..." in logfile, found by Seagoat20.
+* In response to suggestions by Kanoldari:
+  + Claim Character page is now called Manage Characters.
+  + Added icon links to Edit Quest Claims and the Signature blocks to
+    each claimed character.
+  + Character names in claim managers now link to the Sony character
+    page.
+  + Added $config['exclude_inactive'] setting to exclude characters with
+    no active heritage quests in the listing of characters in the
+    Heritage Quest Tracker. Thanks to Saint Peter for help with
+    implementation ideas.
+
+4.0.0
+* Added the first version of the dynamic signature generator. Roster
+  Master now can generate graphical signature blocks, a much-requested
+  feature! Thanks goes to Belin for testing and commentary on this
+  feature.
+* Headshots are now called avatars, and have been moved to the
+  modules\Roster_Master\images\avatars directory. The avatar images are
+  used for both the signature block and the roster, and should be no
+  larger than 100x100. Avatar files must be named by Character ID
+  number (e.g. "281167207.png"), and in PNG format. Character ID is used
+  rather than name, as character names are not assured to be valid
+  filenames (especially in non-English localizations). Added the
+  $config['show_avatars'] configuration variable to remove the
+  requirement to edit the module source in order to enable this feature.
+* Fixed error in link for the GLS that would send you to the item for
+  GoTD, found by Nomandis.
+* Fixed Heritage Master sorting descending to be default, reported by
+  Belin.
+* Added option to have character names in the fold-down class breakdown
+  list in the block, as requested by Kelia.
+* Replaced calls to date() with gmdate() where we were dealing with GMT
+  times, as date() causes problems with Daylight Savings Time.
+* Modularized code. Functions have been broken up into multiple files
+  to improve readability and maintainability.
+* Significantly reworked Guild Wall of Fame block. More options for
+  displaying data in the block, more example display lines, more
+  choices. Added additional configuration options to "Block Feature
+  Options" in config.inc file, as suggested (with sample code) by Belin.
+* Implemented first cut at localization support. This adds the
+  languages directory, and the English language localization.
+  Note that the explanatory text for some error functions isn't yet
+  supported.
+* Improved carry-through of alt display for other Roster Master
+  functions.
+* Added delete confirmation for claims. Improved autoreturn back to
+  calling page for both table purge and claim deletion.
+* Cleaned up code headers and comments.
+* Cleaned up and expanded documentation.
+
+3.1.2
+* Fixed error in Headshot examples, found by Erladdin.
+* Fixed block caching error, found by Seagoat20.
+* Fixed $exclude_alts not being propagated to the read_db() function,
+  found by Belin.
+
+3.1.1
+* Fixed major problems introduced in the sort code as a result of the
+  changes made to accommodate alt exclusion. Pointed out by Seagoat20,
+  but actually more extensive than even that...
+
+3.1.0
+* Made error messages more consistent for conditions where a client
+  attempts to hand-craft an invalid URL to inject GET operations
+  they aren't entitled to access.
+* Fixed condition where roster_master_guild table isn't removed
+  upon uninstall.
+* Changed installer to add one row at a time to the
+  roster_master_guild table.
+* Made changes to guild summary stats to cut down on logging spam.
+  New logging bitflag added.
+* DATABASE SCHEMA CHANGE: Moved table_updated field out of the
+  config_custom table and into the roster_master_guild table to keep
+  Roster Master data together.
+* Roster Master will now check and refresh data upon accesses to the
+  Roster and Heritage Master pages. Rewrote update_data() function.
+* The Force Update command should return you to the page you pushed it
+  from. Untainted $rm variable to support this change.
+* Fixed Last Updated time not displaying correctly on first pageload
+  after a data refresh.
+* Added $config['show_alts'] parameter, as requested by Kanoldari.
+* Non-primaries excluded from statistics when $config['show_alts'] is
+  false and the full roster is not being displayed, as requested by
+  Belin. Significant changes made to Guild Wall of Fame block.
+  Moved configuration parameters to config.inc to support these
+  changes.
+* Added $config['scrolltable'] parameter, as requested by Kanoldari.
+* Added fetch_URL() function as a work-around to the prevailing attitude
+  hosting providers have taken that setting
+  "php_admin_value allow_url_fopen 0" (which disables the URL-aware
+  fopen() wrappers that enable accessing an URL object like files and
+  also subsequently blocks runtime modification of the parameter)
+  actually counts as proactive security.
+* Fixed missing style in Headshot cell, pointed out by Kelia.
+* Increased size of Rank field to 40 characters. Thanks to Singman and
+  Svens of Destin de Norrath for researching this.
+* Moved changedlog out of index.php and into CHANGELOG.txt, also
+  restored entire version history.
+
+3.0.0
+* DATAVASE SCHEMA CHANGE: Added parser and table for Guild summary
+  information. Roster Master now allows you to track and display more
+  information about your guild, including Guild Level!
+* Significant changes to Guild Wall of Fame block. More guild statistics
+  displayed and more available in commented source.
+* Added sort feature to Heritage Master.
+* Changed do_commands() Menu header to indicate when you are in the
+  Heritage Master.
+* Added prototype for "headshots" column, as requested by Kelia.
+* Added option to sort fields descending by default (see 'inv_srt'
+  element of $sort_options array) as requested by Belin.
+* Fixed missing title attribute in the Heritage Master header images.
+* Changed heritage item reward links to point to the OGaming database,
+  since Sony's DB is restricted to subscribers.
+* Cleaned up commented roster header and row code. Removed obsolete
+  comments warning about changing a COLSPAN attribute that no longer
+  apply. Thanks Kelia!
+* Improved the logic on the guild name sanity check.
+* Removed fetch_data_db() function, it's been inlined.
+* Changed structure of the Heritage Master table layout.
+* Minor code cleanup/reorganization.
+
+2.1.0
+* Added automatic module instantiation feature.
+* Heritage quest claim form now returns back to Heritage Master,
+  rather than to itself.
+* Reworked the Heritage Master status icons to be more dark-background
+  friendly, as per Kelia's request.
+* Added nowrap style to first column of the Heritage Master table.
+* Replaced SoR icon with one matching the current style.
+
+2.0.2
+* Fixed dual HTML/logic bug in quest claim form that would cause
+  problems with quests that were too high for the character to start,
+  but that had quest starter items not being displayed/saved correctly.
+
+2.0.1
+* Fixed off-by-one error in the table heading thCornerR style.
+* Changed to stricter inline styling, rather than using element
+  attributes.
+* Cleaned up some comments.
+* Fixed installer warning not displaying.
+* DATABASE SCHEMA CHANGE: Added "An Ancient Desert Power" heritage
+  quest.
+
+2.0.0
+* First version of Roster Master's Heritage Master.
+  Features a unique JavaScript/CSS scrolling and resizable table. The
+  table can be resized by dragging the horizontal rule between the
+  bottom of the table and the table footer up and down.
+* New DB schema: character ID and user ID are now used as primary
+  indicies, rather than names (more resiliant to character and CMS
+  user account changes). New schema is currently not compatible with
+  previous versions of Roster Master.
+* Stricter controls on operations based on user_id.
+* Combined Class and Level columns, as suggested by Seagoat20.
+  Completely rewrote the header code.
+* Showing sort direction indicators is now configurable.
+* Cut down on the wasteful logic in the mode selector.
+* Improved redirect logic w.r.t. determining HTTP_REFERER.
+* Fixed sort selector not working for the two-column sort.
+* Fixed parser error - KVD can be BLANK.
+* Re-baselined the Changelog for Version 2.
+
+1.1.1
+* Removed use of ON DUPLICATE KEY UPDATE clause that created a
+  dependancy on MySQL 4.1.0 or later reported by Nomandis.
+* Fixed bug in update_data() that would cause characters with no changes
+  to be removed from the DB after 3 days, and then subsequently get
+  added back in as a "new" character.
+* Massively simcomplexified (take *that*, Merriam-Webster!) the parser
+  routines. New parser should be more resistant to localization and
+  custom rank issues since it directly parses the page and no longer
+  uses delimters to mark fields. A side-effect is a lot of the
+  preprocessing of the data is no longer needed.
+* Added administration command to purge the roster_master table of
+  parsed data. This command does not affect the claims table. Note that
+  purging the table will cause all members to be logged as "new" when
+  the data is refreshed (as intended).
+
+1.1.0
+* Fix for quotes by Grimgroth expanded to names and Class/Artisan names
+  to cover localization issues:
+* Made behavior more robust for the case where Roster Master can not
+  contact the eq2players.com site. Changed use of cpg_error() to
+  trigger_error() function. Roster Master will no longer present the
+  user with an error page.
+* The function of the rm_data_parse.php file has been moved into the
+  update_data() function. Installations that are upgrading Roster Master
+  can remove the rm_data_parse.php file.
+* Added options to log data fetch retries and failures to
+  $config['logfile'] parameter.
+* Added $config['retries'] parameter to control how many times Roster
+  Master will retry eq2players.com on a data refresh. Most users should
+  never need to change it from "0". IT IS NOT RECOMMENDED TO SET IT
+  ABOVE A VALUE OF "2"!
+* Added "Unskilled" to Art_Class enum, as per mortis42's message:
+* Fixed inconsistent use of time() functions noted by Belin.
+* Added sort direction indicators to row headings.
+* Removed PHP closing tags from files.
+* Cleaned up some comments and stray whitespace.
+* Fixed error in cpg_inst.php that affected upgrading installations.
+* Improved efficiency of DB storage. We no longer dump and rebuild
+  the table on an update. Instead, only changed or expired rows
+  are sent to the DB.
+* DATABASE SCHEMA CHANGE: The Last_Updated column is now set to the date
+  the row was updated, rather than the date the table was updated. A row
+  in the config_custom table has been created to handle dating the
+  table.
+* Changed default ranks to match eq2players.com.
+
+1.0.5
+* Applied SQL query simplification by Nomandis.
+* Applied fix to _user table prefix by Topiatic.
+* Fixed logging bitflags not properly skipping Quests and KVD changes,
+  was using the wrong syntax (used next() instead of continue()).
+* Cleaned up some comments.
+* Reworked the page header to display more consistently, especially
+  with options.
+* Added guild name and link to guild page on eq2players.com to the
+  'show_updated' section of the page header.
+
+1.0.4
+* Changed KVD% column to KVD, it's not a percentage.
+* Converted to complex (curly) syntax, where applicable.
+* Updated installer.
+* Added breadcrumbs to title display.
+* Changed menu to not display redundant options.
+* Time last updated now stored as gmtime(), rather than time().
+* Changed refresh interval to every 6 hours.
+* Added more flexible logging options.
+
+1.0.3
+* Minor code style cleanup.
+* DATABASE SCHEMA CHANGE: Applied patch for new in-game arbitrary rank
+  names, there needs to be a change made in to the SQL tables in order
+  for the ranks to be recorded correctly. The Dragonfly installer will
+  handle the table modification automatically on an upgrade.
+* Rewrote query strings to use lower-case exclusively (mod_rewrite
+  under Windows rewrites the URL to lower case for some reason).
+* Logfile is no longer written/read as HTML to prevent malicious
+  code injection into the log for hosted service users that must leave
+  the logfile world-writable. Logfile renamed to "logfile.inc".
+* Added dropdown list of unclaimed characters to Manage Claims
+  interface.
+* Documentation and GPL files added to archive.
+* Forced update in fetch_data_db() now checks to see if it was called
+  by a registered user.
+* The rm_save_claim() function now checks to see if user is an
+  administrator before accepting a POSTed username for a claim.
+* CMS username in roster now links to the user's public profile.
+* DATABASE SCHEMA CHANGE: Fully parses and stores the guild roster (now
+  tracks Quests and KVD). Change required to the roster_master table
+  schema. The upgrader will DROP the existing table and recreate it with
+  the new schema.
+* Automatically normalizes claim CMS username's capitalization.
+
+1.0.2
+* Applied Robbi's fix to rm_data_parse.php for KvD > 1000.
+* Changed code formatting/commenting to make it more consistent.
+* Reworked roster table header.
+* Added drop-down list of unclaimed characters to user claim form,
+  instead of a text entry field.
+* Added additional error checks to claims management. It should no
+  longer be possible to claim a non-existent character, or to
+  claim a character for an user that does not exist.
+* Distinguish widowed/orphaned claims in claims management.
+* Converted most strings to string literals, where appropriate.
+* Sort options now get remembered across sort operations.
+* Added XHTML 1.0 Transitional compatibility to output.
+* Improved layout of page elements.
+* Resolved PHP warnings.
+* Removed obsolete /docs directory.
+* Moved rm_config.php options into index.php - there's only a few
+  options, and saves on having to protect the config file.
+* Added Dragonfly cpg_inst.php un|installer. Removed rm_install()
+  function.
+* Removed CSS style sheet, replaced with Dragonfly styles: forumline,
+  nav, statlink, thCornerL, thCornerR, thTop.
+* Removed search buttons - button style is handled by theme CSS.
+* Added Dragonfly username search to claims management (uses
+  class="post").
+* Removed DB error traps to take advantage of those built into
+  Dragonfly and to prevent information leaks (end users will not
+  see raw SQL queries).
+* Replaced calls for fatal errors to error_message() with cpg_error().
+* Replaced calls to Header() with url_redirect().
+* Replaced module URLs with calls to getlink().
+* Replaced user input untainting with Fix_Quotes().
+* Removed $config from globals in read_db().
