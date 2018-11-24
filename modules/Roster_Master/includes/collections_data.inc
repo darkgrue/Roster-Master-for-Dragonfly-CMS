@@ -1004,6 +1004,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  396441308 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Abalone Engraved Tribal Helm',
+    'level' => 110,
+    'crc' => 396441308,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      867826220 => 
+      array (
+        'icon' => 1788,
+        'name' => 'Pristine Abalone Shell',
+      ),
+      3399490039 => 
+      array (
+        'icon' => 75,
+        'name' => 'Hymn of Tribal Waters',
+      ),
+      3831592557 => 
+      array (
+        'icon' => 1780,
+        'name' => 'Stamp of Hydrotha',
+      ),
+      1039573221 => 
+      array (
+        'icon' => 3059,
+        'name' => 'Ink of Salt',
+      ),
+      2997406320 => 
+      array (
+        'icon' => 1366,
+        'name' => 'Signet of Intellect',
+      ),
+    ),
+  ),
   1172061011 => 
   array (
     'category' => 'Terrors of Thalumbra',
@@ -1632,6 +1669,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1855738065 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Aegis of Earth',
+    'level' => 110,
+    'crc' => 1855738065,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2629830194 => 
+      array (
+        'icon' => 1281,
+        'name' => 'Sigil of Protection',
+      ),
+      987628616 => 
+      array (
+        'icon' => 4089,
+        'name' => 'Essence of Earth',
+      ),
+      1585144263 => 
+      array (
+        'icon' => 84,
+        'name' => 'Vegarlson Iron',
+      ),
+      1425201098 => 
+      array (
+        'icon' => 1272,
+        'name' => 'Seal of Mud',
+      ),
+      3289796769 => 
+      array (
+        'icon' => 1254,
+        'name' => 'Rune of Vigor',
+      ),
+    ),
+  ),
   3073304600 => 
   array (
     'category' => 'Destiny of Velious',
@@ -1901,6 +1975,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  12577047 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Alabaster Hilted Wind Bow',
+    'level' => 110,
+    'crc' => 12577047,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2122457437 => 
+      array (
+        'icon' => 630,
+        'name' => 'Alabaster Bow',
+      ),
+      3516840133 => 
+      array (
+        'icon' => 3818,
+        'name' => 'Mark of Smoke',
+      ),
+      4237093126 => 
+      array (
+        'icon' => 2519,
+        'name' => 'Charm of Health',
+      ),
+      4085314711 => 
+      array (
+        'icon' => 3777,
+        'name' => 'Elements of Sun',
+      ),
+      979558666 => 
+      array (
+        'icon' => 604,
+        'name' => 'Insignia of Avatars',
+      ),
+    ),
+  ),
   3669713765 => 
   array (
     'category' => 'Planes of Prophecy',
@@ -1987,6 +2098,43 @@ $CollectionsData = array (
       array (
         'icon' => 2991,
         'name' => 'Anthology of Gnemlin Romance',
+      ),
+    ),
+  ),
+  4294320630 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Algea Covered Staff',
+    'level' => 110,
+    'crc' => 4294320630,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      399314806 => 
+      array (
+        'icon' => 621,
+        'name' => 'Coral Crusher',
+      ),
+      3303803313 => 
+      array (
+        'icon' => 3816,
+        'name' => 'Mark of Ofossaa',
+      ),
+      2106095735 => 
+      array (
+        'icon' => 2518,
+        'name' => 'Charm of Blue',
+      ),
+      2233137351 => 
+      array (
+        'icon' => 3774,
+        'name' => 'Elements of Foam',
+      ),
+      908348381 => 
+      array (
+        'icon' => 601,
+        'name' => 'Insignia of Crushing Waves',
       ),
     ),
   ),
@@ -4934,6 +5082,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1659882258 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Band of Swirling Air',
+    'level' => 110,
+    'crc' => 1659882258,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3433393032 => 
+      array (
+        'icon' => 597,
+        'name' => 'Erylsai Band',
+      ),
+      1365662066 => 
+      array (
+        'icon' => 3816,
+        'name' => 'Mark of Dexterity',
+      ),
+      1126912876 => 
+      array (
+        'icon' => 2518,
+        'name' => 'Charm of Charms',
+      ),
+      2386505241 => 
+      array (
+        'icon' => 3772,
+        'name' => 'Elements of Sky',
+      ),
+      2534457254 => 
+      array (
+        'icon' => 605,
+        'name' => 'Insignia of Mist',
+      ),
+    ),
+  ),
   61264240 => 
   array (
     'category' => 'Loping Plains',
@@ -5985,6 +6170,80 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3471606727 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Black Rage of Flame',
+    'level' => 110,
+    'crc' => 3471606727,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      839849622 => 
+      array (
+        'icon' => 1166,
+        'name' => 'Doomfire Obsidian',
+      ),
+      1522437989 => 
+      array (
+        'icon' => 1294,
+        'name' => 'Sigil of the Fire Tyrant',
+      ),
+      1498967380 => 
+      array (
+        'icon' => 4085,
+        'name' => 'Essence of Quickening',
+      ),
+      465257459 => 
+      array (
+        'icon' => 1313,
+        'name' => 'Seal of Flame',
+      ),
+      1564447085 => 
+      array (
+        'icon' => 1267,
+        'name' => 'Rune of Rage',
+      ),
+    ),
+  ),
+  93218033 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Blackflame Sphere',
+    'level' => 110,
+    'crc' => 93218033,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3389300431 => 
+      array (
+        'icon' => 185,
+        'name' => 'Doomfire Curse',
+      ),
+      3620657206 => 
+      array (
+        'icon' => 75,
+        'name' => 'Hymn of Mana',
+      ),
+      2449962548 => 
+      array (
+        'icon' => 1743,
+        'name' => 'Stamp of Fire',
+      ),
+      716069628 => 
+      array (
+        'icon' => 3049,
+        'name' => 'Ink of Burning',
+      ),
+      2920154807 => 
+      array (
+        'icon' => 1372,
+        'name' => 'Signet of Wisdom',
+      ),
+    ),
+  ),
   2254889031 => 
   array (
     'category' => 'Fabled Echoes of Faydwer',
@@ -6019,6 +6278,43 @@ $CollectionsData = array (
       array (
         'icon' => 3741,
         'name' => 'Fiery Battle Sword',
+      ),
+    ),
+  ),
+  1738046609 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Blaring Ring of Fire',
+    'level' => 110,
+    'crc' => 1738046609,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1227832724 => 
+      array (
+        'icon' => 112,
+        'name' => 'Doomfire Horn',
+      ),
+      3312783045 => 
+      array (
+        'icon' => 75,
+        'name' => 'Hymn of Deafening',
+      ),
+      450668627 => 
+      array (
+        'icon' => 1778,
+        'name' => 'Stamp of Resonance',
+      ),
+      355481324 => 
+      array (
+        'icon' => 3055,
+        'name' => 'Ink of Smoke',
+      ),
+      2692449686 => 
+      array (
+        'icon' => 1376,
+        'name' => 'Sonorous Signet',
       ),
     ),
   ),
@@ -6311,6 +6607,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1773178812 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Bone Sliver Ornament',
+    'level' => 110,
+    'crc' => 1773178812,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2051817830 => 
+      array (
+        'icon' => 322,
+        'name' => 'Bone Ornament',
+      ),
+      184859503 => 
+      array (
+        'icon' => 3819,
+        'name' => 'Monstrous Mark',
+      ),
+      3034339410 => 
+      array (
+        'icon' => 2521,
+        'name' => 'Charm of Speed',
+      ),
+      3404048464 => 
+      array (
+        'icon' => 3775,
+        'name' => 'Elements of Vegarlson',
+      ),
+      3640304273 => 
+      array (
+        'icon' => 601,
+        'name' => 'Celestial Insignia',
+      ),
+    ),
+  ),
   3134776744 => 
   array (
     'category' => 'Fabled Kingdom of Sky',
@@ -6419,6 +6752,43 @@ $CollectionsData = array (
       array (
         'icon' => 3593,
         'name' => 'Carved Self Bow',
+      ),
+    ),
+  ),
+  1133044466 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Bracers of Earthen Energy',
+    'level' => 110,
+    'crc' => 1133044466,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      875229218 => 
+      array (
+        'icon' => 210,
+        'name' => 'Earthen Bracers',
+      ),
+      166549354 => 
+      array (
+        'icon' => 3827,
+        'name' => 'Mark of Energy',
+      ),
+      1452086274 => 
+      array (
+        'icon' => 2523,
+        'name' => 'Charm of Distance',
+      ),
+      3287741174 => 
+      array (
+        'icon' => 3776,
+        'name' => 'Elements of Mud',
+      ),
+      196752231 => 
+      array (
+        'icon' => 603,
+        'name' => 'Insignia of the Mudwalker',
       ),
     ),
   ),
@@ -7277,6 +7647,43 @@ $CollectionsData = array (
       array (
         'icon' => 3190,
         'name' => 'wrinkled bugbear ear',
+      ),
+    ),
+  ),
+  3304440797 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Bulwark of Shimmering Steel',
+    'level' => 110,
+    'crc' => 3304440797,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1364175831 => 
+      array (
+        'icon' => 735,
+        'name' => 'Shimmering Steel',
+      ),
+      1188700016 => 
+      array (
+        'icon' => 75,
+        'name' => 'Hymn of Quickness',
+      ),
+      130758221 => 
+      array (
+        'icon' => 1784,
+        'name' => 'Stamp of Magic',
+      ),
+      471669048 => 
+      array (
+        'icon' => 3056,
+        'name' => 'Ink of Dust',
+      ),
+      3048496747 => 
+      array (
+        'icon' => 1368,
+        'name' => 'Signet of Avatars',
       ),
     ),
   ),
@@ -8207,6 +8614,38 @@ $CollectionsData = array (
       ),
     ),
   ),
+  811727449 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Chestguard of Enchanted Marble',
+    'level' => 110,
+    'crc' => 811727449,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1100714578 => 
+      array (
+        'icon' => 2244,
+        'name' => 'Flame Idol of Ro',
+      ),
+      3993484394 => 
+      array (
+        'icon' => 4154,
+        'name' => 'Phoenix Feather Gloves',
+      ),
+      200375475 => 
+      array (
+        'icon' => 698,
+        'name' => 'Stone Etched Mallet',
+      ),
+      3002942921 => 
+      array (
+        'icon' => 2068,
+        'name' => 'Intricately Etched Seashell',
+      ),
+    ),
+  ),
   1654045017 => 
   array (
     'category' => 'Teeth',
@@ -8684,6 +9123,149 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3938599752 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Circular Crystalline Formation',
+    'level' => 110,
+    'crc' => 3938599752,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3955700431 => 
+      array (
+        'icon' => 348,
+        'name' => 'Crystalline Sphere',
+      ),
+      1733851397 => 
+      array (
+        'icon' => 75,
+        'name' => 'Hymn of Formation',
+      ),
+      1360772165 => 
+      array (
+        'icon' => 1758,
+        'name' => 'Stamp of Defense',
+      ),
+      254755340 => 
+      array (
+        'icon' => 3052,
+        'name' => 'Ink of Vegarlson',
+      ),
+      2002640013 => 
+      array (
+        'icon' => 1373,
+        'name' => 'Signet of Earth',
+      ),
+    ),
+  ),
+  3248626701 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Clawed Earthcrafter\'s Pendant',
+    'level' => 110,
+    'crc' => 3248626701,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1195939529 => 
+      array (
+        'icon' => 953,
+        'name' => 'Exquisite Puresteel Wraps',
+      ),
+      174560944 => 
+      array (
+        'icon' => 2956,
+        'name' => 'Sword of Primordial Power',
+      ),
+      1529389445 => 
+      array (
+        'icon' => 2894,
+        'name' => 'Chestguard of Enchanted Marble',
+      ),
+      1567041076 => 
+      array (
+        'icon' => 2984,
+        'name' => 'Manacle of Disruption',
+      ),
+    ),
+  ),
+  3312562188 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Clay Bracers of the Golem',
+    'level' => 110,
+    'crc' => 3312562188,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1565759871 => 
+      array (
+        'icon' => 464,
+        'name' => 'Clay Bracers',
+      ),
+      2391665487 => 
+      array (
+        'icon' => 75,
+        'name' => 'Hymn of Distance',
+      ),
+      3579565344 => 
+      array (
+        'icon' => 1788,
+        'name' => 'Stamp of Rapidity',
+      ),
+      2649635596 => 
+      array (
+        'icon' => 3052,
+        'name' => 'Ink of Earthen Wards',
+      ),
+      2370408966 => 
+      array (
+        'icon' => 1364,
+        'name' => 'Signet of Vegarlson',
+      ),
+    ),
+  ),
+  3558747846 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Cloak of Pure Combustion',
+    'level' => 110,
+    'crc' => 3558747846,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1096708798 => 
+      array (
+        'icon' => 237,
+        'name' => 'Doomfire Drape',
+      ),
+      2877663108 => 
+      array (
+        'icon' => 3826,
+        'name' => 'Mark of Combustion',
+      ),
+      3408420397 => 
+      array (
+        'icon' => 2523,
+        'name' => 'Charm of Flame',
+      ),
+      3810246870 => 
+      array (
+        'icon' => 3771,
+        'name' => 'Element of Purity',
+      ),
+      2558113241 => 
+      array (
+        'icon' => 606,
+        'name' => 'Insignia of Ro',
+      ),
+    ),
+  ),
   1540190148 => 
   array (
     'category' => 'Fabled Echoes of Faydwer',
@@ -8980,6 +9562,43 @@ $CollectionsData = array (
       array (
         'icon' => 1298,
         'name' => 'Sigil of Thunder',
+      ),
+    ),
+  ),
+  2214395135 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Club of Slime',
+    'level' => 110,
+    'crc' => 2214395135,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2758733807 => 
+      array (
+        'icon' => 1265,
+        'name' => 'Sigil of Slime',
+      ),
+      2215763696 => 
+      array (
+        'icon' => 4089,
+        'name' => 'Essence of Sludge',
+      ),
+      1967378657 => 
+      array (
+        'icon' => 1297,
+        'name' => 'Rune of Fungus',
+      ),
+      134982938 => 
+      array (
+        'icon' => 1255,
+        'name' => 'Seal of Mire',
+      ),
+      1886158333 => 
+      array (
+        'icon' => 285,
+        'name' => 'Earthen Club',
       ),
     ),
   ),
@@ -10380,6 +10999,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  815309007 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Crow-Footed Lance',
+    'level' => 110,
+    'crc' => 815309007,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      326952083 => 
+      array (
+        'icon' => 4087,
+        'name' => 'Essence of Health',
+      ),
+      1656994449 => 
+      array (
+        'icon' => 672,
+        'name' => 'Mithril Lance Head',
+      ),
+      2704353338 => 
+      array (
+        'icon' => 1315,
+        'name' => 'Sigil of the Crows',
+      ),
+      1910769120 => 
+      array (
+        'icon' => 1292,
+        'name' => 'Seal of Air',
+      ),
+      237871986 => 
+      array (
+        'icon' => 1258,
+        'name' => 'Rune of Pherlondien',
+      ),
+    ),
+  ),
   1539317837 => 
   array (
     'category' => 'Nights of the Dead',
@@ -10995,6 +11651,43 @@ $CollectionsData = array (
       array (
         'icon' => 18,
         'name' => 'Ancient Token of Reclamation',
+      ),
+    ),
+  ),
+  1733318115 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Cursed Armplates',
+    'level' => 110,
+    'crc' => 1733318115,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1721045872 => 
+      array (
+        'icon' => 4081,
+        'name' => 'Essence of Malady',
+      ),
+      2690675347 => 
+      array (
+        'icon' => 1249,
+        'name' => 'Rune of Defect',
+      ),
+      405210597 => 
+      array (
+        'icon' => 1267,
+        'name' => 'Seal of Canker',
+      ),
+      4132433578 => 
+      array (
+        'icon' => 1264,
+        'name' => 'Sigil of Infirmity',
+      ),
+      1905417662 => 
+      array (
+        'icon' => 732,
+        'name' => 'Detroxxulous Steel',
       ),
     ),
   ),
@@ -11729,6 +12422,53 @@ $CollectionsData = array (
       array (
         'icon' => 1157,
         'name' => 'Vampire\'s Black Heart',
+      ),
+    ),
+  ),
+  2893463112 => 
+  array (
+    'category' => 'Tome',
+    'name' => 'Deadtime Stories of Bertoxxulous',
+    'level' => 110,
+    'crc' => 2893463112,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      662452750 => 
+      array (
+        'icon' => 185,
+        'name' => 'Deadtime Stories of Bertoxxulous - Page 5',
+      ),
+      1506625203 => 
+      array (
+        'icon' => 185,
+        'name' => 'Deadtime Stories of Bertoxxulous - Page 8',
+      ),
+      2684591852 => 
+      array (
+        'icon' => 185,
+        'name' => 'Deadtime Stories of Bertoxxulous - Page 12',
+      ),
+      1046940495 => 
+      array (
+        'icon' => 185,
+        'name' => 'Deadtime Stories of Bertoxxulous - Page 15',
+      ),
+      1087797234 => 
+      array (
+        'icon' => 185,
+        'name' => 'Deadtime Stories of Bertoxxulous - Page 18',
+      ),
+      1696640003 => 
+      array (
+        'icon' => 185,
+        'name' => 'Deadtime Stories of Bertoxxulous - Page 20',
+      ),
+      4230610361 => 
+      array (
+        'icon' => 185,
+        'name' => 'Deadtime Stories of Bertoxxulous - Page 23',
       ),
     ),
   ),
@@ -12733,6 +13473,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1218968981 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Disease-Runed Greatstaff',
+    'level' => 110,
+    'crc' => 1218968981,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2478314919 => 
+      array (
+        'icon' => 618,
+        'name' => 'Detroxxulous Greatstaff',
+      ),
+      1964057175 => 
+      array (
+        'icon' => 1310,
+        'name' => 'Rune of Disorder',
+      ),
+      1851579073 => 
+      array (
+        'icon' => 4090,
+        'name' => 'Essence of Pus',
+      ),
+      3808530367 => 
+      array (
+        'icon' => 1277,
+        'name' => 'Sigil of Collapse',
+      ),
+      2749233155 => 
+      array (
+        'icon' => 1269,
+        'name' => 'Seal of Decrepitude',
+      ),
+    ),
+  ),
   2252493158 => 
   array (
     'category' => 'Shard of Love',
@@ -13042,6 +13819,43 @@ $CollectionsData = array (
       array (
         'icon' => 1384,
         'name' => 'Symbol of the Dragonmarked',
+      ),
+    ),
+  ),
+  3432403336 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Double Woven Kelp Cord',
+    'level' => 110,
+    'crc' => 3432403336,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1943220245 => 
+      array (
+        'icon' => 380,
+        'name' => 'Awuidor Cord',
+      ),
+      3492347586 => 
+      array (
+        'icon' => 3828,
+        'name' => 'Mark of Water',
+      ),
+      3606303946 => 
+      array (
+        'icon' => 2514,
+        'name' => 'Charm of the Marids',
+      ),
+      2764220214 => 
+      array (
+        'icon' => 3775,
+        'name' => 'Elements of Toxin',
+      ),
+      1009340188 => 
+      array (
+        'icon' => 592,
+        'name' => 'Insignia the Guardian',
       ),
     ),
   ),
@@ -13627,6 +14441,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  592091443 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Drape of the Agile',
+    'level' => 110,
+    'crc' => 592091443,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3937542324 => 
+      array (
+        'icon' => 237,
+        'name' => 'Doomfire Cloak',
+      ),
+      1402902859 => 
+      array (
+        'icon' => 75,
+        'name' => 'Lively Hymn',
+      ),
+      3068094280 => 
+      array (
+        'icon' => 1758,
+        'name' => 'Stamp of the Rogues',
+      ),
+      2511861308 => 
+      array (
+        'icon' => 3048,
+        'name' => 'Ink of Fables',
+      ),
+      3261251419 => 
+      array (
+        'icon' => 1371,
+        'name' => 'Signet of Crimson',
+      ),
+    ),
+  ),
   4035626871 => 
   array (
     'category' => 'Planes of Prophecy',
@@ -14125,6 +14976,172 @@ $CollectionsData = array (
       array (
         'icon' => 2941,
         'name' => 'Skeletal Die',
+      ),
+    ),
+  ),
+  4189857866 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Earring of Embedded Coral',
+    'level' => 110,
+    'crc' => 4189857866,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4274487472 => 
+      array (
+        'icon' => 86,
+        'name' => 'Deep Coral',
+      ),
+      3826403191 => 
+      array (
+        'icon' => 75,
+        'name' => 'Hymn of Brine',
+      ),
+      4270052802 => 
+      array (
+        'icon' => 1791,
+        'name' => 'Stamp of Mana',
+      ),
+      1883035856 => 
+      array (
+        'icon' => 3056,
+        'name' => 'Ink of Fury',
+      ),
+      801291619 => 
+      array (
+        'icon' => 1361,
+        'name' => 'Signet of Water',
+      ),
+    ),
+  ),
+  641010377 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Earring of Living Earth',
+    'level' => 110,
+    'crc' => 641010377,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2383199357 => 
+      array (
+        'icon' => 372,
+        'name' => 'Vegarlson Stud',
+      ),
+      295319489 => 
+      array (
+        'icon' => 75,
+        'name' => 'Hymn of Life',
+      ),
+      2417195174 => 
+      array (
+        'icon' => 1791,
+        'name' => 'Stamp of Soil',
+      ),
+      1439644156 => 
+      array (
+        'icon' => 3056,
+        'name' => 'Ink of Regeneration',
+      ),
+      1168216895 => 
+      array (
+        'icon' => 1365,
+        'name' => 'Signet of Endurance',
+      ),
+    ),
+  ),
+  2125834218 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Earthen Bile',
+    'level' => 110,
+    'crc' => 2125834218,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1006274698 => 
+      array (
+        'icon' => 237,
+        'name' => 'Cloak of Pure Combustion',
+      ),
+      3699746795 => 
+      array (
+        'icon' => 449,
+        'name' => 'Sable Shoes of Flame',
+      ),
+      3254340021 => 
+      array (
+        'icon' => 4206,
+        'name' => 'Immaculate Vest of the Fire Tyrant',
+      ),
+      3484275302 => 
+      array (
+        'icon' => 2762,
+        'name' => 'Gleaming Mesh Girdle',
+      ),
+      4158592903 => 
+      array (
+        'icon' => 3311,
+        'name' => 'Whispering Air Bangle',
+      ),
+      2813735623 => 
+      array (
+        'icon' => 635,
+        'name' => 'Heavy Bludgeoner',
+      ),
+      3250639592 => 
+      array (
+        'icon' => 2984,
+        'name' => 'Band of Swirling Air',
+      ),
+      2568050441 => 
+      array (
+        'icon' => 3749,
+        'name' => 'Alabaster Hilted Wind Bow',
+      ),
+      259464698 => 
+      array (
+        'icon' => 463,
+        'name' => 'Shroud of the Stonecrafter',
+      ),
+      3963319563 => 
+      array (
+        'icon' => 1441,
+        'name' => 'Bracers of Earthen Energy',
+      ),
+      4226897277 => 
+      array (
+        'icon' => 2713,
+        'name' => 'Bone Sliver Ornament',
+      ),
+      3979956699 => 
+      array (
+        'icon' => 3750,
+        'name' => 'Stone Etched War Sword',
+      ),
+      3596275899 => 
+      array (
+        'icon' => 2136,
+        'name' => 'Double Woven Kelp Cord',
+      ),
+      2098478101 => 
+      array (
+        'icon' => 2960,
+        'name' => 'Algea Covered Staff',
+      ),
+      1865245308 => 
+      array (
+        'icon' => 498,
+        'name' => 'Helm of Ocean Storms',
+      ),
+      1498670643 => 
+      array (
+        'icon' => 520,
+        'name' => 'Seaweed Woven Leggings',
       ),
     ),
   ),
@@ -14917,6 +15934,98 @@ $CollectionsData = array (
       array (
         'icon' => 710,
         'name' => 'Mystic Tenor Drone',
+      ),
+    ),
+  ),
+  1934608762 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Ensorcelled Metalcloth Cape',
+    'level' => 110,
+    'crc' => 1934608762,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3975926566 => 
+      array (
+        'icon' => 447,
+        'name' => 'Shining Crimson Gauntlets',
+      ),
+      3548401331 => 
+      array (
+        'icon' => 2987,
+        'name' => 'Phoenix Claw Talisman',
+      ),
+      3446242193 => 
+      array (
+        'icon' => 880,
+        'name' => 'Mask of the Insightful',
+      ),
+      3130665020 => 
+      array (
+        'icon' => 2968,
+        'name' => 'Spear of Fire',
+      ),
+      4179559087 => 
+      array (
+        'icon' => 236,
+        'name' => 'Tethered Air Cape',
+      ),
+      804587390 => 
+      array (
+        'icon' => 624,
+        'name' => 'Crow-Footed Lance',
+      ),
+      1151191495 => 
+      array (
+        'icon' => 444,
+        'name' => 'Scintillating Feathered Mask',
+      ),
+      3698050530 => 
+      array (
+        'icon' => 532,
+        'name' => 'Sparkling Satin Pantaloons',
+      ),
+      717195014 => 
+      array (
+        'icon' => 12,
+        'name' => 'Aegis of Earth',
+      ),
+      2751879315 => 
+      array (
+        'icon' => 709,
+        'name' => 'Club of Slime',
+      ),
+      1506574099 => 
+      array (
+        'icon' => 2766,
+        'name' => 'Twisted Twig Ring',
+      ),
+      2606117243 => 
+      array (
+        'icon' => 2953,
+        'name' => 'Reinforced Mephit Talon',
+      ),
+      2336906046 => 
+      array (
+        'icon' => 3060,
+        'name' => 'Cursed Armplates',
+      ),
+      484024648 => 
+      array (
+        'icon' => 1530,
+        'name' => 'Pox-Ridden Carapace',
+      ),
+      881817374 => 
+      array (
+        'icon' => 2785,
+        'name' => 'Firebone Notebook',
+      ),
+      1245903755 => 
+      array (
+        'icon' => 518,
+        'name' => 'Fetid Flesh Wristband',
       ),
     ),
   ),
@@ -16003,6 +17112,75 @@ $CollectionsData = array (
       ),
     ),
   ),
+  4141075945 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Exquisite Phoenix Feather Boots',
+    'level' => 110,
+    'crc' => 4141075945,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      456319787 => 
+      array (
+        'icon' => 150,
+        'name' => 'Exquisite Phoenix Feather',
+      ),
+      2481507942 => 
+      array (
+        'icon' => 4081,
+        'name' => 'Essence of Sinew',
+      ),
+      3926908945 => 
+      array (
+        'icon' => 1252,
+        'name' => 'Sigil of Vim',
+      ),
+      970209377 => 
+      array (
+        'icon' => 1302,
+        'name' => 'Rune of Brawn',
+      ),
+      53172818 => 
+      array (
+        'icon' => 1289,
+        'name' => 'Seal of Attack',
+      ),
+    ),
+  ),
+  2768456300 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Exquisite Puresteel Wraps',
+    'level' => 110,
+    'crc' => 2768456300,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3361362371 => 
+      array (
+        'icon' => 365,
+        'name' => 'Black Rage of Flame',
+      ),
+      412126238 => 
+      array (
+        'icon' => 1440,
+        'name' => 'Exquisite Phoenix Feather Boots',
+      ),
+      1798315193 => 
+      array (
+        'icon' => 2985,
+        'name' => 'Girdle of Earthen Stability',
+      ),
+      2143957634 => 
+      array (
+        'icon' => 1675,
+        'name' => 'Disease Runed Greatstaff',
+      ),
+    ),
+  ),
   954331375 => 
   array (
     'category' => 'Fabled Echoes of Faydwer',
@@ -16829,6 +18007,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  948088086 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Fetid Flesh Wristband',
+    'level' => 110,
+    'crc' => 948088086,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1000410819 => 
+      array (
+        'icon' => 158,
+        'name' => 'Fetid Flesh',
+      ),
+      1851829808 => 
+      array (
+        'icon' => 1235,
+        'name' => 'Sigil of Rank',
+      ),
+      1457137344 => 
+      array (
+        'icon' => 1268,
+        'name' => 'Seal of Stench',
+      ),
+      85911065 => 
+      array (
+        'icon' => 4089,
+        'name' => 'Essence of Putridity',
+      ),
+      3422482543 => 
+      array (
+        'icon' => 1265,
+        'name' => 'Rune of Rot',
+      ),
+    ),
+  ),
   3245539129 => 
   array (
     'category' => 'Kunark Ascending',
@@ -16913,6 +18128,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2371777401 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Fire Crested Runed Belt',
+    'level' => 110,
+    'crc' => 2371777401,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3465299799 => 
+      array (
+        'icon' => 85,
+        'name' => 'Melted Rune',
+      ),
+      3321061811 => 
+      array (
+        'icon' => 75,
+        'name' => 'Hymn of Embers',
+      ),
+      3153672249 => 
+      array (
+        'icon' => 1751,
+        'name' => 'Pyre Stamp',
+      ),
+      2713777276 => 
+      array (
+        'icon' => 3051,
+        'name' => 'Ink of Searing',
+      ),
+      2975238866 => 
+      array (
+        'icon' => 1375,
+        'name' => 'Signet of Oxidation',
+      ),
+    ),
+  ),
   4029944902 => 
   array (
     'category' => 'Planes of Prophecy',
@@ -16957,6 +18209,43 @@ $CollectionsData = array (
       array (
         'icon' => 1245,
         'name' => 'Flametail Sigil',
+      ),
+    ),
+  ),
+  3422667641 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Firebone Notebook',
+    'level' => 110,
+    'crc' => 3422667641,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1276959854 => 
+      array (
+        'icon' => 1306,
+        'name' => 'Rune of Hastiness',
+      ),
+      3167287115 => 
+      array (
+        'icon' => 1210,
+        'name' => 'Diseased Notebook',
+      ),
+      3402660833 => 
+      array (
+        'icon' => 1283,
+        'name' => 'Sigil of Bone',
+      ),
+      3999615661 => 
+      array (
+        'icon' => 4084,
+        'name' => 'Essence of Torridity',
+      ),
+      361303429 => 
+      array (
+        'icon' => 1263,
+        'name' => 'Seal of Ossein',
       ),
     ),
   ),
@@ -17051,6 +18340,43 @@ $CollectionsData = array (
       array (
         'icon' => 2080,
         'name' => 'A Yellow Fishman Scale',
+      ),
+    ),
+  ),
+  2438250557 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Flame Idol of Ro',
+    'level' => 110,
+    'crc' => 2438250557,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2769158982 => 
+      array (
+        'icon' => 2241,
+        'name' => 'Idol of Ro',
+      ),
+      3643544617 => 
+      array (
+        'icon' => 3826,
+        'name' => 'Chancellor\'s Mark',
+      ),
+      3388018521 => 
+      array (
+        'icon' => 2526,
+        'name' => 'Charm the Magus',
+      ),
+      945429134 => 
+      array (
+        'icon' => 3772,
+        'name' => 'Element of Power',
+      ),
+      1798430735 => 
+      array (
+        'icon' => 594,
+        'name' => 'Insignia of Kirtra',
       ),
     ),
   ),
@@ -18787,6 +20113,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1782549884 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Gem Encrusted Lance',
+    'level' => 110,
+    'crc' => 1782549884,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3054262664 => 
+      array (
+        'icon' => 1673,
+        'name' => 'Runed Lance',
+      ),
+      3814811957 => 
+      array (
+        'icon' => 75,
+        'name' => 'Hymn of Deep Gems',
+      ),
+      2940617031 => 
+      array (
+        'icon' => 1793,
+        'name' => 'Stamp of Coral',
+      ),
+      1431638946 => 
+      array (
+        'icon' => 3049,
+        'name' => 'Ink of Tides',
+      ),
+      583207599 => 
+      array (
+        'icon' => 1358,
+        'name' => 'Signet of Saline',
+      ),
+    ),
+  ),
   3562489621 => 
   array (
     'category' => 'Silent City: The Delving Dead',
@@ -19239,6 +20602,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1006635369 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Girdle of Earthen Stability',
+    'level' => 110,
+    'crc' => 1006635369,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2795792558 => 
+      array (
+        'icon' => 188,
+        'name' => 'Stone Warrior Bones',
+      ),
+      169820950 => 
+      array (
+        'icon' => 1303,
+        'name' => 'Rune of Conquest',
+      ),
+      3888914030 => 
+      array (
+        'icon' => 1254,
+        'name' => 'Seal of Hardiness',
+      ),
+      2354305014 => 
+      array (
+        'icon' => 1272,
+        'name' => 'Sigil of Pith',
+      ),
+      3989472532 => 
+      array (
+        'icon' => 4093,
+        'name' => 'Essence of Brutality',
+      ),
+    ),
+  ),
   3887099110 => 
   array (
     'category' => 'Terrors of Thalumbra',
@@ -19278,6 +20678,43 @@ $CollectionsData = array (
       array (
         'icon' => 1956,
         'name' => 'Memory of Death',
+      ),
+    ),
+  ),
+  2640803755 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Gleaming Mesh Girdle',
+    'level' => 110,
+    'crc' => 2640803755,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1831956467 => 
+      array (
+        'icon' => 2764,
+        'name' => 'Mesh Girdle',
+      ),
+      3537922105 => 
+      array (
+        'icon' => 3831,
+        'name' => 'Gleaming Mark',
+      ),
+      3228824520 => 
+      array (
+        'icon' => 2527,
+        'name' => 'Charm of Quickening',
+      ),
+      1389388592 => 
+      array (
+        'icon' => 3774,
+        'name' => 'Element of Dexterity',
+      ),
+      4035365001 => 
+      array (
+        'icon' => 598,
+        'name' => 'Insignia of Doomfire',
       ),
     ),
   ),
@@ -21388,6 +22825,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  188841863 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Hammer of Crushing Waves',
+    'level' => 110,
+    'crc' => 188841863,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1348817564 => 
+      array (
+        'icon' => 2771,
+        'name' => 'Awuidor Hammer',
+      ),
+      1805324520 => 
+      array (
+        'icon' => 75,
+        'name' => 'Hymn of the Deep',
+      ),
+      3573076001 => 
+      array (
+        'icon' => 1792,
+        'name' => 'Stamp of Waves',
+      ),
+      201907871 => 
+      array (
+        'icon' => 3054,
+        'name' => 'Ink of Blue Waters',
+      ),
+      1575665711 => 
+      array (
+        'icon' => 1338,
+        'name' => 'Signet of Fathoms',
+      ),
+    ),
+  ),
   3714735822 => 
   array (
     'category' => 'Zek, the Scourge Wastes',
@@ -21620,6 +23094,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  4082954728 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Heavy Bludgeoner',
+    'level' => 110,
+    'crc' => 4082954728,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1510975447 => 
+      array (
+        'icon' => 634,
+        'name' => 'Erylsai Mace',
+      ),
+      872323540 => 
+      array (
+        'icon' => 3830,
+        'name' => 'Mark of Life',
+      ),
+      2355606915 => 
+      array (
+        'icon' => 2524,
+        'name' => 'Charm of Mana',
+      ),
+      1688274051 => 
+      array (
+        'icon' => 3774,
+        'name' => 'Elements of Mist',
+      ),
+      3579587934 => 
+      array (
+        'icon' => 599,
+        'name' => 'Insignia of Bludgeoning',
+      ),
+    ),
+  ),
   3829726313 => 
   array (
     'category' => 'Planes of Prophecy',
@@ -21696,6 +23207,43 @@ $CollectionsData = array (
       array (
         'icon' => 576,
         'name' => 'Nathinia\'s Talisman',
+      ),
+    ),
+  ),
+  1454125987 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Helm of Ocean Storms',
+    'level' => 110,
+    'crc' => 1454125987,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      886563390 => 
+      array (
+        'icon' => 252,
+        'name' => 'Leathery Helm',
+      ),
+      3876861280 => 
+      array (
+        'icon' => 3833,
+        'name' => 'Mark of Sharks',
+      ),
+      3263723129 => 
+      array (
+        'icon' => 2516,
+        'name' => 'Charm of Surging',
+      ),
+      2381081764 => 
+      array (
+        'icon' => 3778,
+        'name' => 'Elements of Storm',
+      ),
+      1389346897 => 
+      array (
+        'icon' => 601,
+        'name' => 'Insignia of Brine',
       ),
     ),
   ),
@@ -22740,6 +24288,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  548645016 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Immaculate Vest of the Fire Tyrant',
+    'level' => 110,
+    'crc' => 548645016,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3763788625 => 
+      array (
+        'icon' => 1516,
+        'name' => 'Immaculate Vest',
+      ),
+      1945181516 => 
+      array (
+        'icon' => 3829,
+        'name' => 'Mark of Tyrants',
+      ),
+      1348162924 => 
+      array (
+        'icon' => 2525,
+        'name' => 'Charm of Chaos',
+      ),
+      860644995 => 
+      array (
+        'icon' => 3778,
+        'name' => 'Elements of Chaos',
+      ),
+      809366795 => 
+      array (
+        'icon' => 602,
+        'name' => 'Insignia of Haste',
+      ),
+    ),
+  ),
   403325862 => 
   array (
     'category' => 'Weird',
@@ -23129,6 +24714,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  894835 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Intricately Etched Seashell',
+    'level' => 110,
+    'crc' => 894835,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2702270891 => 
+      array (
+        'icon' => 2054,
+        'name' => 'Elegent Seashell',
+      ),
+      2612503857 => 
+      array (
+        'icon' => 3828,
+        'name' => 'Mark of Molusks',
+      ),
+      306789780 => 
+      array (
+        'icon' => 2515,
+        'name' => 'Charm of Awuidor',
+      ),
+      550169347 => 
+      array (
+        'icon' => 3774,
+        'name' => 'Elements of Swell',
+      ),
+      4188461703 => 
+      array (
+        'icon' => 601,
+        'name' => 'Insignia of the Crabs',
+      ),
+    ),
+  ),
   3792865906 => 
   array (
     'category' => 'Planes of Prophecy',
@@ -23304,6 +24926,43 @@ $CollectionsData = array (
       array (
         'icon' => 12,
         'name' => 'Fire Scarred Indigo Brotherhood Shield',
+      ),
+    ),
+  ),
+  1521732804 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Ivory-Hilted Cleaver',
+    'level' => 110,
+    'crc' => 1521732804,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3274048588 => 
+      array (
+        'icon' => 22,
+        'name' => 'Eryslai Cleaver',
+      ),
+      74227318 => 
+      array (
+        'icon' => 75,
+        'name' => 'Hymn of Wrath',
+      ),
+      300536303 => 
+      array (
+        'icon' => 1761,
+        'name' => 'Stamp of Poison',
+      ),
+      4257231910 => 
+      array (
+        'icon' => 3054,
+        'name' => 'Ink of Wind',
+      ),
+      1795198310 => 
+      array (
+        'icon' => 1775,
+        'name' => 'Signet of Ivory',
       ),
     ),
   ),
@@ -23895,6 +25554,43 @@ $CollectionsData = array (
       array (
         'icon' => 1320,
         'name' => 'oak wood coin of kelethin',
+      ),
+    ),
+  ),
+  3584623242 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Kelp-Lined Mantle',
+    'level' => 110,
+    'crc' => 3584623242,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3072569022 => 
+      array (
+        'icon' => 481,
+        'name' => 'Waterlogged Mantle',
+      ),
+      657148677 => 
+      array (
+        'icon' => 75,
+        'name' => 'Hymn of the Deep',
+      ),
+      3093093214 => 
+      array (
+        'icon' => 1795,
+        'name' => 'Stamp of Kelp',
+      ),
+      2506789175 => 
+      array (
+        'icon' => 3054,
+        'name' => 'Ink of the Octopod',
+      ),
+      3742630512 => 
+      array (
+        'icon' => 1356,
+        'name' => 'Signet of Foam',
       ),
     ),
   ),
@@ -24915,6 +26611,43 @@ $CollectionsData = array (
       array (
         'icon' => 161,
         'name' => 'Lava Crawler Antenna',
+      ),
+    ),
+  ),
+  3794442256 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Leaf-Jointed Cloak',
+    'level' => 110,
+    'crc' => 3794442256,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      217982617 => 
+      array (
+        'icon' => 128,
+        'name' => 'Earth Cloak',
+      ),
+      3893642198 => 
+      array (
+        'icon' => 75,
+        'name' => 'Hymn of Leaves',
+      ),
+      828951772 => 
+      array (
+        'icon' => 1746,
+        'name' => 'Stamp of Steel',
+      ),
+      3426564878 => 
+      array (
+        'icon' => 3053,
+        'name' => 'Ink of Saves',
+      ),
+      250098197 => 
+      array (
+        'icon' => 1370,
+        'name' => 'Signet of Warders',
       ),
     ),
   ),
@@ -26447,6 +28180,53 @@ $CollectionsData = array (
       ),
     ),
   ),
+  125623352 => 
+  array (
+    'category' => 'Tome',
+    'name' => 'Machinations of Chaos',
+    'level' => 110,
+    'crc' => 125623352,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1737361466 => 
+      array (
+        'icon' => 185,
+        'name' => 'Machinations of Chaos - Page 1',
+      ),
+      4270283136 => 
+      array (
+        'icon' => 185,
+        'name' => 'Machinations of Chaos - Page 2',
+      ),
+      2306894102 => 
+      array (
+        'icon' => 185,
+        'name' => 'Machinations of Chaos - Page 3',
+      ),
+      400882869 => 
+      array (
+        'icon' => 185,
+        'name' => 'Machinations of Chaos - Page 4',
+      ),
+      1625541667 => 
+      array (
+        'icon' => 185,
+        'name' => 'Machinations of Chaos - Page 5',
+      ),
+      4192902553 => 
+      array (
+        'icon' => 185,
+        'name' => 'Machinations of Chaos - Page 6',
+      ),
+      2397941007 => 
+      array (
+        'icon' => 185,
+        'name' => 'Machinations of Chaos - Page 7',
+      ),
+    ),
+  ),
   4231923671 => 
   array (
     'category' => 'Planes of Prophecy',
@@ -26907,6 +28687,33 @@ $CollectionsData = array (
       ),
     ),
   ),
+  4019749240 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Manacle of Disruption',
+    'level' => 110,
+    'crc' => 4019749240,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2939525906 => 
+      array (
+        'icon' => 235,
+        'name' => 'Ensorcelled Metalcloth Cape',
+      ),
+      842194924 => 
+      array (
+        'icon' => 3900,
+        'name' => 'Ring of Flowing Stones',
+      ),
+      2093158818 => 
+      array (
+        'icon' => 178,
+        'name' => 'Earthen Bile',
+      ),
+    ),
+  ),
   3134081824 => 
   array (
     'category' => 'Kunark',
@@ -27252,6 +29059,43 @@ $CollectionsData = array (
       array (
         'icon' => 94,
         'name' => 'Sample of Delta Dirt',
+      ),
+    ),
+  ),
+  2264832129 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Mask of the Insightful',
+    'level' => 110,
+    'crc' => 2264832129,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2115237473 => 
+      array (
+        'icon' => 135,
+        'name' => 'Gizzard of the Omnifiend',
+      ),
+      3060629365 => 
+      array (
+        'icon' => 1283,
+        'name' => 'Rune of Capacity',
+      ),
+      2591918413 => 
+      array (
+        'icon' => 1271,
+        'name' => 'Sigil of Function',
+      ),
+      2071363228 => 
+      array (
+        'icon' => 4079,
+        'name' => 'Essence of Insight',
+      ),
+      46591455 => 
+      array (
+        'icon' => 1288,
+        'name' => 'Doomfire Seal',
       ),
     ),
   ),
@@ -32159,6 +34003,80 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1085741462 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Phoenix Claw Talisman',
+    'level' => 110,
+    'crc' => 1085741462,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1167696565 => 
+      array (
+        'icon' => 4078,
+        'name' => 'Essence of Fiery Mana',
+      ),
+      2276287602 => 
+      array (
+        'icon' => 1291,
+        'name' => 'Sigil of Disease Abolishment',
+      ),
+      941539706 => 
+      array (
+        'icon' => 1258,
+        'name' => 'Rune of Efficacy',
+      ),
+      3730729295 => 
+      array (
+        'icon' => 575,
+        'name' => 'Chain Of Molten Beads',
+      ),
+      1129227043 => 
+      array (
+        'icon' => 1245,
+        'name' => 'Jopal Seal',
+      ),
+    ),
+  ),
+  236575817 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Phoenix Feather Gloves',
+    'level' => 110,
+    'crc' => 236575817,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2221730756 => 
+      array (
+        'icon' => 207,
+        'name' => 'Erylsai Gloves',
+      ),
+      2283861745 => 
+      array (
+        'icon' => 3817,
+        'name' => 'Mark of Xegony',
+      ),
+      3343487904 => 
+      array (
+        'icon' => 2515,
+        'name' => 'Charm of Preservation',
+      ),
+      1044498879 => 
+      array (
+        'icon' => 3776,
+        'name' => 'Element of Health',
+      ),
+      1744751164 => 
+      array (
+        'icon' => 607,
+        'name' => 'Insignia of Kingdoms',
+      ),
+    ),
+  ),
   223619299 => 
   array (
     'category' => 'Tradeskill',
@@ -33802,6 +35720,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  4201239347 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Pox-Ridden Carapace',
+    'level' => 110,
+    'crc' => 4201239347,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1175150631 => 
+      array (
+        'icon' => 162,
+        'name' => 'Death Beetle Carapace',
+      ),
+      1510183183 => 
+      array (
+        'icon' => 1263,
+        'name' => 'Rune of Illness',
+      ),
+      1913372295 => 
+      array (
+        'icon' => 4089,
+        'name' => 'Essence of Virus',
+      ),
+      607131603 => 
+      array (
+        'icon' => 1269,
+        'name' => 'Sigil of Plagues',
+      ),
+      326307926 => 
+      array (
+        'icon' => 1266,
+        'name' => 'Seal of Disgust',
+      ),
+    ),
+  ),
   2734679953 => 
   array (
     'category' => 'Bristlebane Day',
@@ -34177,6 +36132,43 @@ $CollectionsData = array (
       array (
         'icon' => 20,
         'name' => 'Intense Aspiration Amulet',
+      ),
+    ),
+  ),
+  374107315 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Puresteel Mantle',
+    'level' => 110,
+    'crc' => 374107315,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      895024165 => 
+      array (
+        'icon' => 729,
+        'name' => 'Puresteel Ingot',
+      ),
+      3399885723 => 
+      array (
+        'icon' => 75,
+        'name' => 'Hymn of Armor',
+      ),
+      2010895280 => 
+      array (
+        'icon' => 1759,
+        'name' => 'Stamp of Pain',
+      ),
+      3134679285 => 
+      array (
+        'icon' => 3059,
+        'name' => 'Ink of Endurance',
+      ),
+      6166863 => 
+      array (
+        'icon' => 1373,
+        'name' => 'Signet of Magic',
       ),
     ),
   ),
@@ -34960,6 +36952,43 @@ $CollectionsData = array (
       array (
         'icon' => 3235,
         'name' => 'reet knight pauldrons',
+      ),
+    ),
+  ),
+  2373192181 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Reinforced Mephit Talon',
+    'level' => 110,
+    'crc' => 2373192181,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1415022738 => 
+      array (
+        'icon' => 2125,
+        'name' => 'Mephit Talon',
+      ),
+      1743839054 => 
+      array (
+        'icon' => 1266,
+        'name' => 'Rune of Disease',
+      ),
+      1492758441 => 
+      array (
+        'icon' => 1282,
+        'name' => 'Sigil of Brass',
+      ),
+      1198318223 => 
+      array (
+        'icon' => 4090,
+        'name' => 'Essence of Dust',
+      ),
+      3727456848 => 
+      array (
+        'icon' => 1289,
+        'name' => 'Seal of Piercing',
       ),
     ),
   ),
@@ -36107,6 +38136,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3039062439 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Resplendent Epaulets',
+    'level' => 110,
+    'crc' => 3039062439,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3683157219 => 
+      array (
+        'icon' => 947,
+        'name' => 'Eryslai Steel',
+      ),
+      4130421240 => 
+      array (
+        'icon' => 75,
+        'name' => 'Hymn of the Phoenix',
+      ),
+      3404656988 => 
+      array (
+        'icon' => 1771,
+        'name' => 'Stamp of Health',
+      ),
+      2925237894 => 
+      array (
+        'icon' => 3047,
+        'name' => 'Ink of Saving',
+      ),
+      591507390 => 
+      array (
+        'icon' => 1375,
+        'name' => 'Signet of Melee',
+      ),
+    ),
+  ),
   2782344565 => 
   array (
     'category' => 'Kunark',
@@ -36304,6 +38370,98 @@ $CollectionsData = array (
       array (
         'icon' => 577,
         'name' => 'Tunaria\'s Necklace',
+      ),
+    ),
+  ),
+  1884502579 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Ring of Flowing Stones',
+    'level' => 110,
+    'crc' => 1884502579,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1806084622 => 
+      array (
+        'icon' => 433,
+        'name' => 'Shimmering Sleeves of Flame',
+      ),
+      2264692664 => 
+      array (
+        'icon' => 1104,
+        'name' => 'Drape of the Agile',
+      ),
+      3117778134 => 
+      array (
+        'icon' => 85,
+        'name' => 'Blackflame Sphere',
+      ),
+      4166866904 => 
+      array (
+        'icon' => 3433,
+        'name' => 'Blaring Ring of Fire',
+      ),
+      1665583770 => 
+      array (
+        'icon' => 3319,
+        'name' => 'Puresteel Mantle',
+      ),
+      1869334008 => 
+      array (
+        'icon' => 1711,
+        'name' => 'Resplendent Epaulets',
+      ),
+      3975945587 => 
+      array (
+        'icon' => 14,
+        'name' => 'Bulwark of Shimmering Steel',
+      ),
+      2164023451 => 
+      array (
+        'icon' => 22,
+        'name' => 'Ivory-Hilted Cleaver',
+      ),
+      381621170 => 
+      array (
+        'icon' => 2247,
+        'name' => 'War Drums of the Rathe',
+      ),
+      2562808737 => 
+      array (
+        'icon' => 241,
+        'name' => 'Leaf-Jointed Cloak',
+      ),
+      1375889831 => 
+      array (
+        'icon' => 1016,
+        'name' => 'Circular Crystalline Formation',
+      ),
+      17724333 => 
+      array (
+        'icon' => 3275,
+        'name' => 'Earring of Living Earth',
+      ),
+      3894445041 => 
+      array (
+        'icon' => 586,
+        'name' => 'Earring of Embedded Coral',
+      ),
+      2939299792 => 
+      array (
+        'icon' => 511,
+        'name' => 'Kelp-Lined Mantle',
+      ),
+      2218441803 => 
+      array (
+        'icon' => 287,
+        'name' => 'Gem Encrusted Lance',
+      ),
+      1793105265 => 
+      array (
+        'icon' => 492,
+        'name' => 'Abalone Engraved Tribal Helm',
       ),
     ),
   ),
@@ -37240,6 +39398,43 @@ $CollectionsData = array (
       array (
         'icon' => 1102,
         'name' => 'Djinn Scarf',
+      ),
+    ),
+  ),
+  2387542566 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Sable Shoes of Flame',
+    'level' => 110,
+    'crc' => 2387542566,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3355210590 => 
+      array (
+        'icon' => 449,
+        'name' => 'Sable Shoes',
+      ),
+      4131002625 => 
+      array (
+        'icon' => 3831,
+        'name' => 'Mark of Ro',
+      ),
+      3951273483 => 
+      array (
+        'icon' => 2524,
+        'name' => 'Charm of Embers',
+      ),
+      965213018 => 
+      array (
+        'icon' => 3776,
+        'name' => 'Element of Flare',
+      ),
+      308394931 => 
+      array (
+        'icon' => 593,
+        'name' => 'Insignia of the Ragelord',
       ),
     ),
   ),
@@ -38343,6 +40538,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2578136152 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Scintillating Feathered Mask',
+    'level' => 110,
+    'crc' => 2578136152,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1357646038 => 
+      array (
+        'icon' => 1297,
+        'name' => 'Rune of Scintillation',
+      ),
+      2876414226 => 
+      array (
+        'icon' => 1317,
+        'name' => 'Sigil of the Queen',
+      ),
+      1759056290 => 
+      array (
+        'icon' => 1259,
+        'name' => 'Seal of Flight',
+      ),
+      1072670806 => 
+      array (
+        'icon' => 151,
+        'name' => 'Zephyren Feather',
+      ),
+      2882517990 => 
+      array (
+        'icon' => 4088,
+        'name' => 'Essence of Iron',
+      ),
+    ),
+  ),
   3559111794 => 
   array (
     'category' => 'Planes of Prophecy',
@@ -39030,6 +41262,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1134520064 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Seaweed Woven Leggings',
+    'level' => 110,
+    'crc' => 1134520064,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3279800543 => 
+      array (
+        'icon' => 120,
+        'name' => 'Leathery Leggings',
+      ),
+      3621126217 => 
+      array (
+        'icon' => 3827,
+        'name' => 'Mark of Kelp',
+      ),
+      2091459455 => 
+      array (
+        'icon' => 2524,
+        'name' => 'Nereid Charm',
+      ),
+      1364929651 => 
+      array (
+        'icon' => 3771,
+        'name' => 'Elements of Influx',
+      ),
+      3432544886 => 
+      array (
+        'icon' => 601,
+        'name' => 'Insignia of Rippling',
+      ),
+    ),
+  ),
   1824797048 => 
   array (
     'category' => 'Kunark',
@@ -39238,7 +41507,7 @@ $CollectionsData = array (
   2807794406 => 
   array (
     'category' => 'Kunark Ascending',
-    'name' => 'Sentinel Golemn Composition',
+    'name' => 'Sentinel Golem Composition',
     'level' => 100,
     'crc' => 2807794406,
     'isclass' => false,
@@ -40096,6 +42365,80 @@ $CollectionsData = array (
       ),
     ),
   ),
+  327743752 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Shimmering Sleeves of Flame',
+    'level' => 110,
+    'crc' => 327743752,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2808153568 => 
+      array (
+        'icon' => 75,
+        'name' => 'Hymn of Agility',
+      ),
+      4144878927 => 
+      array (
+        'icon' => 487,
+        'name' => 'Sunmane Sleeves',
+      ),
+      3130094428 => 
+      array (
+        'icon' => 1783,
+        'name' => 'Stamp of Phoenix',
+      ),
+      508195097 => 
+      array (
+        'icon' => 3047,
+        'name' => 'Ink of Haste',
+      ),
+      2471727645 => 
+      array (
+        'icon' => 1369,
+        'name' => 'Signet of Cold',
+      ),
+    ),
+  ),
+  3957708501 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Shining Crimson Gauntlets',
+    'level' => 110,
+    'crc' => 3957708501,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4043306368 => 
+      array (
+        'icon' => 1243,
+        'name' => 'Sigil of Preservation',
+      ),
+      1784810114 => 
+      array (
+        'icon' => 4083,
+        'name' => 'Essence of Sunmane',
+      ),
+      30006769 => 
+      array (
+        'icon' => 1305,
+        'name' => 'Seal of Dexterity',
+      ),
+      546208000 => 
+      array (
+        'icon' => 1269,
+        'name' => 'Rune of Blood Mana',
+      ),
+      1263302963 => 
+      array (
+        'icon' => 1035,
+        'name' => 'Copper Thread',
+      ),
+    ),
+  ),
   2661237611 => 
   array (
     'category' => 'Insect',
@@ -40568,6 +42911,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1633430830 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Shroud of the Stonecrafter',
+    'level' => 110,
+    'crc' => 1633430830,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1823029882 => 
+      array (
+        'icon' => 208,
+        'name' => 'Earthen Shroud',
+      ),
+      537314997 => 
+      array (
+        'icon' => 3826,
+        'name' => 'Mark of the Stonecrafter',
+      ),
+      2007281606 => 
+      array (
+        'icon' => 2525,
+        'name' => 'Charm of Jagged Teeth',
+      ),
+      1091680412 => 
+      array (
+        'icon' => 3777,
+        'name' => 'Elements of Stone',
+      ),
+      803986653 => 
+      array (
+        'icon' => 597,
+        'name' => 'Insignia of Dust',
+      ),
+    ),
+  ),
   3211194041 => 
   array (
     'category' => 'Chains of Eternity',
@@ -40793,6 +43173,43 @@ $CollectionsData = array (
       array (
         'icon' => 1290,
         'name' => 'Sigil of Allegiance: Windsisters',
+      ),
+    ),
+  ),
+  2274036641 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Simple Ring of Purity',
+    'level' => 110,
+    'crc' => 2274036641,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      65905686 => 
+      array (
+        'icon' => 395,
+        'name' => 'Simple Ring',
+      ),
+      1054212728 => 
+      array (
+        'icon' => 75,
+        'name' => 'Hymn of Purity',
+      ),
+      1581477212 => 
+      array (
+        'icon' => 1804,
+        'name' => 'Stamp of Xegony',
+      ),
+      2861292558 => 
+      array (
+        'icon' => 3049,
+        'name' => 'Ink of Kingdoms',
+      ),
+      3179501558 => 
+      array (
+        'icon' => 1374,
+        'name' => 'Signet of Eryslai',
       ),
     ),
   ),
@@ -41745,6 +44162,80 @@ $CollectionsData = array (
       ),
     ),
   ),
+  991781570 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Sparkling Satin Pantaloons',
+    'level' => 110,
+    'crc' => 991781570,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4025727319 => 
+      array (
+        'icon' => 1274,
+        'name' => 'Rune of Lunacy',
+      ),
+      2815370831 => 
+      array (
+        'icon' => 1095,
+        'name' => 'Planar Satin',
+      ),
+      3447060491 => 
+      array (
+        'icon' => 1242,
+        'name' => 'Sigil of Colors',
+      ),
+      2605426293 => 
+      array (
+        'icon' => 4078,
+        'name' => 'Sparkling Essence',
+      ),
+      919033112 => 
+      array (
+        'icon' => 1284,
+        'name' => 'Seal of Joy',
+      ),
+    ),
+  ),
+  765294870 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Spear of Fire',
+    'level' => 110,
+    'crc' => 765294870,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2710090616 => 
+      array (
+        'icon' => 1294,
+        'name' => 'Sigil of Faith',
+      ),
+      877602356 => 
+      array (
+        'icon' => 1276,
+        'name' => 'Rune of Mitigation',
+      ),
+      30132915 => 
+      array (
+        'icon' => 4080,
+        'name' => 'Essence of the Swarm',
+      ),
+      145097500 => 
+      array (
+        'icon' => 675,
+        'name' => 'Polished Spear Head',
+      ),
+      1722918227 => 
+      array (
+        'icon' => 1287,
+        'name' => 'Seal of the Fire Vicar',
+      ),
+    ),
+  ),
   3162304994 => 
   array (
     'category' => 'Tears of Veeshan',
@@ -42547,6 +45038,80 @@ $CollectionsData = array (
       array (
         'icon' => 735,
         'name' => 'Dampened Stone Tablet',
+      ),
+    ),
+  ),
+  4232119 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Stone Etched Mallet',
+    'level' => 110,
+    'crc' => 4232119,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2249621329 => 
+      array (
+        'icon' => 285,
+        'name' => 'Vegarlson Mallet',
+      ),
+      2557402910 => 
+      array (
+        'icon' => 3827,
+        'name' => 'Mark of Vegarlson',
+      ),
+      561240321 => 
+      array (
+        'icon' => 2510,
+        'name' => 'Charm of Runes',
+      ),
+      2844028651 => 
+      array (
+        'icon' => 3773,
+        'name' => 'Elements of Marble',
+      ),
+      4021661463 => 
+      array (
+        'icon' => 598,
+        'name' => 'Monstrous Insignia',
+      ),
+    ),
+  ),
+  1507728991 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Stone Etched War Sword',
+    'level' => 110,
+    'crc' => 1507728991,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3537788318 => 
+      array (
+        'icon' => 623,
+        'name' => 'War Sword',
+      ),
+      1684205939 => 
+      array (
+        'icon' => 3831,
+        'name' => 'Mark of Runes',
+      ),
+      1702371689 => 
+      array (
+        'icon' => 2522,
+        'name' => 'Charm of Slashing',
+      ),
+      4091062026 => 
+      array (
+        'icon' => 3777,
+        'name' => 'Element of Sand',
+      ),
+      2354285893 => 
+      array (
+        'icon' => 596,
+        'name' => 'Insignia of Grit',
       ),
     ),
   ),
@@ -43549,6 +46114,38 @@ $CollectionsData = array (
       array (
         'icon' => 954,
         'name' => 'link of clay',
+      ),
+    ),
+  ),
+  2135661243 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Sword of Primordial Power',
+    'level' => 110,
+    'crc' => 2135661243,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1358787338 => 
+      array (
+        'icon' => 2133,
+        'name' => 'Fire Crested Runed Belt',
+      ),
+      1107180359 => 
+      array (
+        'icon' => 2980,
+        'name' => 'Simple Ring of Purity',
+      ),
+      560447949 => 
+      array (
+        'icon' => 470,
+        'name' => 'Clay Bracers of the Golem',
+      ),
+      2446365857 => 
+      array (
+        'icon' => 2964,
+        'name' => 'Hammer of Crushing Waves',
       ),
     ),
   ),
@@ -45872,6 +48469,43 @@ $CollectionsData = array (
       array (
         'icon' => 1299,
         'name' => 'Platinum Rallosian Holy Symbol',
+      ),
+    ),
+  ),
+  3866273054 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Tethered Air Cape',
+    'level' => 110,
+    'crc' => 3866273054,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2443133196 => 
+      array (
+        'icon' => 4093,
+        'name' => 'Essence of Speed',
+      ),
+      3118059401 => 
+      array (
+        'icon' => 1304,
+        'name' => 'Seal of Endurance',
+      ),
+      375792121 => 
+      array (
+        'icon' => 1319,
+        'name' => 'Sigil of the Elements',
+      ),
+      2761952611 => 
+      array (
+        'icon' => 737,
+        'name' => 'Silken Tether',
+      ),
+      2212164982 => 
+      array (
+        'icon' => 1299,
+        'name' => 'Rune of Cold',
       ),
     ),
   ),
@@ -48330,6 +50964,53 @@ $CollectionsData = array (
       array (
         'icon' => 2180,
         'name' => 'The Orcs of Norrath - Page 8',
+      ),
+    ),
+  ),
+  3405735018 => 
+  array (
+    'category' => 'Tome',
+    'name' => 'The Planes of Power',
+    'level' => 110,
+    'crc' => 3405735018,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3034682872 => 
+      array (
+        'icon' => 185,
+        'name' => 'The Planes of Power - Page 4',
+      ),
+      770229314 => 
+      array (
+        'icon' => 185,
+        'name' => 'The Planes of Power - Page 7',
+      ),
+      3394300229 => 
+      array (
+        'icon' => 185,
+        'name' => 'The Planes of Power - Page 9',
+      ),
+      2918884537 => 
+      array (
+        'icon' => 185,
+        'name' => 'The Planes of Power - Page 14',
+      ),
+      888403203 => 
+      array (
+        'icon' => 185,
+        'name' => 'The Planes of Power - Page 17',
+      ),
+      3544963076 => 
+      array (
+        'icon' => 185,
+        'name' => 'The Planes of Power - Page 19',
+      ),
+      1874088527 => 
+      array (
+        'icon' => 185,
+        'name' => 'The Planes of Power - Page 22',
       ),
     ),
   ),
@@ -51885,6 +54566,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2777755502 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Twisted Twig Ring',
+    'level' => 110,
+    'crc' => 2777755502,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      337459689 => 
+      array (
+        'icon' => 200,
+        'name' => 'Earthen Twig',
+      ),
+      2503339797 => 
+      array (
+        'icon' => 4091,
+        'name' => 'Essence of Regeneration',
+      ),
+      3041200845 => 
+      array (
+        'icon' => 1261,
+        'name' => 'Seal of Korascian',
+      ),
+      2511836034 => 
+      array (
+        'icon' => 1265,
+        'name' => 'Rune of Poison',
+      ),
+      1840626166 => 
+      array (
+        'icon' => 1312,
+        'name' => 'Sigil of Charisma',
+      ),
+    ),
+  ),
   2666282385 => 
   array (
     'category' => 'Cobalt Scar',
@@ -53465,6 +56183,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  797433283 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'War Drums of the Rathe',
+    'level' => 110,
+    'crc' => 797433283,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      761841563 => 
+      array (
+        'icon' => 367,
+        'name' => 'Earth Drums',
+      ),
+      2540000512 => 
+      array (
+        'icon' => 75,
+        'name' => 'Hymn of Resonance',
+      ),
+      1631949044 => 
+      array (
+        'icon' => 1750,
+        'name' => 'Stamp of Chants',
+      ),
+      1938939282 => 
+      array (
+        'icon' => 3057,
+        'name' => 'Ink of Composition',
+      ),
+      1696197898 => 
+      array (
+        'icon' => 1369,
+        'name' => 'Signet of Bards',
+      ),
+    ),
+  ),
   925300640 => 
   array (
     'category' => 'Crushbone Keep',
@@ -54129,6 +56884,43 @@ $CollectionsData = array (
       array (
         'icon' => 102,
         'name' => 'worn werewolf fang',
+      ),
+    ),
+  ),
+  2853446556 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Whispering Air Bangle',
+    'level' => 110,
+    'crc' => 2853446556,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      711966250 => 
+      array (
+        'icon' => 3310,
+        'name' => 'Silver Bangle',
+      ),
+      554437523 => 
+      array (
+        'icon' => 3828,
+        'name' => 'Mark of Mist',
+      ),
+      3887409780 => 
+      array (
+        'icon' => 2523,
+        'name' => 'Charm of Avatars',
+      ),
+      1451760873 => 
+      array (
+        'icon' => 3773,
+        'name' => 'Elements of Wind',
+      ),
+      3113119077 => 
+      array (
+        'icon' => 595,
+        'name' => 'Insignia Eryslai',
       ),
     ),
   ),
