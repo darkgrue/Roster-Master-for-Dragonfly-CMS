@@ -101,7 +101,11 @@ $Expansions = array(
 	14 => array(
 		'name' => 'Planes of Prophecy',
 		'shortname' => 'PoP',
-		'url' => 'http://eq2.wikia.com/wiki/Planes_of_Prophecy')
+		'url' => 'http://eq2.wikia.com/wiki/Planes_of_Prophecy'),
+	15 => array(
+		'name' => '	Chaos Descending',
+		'shortname' => 'CD',
+		'url' => 'https://eq2.fandom.com/wiki/Chaos_Descending')
 	);
 
 // Load quest data.
