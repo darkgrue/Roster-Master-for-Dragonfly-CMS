@@ -2104,7 +2104,7 @@ $CollectionsData = array (
   4294320630 => 
   array (
     'category' => 'Chaos Descending',
-    'name' => 'Algea Covered Staff',
+    'name' => 'Algae Covered Staff',
     'level' => 110,
     'crc' => 4294320630,
     'isclass' => false,
@@ -5348,7 +5348,7 @@ $CollectionsData = array (
       94423119 => 
       array (
         'icon' => 1235,
-        'name' => 'Banner of Runneyeye',
+        'name' => 'Banner of Runnyeye',
       ),
       2005800711 => 
       array (
@@ -6713,6 +6713,154 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2739265695 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Boombottom Blockers',
+    'level' => 110,
+    'crc' => 2739265695,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2177982737 => 
+      array (
+        'icon' => 1579,
+        'name' => 'Boombottom Patron Protector',
+      ),
+      1925083319 => 
+      array (
+        'icon' => 1530,
+        'name' => 'Boombottom Ambassador Armor',
+      ),
+      3687166322 => 
+      array (
+        'icon' => 1586,
+        'name' => 'Boombottom Converser Cuirass',
+      ),
+      2394279960 => 
+      array (
+        'icon' => 1551,
+        'name' => 'Boombottom Spotter Stopper',
+      ),
+      1469746083 => 
+      array (
+        'icon' => 1565,
+        'name' => 'Boombottom Pummeler Puncher',
+      ),
+    ),
+  ),
+  2329084557 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Boombottom Boomers',
+    'level' => 110,
+    'crc' => 2329084557,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3390620903 => 
+      array (
+        'icon' => 634,
+        'name' => 'Boombottom Spotter Swatter',
+      ),
+      4191785117 => 
+      array (
+        'icon' => 284,
+        'name' => 'Boombottom Rager Wrecker',
+      ),
+      2684976832 => 
+      array (
+        'icon' => 285,
+        'name' => 'Boombottom Smithy Smacker',
+      ),
+      445021545 => 
+      array (
+        'icon' => 636,
+        'name' => 'Boombottom Pummeler Pounder',
+      ),
+      544995935 => 
+      array (
+        'icon' => 638,
+        'name' => 'Boombottom Corrupter Crasher',
+      ),
+    ),
+  ),
+  2438332213 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Boombottom Clothing',
+    'level' => 110,
+    'crc' => 2438332213,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3224849095 => 
+      array (
+        'icon' => 229,
+        'name' => 'Ambassador\'s Sandals',
+      ),
+      2845482978 => 
+      array (
+        'icon' => 258,
+        'name' => 'Converser\'s Cloth Cap',
+      ),
+      3083715 => 
+      array (
+        'icon' => 228,
+        'name' => 'Corruptor\'s Leather Shirt',
+      ),
+      2462557510 => 
+      array (
+        'icon' => 397,
+        'name' => 'Patron\'s Leather Purse',
+      ),
+      552857116 => 
+      array (
+        'icon' => 740,
+        'name' => 'Pummeler\'s Stiched Collar',
+      ),
+    ),
+  ),
+  787801737 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Boombottom Talisman',
+    'level' => 110,
+    'crc' => 787801737,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2381071773 => 
+      array (
+        'icon' => 31,
+        'name' => 'Talisman of the Rager',
+      ),
+      3830493231 => 
+      array (
+        'icon' => 31,
+        'name' => 'Talisman of the Smithy',
+      ),
+      3598556757 => 
+      array (
+        'icon' => 31,
+        'name' => 'Talisman of the Spotter',
+      ),
+      3633298108 => 
+      array (
+        'icon' => 31,
+        'name' => 'Talisman of the Ambassador',
+      ),
+      187968285 => 
+      array (
+        'icon' => 31,
+        'name' => 'Talisman of the Corruptor',
+      ),
+    ),
+  ),
   2174266078 => 
   array (
     'category' => 'Zek, the Scourge Wastes',
@@ -6997,6 +7145,53 @@ $CollectionsData = array (
       array (
         'icon' => 180,
         'name' => 'Pristine Bonus',
+      ),
+    ),
+  ),
+  393414442 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Bristlebane\'s Personal Effects',
+    'level' => 110,
+    'crc' => 393414442,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      451129285 => 
+      array (
+        'icon' => 405,
+        'name' => 'Bristlebane\'s Flask',
+      ),
+      2805731525 => 
+      array (
+        'icon' => 1330,
+        'name' => 'Bristlebane\'s Prized Coin',
+      ),
+      2086476952 => 
+      array (
+        'icon' => 1769,
+        'name' => 'Bristlebane\'s Crown',
+      ),
+      1351573499 => 
+      array (
+        'icon' => 2255,
+        'name' => 'Bristlebane\'s Stuffed Tabby',
+      ),
+      1798516175 => 
+      array (
+        'icon' => 2303,
+        'name' => 'Bristlebane\'s Gambling Chips',
+      ),
+      3825763398 => 
+      array (
+        'icon' => 3772,
+        'name' => 'Bristlebane\'s Vibrating Purple Crystal',
+      ),
+      2096639694 => 
+      array (
+        'icon' => 3447,
+        'name' => 'Bristlebane\'s Dangling Locket',
       ),
     ),
   ),
@@ -7422,6 +7617,154 @@ $CollectionsData = array (
       array (
         'icon' => 354,
         'name' => 'Tranquil Distilled Water',
+      ),
+    ),
+  ),
+  3466844303 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Brokentoe Bashers',
+    'level' => 110,
+    'crc' => 3466844303,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1131523322 => 
+      array (
+        'icon' => 631,
+        'name' => 'Brokentoe Backbiter Boomer',
+      ),
+      877452975 => 
+      array (
+        'icon' => 641,
+        'name' => 'Brokentoe Mystic Mopper',
+      ),
+      2590811890 => 
+      array (
+        'icon' => 616,
+        'name' => 'Brokentoe  Scrapper Scraper',
+      ),
+      1024067628 => 
+      array (
+        'icon' => 612,
+        'name' => 'Brokentoe Stabber Sticker',
+      ),
+      3712870251 => 
+      array (
+        'icon' => 618,
+        'name' => 'Brokentoe Raider Rapper',
+      ),
+    ),
+  ),
+  3873425748 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Brokentoe Bouncers',
+    'level' => 110,
+    'crc' => 3873425748,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3531265484 => 
+      array (
+        'icon' => 13,
+        'name' => 'Brokentoe Diplomat Defenser',
+      ),
+      267512939 => 
+      array (
+        'icon' => 21,
+        'name' => 'Brokentoe Shaman Shelterer',
+      ),
+      3997163487 => 
+      array (
+        'icon' => 15,
+        'name' => 'Brokentoe Backbiter Barricader',
+      ),
+      930361925 => 
+      array (
+        'icon' => 17,
+        'name' => 'Brokentoe Mystic Marrer',
+      ),
+      3098768108 => 
+      array (
+        'icon' => 14,
+        'name' => 'Brokentoe Raider Rampart',
+      ),
+    ),
+  ),
+  2517034993 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Brokentoe Clothing',
+    'level' => 110,
+    'crc' => 2517034993,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3897343864 => 
+      array (
+        'icon' => 249,
+        'name' => 'Backbiter\'s Cloak',
+      ),
+      2670870562 => 
+      array (
+        'icon' => 206,
+        'name' => 'Diplomat\'s Gloves',
+      ),
+      1611603193 => 
+      array (
+        'icon' => 214,
+        'name' => 'Raider\'s Gauntlets',
+      ),
+      1591011887 => 
+      array (
+        'icon' => 119,
+        'name' => 'Scrapper\'s Sandals',
+      ),
+      2653797270 => 
+      array (
+        'icon' => 120,
+        'name' => 'Stabber\'s Stiched Pants',
+      ),
+    ),
+  ),
+  4059552179 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Brokentoe Talisman',
+    'level' => 110,
+    'crc' => 4059552179,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2482812954 => 
+      array (
+        'icon' => 1794,
+        'name' => 'Talisman of the Backbiter',
+      ),
+      532161101 => 
+      array (
+        'icon' => 1795,
+        'name' => 'Talisman of the Diplomant',
+      ),
+      337286210 => 
+      array (
+        'icon' => 1791,
+        'name' => 'Talisman of the Mystic',
+      ),
+      2565823155 => 
+      array (
+        'icon' => 1793,
+        'name' => 'Talisman of the Stabber',
+      ),
+      1401783098 => 
+      array (
+        'icon' => 1792,
+        'name' => 'Talisman of the Raider',
       ),
     ),
   ),
@@ -8240,6 +8583,350 @@ $CollectionsData = array (
       array (
         'icon' => 2986,
         'name' => 'Greenbane\'s Bracelet',
+      ),
+    ),
+  ),
+  1592755305 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Castle Mischief: Colored Glasses',
+    'level' => 110,
+    'crc' => 1592755305,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2023723669 => 
+      array (
+        'icon' => 3031,
+        'name' => 'Rose Colored Glasses',
+      ),
+      639953674 => 
+      array (
+        'icon' => 3032,
+        'name' => 'Violet Colored Glasses',
+      ),
+      339326602 => 
+      array (
+        'icon' => 3033,
+        'name' => 'Emerald Colored Glasses',
+      ),
+      3987985958 => 
+      array (
+        'icon' => 3034,
+        'name' => 'Golden Colored Glasses',
+      ),
+      2570241521 => 
+      array (
+        'icon' => 3035,
+        'name' => 'Azure Colored Glasses',
+      ),
+    ),
+  ),
+  783805895 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Castle Mischief: Curtain Fabrics',
+    'level' => 110,
+    'crc' => 783805895,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1131470535 => 
+      array (
+        'icon' => 4094,
+        'name' => 'Piece of Teal Curtain Fabric',
+      ),
+      1856078586 => 
+      array (
+        'icon' => 4095,
+        'name' => 'Piece of Blue Curtain Fabric',
+      ),
+      2467101299 => 
+      array (
+        'icon' => 4096,
+        'name' => 'Piece of Green Curtain Fabric',
+      ),
+      3181460391 => 
+      array (
+        'icon' => 4097,
+        'name' => 'Piece of Purple Curtain Fabric',
+      ),
+      1256323129 => 
+      array (
+        'icon' => 4098,
+        'name' => 'Piece of Orange Curtain Fabric',
+      ),
+      1469045074 => 
+      array (
+        'icon' => 4099,
+        'name' => 'Piece of Azure Curtain Fabric',
+      ),
+      2036378285 => 
+      array (
+        'icon' => 4100,
+        'name' => 'Piece of Emerald Curtain Fabric',
+      ),
+      3268799700 => 
+      array (
+        'icon' => 4101,
+        'name' => 'Piece of Violet Curtain Fabric',
+      ),
+      1969780648 => 
+      array (
+        'icon' => 4102,
+        'name' => 'Piece of Gray Curtain Fabric',
+      ),
+      1871173934 => 
+      array (
+        'icon' => 4103,
+        'name' => 'Piece of Aqua Curtain Fabric',
+      ),
+    ),
+  ),
+  1475923564 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Castle Mischief: Energy Capsules',
+    'level' => 110,
+    'crc' => 1475923564,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      580144301 => 
+      array (
+        'icon' => 3096,
+        'name' => 'Azure Energy Delivery Capsule',
+      ),
+      1780565263 => 
+      array (
+        'icon' => 3097,
+        'name' => 'Emerald Energy Delivery Capsule',
+      ),
+      4020377804 => 
+      array (
+        'icon' => 3098,
+        'name' => 'Violet Energy Delivery Capsule',
+      ),
+      3359838142 => 
+      array (
+        'icon' => 3099,
+        'name' => 'Flaming Energy Delivery Capsule',
+      ),
+      3802244976 => 
+      array (
+        'icon' => 3100,
+        'name' => 'Crimson Energy Delivery Capsule',
+      ),
+      514964204 => 
+      array (
+        'icon' => 3101,
+        'name' => 'Aqua Energy Delivery Capsule',
+      ),
+      1236024190 => 
+      array (
+        'icon' => 3102,
+        'name' => 'Golden Energy Delivery Capsule',
+      ),
+    ),
+  ),
+  4134300590 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Castle Mischief: Makeshift Coins',
+    'level' => 110,
+    'crc' => 4134300590,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2562898300 => 
+      array (
+        'icon' => 3156,
+        'name' => 'Makeshift Coin of the Hand',
+      ),
+      2586492110 => 
+      array (
+        'icon' => 3157,
+        'name' => 'Makeshift Coin of the Ocean',
+      ),
+      2662051597 => 
+      array (
+        'icon' => 3158,
+        'name' => 'Makeshift Coin of the Wind',
+      ),
+      126172309 => 
+      array (
+        'icon' => 3159,
+        'name' => 'Makeshift Coin of the Storm',
+      ),
+      3173816880 => 
+      array (
+        'icon' => 3160,
+        'name' => 'Makeshift Coin of the Earth',
+      ),
+      3466965349 => 
+      array (
+        'icon' => 3161,
+        'name' => 'Makeshift Coin of the Clouds',
+      ),
+    ),
+  ),
+  521070982 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Castle Mischief: Mischievous Dolls',
+    'level' => 110,
+    'crc' => 521070982,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2203351614 => 
+      array (
+        'icon' => 4064,
+        'name' => 'Brown and Blue Mischievous Doll',
+      ),
+      2706488886 => 
+      array (
+        'icon' => 4065,
+        'name' => 'Brown and Purple Mischievous Doll',
+      ),
+      1170534609 => 
+      array (
+        'icon' => 4066,
+        'name' => 'Purple and Red Mischievous Doll',
+      ),
+      3851986817 => 
+      array (
+        'icon' => 4067,
+        'name' => 'Blue and Red Mischievous Doll',
+      ),
+      3236048595 => 
+      array (
+        'icon' => 4068,
+        'name' => 'Teal and Blue Mischievous Doll',
+      ),
+      3842682795 => 
+      array (
+        'icon' => 4069,
+        'name' => 'Gray and Red Mischievous Doll',
+      ),
+      2560462700 => 
+      array (
+        'icon' => 4070,
+        'name' => 'Brown and Gray Mischievous Doll',
+      ),
+      1576662565 => 
+      array (
+        'icon' => 4071,
+        'name' => 'Gray and Teal Mischievous Doll',
+      ),
+      3507495347 => 
+      array (
+        'icon' => 4072,
+        'name' => 'Teal and Green Mischievous Doll',
+      ),
+      907747319 => 
+      array (
+        'icon' => 4073,
+        'name' => 'Yellow and Gray Mischievous Doll',
+      ),
+    ),
+  ),
+  1012854097 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Castle Mischief: Strange Liquids',
+    'level' => 110,
+    'crc' => 1012854097,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      787735620 => 
+      array (
+        'icon' => 354,
+        'name' => 'Strange Gray Liquid',
+      ),
+      988532659 => 
+      array (
+        'icon' => 355,
+        'name' => 'Strange Green Liquid',
+      ),
+      686675078 => 
+      array (
+        'icon' => 356,
+        'name' => 'Strange Red Liquid',
+      ),
+      485326939 => 
+      array (
+        'icon' => 357,
+        'name' => 'Strange Yellow Liquid',
+      ),
+      644619810 => 
+      array (
+        'icon' => 358,
+        'name' => 'Strange Purple Liquid',
+      ),
+      892997910 => 
+      array (
+        'icon' => 359,
+        'name' => 'Strange Blue Liquid',
+      ),
+    ),
+  ),
+  2814107306 => 
+  array (
+    'category' => 'Chaos Descending',
+    'name' => 'Castle Mischief: Stuffed Monkeys',
+    'level' => 110,
+    'crc' => 2814107306,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      147930364 => 
+      array (
+        'icon' => 2753,
+        'name' => 'Red Stuffed Monkey',
+      ),
+      12289773 => 
+      array (
+        'icon' => 2754,
+        'name' => 'Sandy Stuffed Monkey',
+      ),
+      4234768076 => 
+      array (
+        'icon' => 2755,
+        'name' => 'Brown Stuffed Monkey',
+      ),
+      4232276126 => 
+      array (
+        'icon' => 2756,
+        'name' => 'Yellowed Stuffed Monkey',
+      ),
+      3552524092 => 
+      array (
+        'icon' => 2757,
+        'name' => 'White Stuffed Monkey',
+      ),
+      418726064 => 
+      array (
+        'icon' => 2758,
+        'name' => 'Black Stuffed Monkey',
+      ),
+      1198504166 => 
+      array (
+        'icon' => 2759,
+        'name' => 'Maroon Stuffed Monkey',
+      ),
+      2651013262 => 
+      array (
+        'icon' => 2760,
+        'name' => 'Gray Stuffed Monkey',
       ),
     ),
   ),
@@ -10210,6 +10897,63 @@ $CollectionsData = array (
       array (
         'icon' => 654,
         'name' => 'Collected Neriad Items',
+      ),
+    ),
+  ),
+  3900469948 => 
+  array (
+    'category' => 'Beast\'r Eggstravaganza',
+    'name' => 'Colorful Egg Shells',
+    'level' => 20,
+    'crc' => 3900469948,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2407540495 => 
+      array (
+        'icon' => 4796,
+        'name' => 'Periwinkle Striped Shell',
+      ),
+      3662807174 => 
+      array (
+        'icon' => 4796,
+        'name' => 'Cerulean Spotted Shell',
+      ),
+      2381302124 => 
+      array (
+        'icon' => 4796,
+        'name' => 'Lemon Zig-Zagged Shell',
+      ),
+      678864452 => 
+      array (
+        'icon' => 4796,
+        'name' => 'Lavender Zig-Zagged Shell',
+      ),
+      2298773219 => 
+      array (
+        'icon' => 4796,
+        'name' => 'Fuchsia Striped Shell',
+      ),
+      4189836227 => 
+      array (
+        'icon' => 4796,
+        'name' => 'Plum Spotted Shell',
+      ),
+      1132357668 => 
+      array (
+        'icon' => 4796,
+        'name' => 'Peach Spotted Shell',
+      ),
+      2595109995 => 
+      array (
+        'icon' => 4796,
+        'name' => 'Blush Striped Shell',
+      ),
+      3862718282 => 
+      array (
+        'icon' => 4796,
+        'name' => 'Lime Zig-Zagged Shell',
       ),
     ),
   ),
@@ -13855,7 +14599,7 @@ $CollectionsData = array (
       1009340188 => 
       array (
         'icon' => 592,
-        'name' => 'Insignia the Guardian',
+        'name' => 'Insignia of the Guardian',
       ),
     ),
   ),
@@ -15131,7 +15875,7 @@ $CollectionsData = array (
       2098478101 => 
       array (
         'icon' => 2960,
-        'name' => 'Algea Covered Staff',
+        'name' => 'Algae Covered Staff',
       ),
       1865245308 => 
       array (
@@ -19110,7 +19854,7 @@ $CollectionsData = array (
       1782335848 => 
       array (
         'icon' => 2935,
-        'name' => 'Dire Exeecution of Oblivion',
+        'name' => 'Dire Execution of Oblivion',
       ),
     ),
   ),
@@ -19204,7 +19948,7 @@ $CollectionsData = array (
       79692385 => 
       array (
         'icon' => 91,
-        'name' => 'Skull of the Damnned',
+        'name' => 'Skull of the Damned',
       ),
       2223773390 => 
       array (
@@ -19518,7 +20262,7 @@ $CollectionsData = array (
       3394747514 => 
       array (
         'icon' => 260,
-        'name' => 'Black Enamled Bracers',
+        'name' => 'Black Enameled Bracers',
       ),
       294967151 => 
       array (
@@ -20352,6 +21096,48 @@ $CollectionsData = array (
       array (
         'icon' => 2368,
         'name' => 'Dagger of the Poisonspinner',
+      ),
+    ),
+  ),
+  3191129261 => 
+  array (
+    'category' => 'Nights of the Dead',
+    'name' => 'Ghost Hunter\'s Pack',
+    'level' => 95,
+    'crc' => 3191129261,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1990681206 => 
+      array (
+        'icon' => 1033,
+        'name' => 'Wrought Iron Coffin Nails',
+      ),
+      4021171148 => 
+      array (
+        'icon' => 3476,
+        'name' => 'Somborn Rock Salt',
+      ),
+      2561213274 => 
+      array (
+        'icon' => 3426,
+        'name' => 'Graveyard Dirt',
+      ),
+      114136825 => 
+      array (
+        'icon' => 801,
+        'name' => 'Bundled Sage',
+      ),
+      1909106287 => 
+      array (
+        'icon' => 190,
+        'name' => 'Purified Candle',
+      ),
+      3905157077 => 
+      array (
+        'icon' => 2988,
+        'name' => 'Spirit Banishment Sigil',
       ),
     ),
   ),
@@ -21227,6 +22013,38 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1082887989 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Goblin Loots',
+    'level' => 110,
+    'crc' => 1082887989,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1325625106 => 
+      array (
+        'icon' => 4895,
+        'name' => 'Angler Eye',
+      ),
+      1294477640 => 
+      array (
+        'icon' => 98,
+        'name' => 'Grinnin Grubs',
+      ),
+      1732529002 => 
+      array (
+        'icon' => 4869,
+        'name' => 'Best Shiny',
+      ),
+      485893724 => 
+      array (
+        'icon' => 4933,
+        'name' => 'Mucky Mithril',
+      ),
+    ),
+  ),
   3971559956 => 
   array (
     'category' => 'Kunark Ascending',
@@ -21266,6 +22084,38 @@ $CollectionsData = array (
       array (
         'icon' => 3783,
         'name' => 'Goblin Lost Traded Toe',
+      ),
+    ),
+  ),
+  2928486861 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Goblin Magic',
+    'level' => 110,
+    'crc' => 2928486861,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      46259430 => 
+      array (
+        'icon' => 4862,
+        'name' => 'Grinnin Talisman',
+      ),
+      3306345629 => 
+      array (
+        'icon' => 374,
+        'name' => 'Grinnin Spell Scroll',
+      ),
+      2444261520 => 
+      array (
+        'icon' => 1373,
+        'name' => 'Runnyeye Rune of Protection',
+      ),
+      292796850 => 
+      array (
+        'icon' => 374,
+        'name' => 'Runnyeye Spell Scroll',
       ),
     ),
   ),
@@ -22075,6 +22925,154 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3706693925 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Grinnin Gears',
+    'level' => 110,
+    'crc' => 3706693925,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1449379448 => 
+      array (
+        'icon' => 30,
+        'name' => 'Grinnin Fishing Pole',
+      ),
+      2048340079 => 
+      array (
+        'icon' => 194,
+        'name' => 'Grinnin Fishing line',
+      ),
+      3350232671 => 
+      array (
+        'icon' => 417,
+        'name' => 'Grinnin Net',
+      ),
+      3434199143 => 
+      array (
+        'icon' => 650,
+        'name' => 'Grinnin Bucket',
+      ),
+      2696500571 => 
+      array (
+        'icon' => 1038,
+        'name' => 'Grinnin Hook',
+      ),
+    ),
+  ),
+  3365219549 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Grinnin Grubs',
+    'level' => 110,
+    'crc' => 3365219549,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4236289284 => 
+      array (
+        'icon' => 2226,
+        'name' => 'Muddymuck Eye',
+      ),
+      3810927983 => 
+      array (
+        'icon' => 328,
+        'name' => 'Salmon Saliva',
+      ),
+      377796577 => 
+      array (
+        'icon' => 168,
+        'name' => 'Cod Crunchies',
+      ),
+      3097585016 => 
+      array (
+        'icon' => 86,
+        'name' => 'Bass Tails',
+      ),
+      1097733602 => 
+      array (
+        'icon' => 2313,
+        'name' => 'Perch Gills',
+      ),
+    ),
+  ),
+  3470610992 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Grinnin Water Runes',
+    'level' => 110,
+    'crc' => 3470610992,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4147462594 => 
+      array (
+        'icon' => 2927,
+        'name' => 'Angler\'s Water Rune of Power',
+      ),
+      4162265570 => 
+      array (
+        'icon' => 2929,
+        'name' => 'Brute\'s Water Rune of Might',
+      ),
+      2871365869 => 
+      array (
+        'icon' => 2928,
+        'name' => 'Cultivator\'s Water Rune of Harvest',
+      ),
+      154307274 => 
+      array (
+        'icon' => 2923,
+        'name' => 'Herbalist\'s Water Rune of Healing',
+      ),
+      186816990 => 
+      array (
+        'icon' => 2920,
+        'name' => 'Savage\'s Water Rune of Blood',
+      ),
+    ),
+  ),
+  4166303977 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Grinnin Water Spells',
+    'level' => 110,
+    'crc' => 4166303977,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3508334402 => 
+      array (
+        'icon' => 713,
+        'name' => 'Witchclaw\'s Spell of Drowning',
+      ),
+      3585880183 => 
+      array (
+        'icon' => 713,
+        'name' => 'Angler\'s Spell of Floating',
+      ),
+      3624742404 => 
+      array (
+        'icon' => 713,
+        'name' => 'Cultivator\'s Spell of Breathing',
+      ),
+      412438083 => 
+      array (
+        'icon' => 713,
+        'name' => 'Herbalist\'s Spell of Water Walk',
+      ),
+      406957573 => 
+      array (
+        'icon' => 713,
+        'name' => 'Fisher\'s Spell of Swimming',
+      ),
+    ),
+  ),
   4001182390 => 
   array (
     'category' => 'Coin',
@@ -22272,6 +23270,154 @@ $CollectionsData = array (
       array (
         'icon' => 99,
         'name' => 'white grub',
+      ),
+    ),
+  ),
+  2562674586 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Grungetalon Clothing',
+    'level' => 110,
+    'crc' => 2562674586,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4112606648 => 
+      array (
+        'icon' => 225,
+        'name' => 'Blesser\'s Tunic',
+      ),
+      3365063286 => 
+      array (
+        'icon' => 2342,
+        'name' => 'Cook\'s Hat',
+      ),
+      3850499674 => 
+      array (
+        'icon' => 209,
+        'name' => 'Scratcher\'s Fingerless Gloves',
+      ),
+      2202539276 => 
+      array (
+        'icon' => 268,
+        'name' => 'Windtamer\'s Leggings',
+      ),
+      4209761016 => 
+      array (
+        'icon' => 118,
+        'name' => 'Clincher\'s Sandals',
+      ),
+    ),
+  ),
+  2423175066 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Grungetalon Gankers',
+    'level' => 110,
+    'crc' => 2423175066,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3585257554 => 
+      array (
+        'icon' => 1655,
+        'name' => 'Grungetalon Blesser Beater',
+      ),
+      19955078 => 
+      array (
+        'icon' => 1656,
+        'name' => 'Grungetalon Clawer Clunker',
+      ),
+      2870650356 => 
+      array (
+        'icon' => 1653,
+        'name' => 'Grungetalon Gouger Gouger',
+      ),
+      3589943251 => 
+      array (
+        'icon' => 1676,
+        'name' => 'Grungetalon Scratcher Scratcher',
+      ),
+      3789839012 => 
+      array (
+        'icon' => 1654,
+        'name' => 'Grungetalon Windtamer Whacker',
+      ),
+    ),
+  ),
+  1161696456 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Grungetalon Guarders',
+    'level' => 110,
+    'crc' => 1161696456,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1130329155 => 
+      array (
+        'icon' => 2269,
+        'name' => 'Grungetalon Blesser Blocker',
+      ),
+      1696127117 => 
+      array (
+        'icon' => 1067,
+        'name' => 'Grungetalon Cook Cover',
+      ),
+      2297837760 => 
+      array (
+        'icon' => 7,
+        'name' => 'Grungetalon Windtamer Warder',
+      ),
+      2082688786 => 
+      array (
+        'icon' => 12,
+        'name' => 'Grungetalon Scratcher Scrunker',
+      ),
+      3892816096 => 
+      array (
+        'icon' => 2267,
+        'name' => 'Grungetalon Clincher Cusioner',
+      ),
+    ),
+  ),
+  4283331032 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Grungetalon Talisman',
+    'level' => 110,
+    'crc' => 4283331032,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1404609531 => 
+      array (
+        'icon' => 1789,
+        'name' => 'Talisman of the Blesser',
+      ),
+      3612088254 => 
+      array (
+        'icon' => 1788,
+        'name' => 'Talisman of the Clawer',
+      ),
+      3933032619 => 
+      array (
+        'icon' => 1788,
+        'name' => 'Talisman of the Clincher',
+      ),
+      3357560000 => 
+      array (
+        'icon' => 1789,
+        'name' => 'Talisman of the Gouger',
+      ),
+      2253248231 => 
+      array (
+        'icon' => 1790,
+        'name' => 'Talisman of the Windtamer',
       ),
     ),
   ),
@@ -23038,7 +24184,7 @@ $CollectionsData = array (
       518043000 => 
       array (
         'icon' => 184,
-        'name' => 'Essence of Supression',
+        'name' => 'Essence of Suppression',
       ),
       1776780782 => 
       array (
@@ -24680,7 +25826,7 @@ $CollectionsData = array (
   2262432041 => 
   array (
     'category' => 'Return to Guk',
-    'name' => 'Instruments of Subjagation',
+    'name' => 'Instruments of Subjugation',
     'level' => 110,
     'crc' => 2262432041,
     'isclass' => false,
@@ -24727,12 +25873,12 @@ $CollectionsData = array (
       2702270891 => 
       array (
         'icon' => 2054,
-        'name' => 'Elegent Seashell',
+        'name' => 'Elegant Seashell',
       ),
       2612503857 => 
       array (
         'icon' => 3828,
-        'name' => 'Mark of Molusks',
+        'name' => 'Mark of Mollusks',
       ),
       306789780 => 
       array (
@@ -25575,7 +26721,7 @@ $CollectionsData = array (
       657148677 => 
       array (
         'icon' => 75,
-        'name' => 'Hymn of the Deep',
+        'name' => 'Aria of the Deep',
       ),
       3093093214 => 
       array (
@@ -27793,6 +28939,63 @@ $CollectionsData = array (
       ),
     ),
   ),
+  429044024 => 
+  array (
+    'category' => 'Erollisi Day',
+    'name' => 'Lovely Flower Petals',
+    'level' => 20,
+    'crc' => 429044024,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2790091679 => 
+      array (
+        'icon' => 1960,
+        'name' => 'Purple Lily Petal',
+      ),
+      3722211209 => 
+      array (
+        'icon' => 1962,
+        'name' => 'Crimson Lily Petal',
+      ),
+      1780728815 => 
+      array (
+        'icon' => 1968,
+        'name' => 'Royal Carnation Petal',
+      ),
+      560052540 => 
+      array (
+        'icon' => 1964,
+        'name' => 'Ivory Lily Petal',
+      ),
+      3962286964 => 
+      array (
+        'icon' => 1970,
+        'name' => 'Emerald Carnation Petal',
+      ),
+      425169357 => 
+      array (
+        'icon' => 1969,
+        'name' => 'Orange Carnation Petal',
+      ),
+      2735902896 => 
+      array (
+        'icon' => 1961,
+        'name' => 'Golden Lily Petal',
+      ),
+      2550761488 => 
+      array (
+        'icon' => 1959,
+        'name' => 'Sunset Lily Petal',
+      ),
+      3202965617 => 
+      array (
+        'icon' => 1967,
+        'name' => 'White Carnation Petal',
+      ),
+    ),
+  ),
   3196819073 => 
   array (
     'category' => 'Sentinel\'s Fate',
@@ -28512,12 +29715,12 @@ $CollectionsData = array (
       677530349 => 
       array (
         'icon' => 170,
-        'name' => 'Torn off Nose',
+        'name' => 'Torn Off Nose',
       ),
       5787651 => 
       array (
         'icon' => 3783,
-        'name' => 'Cut off Toe',
+        'name' => 'Cut Off Toe',
       ),
       2893952179 => 
       array (
@@ -34114,6 +35317,154 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3947030769 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Pickclaw Clothing',
+    'level' => 110,
+    'crc' => 3947030769,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2411914478 => 
+      array (
+        'icon' => 398,
+        'name' => 'Picklock\'s Pouch',
+      ),
+      4049536230 => 
+      array (
+        'icon' => 269,
+        'name' => 'Skinweaver\'s Leather Sandals',
+      ),
+      3367134537 => 
+      array (
+        'icon' => 399,
+        'name' => 'Scrounger\'s Bag',
+      ),
+      101980754 => 
+      array (
+        'icon' => 278,
+        'name' => 'Drunkard\'s Tunic',
+      ),
+      3334171238 => 
+      array (
+        'icon' => 267,
+        'name' => 'Thumper\'s Leather Gloves',
+      ),
+    ),
+  ),
+  3015676636 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Pickclaw Pounders',
+    'level' => 110,
+    'crc' => 3015676636,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3343474985 => 
+      array (
+        'icon' => 2150,
+        'name' => 'Pickclaw Thumper Thumper',
+      ),
+      3310200117 => 
+      array (
+        'icon' => 2156,
+        'name' => 'Pickclaw Wrecka Wrecker',
+      ),
+      1250519711 => 
+      array (
+        'icon' => 308,
+        'name' => 'Pickclaw Drunkard Tankard',
+      ),
+      2085555009 => 
+      array (
+        'icon' => 2160,
+        'name' => 'Pickclaw Scrounger Scrunker',
+      ),
+      3808620475 => 
+      array (
+        'icon' => 2154,
+        'name' => 'Pickclaw Varmint Vamooser',
+      ),
+    ),
+  ),
+  3146582856 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Pickclaw Protectoring',
+    'level' => 110,
+    'crc' => 3146582856,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      912469831 => 
+      array (
+        'icon' => 402,
+        'name' => 'Pickclaw Picklock Pouch',
+      ),
+      1853667104 => 
+      array (
+        'icon' => 1432,
+        'name' => 'Pickclaw Skinweaver Weaving',
+      ),
+      1265472869 => 
+      array (
+        'icon' => 1418,
+        'name' => 'Pickclaw Skinpeeler Peeling',
+      ),
+      4210572743 => 
+      array (
+        'icon' => 3070,
+        'name' => 'Pickclaw Scrounger Screener',
+      ),
+      1931195272 => 
+      array (
+        'icon' => 3075,
+        'name' => 'Pickclaw Mistmystic Masker',
+      ),
+    ),
+  ),
+  2360596147 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Pickclaw Talisman',
+    'level' => 110,
+    'crc' => 2360596147,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      18738011 => 
+      array (
+        'icon' => 1787,
+        'name' => 'Talisman of the Picklock',
+      ),
+      1400472379 => 
+      array (
+        'icon' => 1784,
+        'name' => 'Talisman of the Skinweaver',
+      ),
+      3501130354 => 
+      array (
+        'icon' => 1785,
+        'name' => 'Talisman of the Skinpeeler',
+      ),
+      523287510 => 
+      array (
+        'icon' => 1786,
+        'name' => 'Talisman of the Wrecka',
+      ),
+      2918284798 => 
+      array (
+        'icon' => 1785,
+        'name' => 'Talisman of the Varmint',
+      ),
+    ),
+  ),
   1927885921 => 
   array (
     'category' => 'Altar of Malice',
@@ -35369,6 +36720,68 @@ $CollectionsData = array (
       ),
     ),
   ),
+  221828294 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Poked Out Boss Peepers',
+    'level' => 110,
+    'crc' => 221828294,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      993280991 => 
+      array (
+        'icon' => 83,
+        'name' => 'Burrtoe\'s Poked Out Eye',
+      ),
+      136513823 => 
+      array (
+        'icon' => 83,
+        'name' => 'Xorxx\'s Poked Out Eye',
+      ),
+      2058929219 => 
+      array (
+        'icon' => 83,
+        'name' => 'Malleg\'s Poked Out Eye',
+      ),
+      4053232188 => 
+      array (
+        'icon' => 83,
+        'name' => 'Marrowgut\'s Poked Out Eye',
+      ),
+      1665104888 => 
+      array (
+        'icon' => 83,
+        'name' => 'Kanar\'s Poked Out Eye',
+      ),
+      3578979684 => 
+      array (
+        'icon' => 83,
+        'name' => 'Mayka\'s Poked Out Eye',
+      ),
+      3267189158 => 
+      array (
+        'icon' => 83,
+        'name' => 'Slamhammer\'s Poked Out Eye',
+      ),
+      3897421965 => 
+      array (
+        'icon' => 83,
+        'name' => 'Snok\'s Poked Out Eye',
+      ),
+      2597650580 => 
+      array (
+        'icon' => 83,
+        'name' => 'Siltsea\'s Poked Out Eye',
+      ),
+      4004286773 => 
+      array (
+        'icon' => 83,
+        'name' => 'Vohan\'s poked Out Eye',
+      ),
+    ),
+  ),
   3064129636 => 
   array (
     'category' => 'Runnyeye: The Gathering',
@@ -35754,6 +37167,63 @@ $CollectionsData = array (
       array (
         'icon' => 1266,
         'name' => 'Seal of Disgust',
+      ),
+    ),
+  ),
+  273153908 => 
+  array (
+    'category' => 'Bristlebane Day',
+    'name' => 'Prankster\'s Novelties',
+    'level' => 20,
+    'crc' => 273153908,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3405932909 => 
+      array (
+        'icon' => 820,
+        'name' => 'Whoopee Cushion',
+      ),
+      535763360 => 
+      array (
+        'icon' => 979,
+        'name' => 'Snake in a Can',
+      ),
+      3704621706 => 
+      array (
+        'icon' => 3088,
+        'name' => 'Joy Buzzer',
+      ),
+      1975254117 => 
+      array (
+        'icon' => 2499,
+        'name' => 'Rubber Chicken',
+      ),
+      2902524195 => 
+      array (
+        'icon' => 3486,
+        'name' => 'Stink Bomb',
+      ),
+      1397372087 => 
+      array (
+        'icon' => 1992,
+        'name' => 'Squirting Corsage',
+      ),
+      4188068383 => 
+      array (
+        'icon' => 2569,
+        'name' => 'Chattery Teeth',
+      ),
+      1277688021 => 
+      array (
+        'icon' => 1108,
+        'name' => 'Woven Finger Trap',
+      ),
+      2216880055 => 
+      array (
+        'icon' => 410,
+        'name' => 'Bubble Pipe',
       ),
     ),
   ),
@@ -38013,12 +39483,12 @@ $CollectionsData = array (
       3195998443 => 
       array (
         'icon' => 1200,
-        'name' => 'Greemist Residue',
+        'name' => 'Greenmist Residue',
       ),
       3573272217 => 
       array (
         'icon' => 2521,
-        'name' => 'Greemist Particle',
+        'name' => 'Greenmist Particle',
       ),
       2799365558 => 
       array (
@@ -39238,6 +40708,253 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3018759774 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Runnyeye Bits',
+    'level' => 110,
+    'crc' => 3018759774,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2555490279 => 
+      array (
+        'icon' => 3784,
+        'name' => 'Burrtoe\'s Toes',
+      ),
+      1490602826 => 
+      array (
+        'icon' => 372,
+        'name' => 'Xorxx\'s Totem',
+      ),
+      1435609854 => 
+      array (
+        'icon' => 102,
+        'name' => 'Malleg\'s Boar Tusks',
+      ),
+      3539120106 => 
+      array (
+        'icon' => 8,
+        'name' => 'Marrowgut\'s Marrow',
+      ),
+      2716705995 => 
+      array (
+        'icon' => 135,
+        'name' => 'Chieftan Kanar\'s Kidney',
+      ),
+      884420574 => 
+      array (
+        'icon' => 99,
+        'name' => 'Mayka Rukus\' Roots',
+      ),
+      1609628467 => 
+      array (
+        'icon' => 635,
+        'name' => 'Slamhammer\'s Hammerslammer',
+      ),
+      3449022621 => 
+      array (
+        'icon' => 145,
+        'name' => 'Snok Eyegouger\'s False Eye',
+      ),
+      1627003323 => 
+      array (
+        'icon' => 314,
+        'name' => 'Chieftan Siltsea\'s Burnt Tea',
+      ),
+      1534062271 => 
+      array (
+        'icon' => 202,
+        'name' => 'High Shaman Vohan\'s Wand',
+      ),
+    ),
+  ),
+  3861106017 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Runnyeye Coinzes',
+    'level' => 110,
+    'crc' => 3861106017,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2630844595 => 
+      array (
+        'icon' => 1346,
+        'name' => 'Runnyeye Goldy Glitter',
+      ),
+      3631174453 => 
+      array (
+        'icon' => 1344,
+        'name' => 'Runnyeye Smelly Copper',
+      ),
+      983070769 => 
+      array (
+        'icon' => 1345,
+        'name' => 'Runnyeye Sooty Silver',
+      ),
+      1685066998 => 
+      array (
+        'icon' => 1347,
+        'name' => 'Runnyeye Polluted Platinums',
+      ),
+      1766444330 => 
+      array (
+        'icon' => 1349,
+        'name' => 'Runnyeye Shorty Shimmer',
+      ),
+    ),
+  ),
+  2740878929 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Runnyeye Runes of Protection',
+    'level' => 110,
+    'crc' => 2740878929,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2515906047 => 
+      array (
+        'icon' => 2930,
+        'name' => 'Vohan\'s Rune of Earth',
+      ),
+      4144546756 => 
+      array (
+        'icon' => 2932,
+        'name' => 'Vohan\'s Rune of Air',
+      ),
+      1022468868 => 
+      array (
+        'icon' => 2917,
+        'name' => 'Vohan\'s Rune of Fire',
+      ),
+      3621138993 => 
+      array (
+        'icon' => 2919,
+        'name' => 'Vohan\'s Rune of Magic',
+      ),
+      562122233 => 
+      array (
+        'icon' => 2916,
+        'name' => 'Vohan\'s Rune of Merger',
+      ),
+    ),
+  ),
+  4121133311 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Runnyeye Shinies',
+    'level' => 110,
+    'crc' => 4121133311,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2956144565 => 
+      array (
+        'icon' => 1288,
+        'name' => 'Runnyeye Shiny of Ruckus',
+      ),
+      1909093833 => 
+      array (
+        'icon' => 1291,
+        'name' => 'Runnyeye Shiny of Eye Gouging',
+      ),
+      1354790760 => 
+      array (
+        'icon' => 1260,
+        'name' => 'Runnyeye Shiny of Halfies',
+      ),
+      3504505085 => 
+      array (
+        'icon' => 1269,
+        'name' => 'Runnyeye Shiny of Boom',
+      ),
+      3907775522 => 
+      array (
+        'icon' => 1285,
+        'name' => 'Runnyeye Shiny of Sparkly',
+      ),
+    ),
+  ),
+  2981943248 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Runnyeye Spells',
+    'level' => 110,
+    'crc' => 2981943248,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1682625652 => 
+      array (
+        'icon' => 712,
+        'name' => 'Siltsea\'s Whirling Dust Devil',
+      ),
+      1674211776 => 
+      array (
+        'icon' => 712,
+        'name' => 'Chieftan Kanar\'s Poison Gas',
+      ),
+      1528298956 => 
+      array (
+        'icon' => 712,
+        'name' => 'Slamhammer\'s Magic Hammers',
+      ),
+      446912121 => 
+      array (
+        'icon' => 712,
+        'name' => 'Marrowgut\'s Spell of Gutting',
+      ),
+      3799678256 => 
+      array (
+        'icon' => 712,
+        'name' => 'Burtoe\'s Spell of Resurrection',
+      ),
+    ),
+  ),
+  3969530835 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Runnyeye Trophies',
+    'level' => 110,
+    'crc' => 3969530835,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4023416741 => 
+      array (
+        'icon' => 4878,
+        'name' => 'Runnyeye Goblin Trophy',
+      ),
+      2313366680 => 
+      array (
+        'icon' => 4878,
+        'name' => 'Grungetalon Trophy',
+      ),
+      2412386381 => 
+      array (
+        'icon' => 4878,
+        'name' => 'Sandscrawler Trophy',
+      ),
+      4171046302 => 
+      array (
+        'icon' => 4878,
+        'name' => 'Brokentoe Trophy',
+      ),
+      2288154712 => 
+      array (
+        'icon' => 4878,
+        'name' => 'Boombottom Trophy',
+      ),
+    ),
+  ),
   1055907105 => 
   array (
     'category' => 'Terrors of Thalumbra',
@@ -40145,6 +41862,154 @@ $CollectionsData = array (
       array (
         'icon' => 3483,
         'name' => 'Sands of Vazaelle',
+      ),
+    ),
+  ),
+  387265642 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Sandscrawler Clothing',
+    'level' => 110,
+    'crc' => 387265642,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3179391283 => 
+      array (
+        'icon' => 262,
+        'name' => 'Patcher\'s Worn Leggings',
+      ),
+      4173059606 => 
+      array (
+        'icon' => 117,
+        'name' => 'Ruffian\'s Sandals',
+      ),
+      1624319825 => 
+      array (
+        'icon' => 115,
+        'name' => 'Shiv\'s Leather Cap',
+      ),
+      4074212075 => 
+      array (
+        'icon' => 244,
+        'name' => 'Gritwitches Leather Cloak',
+      ),
+      1944449174 => 
+      array (
+        'icon' => 226,
+        'name' => 'Forger\'s Blackened Gloves',
+      ),
+    ),
+  ),
+  623331342 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Sandscrawler Safeblockers',
+    'level' => 110,
+    'crc' => 623331342,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2453987814 => 
+      array (
+        'icon' => 3233,
+        'name' => 'Sandscrawler Patroller Protectoring',
+      ),
+      4123163675 => 
+      array (
+        'icon' => 3224,
+        'name' => 'Sandscrawler Shiv Shelterer',
+      ),
+      1292279268 => 
+      array (
+        'icon' => 3211,
+        'name' => 'Sandswcrawler Tamer Trencher',
+      ),
+      426551226 => 
+      array (
+        'icon' => 3242,
+        'name' => 'Sandscrawler Gritwitch Guarding',
+      ),
+      808015744 => 
+      array (
+        'icon' => 3212,
+        'name' => 'Sandscrawler Forger Forter',
+      ),
+    ),
+  ),
+  1029626823 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Sandscrawler Sockers',
+    'level' => 110,
+    'crc' => 1029626823,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1628983737 => 
+      array (
+        'icon' => 3594,
+        'name' => 'Sandscrawler Patcher Puncher',
+      ),
+      3900356515 => 
+      array (
+        'icon' => 3569,
+        'name' => 'Sandscrawler Shiv Shiver',
+      ),
+      510896718 => 
+      array (
+        'icon' => 3590,
+        'name' => 'Sandscrawler Gritwitch Greeter',
+      ),
+      3092827099 => 
+      array (
+        'icon' => 3565,
+        'name' => 'Sandscrawler Forger Forcer',
+      ),
+      1983940270 => 
+      array (
+        'icon' => 3576,
+        'name' => 'Sandscrawler Tamer Tapper',
+      ),
+    ),
+  ),
+  1893993000 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'Sandscrawler Talisman',
+    'level' => 110,
+    'crc' => 1893993000,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3486822694 => 
+      array (
+        'icon' => 1767,
+        'name' => 'Talisman of the Pather',
+      ),
+      4292286447 => 
+      array (
+        'icon' => 1768,
+        'name' => 'Talisman of the Patroller',
+      ),
+      3843704720 => 
+      array (
+        'icon' => 1769,
+        'name' => 'Talisman of the Ruffian',
+      ),
+      1472095980 => 
+      array (
+        'icon' => 1770,
+        'name' => 'Talisman of the Shiv',
+      ),
+      3411120329 => 
+      array (
+        'icon' => 1771,
+        'name' => 'Talisman of the Gritwitch',
       ),
     ),
   ),
@@ -49679,6 +51544,38 @@ $CollectionsData = array (
       ),
     ),
   ),
+  80692724 => 
+  array (
+    'category' => 'Fabled Runnyeye: The Gathering',
+    'name' => 'The Golden Scarab',
+    'level' => 110,
+    'crc' => 80692724,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2900158224 => 
+      array (
+        'icon' => 409,
+        'name' => 'Golden Scarab Leg',
+      ),
+      630205302 => 
+      array (
+        'icon' => 95,
+        'name' => 'Golden Scarab Thorax',
+      ),
+      2876563694 => 
+      array (
+        'icon' => 83,
+        'name' => 'Golden Scarab Eye',
+      ),
+      2398902547 => 
+      array (
+        'icon' => 320,
+        'name' => 'Golden Scarab Head',
+      ),
+    ),
+  ),
   3921443276 => 
   array (
     'category' => 'Nights of the Dead',
@@ -56845,6 +58742,58 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2688718733 => 
+  array (
+    'category' => 'Nights of the Dead',
+    'name' => 'Werehunter\'s Survival Kit',
+    'level' => 95,
+    'crc' => 2688718733,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3109093738 => 
+      array (
+        'icon' => 1983,
+        'name' => 'Dried Wolfsbane',
+      ),
+      542658768 => 
+      array (
+        'icon' => 2708,
+        'name' => 'Instant Sunlight Cantrip',
+      ),
+      1465868358 => 
+      array (
+        'icon' => 1031,
+        'name' => 'Silver Crossbow Bolts',
+      ),
+      3376149989 => 
+      array (
+        'icon' => 1010,
+        'name' => 'Silver Shackles',
+      ),
+      3191653747 => 
+      array (
+        'icon' => 962,
+        'name' => 'Circle of Protection Amulet',
+      ),
+      657822921 => 
+      array (
+        'icon' => 3047,
+        'name' => 'Olfactory Obscuritive Lotion',
+      ),
+      1345496159 => 
+      array (
+        'icon' => 953,
+        'name' => 'Lycan Collar',
+      ),
+      3230513614 => 
+      array (
+        'icon' => 3448,
+        'name' => 'Night Reapers Talisman ',
+      ),
+    ),
+  ),
   1397793817 => 
   array (
     'category' => 'Loping Plains',
@@ -58874,7 +60823,7 @@ $CollectionsData = array (
   array (
     'category' => 'Shard',
     'name' => 'bloodstone shard collection',
-    'level' => 35,
+    'level' => 50,
     'crc' => 2515956483,
     'isclass' => false,
     'ismeta' => false,
@@ -59779,7 +61728,7 @@ $CollectionsData = array (
   array (
     'category' => 'Bone Fragment',
     'name' => 'grinnin bone fragment collection',
-    'level' => 35,
+    'level' => 50,
     'crc' => 1380175757,
     'isclass' => false,
     'ismeta' => false,
@@ -60366,7 +62315,7 @@ $CollectionsData = array (
   array (
     'category' => 'Mushroom',
     'name' => 'plain mushroom collection',
-    'level' => 35,
+    'level' => 50,
     'crc' => 1323161524,
     'isclass' => false,
     'ismeta' => false,
@@ -61305,7 +63254,7 @@ $CollectionsData = array (
   array (
     'category' => 'Vampire Fang',
     'name' => 'vampire fang collection',
-    'level' => 35,
+    'level' => 50,
     'crc' => 3113856779,
     'isclass' => false,
     'ismeta' => false,
