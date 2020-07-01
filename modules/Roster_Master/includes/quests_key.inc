@@ -2,7 +2,7 @@
 /***********************************************************************
   Roster Master for Dragonfly(TM) CMS
   **********************************************************************
-  Copyright (C) 2005-2018 by Dark Grue
+  Copyright (C) 2005-2020 by Dark Grue
 
   Access Quest data for the Quest Master management module.
 

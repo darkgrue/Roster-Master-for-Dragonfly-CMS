@@ -1,7 +1,7 @@
 /***********************************************************************
   Roster Master for Dragonfly(TM) CMS
   **********************************************************************
-  Copyright (C) 2005-2018 by Dark Grue
+  Copyright (C) 2005-2020 by Dark Grue
 
   EverQuest II guild roster management, quest tracker, and dynamic
   signature generator that integrates with the Dragonfly(TM) Content
@@ -36,6 +36,10 @@
 Changelog:
 * TODO: Check for new key quests. Would appreciate any feedback on useful quests to include here (such as relevant raid flags).
 * TODO: Migrate remaining administrative functions to panel (maybe - they might be more convenient where they are).
+
+9.1.2
+* Added new collections for Blood of Luclin.
+* Created handler for missing collection icons.
 
 9.1.1
 * Corrected version number in file headers.

@@ -2,7 +2,7 @@
 /***********************************************************************
   Roster Master for Dragonfly(TM) CMS
   **********************************************************************
-  Copyright (C) 2005-2018 by Dark Grue
+  Copyright (C) 2005-2020 by Dark Grue
 
   Module administration system waiting notifications file.
 

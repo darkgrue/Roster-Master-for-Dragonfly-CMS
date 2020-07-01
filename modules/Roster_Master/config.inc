@@ -2,7 +2,7 @@
 /***********************************************************************
   Roster Master for Dragonfly(TM) CMS
   **********************************************************************
-  Copyright (C) 2005-2018 by Dark Grue
+  Copyright (C) 2005-2020 by Dark Grue
 
   Configuration file for Roster Master for Dragonfly(TM) CMS module.
 
@@ -349,4 +349,4 @@ $config['archetypes'] = array(
 	'Scout' => array('Scout', 'Rogue', 'Brigand', 'Swashbuckler', 'Bard', 'Dirge', 'Troubador', 'Predator', 'Assassin', 'Ranger', 'Beastlord'));
 
 // FIXME - TODO: Update version number before releasing source. Update sigblock templates with major version.
-$config['version_string'] = 'v9 p1.1';
+$config['version_string'] = 'v9 p1.2';

@@ -2,7 +2,7 @@
 /***********************************************************************
   Roster Master for Dragonfly(TM) CMS
   **********************************************************************
-  Copyright (C) 2005-2018 by Dark Grue
+  Copyright (C) 2005-2020 by Dark Grue
 
   Module main administration system file.
 
@@ -845,12 +845,17 @@ function build_collectionsicons() {
 		if (is_writable("modules/{$mod_dirname}/images/items/")) {
 			$count = 0;
 			$user_agent = 'Roster Master'.$config['version_string'];
+
+			OpenTable();
+			echo "<pre style=\"text-align:left\">local directory: modules/{$mod_dirname}/images/items/\nURL: {$config['census']}img/eq2/icons/\n\n";
+
 			foreach ($CollectionsData as $collection) {
 				foreach ($collection['reference_list'] as $item) {
 					$filename = "modules/{$mod_dirname}/images/items/{$item['icon']}.png";
 					if (!file_exists($filename)) {
 						$fp = fopen($filename, 'w+');
 						$ch = curl_init("{$config['census']}img/eq2/icons/{$item['icon']}/item");
+						$filesize = 0;
 						curl_setopt_array($ch, array(
 							CURLOPT_CUSTOMREQUEST  => 'GET',       // set request type post or get
 							CURLOPT_POST           => FALSE,       // set to GET
@@ -872,14 +877,19 @@ function build_collectionsicons() {
 						// Save the icon to a file.
 						curl_setopt($ch, CURLOPT_FILE, $fp);
 						curl_exec($ch);
+						$filesize = curl_getinfo($ch, CURLINFO_CONTENT_LENGTH_DOWNLOAD);
+						echo "{$config['census']}img/eq2/icons/{$item['icon']}/item, ".round($filesize / 1024)." KB\n";
 						curl_close($ch);
 						fclose($fp);
+						if ($filesize <= 0) {
+							// Failrly wasteful way of doing this, since it doesn't prevent subsequent retries...
+							unlink($filename);
+						}
 						$count++;
 					}
 				}
 			}
 
-			OpenTable();
 			echo "<pre style=\"text-align:left\">{$count} items written.</pre>\n";
 			CloseTable();
 		} else {

@@ -2,7 +2,7 @@
 #***********************************************************************
 # Roster Master for Dragonfly(TM) CMS
 # **********************************************************************
-# Copyright (C) 2005-2018 by Dark Grue
+# Copyright (C) 2005-2020 by Dark Grue
 #
 # Shell script to update the roster using an external process.
 # Requires the following settings in config.inc file:

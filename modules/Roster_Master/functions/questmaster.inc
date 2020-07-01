@@ -2,7 +2,7 @@
 /***********************************************************************
   Roster Master for Dragonfly(TM) CMS
   **********************************************************************
-  Copyright (C) 2005-2018 by Dark Grue
+  Copyright (C) 2005-2020 by Dark Grue
 
   Quest Master management module. Tracks Heritage, Access, and Timeline
   Quests for roster characters.
@@ -45,19 +45,19 @@ $Expansions = array(
 	0 => array(
 		'name' => 'The Shattered Lands',
 		'shortname' => 'TSL',
-		'url' => 'http://eq2.wikia.com/wiki/Shattered_Lands'),
+		'url' => 'http://eq2.wikia.com/wiki/Category:Shattered_Lands'),
 	1 => array(
 		'name' => 'Desert of Flames',
 		'shortname' => 'DoF',
-		'url' => 'http://eq2.wikia.com/wiki/Desert_of_Flames'),
+		'url' => 'http://eq2.wikia.com/wiki/Category:Desert_of_Flames'),
 	2 => array(
 		'name' => 'Kingdom of Sky',
 		'shortname' => 'KoS',
-		'url' => 'http://eq2.wikia.com/wiki/Kingdom_of_Sky'),
+		'url' => 'http://eq2.wikia.com/wiki/Category:Kingdom_of_Sky'),
 	3 => array(
 		'name' => 'Echoes of Faydwer',
 		'shortname' => 'EoF',
-		'url' => 'http://eq2.wikia.com/wiki/Echoes_of_Faydwer'),
+		'url' => 'http://eq2.wikia.com/wiki/Category:Echoes_of_Faydwer'),
 	4 => array(
 		'name' => 'Rise of Kunark',
 		'shortname' => 'RoK',
@@ -65,7 +65,7 @@ $Expansions = array(
 	5 => array(
 		'name' => 'The Shadow Odyssey',
 		'shortname' => 'TSO',
-		'url' => 'http://eq2.wikia.com/wiki/Shadow_Odyssey'),
+		'url' => 'http://eq2.wikia.com/wiki/Category:Shadow_Odyssey'),
 	6 => array(
 		'name' => 'Sentinel\'s Fate',
 		'shortname' => 'SF',
@@ -73,27 +73,27 @@ $Expansions = array(
 	7 => array(
 		'name' => 'Destiny of Velious',
 		'shortname' => 'DoV',
-		'url' => 'http://eq2.wikia.com/wiki/Destiny_of_Velious'),
+		'url' => 'http://eq2.wikia.com/wiki/Category:Destiny_of_Velious'),
 	8 => array(
 		'name' => 'Age of Discovery',
 		'shortname' => 'AoD',
-		'url' => 'http://eq2.wikia.com/wiki/Age_of_Discovery'),
+		'url' => 'http://eq2.wikia.com/wiki/Category:Age_of_Discovery'),
 	9 => array(
 		'name' => 'Chains of Eternity',
 		'shortname' => 'CoE',
-		'url' => 'http://eq2.wikia.com/wiki/Chains_of_Eternity'),
+		'url' => 'http://eq2.wikia.com/wiki/Category:Chains_of_Eternity'),
 	10 => array(
 		'name' => 'Tears of Veeshan',
 		'shortname' => 'ToV',
-		'url' => 'http://eq2.wikia.com/wiki/Tears_of_Veeshan'),
+		'url' => 'http://eq2.wikia.com/wiki/Category:Tears_of_Veeshan'),
 	11 => array(
 		'name' => 'Altar of Malice',
 		'shortname' => 'AoM',
-		'url' => 'http://eq2.wikia.com/wiki/Altar_of_Malice'),
+		'url' => 'http://eq2.wikia.com/wiki/Category:Altar_of_Malice'),
 	12 => array(
 		'name' => 'Terrors of Thalumbra',
 		'shortname' => 'ToT',
-		'url' => 'http://eq2.wikia.com/wiki/Terrors_of_Thalumbra'),
+		'url' => 'http://eq2.wikia.com/wiki/Category:Terrors_of_Thalumbra'),
 	13 => array(
 		'name' => 'Kunark Ascending',
 		'shortname' => 'KA',
@@ -101,11 +101,15 @@ $Expansions = array(
 	14 => array(
 		'name' => 'Planes of Prophecy',
 		'shortname' => 'PoP',
-		'url' => 'http://eq2.wikia.com/wiki/Planes_of_Prophecy'),
+		'url' => 'http://eq2.wikia.com/wiki/Category:Planes_of_Prophecy'),
 	15 => array(
-		'name' => '	Chaos Descending',
+		'name' => 'Chaos Descending',
 		'shortname' => 'CD',
-		'url' => 'https://eq2.fandom.com/wiki/Chaos_Descending')
+		'url' => 'https://eq2.fandom.com/wiki/Category:Chaos_Descending')
+	16 => array(
+		'name' => 'Blood of Luclin',
+		'shortname' => 'BoL',
+		'url' => 'https://eq2.fandom.com/wiki/Category:Blood_of_Luclin')
 	);
 
 // Load quest data.

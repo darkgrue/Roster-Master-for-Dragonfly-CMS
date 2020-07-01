@@ -2,7 +2,7 @@
 /***********************************************************************
   Roster Master for Dragonfly(TM) CMS
   **********************************************************************
-  Copyright (C) 2005-2018 by Dark Grue
+  Copyright (C) 2005-2020 by Dark Grue
 
   Collection Master management module. Tracks Collection Quests for
   roster characters.
@@ -197,7 +197,7 @@ function collectionmaster() {
 				$cpgtpl->assign_block_vars('collection_row.item_column', array(
 					'B_HAS' => ((empty($char_info[$quest['crc']])) ? FALSE : in_array($collection, $char_info[$quest['crc']])),
 					'U_ITEM' => 'http://eq2.wikia.com/wiki/'.rawurlencode($item['name']),
-					'U_ITEM_IMG' => "modules/{$mod_dirname}/images/items/{$item['icon']}.png",
+					'U_ITEM_IMG' => ((file_exists("modules/{$mod_dirname}/images/items/{$item['icon']}.png")) ? "modules/{$mod_dirname}/images/items/{$item['icon']}.png" : "modules/{$mod_dirname}/images/blankitem.png"),
 					'S_NAME' => $item['name']
 				));
 			}
