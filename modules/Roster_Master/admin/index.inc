@@ -736,7 +736,7 @@ function lookup_guildid() {
 }
 
 // Function:	build_questsdata()
-// What it does:	Developer interface to rebuild the $Timelines array from the Census.
+// What it does:	Developer interface to rebuild the $QuestsData array from the Census.
 //			This command takes a while to run and really only needs to be run during
 //			development, so this command is available (to an admin), but hidden.
 function build_questsdata() {
@@ -779,10 +779,9 @@ function build_questsdata() {
 			}
 //			cpg_error('<pre style="text-align:left">'.htmlspecialchars(var_export($QuestsData, TRUE)).";</pre>\n");
 		}
-	echo '<pre style="text-align:left">';
-//	echo count($QuestsData)." elements parsed.\n\n";
-	echo "\$Timelines['{$series}'] = ".htmlspecialchars(var_export($QuestsData, TRUE)).";\n\n</pre>\n";
+        trigger_error(count($QuestsData).' elements parsed.', E_USER_NOTICE);
 	}
+	echo "<pre style=\"text-align:left\">\$QuestsData = ".htmlspecialchars(var_export($QuestsData, TRUE)).";\n\n</pre>\n";
 
 	CloseTable();
 	CloseTable();

@@ -53,7 +53,7 @@ define('_BUILDCOLLECTIONSDESC', 'Rebuild the $CollectionsData array from the Cen
 define('_BUILDICONS', 'Build Item Icon Cache');
 define('_BUILDICONSDESC', 'Download and save to disk all unique collection icons.');
 define('_BUILDQUESTS', 'Build Quests Data');
-define('_BUILDQUESTSDESC', 'Rebuild the $Timelines arrays from the Census.');
+define('_BUILDQUESTSDESC', 'Rebuild the $QuestsData array from the Census.');
 // _BC_DELIM
 // _CATEGORY
 define('_CENSUS', 'Census');
