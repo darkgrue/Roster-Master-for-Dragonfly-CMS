@@ -1706,6 +1706,53 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3578960884 => 
+  array (
+    'category' => 'Tome',
+    'name' => 'After The Shifting',
+    'level' => 120,
+    'crc' => 3578960884,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2800737958 => 
+      array (
+        'icon' => 3772,
+        'name' => 'After The Shifting - Title Shard',
+      ),
+      329916049 => 
+      array (
+        'icon' => 3772,
+        'name' => 'After The Shifting - Shard 1',
+      ),
+      2325958443 => 
+      array (
+        'icon' => 3772,
+        'name' => 'After The Shifting - Shard 2',
+      ),
+      4255416253 => 
+      array (
+        'icon' => 3772,
+        'name' => 'After The Shifting - Shard 3',
+      ),
+      1673587230 => 
+      array (
+        'icon' => 3772,
+        'name' => 'After The Shifting - Shard 4',
+      ),
+      348641928 => 
+      array (
+        'icon' => 3772,
+        'name' => 'After The Shifting - Shard 5',
+      ),
+      2379123506 => 
+      array (
+        'icon' => 3772,
+        'name' => 'After The Shifting - Shard 6',
+      ),
+    ),
+  ),
   3073304600 => 
   array (
     'category' => 'Destiny of Velious',
@@ -4126,7 +4173,7 @@ $CollectionsData = array (
       654535695 => 
       array (
         'icon' => 1082,
-        'name' => 'Askr\'s Sprits Flask',
+        'name' => 'Askr\'s Spirit Flask',
       ),
       2991770305 => 
       array (
@@ -5770,6 +5817,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3272157980 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Barbed Bone Fishing Pole',
+    'level' => 120,
+    'crc' => 3272157980,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4019666685 => 
+      array (
+        'icon' => 202,
+        'name' => 'Ashwood Pole',
+      ),
+      2191231787 => 
+      array (
+        'icon' => 167,
+        'name' => 'Sharpened Leach Bone',
+      ),
+      476886798 => 
+      array (
+        'icon' => 748,
+        'name' => 'Hand Made Twine',
+      ),
+      1108078110 => 
+      array (
+        'icon' => 129,
+        'name' => 'Reishi Leather',
+      ),
+      185737766 => 
+      array (
+        'icon' => 354,
+        'name' => 'Magical Light Varnish',
+      ),
+    ),
+  ),
   2508654827 => 
   array (
     'category' => 'Scales',
@@ -5962,6 +6046,43 @@ $CollectionsData = array (
       array (
         'icon' => 1569,
         'name' => 'dented erudite helm',
+      ),
+    ),
+  ),
+  3282296194 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Battle Scarred Wingblade',
+    'level' => 120,
+    'crc' => 3282296194,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1711228661 => 
+      array (
+        'icon' => 4920,
+        'name' => 'Finely Crafted Luclizite Blade',
+      ),
+      1209130649 => 
+      array (
+        'icon' => 4886,
+        'name' => 'Acrid Polish',
+      ),
+      2991527536 => 
+      array (
+        'icon' => 4652,
+        'name' => 'Strong Sea Slug Hide',
+      ),
+      3246917705 => 
+      array (
+        'icon' => 4868,
+        'name' => 'Bauble of Battle',
+      ),
+      2807747834 => 
+      array (
+        'icon' => 4880,
+        'name' => 'Blood of the Fallen',
       ),
     ),
   ),
@@ -6513,6 +6634,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1719862289 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Black Feathered Circlet',
+    'level' => 120,
+    'crc' => 1719862289,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2696789379 => 
+      array (
+        'icon' => 155,
+        'name' => 'Crow Feather',
+      ),
+      174074381 => 
+      array (
+        'icon' => 178,
+        'name' => 'Beetle Ichor',
+      ),
+      1313394986 => 
+      array (
+        'icon' => 130,
+        'name' => 'Sacred Bat Hide',
+      ),
+      3563491251 => 
+      array (
+        'icon' => 3306,
+        'name' => 'Heavy Platinum Circlet',
+      ),
+      1136086954 => 
+      array (
+        'icon' => 330,
+        'name' => 'Constitution of Pitch',
+      ),
+    ),
+  ),
   3471606727 => 
   array (
     'category' => 'Chaos Descending',
@@ -6799,6 +6957,43 @@ $CollectionsData = array (
       array (
         'icon' => 180,
         'name' => 'ogre blood vial',
+      ),
+    ),
+  ),
+  3920429519 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Blood Weave Armor',
+    'level' => 120,
+    'crc' => 3920429519,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2545164725 => 
+      array (
+        'icon' => 1010,
+        'name' => 'Fine Electrum Rings',
+      ),
+      462509864 => 
+      array (
+        'icon' => 343,
+        'name' => 'Fire Emerald Powder',
+      ),
+      1168696417 => 
+      array (
+        'icon' => 610,
+        'name' => 'Thin Dark Steel Wire',
+      ),
+      3261466682 => 
+      array (
+        'icon' => 133,
+        'name' => 'Tuatara Hide Backing',
+      ),
+      3547748255 => 
+      array (
+        'icon' => 180,
+        'name' => 'Blood of the Survivor',
       ),
     ),
   ),
@@ -7163,7 +7358,7 @@ $CollectionsData = array (
       552857116 => 
       array (
         'icon' => 740,
-        'name' => 'Pummeler\'s Stiched Collar',
+        'name' => 'Pummeler\'s Stitched Collar',
       ),
     ),
   ),
@@ -7201,6 +7396,68 @@ $CollectionsData = array (
       array (
         'icon' => 31,
         'name' => 'Talisman of the Corruptor',
+      ),
+    ),
+  ),
+  222165708 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Bow of Doom',
+    'level' => 120,
+    'crc' => 222165708,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1368920092 => 
+      array (
+        'icon' => 1200,
+        'name' => 'Stone of Sacrilege',
+      ),
+      2918455151 => 
+      array (
+        'icon' => 172,
+        'name' => 'Dried Shadeweaver Sinew',
+      ),
+      4242928984 => 
+      array (
+        'icon' => 315,
+        'name' => 'Thicket Flax',
+      ),
+      1186919396 => 
+      array (
+        'icon' => 335,
+        'name' => 'Desolate Residue',
+      ),
+      3528006946 => 
+      array (
+        'icon' => 197,
+        'name' => 'Fibrous Material',
+      ),
+      1394900713 => 
+      array (
+        'icon' => 822,
+        'name' => 'Twisted Nettle',
+      ),
+      1237304046 => 
+      array (
+        'icon' => 877,
+        'name' => 'Dried Yew Pole',
+      ),
+      3365307348 => 
+      array (
+        'icon' => 290,
+        'name' => 'Tempered Bee\'s Wax',
+      ),
+      4075452266 => 
+      array (
+        'icon' => 100,
+        'name' => 'Cursed Jaw Bone',
+      ),
+      287078635 => 
+      array (
+        'icon' => 4082,
+        'name' => 'Constitution of Malediction',
       ),
     ),
   ),
@@ -7246,6 +7503,80 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3826503184 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Bracelet of Comprehension',
+    'level' => 120,
+    'crc' => 3826503184,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2186960534 => 
+      array (
+        'icon' => 389,
+        'name' => 'Golden Etched Bracelet',
+      ),
+      1846322571 => 
+      array (
+        'icon' => 1384,
+        'name' => 'Valuable Runes',
+      ),
+      2833887779 => 
+      array (
+        'icon' => 405,
+        'name' => 'Coating Liquid',
+      ),
+      2111343242 => 
+      array (
+        'icon' => 2940,
+        'name' => 'Unquenchable Determination',
+      ),
+      3857089873 => 
+      array (
+        'icon' => 1159,
+        'name' => 'Spirit of Comprehension',
+      ),
+    ),
+  ),
+  2508179124 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Bracelet of Quickness',
+    'level' => 120,
+    'crc' => 2508179124,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3670988420 => 
+      array (
+        'icon' => 960,
+        'name' => 'Golden Bracelet',
+      ),
+      2777072286 => 
+      array (
+        'icon' => 1177,
+        'name' => 'Cloudy Topaz',
+      ),
+      3585633124 => 
+      array (
+        'icon' => 75,
+        'name' => 'Song of Celerity',
+      ),
+      3738004639 => 
+      array (
+        'icon' => 986,
+        'name' => 'Electrum Solder',
+      ),
+      14260191 => 
+      array (
+        'icon' => 4363,
+        'name' => 'Caliber of Lightning',
+      ),
+    ),
+  ),
   1133044466 => 
   array (
     'category' => 'Chaos Descending',
@@ -7280,6 +7611,43 @@ $CollectionsData = array (
       array (
         'icon' => 603,
         'name' => 'Insignia of the Mudwalker',
+      ),
+    ),
+  ),
+  84641210 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Breastplate of Integrity',
+    'level' => 120,
+    'crc' => 84641210,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2934640444 => 
+      array (
+        'icon' => 731,
+        'name' => 'Hand Hammered Plate',
+      ),
+      416626194 => 
+      array (
+        'icon' => 1190,
+        'name' => 'Tortoise Shell',
+      ),
+      2220253734 => 
+      array (
+        'icon' => 766,
+        'name' => 'Hand Woven Straps',
+      ),
+      366192664 => 
+      array (
+        'icon' => 126,
+        'name' => 'Magical Leather lining',
+      ),
+      680913038 => 
+      array (
+        'icon' => 972,
+        'name' => 'Artifact of Integrity',
       ),
     ),
   ),
@@ -8724,6 +9092,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2436157992 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Calamity\'s End',
+    'level' => 120,
+    'crc' => 2436157992,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1348093491 => 
+      array (
+        'icon' => 1094,
+        'name' => 'Heavy Woven Cloth',
+      ),
+      14952333 => 
+      array (
+        'icon' => 1044,
+        'name' => 'Polished Gold Clips',
+      ),
+      572778737 => 
+      array (
+        'icon' => 75,
+        'name' => 'Whisperling Song',
+      ),
+      3073421439 => 
+      array (
+        'icon' => 175,
+        'name' => 'Root of Daring',
+      ),
+      4009073856 => 
+      array (
+        'icon' => 771,
+        'name' => 'Marrow of Divination',
+      ),
+    ),
+  ),
   3523518909 => 
   array (
     'category' => 'Castle Mistmoore',
@@ -8973,6 +9378,68 @@ $CollectionsData = array (
       array (
         'icon' => 159,
         'name' => 'Goblin Carcass',
+      ),
+    ),
+  ),
+  2928206341 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Carved Lunar Scimitar',
+    'level' => 120,
+    'crc' => 2928206341,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1986955744 => 
+      array (
+        'icon' => 2966,
+        'name' => 'Forged Dark Steel Blade',
+      ),
+      403220418 => 
+      array (
+        'icon' => 4879,
+        'name' => 'Acrylia Stone of Sharpening',
+      ),
+      946862773 => 
+      array (
+        'icon' => 4947,
+        'name' => 'Lunar Powder',
+      ),
+      54139307 => 
+      array (
+        'icon' => 2315,
+        'name' => 'Spice of Celerity',
+      ),
+      4031795975 => 
+      array (
+        'icon' => 2329,
+        'name' => 'Tanned Owlbear Hide Cord',
+      ),
+      538349227 => 
+      array (
+        'icon' => 1013,
+        'name' => 'Thin Electrum Hilt',
+      ),
+      2770972174 => 
+      array (
+        'icon' => 730,
+        'name' => 'Guard of Light',
+      ),
+      733509148 => 
+      array (
+        'icon' => 1302,
+        'name' => 'Mark of Rapidity',
+      ),
+      750549794 => 
+      array (
+        'icon' => 1305,
+        'name' => 'Emblem of Accuracy',
+      ),
+      4231444804 => 
+      array (
+        'icon' => 184,
+        'name' => 'Alacrity Substance',
       ),
     ),
   ),
@@ -9891,6 +10358,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3813902169 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Choker of the Overlord',
+    'level' => 120,
+    'crc' => 3813902169,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1771430782 => 
+      array (
+        'icon' => 185,
+        'name' => 'Demanding Orders',
+      ),
+      2562451228 => 
+      array (
+        'icon' => 2329,
+        'name' => 'Overlords Whip',
+      ),
+      1421347786 => 
+      array (
+        'icon' => 985,
+        'name' => 'Heavy Brass Chain',
+      ),
+      3182953037 => 
+      array (
+        'icon' => 1006,
+        'name' => 'Etched Chain Hook',
+      ),
+      3548859620 => 
+      array (
+        'icon' => 1182,
+        'name' => 'Unbridled Suppression',
+      ),
+    ),
+  ),
   2028624476 => 
   array (
     'category' => 'Kunark',
@@ -9935,6 +10439,43 @@ $CollectionsData = array (
       array (
         'icon' => 985,
         'name' => 'mesh chokidai collar',
+      ),
+    ),
+  ),
+  1128130190 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Chooser\'s Cap',
+    'level' => 120,
+    'crc' => 1128130190,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3603031453 => 
+      array (
+        'icon' => 744,
+        'name' => 'Bogling Loin Cloth',
+      ),
+      785229611 => 
+      array (
+        'icon' => 3492,
+        'name' => 'White Sand Powder',
+      ),
+      316352914 => 
+      array (
+        'icon' => 1017,
+        'name' => 'Iron Rimmed Buttons',
+      ),
+      3481508468 => 
+      array (
+        'icon' => 1249,
+        'name' => 'Signet of Parting',
+      ),
+      1190762242 => 
+      array (
+        'icon' => 1124,
+        'name' => 'Substance of Umbra',
       ),
     ),
   ),
@@ -10345,6 +10886,68 @@ $CollectionsData = array (
       array (
         'icon' => 1364,
         'name' => 'Signet of Vegarlson',
+      ),
+    ),
+  ),
+  3226322723 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Cloak of Destruction',
+    'level' => 120,
+    'crc' => 3226322723,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4251675916 => 
+      array (
+        'icon' => 244,
+        'name' => 'Mud-Stained Battle Cloak',
+      ),
+      1198065057 => 
+      array (
+        'icon' => 2520,
+        'name' => 'Blood of Damning',
+      ),
+      938186119 => 
+      array (
+        'icon' => 1113,
+        'name' => 'Bogling Hide Cord',
+      ),
+      1200244157 => 
+      array (
+        'icon' => 781,
+        'name' => 'Electrum Imbued Thread',
+      ),
+      1018072318 => 
+      array (
+        'icon' => 1269,
+        'name' => 'Token of Carnage',
+      ),
+      1146439404 => 
+      array (
+        'icon' => 851,
+        'name' => 'Shattered Regalia',
+      ),
+      3609574809 => 
+      array (
+        'icon' => 962,
+        'name' => 'Bauble of Ruin',
+      ),
+      150074583 => 
+      array (
+        'icon' => 2591,
+        'name' => 'Red of the Dead Dye',
+      ),
+      3299299221 => 
+      array (
+        'icon' => 201,
+        'name' => 'Fungus Fiend Scale',
+      ),
+      1842867767 => 
+      array (
+        'icon' => 1371,
+        'name' => 'Stamp of Eradication',
       ),
     ),
   ),
@@ -11389,6 +11992,58 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2905261388 => 
+  array (
+    'category' => 'Frostfell',
+    'name' => 'Colorful Frostfell Ribbons',
+    'level' => 95,
+    'crc' => 2905261388,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      564069878 => 
+      array (
+        'icon' => 1237,
+        'name' => 'Blue and Silver Snowflakes Ribbon',
+      ),
+      3096859724 => 
+      array (
+        'icon' => 1239,
+        'name' => 'Red and White Striped Ribbon',
+      ),
+      3482412250 => 
+      array (
+        'icon' => 1238,
+        'name' => 'Green and White Dotted Ribbon',
+      ),
+      1375072633 => 
+      array (
+        'icon' => 1239,
+        'name' => 'Gold and Red Trimmed Ribbon',
+      ),
+      653443567 => 
+      array (
+        'icon' => 1242,
+        'name' => 'White and Red Swirled Ribbon',
+      ),
+      3220934741 => 
+      array (
+        'icon' => 1240,
+        'name' => 'Blue and White Stars Ribbon',
+      ),
+      3371999427 => 
+      array (
+        'icon' => 1235,
+        'name' => 'Green Holly Silk Ribbon',
+      ),
+      1480834386 => 
+      array (
+        'icon' => 1236,
+        'name' => 'Candy and Sweets Ribbon',
+      ),
+    ),
+  ),
   783493920 => 
   array (
     'category' => 'Sentinel\'s Fate',
@@ -12131,6 +12786,138 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2996923845 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Creatures of the Dark Side',
+    'level' => 120,
+    'crc' => 2996923845,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      205275384 => 
+      array (
+        'icon' => 881,
+        'name' => 'Spongy Stem',
+      ),
+      1271446787 => 
+      array (
+        'icon' => 2532,
+        'name' => 'Tiny Scabbard',
+      ),
+      2991623357 => 
+      array (
+        'icon' => 823,
+        'name' => 'Greenish Flesh',
+      ),
+      2672095665 => 
+      array (
+        'icon' => 110,
+        'name' => 'Large Insect Wing',
+      ),
+      2406307495 => 
+      array (
+        'icon' => 201,
+        'name' => 'Compound Eye',
+      ),
+      1596150908 => 
+      array (
+        'icon' => 146,
+        'name' => 'Contained Water Droplet',
+      ),
+      1197445962 => 
+      array (
+        'icon' => 172,
+        'name' => 'Shadowed Tendril',
+      ),
+      1649231538 => 
+      array (
+        'icon' => 158,
+        'name' => 'Fungus Covered Scale',
+      ),
+      2551760859 => 
+      array (
+        'icon' => 198,
+        'name' => 'Brown Hair Tuft',
+      ),
+      1881365117 => 
+      array (
+        'icon' => 85,
+        'name' => 'Thick Black Toe Nail',
+      ),
+      785530394 => 
+      array (
+        'icon' => 79,
+        'name' => 'Yellowed Talon',
+      ),
+      19478876 => 
+      array (
+        'icon' => 167,
+        'name' => 'Sickled Claw',
+      ),
+      319918461 => 
+      array (
+        'icon' => 136,
+        'name' => 'Greyish Furry Ear',
+      ),
+      3042255095 => 
+      array (
+        'icon' => 2528,
+        'name' => 'Insignia Dagger',
+      ),
+      2454735947 => 
+      array (
+        'icon' => 112,
+        'name' => 'Black Chitin Horn',
+      ),
+      499696568 => 
+      array (
+        'icon' => 138,
+        'name' => 'Rotted Flesh',
+      ),
+      1370103757 => 
+      array (
+        'icon' => 167,
+        'name' => 'Black Rotted Fang',
+      ),
+      1499394507 => 
+      array (
+        'icon' => 161,
+        'name' => 'Hairy Brown Leg',
+      ),
+      4153579575 => 
+      array (
+        'icon' => 2515,
+        'name' => 'Sacred Essence',
+      ),
+      2638827419 => 
+      array (
+        'icon' => 135,
+        'name' => 'Reddish Smelly Goo',
+      ),
+      29831468 => 
+      array (
+        'icon' => 1042,
+        'name' => 'Brass Insignia Buckle',
+      ),
+      885493094 => 
+      array (
+        'icon' => 170,
+        'name' => 'Scarlet Knobbed Flesh',
+      ),
+      1351139470 => 
+      array (
+        'icon' => 2516,
+        'name' => 'Solidified Shadow',
+      ),
+      1299623582 => 
+      array (
+        'icon' => 90,
+        'name' => 'Wind-Worn Bones',
+      ),
+    ),
+  ),
   2682133736 => 
   array (
     'category' => 'Tears of Veeshan',
@@ -12734,6 +13521,53 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2453782551 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Crystal Enervated Armbands',
+    'level' => 120,
+    'crc' => 2453782551,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      277382694 => 
+      array (
+        'icon' => 4948,
+        'name' => 'Powdered Balanzite Crystal',
+      ),
+      429773844 => 
+      array (
+        'icon' => 737,
+        'name' => 'Fatigued Leather Straps',
+      ),
+      4279064108 => 
+      array (
+        'icon' => 4887,
+        'name' => 'Cloudy Liquid of Bolstering',
+      ),
+      1997267106 => 
+      array (
+        'icon' => 75,
+        'name' => 'Song of Support',
+      ),
+      2566596409 => 
+      array (
+        'icon' => 1751,
+        'name' => 'Square Star Rose Buttons',
+      ),
+      878534920 => 
+      array (
+        'icon' => 3772,
+        'name' => 'Quality of Reality',
+      ),
+      588860456 => 
+      array (
+        'icon' => 2538,
+        'name' => 'Grains of Release',
+      ),
+    ),
+  ),
   2328829269 => 
   array (
     'category' => 'Tears of Veeshan',
@@ -12996,6 +13830,43 @@ $CollectionsData = array (
       array (
         'icon' => 732,
         'name' => 'Detroxxulous Steel',
+      ),
+    ),
+  ),
+  3971244246 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Cursed Halo of Thought',
+    'level' => 120,
+    'crc' => 3971244246,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      159898497 => 
+      array (
+        'icon' => 3306,
+        'name' => 'Heavy Gold-Plated Circlet',
+      ),
+      2716428647 => 
+      array (
+        'icon' => 75,
+        'name' => 'Song of Cognition',
+      ),
+      2066682955 => 
+      array (
+        'icon' => 149,
+        'name' => 'Golden Griffon Feather',
+      ),
+      1015908014 => 
+      array (
+        'icon' => 144,
+        'name' => 'Silvery Light Stone',
+      ),
+      1073799713 => 
+      array (
+        'icon' => 1367,
+        'name' => 'Aspect of the Profane',
       ),
     ),
   ),
@@ -13449,6 +14320,78 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2991782695 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Dangers of the Darkside',
+    'level' => 120,
+    'crc' => 2991782695,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1154384490 => 
+      array (
+        'icon' => 2551,
+        'name' => 'Calamity\'s End',
+      ),
+      3660331015 => 
+      array (
+        'icon' => 1488,
+        'name' => 'Rotting Flesh Armor',
+      ),
+      4021110041 => 
+      array (
+        'icon' => 3334,
+        'name' => 'Master Assassin Armor',
+      ),
+      1596160912 => 
+      array (
+        'icon' => 1586,
+        'name' => 'Wicked Mail',
+      ),
+      1888662028 => 
+      array (
+        'icon' => 3582,
+        'name' => 'Dark Steel Greatsword',
+      ),
+      4089921543 => 
+      array (
+        'icon' => 19,
+        'name' => 'Dreamweaver Webshield',
+      ),
+      2443068080 => 
+      array (
+        'icon' => 15,
+        'name' => 'Grand Shield of Faith',
+      ),
+      4280030448 => 
+      array (
+        'icon' => 1654,
+        'name' => 'Pebble Crusher',
+      ),
+      4187554264 => 
+      array (
+        'icon' => 1408,
+        'name' => 'Chooser\'s Cap',
+      ),
+      3460743188 => 
+      array (
+        'icon' => 2766,
+        'name' => 'Grimling Tribal Headdress',
+      ),
+      2911661640 => 
+      array (
+        'icon' => 955,
+        'name' => 'Black Feathered Circlet',
+      ),
+      3406516378 => 
+      array (
+        'icon' => 961,
+        'name' => 'Cursed Halo of Thought',
+      ),
+    ),
+  ),
   1687266074 => 
   array (
     'category' => 'Tears of Veeshan',
@@ -13478,6 +14421,43 @@ $CollectionsData = array (
       array (
         'icon' => 904,
         'name' => 'Harp of Harmony',
+      ),
+    ),
+  ),
+  2088601543 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Dark Assassin Armor',
+    'level' => 120,
+    'crc' => 2088601543,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      549185943 => 
+      array (
+        'icon' => 3486,
+        'name' => 'Vial of Darkness',
+      ),
+      2331699897 => 
+      array (
+        'icon' => 1607,
+        'name' => 'Reinforced Chainmail',
+      ),
+      2777717717 => 
+      array (
+        'icon' => 134,
+        'name' => 'Soft Leather Lining',
+      ),
+      348303373 => 
+      array (
+        'icon' => 1044,
+        'name' => 'Special Iron Hooks',
+      ),
+      3373244853 => 
+      array (
+        'icon' => 4886,
+        'name' => 'Distilled Violence',
       ),
     ),
   ),
@@ -13552,6 +14532,43 @@ $CollectionsData = array (
       array (
         'icon' => 716,
         'name' => 'Krasick\'s Diseased Barbs',
+      ),
+    ),
+  ),
+  4034552294 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Dark Steel Greatsword',
+    'level' => 120,
+    'crc' => 4034552294,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2088424446 => 
+      array (
+        'icon' => 689,
+        'name' => 'Sharp Dark Steel Blade',
+      ),
+      1772647728 => 
+      array (
+        'icon' => 31,
+        'name' => 'Etched Electrum Pommel',
+      ),
+      3624864768 => 
+      array (
+        'icon' => 739,
+        'name' => 'Tanned Leech Cord',
+      ),
+      3858196715 => 
+      array (
+        'icon' => 1073,
+        'name' => 'Darkstone Sharpening Tool',
+      ),
+      2601502662 => 
+      array (
+        'icon' => 1267,
+        'name' => 'Form of Release',
       ),
     ),
   ),
@@ -14363,6 +15380,78 @@ $CollectionsData = array (
       ),
     ),
   ),
+  304158028 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Depths of the Darkside',
+    'level' => 120,
+    'crc' => 304158028,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2247234342 => 
+      array (
+        'icon' => 4137,
+        'name' => 'Blood Weave Armor',
+      ),
+      2583787654 => 
+      array (
+        'icon' => 280,
+        'name' => 'Vah Shir Skin Robe',
+      ),
+      2520828594 => 
+      array (
+        'icon' => 1453,
+        'name' => 'Hopperhide Armor',
+      ),
+      242082374 => 
+      array (
+        'icon' => 1565,
+        'name' => 'Dreamweaver Plate',
+      ),
+      3421422616 => 
+      array (
+        'icon' => 409,
+        'name' => 'Horn of Spirits',
+      ),
+      3493236087 => 
+      array (
+        'icon' => 616,
+        'name' => 'Battle Scarred Wingblade',
+      ),
+      4199216383 => 
+      array (
+        'icon' => 636,
+        'name' => 'Hammer of the Grunt',
+      ),
+      3047894 => 
+      array (
+        'icon' => 2142,
+        'name' => 'Necklace of Wishes',
+      ),
+      740875968 => 
+      array (
+        'icon' => 236,
+        'name' => 'Shawl of Ice',
+      ),
+      4240168539 => 
+      array (
+        'icon' => 378,
+        'name' => 'Bracelet of Quickness',
+      ),
+      668845489 => 
+      array (
+        'icon' => 3900,
+        'name' => 'Grimling Finger Bone Ring',
+      ),
+      4287292018 => 
+      array (
+        'icon' => 879,
+        'name' => 'Seared Bone Mask',
+      ),
+    ),
+  ),
   1979220691 => 
   array (
     'category' => 'Tears of Veeshan',
@@ -14392,6 +15481,53 @@ $CollectionsData = array (
       array (
         'icon' => 108,
         'name' => 'Sheep Hoof',
+      ),
+    ),
+  ),
+  3739227583 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Desecrated Platemail Vambraces',
+    'level' => 120,
+    'crc' => 3739227583,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3957392360 => 
+      array (
+        'icon' => 168,
+        'name' => 'Shadeweaver Hide Backing',
+      ),
+      1288910662 => 
+      array (
+        'icon' => 4449,
+        'name' => 'Essence of Detritus',
+      ),
+      3234308208 => 
+      array (
+        'icon' => 176,
+        'name' => 'Glistened Fiend Saliva',
+      ),
+      781367908 => 
+      array (
+        'icon' => 195,
+        'name' => 'Legends of the Misplaced',
+      ),
+      3427238751 => 
+      array (
+        'icon' => 356,
+        'name' => 'Desecrated Assassin Ichor',
+      ),
+      3700888411 => 
+      array (
+        'icon' => 735,
+        'name' => 'Forged Dark Steel Plate',
+      ),
+      1542180401 => 
+      array (
+        'icon' => 2526,
+        'name' => 'Essentiality of Quietus',
       ),
     ),
   ),
@@ -16126,6 +17262,80 @@ $CollectionsData = array (
       array (
         'icon' => 2500,
         'name' => 'Dreadfully Whispered Act',
+      ),
+    ),
+  ),
+  1704234087 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Dreamweaver Plate',
+    'level' => 120,
+    'crc' => 1704234087,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      765944015 => 
+      array (
+        'icon' => 4120,
+        'name' => 'Finely Crafted Luclizite Plate',
+      ),
+      3051570708 => 
+      array (
+        'icon' => 4930,
+        'name' => 'Vibrating Hammer of Worth',
+      ),
+      3186105294 => 
+      array (
+        'icon' => 2562,
+        'name' => 'Norrathian Sea Water',
+      ),
+      1290932511 => 
+      array (
+        'icon' => 746,
+        'name' => 'Azurite Twined Cord',
+      ),
+      3275125344 => 
+      array (
+        'icon' => 1205,
+        'name' => 'Lifeblood of Longing',
+      ),
+    ),
+  ),
+  2627856398 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Dreamweaver Web Shield',
+    'level' => 120,
+    'crc' => 2627856398,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      765561123 => 
+      array (
+        'icon' => 2251,
+        'name' => 'Shadeweaver Webbing',
+      ),
+      1382749964 => 
+      array (
+        'icon' => 4883,
+        'name' => 'Sacred Blood',
+      ),
+      2849062588 => 
+      array (
+        'icon' => 1196,
+        'name' => 'Whisperling Shell',
+      ),
+      4045075063 => 
+      array (
+        'icon' => 773,
+        'name' => 'Darkwood Ribbing',
+      ),
+      4218367631 => 
+      array (
+        'icon' => 1165,
+        'name' => 'Caliber of Reverie',
       ),
     ),
   ),
@@ -18478,6 +19688,53 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3862029371 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Ethereal Silk Sleeves',
+    'level' => 120,
+    'crc' => 3862029371,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3058863856 => 
+      array (
+        'icon' => 781,
+        'name' => 'Tenuous Thread',
+      ),
+      1339452490 => 
+      array (
+        'icon' => 470,
+        'name' => 'Golden Brace',
+      ),
+      1879781351 => 
+      array (
+        'icon' => 301,
+        'name' => 'Natural Protein Fibers',
+      ),
+      4288026193 => 
+      array (
+        'icon' => 2587,
+        'name' => 'Thickened Berry Dye',
+      ),
+      4084506101 => 
+      array (
+        'icon' => 611,
+        'name' => 'Form of Afterlife',
+      ),
+      2930288694 => 
+      array (
+        'icon' => 589,
+        'name' => 'Bauble of Renown',
+      ),
+      1268294070 => 
+      array (
+        'icon' => 1197,
+        'name' => 'Laureled Quintessence',
+      ),
+    ),
+  ),
   3515969094 => 
   array (
     'category' => 'Tradeskill',
@@ -19138,6 +20395,43 @@ $CollectionsData = array (
       array (
         'icon' => 1926,
         'name' => 'lambent firefly',
+      ),
+    ),
+  ),
+  1360855883 => 
+  array (
+    'category' => 'Live Events',
+    'name' => 'Fae Lichen',
+    'level' => 80,
+    'crc' => 1360855883,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2500491056 => 
+      array (
+        'icon' => 332,
+        'name' => 'crimson fae lichen',
+      ),
+      4181034762 => 
+      array (
+        'icon' => 335,
+        'name' => 'diamond fae lichen',
+      ),
+      3570421869 => 
+      array (
+        'icon' => 331,
+        'name' => 'emerald fae lichen',
+      ),
+      499475891 => 
+      array (
+        'icon' => 333,
+        'name' => 'sunbeam fae lichen',
+      ),
+      3549000334 => 
+      array (
+        'icon' => 334,
+        'name' => 'violet fae lichen',
       ),
     ),
   ),
@@ -19824,6 +21118,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  4211620324 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Feather Ring',
+    'level' => 120,
+    'crc' => 4211620324,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3399506259 => 
+      array (
+        'icon' => 4820,
+        'name' => 'Filthy Platinum Ring',
+      ),
+      2817285885 => 
+      array (
+        'icon' => 4944,
+        'name' => 'Acrylia Powder',
+      ),
+      3876948309 => 
+      array (
+        'icon' => 147,
+        'name' => 'Black Shadefiend Feather',
+      ),
+      1443076604 => 
+      array (
+        'icon' => 178,
+        'name' => 'Mossy Polish',
+      ),
+      882928305 => 
+      array (
+        'icon' => 194,
+        'name' => 'Root of Entity',
+      ),
+    ),
+  ),
   3279283960 => 
   array (
     'category' => 'Test',
@@ -20149,6 +21480,43 @@ $CollectionsData = array (
       array (
         'icon' => 1263,
         'name' => 'Seal of Ossein',
+      ),
+    ),
+  ),
+  223463107 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Fireclaw Carapace',
+    'level' => 120,
+    'crc' => 223463107,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2211186626 => 
+      array (
+        'icon' => 123,
+        'name' => 'Fireclaw Hide',
+      ),
+      1579761900 => 
+      array (
+        'icon' => 130,
+        'name' => 'Reinforced Canvas',
+      ),
+      1586564577 => 
+      array (
+        'icon' => 1026,
+        'name' => 'Brass Buttons',
+      ),
+      1168413172 => 
+      array (
+        'icon' => 1113,
+        'name' => 'Tortoise Leather Straps',
+      ),
+      1476653838 => 
+      array (
+        'icon' => 4953,
+        'name' => 'Essence of Pure Fire',
       ),
     ),
   ),
@@ -21813,6 +23181,48 @@ $CollectionsData = array (
       array (
         'icon' => 301,
         'name' => 'Poppyseed Rugelach',
+      ),
+    ),
+  ),
+  3940843213 => 
+  array (
+    'category' => 'Frostfell',
+    'name' => 'Frostfell Sweets',
+    'level' => 95,
+    'crc' => 3940843213,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4236674770 => 
+      array (
+        'icon' => 770,
+        'name' => 'Peppermint Discs',
+      ),
+      1703925608 => 
+      array (
+        'icon' => 1130,
+        'name' => 'Broken Glass Candy',
+      ),
+      310962174 => 
+      array (
+        'icon' => 302,
+        'name' => 'Cinnamon Gumdrops',
+      ),
+      2364306013 => 
+      array (
+        'icon' => 1102,
+        'name' => 'Ribbon Candy',
+      ),
+      4226499275 => 
+      array (
+        'icon' => 4167,
+        'name' => 'Marshmallow Snowmen',
+      ),
+      1658983281 => 
+      array (
+        'icon' => 827,
+        'name' => 'Almond Bark',
       ),
     ),
   ),
@@ -24059,6 +25469,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  615093302 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Grand Shield of Faith',
+    'level' => 120,
+    'crc' => 615093302,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2920684197 => 
+      array (
+        'icon' => 731,
+        'name' => 'Royal Forged Acrylia Steel',
+      ),
+      3497496673 => 
+      array (
+        'icon' => 1010,
+        'name' => 'Polished Silver Grommets',
+      ),
+      3892869802 => 
+      array (
+        'icon' => 75,
+        'name' => 'Song of Faith',
+      ),
+      2762311640 => 
+      array (
+        'icon' => 98,
+        'name' => 'Shadeweaver Hide Straps',
+      ),
+      3210661665 => 
+      array (
+        'icon' => 969,
+        'name' => 'Form of Truth',
+      ),
+    ),
+  ),
   2005533753 => 
   array (
     'category' => 'Fabled Kael Drakkel',
@@ -24393,6 +25840,105 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1207695127 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Grimling Crystal Ball',
+    'level' => 120,
+    'crc' => 1207695127,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1252463888 => 
+      array (
+        'icon' => 1158,
+        'name' => 'Polished Acrylia Sphere',
+      ),
+      1516667888 => 
+      array (
+        'icon' => 2585,
+        'name' => 'Potion of Loss',
+      ),
+      2122170711 => 
+      array (
+        'icon' => 1186,
+        'name' => 'Plucked Grimling Dreams',
+      ),
+      3412553314 => 
+      array (
+        'icon' => 2583,
+        'name' => 'Liquid Gloom',
+      ),
+      2113179251 => 
+      array (
+        'icon' => 4949,
+        'name' => 'Phyletic Powder',
+      ),
+      2051628187 => 
+      array (
+        'icon' => 185,
+        'name' => 'Chant of Clarity',
+      ),
+      3109293678 => 
+      array (
+        'icon' => 157,
+        'name' => 'Sonic Wolf Fang',
+      ),
+      3167812100 => 
+      array (
+        'icon' => 2582,
+        'name' => 'Hopper Eye Ichor',
+      ),
+      1163983913 => 
+      array (
+        'icon' => 2180,
+        'name' => 'Note of Undoing',
+      ),
+      4172950923 => 
+      array (
+        'icon' => 4885,
+        'name' => 'Germ of Adumbration',
+      ),
+    ),
+  ),
+  1625854579 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Grimling Finger Bones',
+    'level' => 120,
+    'crc' => 1625854579,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1993570814 => 
+      array (
+        'icon' => 92,
+        'name' => 'Sun-Bleached Finger Bones',
+      ),
+      2008741764 => 
+      array (
+        'icon' => 3015,
+        'name' => 'Cruel Blood',
+      ),
+      1608697691 => 
+      array (
+        'icon' => 2194,
+        'name' => 'Foul Hide',
+      ),
+      2232738327 => 
+      array (
+        'icon' => 2522,
+        'name' => 'Shadowed Tort',
+      ),
+      1775480848 => 
+      array (
+        'icon' => 4888,
+        'name' => 'Misguided Properties',
+      ),
+    ),
+  ),
   290555086 => 
   array (
     'category' => 'Altar of Malice',
@@ -24432,6 +25978,43 @@ $CollectionsData = array (
       array (
         'icon' => 2185,
         'name' => 'Spellsplitter\'s Inferno',
+      ),
+    ),
+  ),
+  1857463520 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Grimling Tribal Headdress',
+    'level' => 120,
+    'crc' => 1857463520,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3250457875 => 
+      array (
+        'icon' => 149,
+        'name' => 'Saliva Treated Owlbear Feathers',
+      ),
+      1518617536 => 
+      array (
+        'icon' => 139,
+        'name' => 'Vah Shir Tongue',
+      ),
+      2033201197 => 
+      array (
+        'icon' => 3306,
+        'name' => 'Heavy Iron Circlet',
+      ),
+      4277226328 => 
+      array (
+        'icon' => 2930,
+        'name' => 'Uncut Oval Ruby',
+      ),
+      1600736674 => 
+      array (
+        'icon' => 182,
+        'name' => 'Essentiality of Enmity',
       ),
     ),
   ),
@@ -24610,6 +26193,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1907417573 => 
+  array (
+    'category' => 'Live Events',
+    'name' => 'Grotto Flower Bulbs',
+    'level' => 80,
+    'crc' => 1907417573,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1173784526 => 
+      array (
+        'icon' => 750,
+        'name' => 'bluebell bulb',
+      ),
+      3458712981 => 
+      array (
+        'icon' => 747,
+        'name' => 'buttercup bulb',
+      ),
+      2465876168 => 
+      array (
+        'icon' => 746,
+        'name' => 'calla lily bulb',
+      ),
+      3699431901 => 
+      array (
+        'icon' => 748,
+        'name' => 'crocus bulb',
+      ),
+      2834672098 => 
+      array (
+        'icon' => 749,
+        'name' => 'hyacinth bulb',
+      ),
+    ),
+  ),
   1749024311 => 
   array (
     'category' => 'Cobalt Scar',
@@ -24659,6 +26279,43 @@ $CollectionsData = array (
       array (
         'icon' => 194,
         'name' => 'Netted Kelp',
+      ),
+    ),
+  ),
+  2483469459 => 
+  array (
+    'category' => 'Live Events',
+    'name' => 'Grotto Wings',
+    'level' => 80,
+    'crc' => 2483469459,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4272778441 => 
+      array (
+        'icon' => 1920,
+        'name' => 'bee wing',
+      ),
+      3807652470 => 
+      array (
+        'icon' => 1928,
+        'name' => 'dragonfly wing',
+      ),
+      3316548388 => 
+      array (
+        'icon' => 1838,
+        'name' => 'orange fae drake wing',
+      ),
+      2480124313 => 
+      array (
+        'icon' => 1932,
+        'name' => 'pixie wing',
+      ),
+      3886768985 => 
+      array (
+        'icon' => 1837,
+        'name' => 'rainbow fae drake wing',
       ),
     ),
   ),
@@ -25518,6 +27175,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1783941230 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Hammer of the Grunt',
+    'level' => 120,
+    'crc' => 1783941230,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3837527273 => 
+      array (
+        'icon' => 699,
+        'name' => 'Heavy Rough Hammer Head',
+      ),
+      3151135329 => 
+      array (
+        'icon' => 1032,
+        'name' => 'Lacquered Spruce Handle',
+      ),
+      576934677 => 
+      array (
+        'icon' => 1112,
+        'name' => 'Vah Shir Skin Cord',
+      ),
+      1184586635 => 
+      array (
+        'icon' => 752,
+        'name' => 'Sonic Wolf Hide',
+      ),
+      316528745 => 
+      array (
+        'icon' => 2509,
+        'name' => 'Marrow of Determination',
+      ),
+    ),
+  ),
   3714735822 => 
   array (
     'category' => 'Zek, the Scourge Wastes',
@@ -26266,6 +27960,117 @@ $CollectionsData = array (
       array (
         'icon' => 82,
         'name' => 'worn hooluk beak',
+      ),
+    ),
+  ),
+  2236556199 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Hopperhide Armor',
+    'level' => 120,
+    'crc' => 2236556199,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3369505959 => 
+      array (
+        'icon' => 122,
+        'name' => 'Finely Tanned Hopperhide',
+      ),
+      3000500815 => 
+      array (
+        'icon' => 1004,
+        'name' => 'Intricate Etched Hooks',
+      ),
+      2534468377 => 
+      array (
+        'icon' => 2708,
+        'name' => 'Song of Solidity',
+      ),
+      4138257377 => 
+      array (
+        'icon' => 2513,
+        'name' => 'Essence of Care',
+      ),
+      2734907439 => 
+      array (
+        'icon' => 1184,
+        'name' => 'Attribute of Praise',
+      ),
+    ),
+  ),
+  99881981 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Horn of Spirits',
+    'level' => 120,
+    'crc' => 99881981,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4146481847 => 
+      array (
+        'icon' => 97,
+        'name' => 'Cleaved Shadefiend Horn',
+      ),
+      513429688 => 
+      array (
+        'icon' => 342,
+        'name' => 'Chalky Grave Dirt',
+      ),
+      3660228300 => 
+      array (
+        'icon' => 1312,
+        'name' => 'Medallion of Spirits',
+      ),
+      3284851094 => 
+      array (
+        'icon' => 181,
+        'name' => 'Filed Headstone Powder',
+      ),
+      3423685362 => 
+      array (
+        'icon' => 4881,
+        'name' => 'Blood of Discourtesy',
+      ),
+    ),
+  ),
+  3844419016 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Horned Beetle Mask',
+    'level' => 120,
+    'crc' => 3844419016,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1867735881 => 
+      array (
+        'icon' => 162,
+        'name' => 'Cht\'thk Carapace',
+      ),
+      2278506923 => 
+      array (
+        'icon' => 763,
+        'name' => 'Shadeweaver Flesh Chord',
+      ),
+      3712368508 => 
+      array (
+        'icon' => 170,
+        'name' => 'Liquefied Carrion Crud',
+      ),
+      8210709 => 
+      array (
+        'icon' => 141,
+        'name' => 'Tanned Rhino Hide',
+      ),
+      3095820996 => 
+      array (
+        'icon' => 187,
+        'name' => 'Properties of Granularity',
       ),
     ),
   ),
@@ -31263,6 +33068,38 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1855169209 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Luclin Treasures',
+    'level' => 120,
+    'crc' => 1855169209,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1329416533 => 
+      array (
+        'icon' => 1504,
+        'name' => 'Ethereal Silk Sleeves',
+      ),
+      1367576360 => 
+      array (
+        'icon' => 1532,
+        'name' => 'Crystal Enervated Armbands',
+      ),
+      4246873940 => 
+      array (
+        'icon' => 1441,
+        'name' => 'Swordsmen\'s Armbands',
+      ),
+      755775682 => 
+      array (
+        'icon' => 1581,
+        'name' => 'Desecrated Platemail Vambraces',
+      ),
+    ),
+  ),
   1306549098 => 
   array (
     'category' => 'Fabled Kingdom of Sky',
@@ -32175,6 +34012,390 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2418191665 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Mark of Dreams',
+    'level' => 120,
+    'crc' => 2418191665,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3915368503 => 
+      array (
+        'icon' => 1524,
+        'name' => 'Boots of Silent Dreams',
+      ),
+      734367909 => 
+      array (
+        'icon' => 235,
+        'name' => 'Cloak of Darkened Dreams',
+      ),
+      2036912491 => 
+      array (
+        'icon' => 2766,
+        'name' => 'Girdle of Horrid Dreams',
+      ),
+      2560331738 => 
+      array (
+        'icon' => 267,
+        'name' => 'Gloves of Silent Dreams',
+      ),
+      4109441441 => 
+      array (
+        'icon' => 377,
+        'name' => 'Earring of Falling Dreams',
+      ),
+      1368907904 => 
+      array (
+        'icon' => 213,
+        'name' => 'Crown of Darkened Dreams',
+      ),
+      3161387041 => 
+      array (
+        'icon' => 879,
+        'name' => 'Mask of Hallowed Dreams',
+      ),
+      795443280 => 
+      array (
+        'icon' => 634,
+        'name' => 'Mace of Ruined Dreams',
+      ),
+    ),
+  ),
+  95767796 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Mark of Eradication',
+    'level' => 120,
+    'crc' => 95767796,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2722243823 => 
+      array (
+        'icon' => 444,
+        'name' => 'Mask of Eradication',
+      ),
+      2059836094 => 
+      array (
+        'icon' => 1474,
+        'name' => 'Mail of Eradication',
+      ),
+      1539784503 => 
+      array (
+        'icon' => 2443,
+        'name' => 'Robe of Eradication',
+      ),
+      4126143938 => 
+      array (
+        'icon' => 350,
+        'name' => 'Orb of Eradication',
+      ),
+      1792601972 => 
+      array (
+        'icon' => 598,
+        'name' => 'Band of Eradication',
+      ),
+      10029041 => 
+      array (
+        'icon' => 2693,
+        'name' => 'Tome of Eradication',
+      ),
+      2245952337 => 
+      array (
+        'icon' => 611,
+        'name' => 'Earring of Eradication',
+      ),
+      1368279960 => 
+      array (
+        'icon' => 1719,
+        'name' => 'Great Platemail of Eradication',
+      ),
+    ),
+  ),
+  1378003038 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Mark of Judgment',
+    'level' => 120,
+    'crc' => 1378003038,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      8269035 => 
+      array (
+        'icon' => 2713,
+        'name' => 'Mark of Shadows',
+      ),
+      4133332308 => 
+      array (
+        'icon' => 2710,
+        'name' => 'Mark of Dreams',
+      ),
+      2515055107 => 
+      array (
+        'icon' => 2710,
+        'name' => 'Mark of Secrets',
+      ),
+      4258889578 => 
+      array (
+        'icon' => 2711,
+        'name' => 'Mark of Eradication',
+      ),
+      3799134504 => 
+      array (
+        'icon' => 2712,
+        'name' => 'Mark of Retaliation',
+      ),
+    ),
+  ),
+  438174390 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Mark of Retaliation',
+    'level' => 120,
+    'crc' => 438174390,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1149485566 => 
+      array (
+        'icon' => 516,
+        'name' => 'Mask of Retaliation',
+      ),
+      959481628 => 
+      array (
+        'icon' => 349,
+        'name' => 'Orb of Retaliation',
+      ),
+      928602741 => 
+      array (
+        'icon' => 2752,
+        'name' => 'Robes of Retaliation',
+      ),
+      2713856913 => 
+      array (
+        'icon' => 376,
+        'name' => 'Ring of Retaliation',
+      ),
+      3864584928 => 
+      array (
+        'icon' => 2694,
+        'name' => 'Tome of Retaliation',
+      ),
+      337358951 => 
+      array (
+        'icon' => 394,
+        'name' => 'Earring of Retaliation',
+      ),
+      2617737135 => 
+      array (
+        'icon' => 1453,
+        'name' => 'Mail of Retaliation',
+      ),
+      316260648 => 
+      array (
+        'icon' => 271,
+        'name' => 'Armplates of Retaliation',
+      ),
+    ),
+  ),
+  2824231132 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Mark of Secrets',
+    'level' => 120,
+    'crc' => 2824231132,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3359764165 => 
+      array (
+        'icon' => 468,
+        'name' => 'Mask of Murmered Secrets',
+      ),
+      440637079 => 
+      array (
+        'icon' => 237,
+        'name' => 'Cloak of Whispered Secrets',
+      ),
+      1577166723 => 
+      array (
+        'icon' => 352,
+        'name' => 'Orb of Hinted Secrets',
+      ),
+      629271886 => 
+      array (
+        'icon' => 596,
+        'name' => 'Silver Band of Secrets',
+      ),
+      1276143131 => 
+      array (
+        'icon' => 717,
+        'name' => 'Tome of Idle Secrets',
+      ),
+      2727908358 => 
+      array (
+        'icon' => 1455,
+        'name' => 'Wristband of Empty Secrets',
+      ),
+      3108076257 => 
+      array (
+        'icon' => 1712,
+        'name' => 'Cuirass of Hollow Secrets',
+      ),
+      520908504 => 
+      array (
+        'icon' => 2444,
+        'name' => 'Robe of Muttered Secrets',
+      ),
+    ),
+  ),
+  1036043828 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Mark of Shadows',
+    'level' => 120,
+    'crc' => 1036043828,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3621770300 => 
+      array (
+        'icon' => 236,
+        'name' => 'Cloak of Icy Shadows',
+      ),
+      1534335052 => 
+      array (
+        'icon' => 247,
+        'name' => 'Crystal Shadow Cloak',
+      ),
+      3584846385 => 
+      array (
+        'icon' => 219,
+        'name' => 'Helm of Shadows',
+      ),
+      2980125231 => 
+      array (
+        'icon' => 2445,
+        'name' => 'Robe of Luring Shadows',
+      ),
+      2784767652 => 
+      array (
+        'icon' => 725,
+        'name' => 'Bow of Shadows',
+      ),
+      1055180848 => 
+      array (
+        'icon' => 4867,
+        'name' => 'Horn of Shadows',
+      ),
+      1106877036 => 
+      array (
+        'icon' => 1705,
+        'name' => 'Great Shadow Platemail',
+      ),
+      560509738 => 
+      array (
+        'icon' => 502,
+        'name' => 'Leg Guard of Shadows',
+      ),
+    ),
+  ),
+  2709140364 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Mark of Slaughter',
+    'level' => 120,
+    'crc' => 2709140364,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1555300810 => 
+      array (
+        'icon' => 623,
+        'name' => 'Short Sword of Slaughter',
+      ),
+      2613262201 => 
+      array (
+        'icon' => 2764,
+        'name' => 'Gorget of Superiority',
+      ),
+      4001986918 => 
+      array (
+        'icon' => 214,
+        'name' => 'Gauntlets of Dark Embers',
+      ),
+      1624665494 => 
+      array (
+        'icon' => 238,
+        'name' => 'Shroud of Despair',
+      ),
+      1152446277 => 
+      array (
+        'icon' => 1708,
+        'name' => 'Silver Skin Gauntlets',
+      ),
+      1652522771 => 
+      array (
+        'icon' => 255,
+        'name' => 'Gloves of Dark Summoning',
+      ),
+      1721031806 => 
+      array (
+        'icon' => 245,
+        'name' => 'Armguards of Piety',
+      ),
+      2069403831 => 
+      array (
+        'icon' => 2329,
+        'name' => 'Cord of Insight',
+      ),
+      2091304850 => 
+      array (
+        'icon' => 391,
+        'name' => 'Necklace of Endless Concepts',
+      ),
+      2069572325 => 
+      array (
+        'icon' => 239,
+        'name' => 'Shroud of Oograll',
+      ),
+      3900628691 => 
+      array (
+        'icon' => 2979,
+        'name' => 'Gorget of the Umbral Warden',
+      ),
+      2109440492 => 
+      array (
+        'icon' => 395,
+        'name' => 'Golden Ring of Eom Va Zethon',
+      ),
+      414107485 => 
+      array (
+        'icon' => 102,
+        'name' => 'Fang of Gloomscale Ssyssyx',
+      ),
+      666473019 => 
+      array (
+        'icon' => 612,
+        'name' => 'Blade of Vasszhin Zeom',
+      ),
+      1552762624 => 
+      array (
+        'icon' => 1726,
+        'name' => 'Shaded Cuirass of Ssraeshza',
+      ),
+    ),
+  ),
   1174438569 => 
   array (
     'category' => 'Ruins of Varsoon [Fabled]',
@@ -32609,6 +34830,43 @@ $CollectionsData = array (
       array (
         'icon' => 880,
         'name' => 'Tallonite mask of the Trajin',
+      ),
+    ),
+  ),
+  1866831603 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Master Assassin Armor',
+    'level' => 120,
+    'crc' => 1866831603,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3398862081 => 
+      array (
+        'icon' => 2400,
+        'name' => 'Deadly Links',
+      ),
+      1128189315 => 
+      array (
+        'icon' => 1111,
+        'name' => 'Bile Soaked Wire',
+      ),
+      3262753782 => 
+      array (
+        'icon' => 745,
+        'name' => 'Necrotic Backing',
+      ),
+      2077698948 => 
+      array (
+        'icon' => 1096,
+        'name' => 'Shadowed Woven Mesh',
+      ),
+      3315471345 => 
+      array (
+        'icon' => 1289,
+        'name' => 'Base of Assassination',
       ),
     ),
   ),
@@ -34123,6 +36381,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3417744850 => 
+  array (
+    'category' => 'Live Events',
+    'name' => 'Moonlight Worms',
+    'level' => 80,
+    'crc' => 3417744850,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      259894076 => 
+      array (
+        'icon' => 1908,
+        'name' => 'black dirtcrawler',
+      ),
+      1167355971 => 
+      array (
+        'icon' => 1910,
+        'name' => 'blue soilsquirmer',
+      ),
+      1372916 => 
+      array (
+        'icon' => 1909,
+        'name' => 'green wriggler',
+      ),
+      3438451161 => 
+      array (
+        'icon' => 1912,
+        'name' => 'red wriggler',
+      ),
+      3703448208 => 
+      array (
+        'icon' => 1911,
+        'name' => 'yellow dirtcrawler',
+      ),
+    ),
+  ),
   3449978670 => 
   array (
     'category' => 'Brewday',
@@ -34983,6 +37278,43 @@ $CollectionsData = array (
       array (
         'icon' => 2110,
         'name' => 'yellow nayad scale',
+      ),
+    ),
+  ),
+  959503668 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Necklace of Wishes',
+    'level' => 120,
+    'crc' => 959503668,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3561734758 => 
+      array (
+        'icon' => 983,
+        'name' => 'Worked Silver Chain',
+      ),
+      3211904027 => 
+      array (
+        'icon' => 1135,
+        'name' => 'Fractured Opaline',
+      ),
+      2318410245 => 
+      array (
+        'icon' => 185,
+        'name' => 'Scrawled Children\'s Notes',
+      ),
+      4178518134 => 
+      array (
+        'icon' => 1217,
+        'name' => 'Salt Encrusted Bottle',
+      ),
+      2370532770 => 
+      array (
+        'icon' => 1182,
+        'name' => 'Constitution of Yearning',
       ),
     ),
   ),
@@ -37205,6 +39537,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  121359592 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Owlbear Clawed Earring',
+    'level' => 120,
+    'crc' => 121359592,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1764309911 => 
+      array (
+        'icon' => 79,
+        'name' => 'Severed Owlbear Talon',
+      ),
+      3686769378 => 
+      array (
+        'icon' => 1032,
+        'name' => 'Thin Golden Wire',
+      ),
+      894626912 => 
+      array (
+        'icon' => 4943,
+        'name' => 'Black Moor Sand',
+      ),
+      2333669235 => 
+      array (
+        'icon' => 1173,
+        'name' => 'Paludal Opal',
+      ),
+      3413048852 => 
+      array (
+        'icon' => 2524,
+        'name' => 'Element of Being',
+      ),
+    ),
+  ),
   2097173558 => 
   array (
     'category' => 'Tradeskill',
@@ -37370,6 +39739,43 @@ $CollectionsData = array (
       array (
         'icon' => 2699,
         'name' => 'Peacock Club lamp',
+      ),
+    ),
+  ),
+  3908485785 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Pebble Crusher',
+    'level' => 120,
+    'crc' => 3908485785,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2919953361 => 
+      array (
+        'icon' => 699,
+        'name' => 'War Bloodied Hammer Head',
+      ),
+      3597265926 => 
+      array (
+        'icon' => 709,
+        'name' => 'Dusk Harvested Handle',
+      ),
+      454827740 => 
+      array (
+        'icon' => 2139,
+        'name' => 'Amulet of Obscurity',
+      ),
+      1276021005 => 
+      array (
+        'icon' => 99,
+        'name' => 'Tanned Sonic Hide Cord',
+      ),
+      3286726191 => 
+      array (
+        'icon' => 191,
+        'name' => 'Crux of Dimness',
       ),
     ),
   ),
@@ -39305,6 +41711,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  122033033 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Polished Stone Fishing Dagger',
+    'level' => 120,
+    'crc' => 122033033,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      27230619 => 
+      array (
+        'icon' => 1176,
+        'name' => 'Buffed Acrylia Sphere',
+      ),
+      3643460536 => 
+      array (
+        'icon' => 853,
+        'name' => 'Weald Cork',
+      ),
+      2769642562 => 
+      array (
+        'icon' => 136,
+        'name' => 'Darkened Leather',
+      ),
+      2103350357 => 
+      array (
+        'icon' => 188,
+        'name' => 'Core of the Hunt',
+      ),
+      3802104011 => 
+      array (
+        'icon' => 175,
+        'name' => 'Enchanted Marrowwood Fiber',
+      ),
+    ),
+  ),
   2076113629 => 
   array (
     'category' => 'Shard of Love',
@@ -39732,6 +42175,43 @@ $CollectionsData = array (
       array (
         'icon' => 1090,
         'name' => 'preserved torso wrapping',
+      ),
+    ),
+  ),
+  3389503893 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Preserved Owlbear Beak',
+    'level' => 120,
+    'crc' => 3389503893,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3670071380 => 
+      array (
+        'icon' => 359,
+        'name' => 'Cloudy Viscous Liquid',
+      ),
+      630548398 => 
+      array (
+        'icon' => 82,
+        'name' => 'Sundried Owlbear Beak',
+      ),
+      3089261731 => 
+      array (
+        'icon' => 1121,
+        'name' => 'Roughly Cut Ruby Gem',
+      ),
+      340158235 => 
+      array (
+        'icon' => 2520,
+        'name' => 'Clotted Ripper Blood',
+      ),
+      2726958346 => 
+      array (
+        'icon' => 860,
+        'name' => 'Crux of Nature',
       ),
     ),
   ),
@@ -41146,6 +43626,53 @@ $CollectionsData = array (
       ),
     ),
   ),
+  277389882 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Reign of Shadows',
+    'level' => 120,
+    'crc' => 277389882,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1051987343 => 
+      array (
+        'icon' => 637,
+        'name' => 'Hammer of Gorehorn',
+      ),
+      2590590482 => 
+      array (
+        'icon' => 861,
+        'name' => 'Idol of the Grimling Sorceress',
+      ),
+      2777396120 => 
+      array (
+        'icon' => 619,
+        'name' => 'Gok Thok\'s Wand',
+      ),
+      3138800167 => 
+      array (
+        'icon' => 618,
+        'name' => 'Scepter of the Bogling Chieftain',
+      ),
+      3270340895 => 
+      array (
+        'icon' => 957,
+        'name' => 'Crown of the Great Saprophyte',
+      ),
+      606307052 => 
+      array (
+        'icon' => 2228,
+        'name' => 'Claw of Khati Sha',
+      ),
+      845895342 => 
+      array (
+        'icon' => 373,
+        'name' => 'Emblem of Vex Thal',
+      ),
+    ),
+  ),
   2373192181 => 
   array (
     'category' => 'Chaos Descending',
@@ -41353,6 +43880,108 @@ $CollectionsData = array (
       array (
         'icon' => 91,
         'name' => 'A Cleft Kromrif Skull',
+      ),
+    ),
+  ),
+  3172040126 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Relics of the Darkside',
+    'level' => 120,
+    'crc' => 3172040126,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      841316089 => 
+      array (
+        'icon' => 2981,
+        'name' => 'Feather Ring',
+      ),
+      3937798416 => 
+      array (
+        'icon' => 623,
+        'name' => 'Shortsword of the Grunt',
+      ),
+      4021725113 => 
+      array (
+        'icon' => 588,
+        'name' => 'Owlbear Clawed Earring',
+      ),
+      1290283321 => 
+      array (
+        'icon' => 880,
+        'name' => 'Horned Beetle Mask',
+      ),
+      579523268 => 
+      array (
+        'icon' => 2807,
+        'name' => 'Preserved Owlbear Beak',
+      ),
+      1536520622 => 
+      array (
+        'icon' => 2850,
+        'name' => 'Polished Stone Fishing Dagger',
+      ),
+      1923475990 => 
+      array (
+        'icon' => 4151,
+        'name' => 'Fireclaw Carapace',
+      ),
+      3732205904 => 
+      array (
+        'icon' => 1474,
+        'name' => 'Tunic of Kinship',
+      ),
+      4000138081 => 
+      array (
+        'icon' => 4104,
+        'name' => 'Breastplate of Integrity',
+      ),
+      3001722250 => 
+      array (
+        'icon' => 3654,
+        'name' => 'Dark Assassin Armor',
+      ),
+      2392859583 => 
+      array (
+        'icon' => 1663,
+        'name' => 'Shar Vahl Garrison Blade',
+      ),
+      959522064 => 
+      array (
+        'icon' => 14,
+        'name' => 'Shar Vahl Garrison Shield',
+      ),
+      1467140497 => 
+      array (
+        'icon' => 4818,
+        'name' => 'Bracelet of Comprehension',
+      ),
+      1388894659 => 
+      array (
+        'icon' => 2977,
+        'name' => 'Choker of the Overlord',
+      ),
+      1885875357 => 
+      array (
+        'icon' => 287,
+        'name' => 'Barbed Bone Fishing Spear',
+      ),
+      1426551933 => 
+      array (
+        'icon' => 645,
+        'name' => 'Skull Marked Shield',
+      ),
+      2814550737 => 
+      array (
+        'icon' => 9,
+        'name' => 'Bow of Doom',
+      ),
+      3795997861 => 
+      array (
+        'icon' => 4936,
+        'name' => 'Ring of the Tribal Priest',
       ),
     ),
   ),
@@ -42703,6 +45332,68 @@ $CollectionsData = array (
       ),
     ),
   ),
+  107801935 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Ring of the Tribal Priest',
+    'level' => 120,
+    'crc' => 107801935,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3828245233 => 
+      array (
+        'icon' => 597,
+        'name' => 'Rough Electrum Ring',
+      ),
+      4207108772 => 
+      array (
+        'icon' => 1183,
+        'name' => 'Crudely Cut Sapphire',
+      ),
+      96006782 => 
+      array (
+        'icon' => 706,
+        'name' => 'Platinum Solder',
+      ),
+      3145161547 => 
+      array (
+        'icon' => 1179,
+        'name' => 'Malachite Nuggets',
+      ),
+      3258962755 => 
+      array (
+        'icon' => 618,
+        'name' => 'Feathered Tribal Wand',
+      ),
+      1950837207 => 
+      array (
+        'icon' => 753,
+        'name' => 'Thin Grimling Skin Sheet',
+      ),
+      1130771583 => 
+      array (
+        'icon' => 4878,
+        'name' => 'Stone of Curses',
+      ),
+      3860294391 => 
+      array (
+        'icon' => 770,
+        'name' => 'Fires of the Profane',
+      ),
+      1923391546 => 
+      array (
+        'icon' => 408,
+        'name' => 'Ghost Powder',
+      ),
+      4212181674 => 
+      array (
+        'icon' => 190,
+        'name' => 'Aspect of Spirit',
+      ),
+    ),
+  ),
   1160353631 => 
   array (
     'category' => 'Chains of Eternity',
@@ -43268,6 +45959,43 @@ $CollectionsData = array (
       array (
         'icon' => 1946,
         'name' => 'a black rose',
+      ),
+    ),
+  ),
+  3972471454 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Rotting Flesh Armor',
+    'level' => 120,
+    'crc' => 3972471454,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3886283104 => 
+      array (
+        'icon' => 780,
+        'name' => 'Salted Dried Rotted Flesh',
+      ),
+      3529139642 => 
+      array (
+        'icon' => 1089,
+        'name' => 'Supple Fawn Skin Backing',
+      ),
+      1540866547 => 
+      array (
+        'icon' => 4081,
+        'name' => 'Ichor Coated Cord',
+      ),
+      2001401248 => 
+      array (
+        'icon' => 1043,
+        'name' => 'Rough Iron Hooks',
+      ),
+      3143346267 => 
+      array (
+        'icon' => 365,
+        'name' => 'Fundamental Adumbration',
       ),
     ),
   ),
@@ -46449,6 +49177,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2785928742 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Seared Bone Mask',
+    'level' => 120,
+    'crc' => 2785928742,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3104118480 => 
+      array (
+        'icon' => 111,
+        'name' => 'Seared Leech Bone',
+      ),
+      1102639254 => 
+      array (
+        'icon' => 691,
+        'name' => 'Bogling Whittling Knife',
+      ),
+      1660304324 => 
+      array (
+        'icon' => 140,
+        'name' => 'Grove Drake Wing',
+      ),
+      1890277741 => 
+      array (
+        'icon' => 4884,
+        'name' => 'Chloro-Fly Ichor',
+      ),
+      3275942539 => 
+      array (
+        'icon' => 429,
+        'name' => 'Kernel of Meaning',
+      ),
+    ),
+  ),
   1134520064 => 
   array (
     'category' => 'Chaos Descending',
@@ -46557,6 +49322,93 @@ $CollectionsData = array (
       array (
         'icon' => 325,
         'name' => 'Potion of Acumen',
+      ),
+    ),
+  ),
+  831088644 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Secrets in Shadow',
+    'level' => 120,
+    'crc' => 831088644,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2151917449 => 
+      array (
+        'icon' => 3165,
+        'name' => 'Secret of Needlite Crown',
+      ),
+      239139844 => 
+      array (
+        'icon' => 3165,
+        'name' => 'Secret of Mossy Mists Standing',
+      ),
+      3132480201 => 
+      array (
+        'icon' => 3165,
+        'name' => 'Secret of Sentry Overlook',
+      ),
+      4181019026 => 
+      array (
+        'icon' => 3165,
+        'name' => 'Secret of Shadowed Quoin',
+      ),
+      1743845186 => 
+      array (
+        'icon' => 3165,
+        'name' => 'Secret of Crystal Pinnacle',
+      ),
+      1132612002 => 
+      array (
+        'icon' => 3165,
+        'name' => 'Secret of Obscured Niche',
+      ),
+      3022357838 => 
+      array (
+        'icon' => 3165,
+        'name' => 'Secret of Savage Glimpse',
+      ),
+      359332875 => 
+      array (
+        'icon' => 3165,
+        'name' => 'Secret of Skullcracker Point',
+      ),
+      3499912531 => 
+      array (
+        'icon' => 3165,
+        'name' => 'Secret of Sorcerer\'s Scepter',
+      ),
+      4198927898 => 
+      array (
+        'icon' => 3165,
+        'name' => 'Secret of Moor\'s Vista',
+      ),
+      2471811960 => 
+      array (
+        'icon' => 3165,
+        'name' => 'Secret of Umbral Vestige',
+      ),
+      1953616877 => 
+      array (
+        'icon' => 3165,
+        'name' => 'Secret of the Lonely Tree',
+      ),
+      25640168 => 
+      array (
+        'icon' => 3165,
+        'name' => 'Secret of Whisperling Scarp',
+      ),
+      1219040005 => 
+      array (
+        'icon' => 3165,
+        'name' => 'Secret of Long Awaited Rest',
+      ),
+      2567439097 => 
+      array (
+        'icon' => 3165,
+        'name' => 'Secret of Sacred Borough',
       ),
     ),
   ),
@@ -47304,6 +50156,38 @@ $CollectionsData = array (
       ),
     ),
   ),
+  788312648 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Shadows and Fear',
+    'level' => 120,
+    'crc' => 788312648,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      160346714 => 
+      array (
+        'icon' => 237,
+        'name' => 'Cloak of Destruction',
+      ),
+      871620351 => 
+      array (
+        'icon' => 54,
+        'name' => 'Carved Lunar Scimitar',
+      ),
+      2697327153 => 
+      array (
+        'icon' => 959,
+        'name' => 'Threaded Platinum Bracelet',
+      ),
+      2126051277 => 
+      array (
+        'icon' => 349,
+        'name' => 'Grimling Crystal Ball',
+      ),
+    ),
+  ),
   3016084509 => 
   array (
     'category' => 'Destiny of Velious',
@@ -47338,6 +50222,80 @@ $CollectionsData = array (
       array (
         'icon' => 2943,
         'name' => 'Cloudy Shadow Gem',
+      ),
+    ),
+  ),
+  1707533668 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Shar Vahl Garrison Blade',
+    'level' => 120,
+    'crc' => 1707533668,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      963751458 => 
+      array (
+        'icon' => 205,
+        'name' => 'Acrylia Steel Blade',
+      ),
+      3239179481 => 
+      array (
+        'icon' => 138,
+        'name' => 'Grimling Leather',
+      ),
+      1991452187 => 
+      array (
+        'icon' => 1015,
+        'name' => 'Heavy Brass Hilt',
+      ),
+      2276995150 => 
+      array (
+        'icon' => 739,
+        'name' => 'Owlbear Leather Straps',
+      ),
+      3203196031 => 
+      array (
+        'icon' => 181,
+        'name' => 'Essence of Valor',
+      ),
+    ),
+  ),
+  3307906543 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Shar Vahl Garrison Shield',
+    'level' => 120,
+    'crc' => 3307906543,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4279144175 => 
+      array (
+        'icon' => 734,
+        'name' => 'Folded Acrylia Steel',
+      ),
+      2173149394 => 
+      array (
+        'icon' => 988,
+        'name' => 'Forged Iron Bolts',
+      ),
+      2141420486 => 
+      array (
+        'icon' => 323,
+        'name' => 'Grimling Blood Varnish',
+      ),
+      3271989292 => 
+      array (
+        'icon' => 999,
+        'name' => 'Golden Edging',
+      ),
+      1246763725 => 
+      array (
+        'icon' => 179,
+        'name' => 'Distilled Vial of Honor',
       ),
     ),
   ),
@@ -47642,6 +50600,43 @@ $CollectionsData = array (
       array (
         'icon' => 1765,
         'name' => 'Thexian Mark',
+      ),
+    ),
+  ),
+  3743105528 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Shawl of Ice',
+    'level' => 120,
+    'crc' => 3743105528,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      640591037 => 
+      array (
+        'icon' => 741,
+        'name' => 'Finely Woven Cloth',
+      ),
+      3652192615 => 
+      array (
+        'icon' => 202,
+        'name' => 'Acrylia Etched Needle',
+      ),
+      2101558140 => 
+      array (
+        'icon' => 4883,
+        'name' => 'Waters of Honor',
+      ),
+      2382423384 => 
+      array (
+        'icon' => 75,
+        'name' => 'Song of Woven Time',
+      ),
+      989794604 => 
+      array (
+        'icon' => 2518,
+        'name' => 'Principle of Frost',
       ),
     ),
   ),
@@ -48397,6 +51392,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2185686485 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Shortsword of the Grunt',
+    'level' => 120,
+    'crc' => 2185686485,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1171884512 => 
+      array (
+        'icon' => 204,
+        'name' => 'Grimling Hammered Blade',
+      ),
+      1939150289 => 
+      array (
+        'icon' => 180,
+        'name' => 'Clotted Blood',
+      ),
+      2104100999 => 
+      array (
+        'icon' => 99,
+        'name' => 'Dried Owlbear Intestine',
+      ),
+      1187195891 => 
+      array (
+        'icon' => 929,
+        'name' => 'Treated Leather Cord',
+      ),
+      1061969799 => 
+      array (
+        'icon' => 183,
+        'name' => 'Pith of Burden',
+      ),
+    ),
+  ),
   318126681 => 
   array (
     'category' => 'Altar of Malice',
@@ -49020,6 +52052,68 @@ $CollectionsData = array (
       array (
         'icon' => 75,
         'name' => 'Noxious Cloud Sketch',
+      ),
+    ),
+  ),
+  790233776 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Skull Marked Shield',
+    'level' => 120,
+    'crc' => 790233776,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1127511956 => 
+      array (
+        'icon' => 142,
+        'name' => 'Firefall Skull',
+      ),
+      3030046218 => 
+      array (
+        'icon' => 113,
+        'name' => 'Shadefiend Hide',
+      ),
+      1836497307 => 
+      array (
+        'icon' => 347,
+        'name' => 'Powdered Acrylia Dust',
+      ),
+      4168382056 => 
+      array (
+        'icon' => 1012,
+        'name' => 'Brass Tabs',
+      ),
+      1393980741 => 
+      array (
+        'icon' => 4882,
+        'name' => 'Tortoise Hide Glue',
+      ),
+      3941736980 => 
+      array (
+        'icon' => 135,
+        'name' => 'Sundried Hopper Blood',
+      ),
+      609708048 => 
+      array (
+        'icon' => 2311,
+        'name' => 'Flakes of Bone',
+      ),
+      3572403919 => 
+      array (
+        'icon' => 2270,
+        'name' => 'Hammered Dark Steel',
+      ),
+      3066992468 => 
+      array (
+        'icon' => 1032,
+        'name' => 'Thin Bronze Edging',
+      ),
+      4108499694 => 
+      array (
+        'icon' => 1293,
+        'name' => 'Quiddity of Censure',
       ),
     ),
   ),
@@ -51931,6 +55025,53 @@ $CollectionsData = array (
       array (
         'icon' => 63,
         'name' => 'Praetor\'s Golden Sword',
+      ),
+    ),
+  ),
+  4198016568 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Swordsmen\'s Armbands',
+    'level' => 120,
+    'crc' => 4198016568,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1417622069 => 
+      array (
+        'icon' => 1031,
+        'name' => 'Fine Electrum Wire',
+      ),
+      974861773 => 
+      array (
+        'icon' => 1010,
+        'name' => 'Polished Luclizite Coils ',
+      ),
+      748949426 => 
+      array (
+        'icon' => 2120,
+        'name' => 'Root of Approbation',
+      ),
+      1865407666 => 
+      array (
+        'icon' => 126,
+        'name' => 'Fine Wolf Hide Lining',
+      ),
+      4220796052 => 
+      array (
+        'icon' => 973,
+        'name' => 'Intricate Golden Buckle',
+      ),
+      1815762804 => 
+      array (
+        'icon' => 2591,
+        'name' => 'Rhino Beetle Ichor',
+      ),
+      2599271420 => 
+      array (
+        'icon' => 2523,
+        'name' => 'Quality of Prowess',
       ),
     ),
   ),
@@ -55291,6 +58432,93 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2997731257 => 
+  array (
+    'category' => 'Solusek\'s Eye: the Calling',
+    'name' => 'The Fire Within',
+    'level' => 120,
+    'crc' => 2997731257,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3173301097 => 
+      array (
+        'icon' => 2182,
+        'name' => 'Cover Page - The Fire Within',
+      ),
+      3172289699 => 
+      array (
+        'icon' => 195,
+        'name' => 'The Fire Within - Complex Formulas For Metallurgy',
+      ),
+      3711864295 => 
+      array (
+        'icon' => 2180,
+        'name' => 'The Fire Within - Page 1',
+      ),
+      3005385776 => 
+      array (
+        'icon' => 2180,
+        'name' => 'The Fire Within - Page 10',
+      ),
+      3290807462 => 
+      array (
+        'icon' => 2180,
+        'name' => 'The Fire Within - Page 11',
+      ),
+      1563225372 => 
+      array (
+        'icon' => 2180,
+        'name' => 'The Fire Within - Page 12',
+      ),
+      707517834 => 
+      array (
+        'icon' => 2180,
+        'name' => 'The Fire Within - Page 13',
+      ),
+      1144511581 => 
+      array (
+        'icon' => 2180,
+        'name' => 'The Fire Within - Page 2',
+      ),
+      858844363 => 
+      array (
+        'icon' => 2180,
+        'name' => 'The Fire Within - Page 3',
+      ),
+      2907994472 => 
+      array (
+        'icon' => 2180,
+        'name' => 'The Fire Within - Page 4',
+      ),
+      3662891518 => 
+      array (
+        'icon' => 2180,
+        'name' => 'The Fire Within - Page 5',
+      ),
+      1129977924 => 
+      array (
+        'icon' => 2180,
+        'name' => 'The Fire Within - Page 6',
+      ),
+      878520530 => 
+      array (
+        'icon' => 2180,
+        'name' => 'The Fire Within - Page 7',
+      ),
+      2766288195 => 
+      array (
+        'icon' => 2180,
+        'name' => 'The Fire Within - Page 8',
+      ),
+      3555001813 => 
+      array (
+        'icon' => 2180,
+        'name' => 'The Fire Within - Page 9',
+      ),
+    ),
+  ),
   535924741 => 
   array (
     'category' => 'Tome',
@@ -57528,6 +60756,68 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3470509660 => 
+  array (
+    'category' => 'Tome',
+    'name' => 'The Story of Taruun',
+    'level' => 120,
+    'crc' => 3470509660,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      102884531 => 
+      array (
+        'icon' => 3771,
+        'name' => 'The Story of Taruun - Shard 1',
+      ),
+      2670245129 => 
+      array (
+        'icon' => 3771,
+        'name' => 'The Story of Taruun - Shard 2',
+      ),
+      3895428511 => 
+      array (
+        'icon' => 3771,
+        'name' => 'The Story of Taruun - Shard 3',
+      ),
+      1984630844 => 
+      array (
+        'icon' => 3771,
+        'name' => 'The Story of Taruun - Shard 4',
+      ),
+      21766314 => 
+      array (
+        'icon' => 3771,
+        'name' => 'The Story of Taruun - Shard 5',
+      ),
+      2554687760 => 
+      array (
+        'icon' => 3771,
+        'name' => 'The Story of Taruun - Shard 6',
+      ),
+      4014096774 => 
+      array (
+        'icon' => 3771,
+        'name' => 'The Story of Taruun - Shard 7',
+      ),
+      2147310615 => 
+      array (
+        'icon' => 3771,
+        'name' => 'The Story of Taruun - Shard 8',
+      ),
+      150629505 => 
+      array (
+        'icon' => 3771,
+        'name' => 'The Story of Taruun - Shard 9',
+      ),
+      1748886884 => 
+      array (
+        'icon' => 3771,
+        'name' => 'The Story of Taruun - Shard 10',
+      ),
+    ),
+  ),
   1519884144 => 
   array (
     'category' => 'Tome',
@@ -57943,6 +61233,68 @@ $CollectionsData = array (
       array (
         'icon' => 2713,
         'name' => 'Thrael\'Gorr Idol of Slavery',
+      ),
+    ),
+  ),
+  314658601 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Threaded Platinum Bracelet',
+    'level' => 120,
+    'crc' => 314658601,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2415161288 => 
+      array (
+        'icon' => 1031,
+        'name' => 'Thin Platinum Wire',
+      ),
+      3933936969 => 
+      array (
+        'icon' => 1112,
+        'name' => 'Golden Pulled Wire',
+      ),
+      2498750343 => 
+      array (
+        'icon' => 1163,
+        'name' => 'Rough Cut Emerald',
+      ),
+      18439425 => 
+      array (
+        'icon' => 1197,
+        'name' => 'Rounded Blue Diamond',
+      ),
+      1468094302 => 
+      array (
+        'icon' => 3885,
+        'name' => 'Triangular Ruby',
+      ),
+      3516612073 => 
+      array (
+        'icon' => 995,
+        'name' => 'Square Platinum Clasp',
+      ),
+      3096534575 => 
+      array (
+        'icon' => 2514,
+        'name' => 'Blue Fire Solder',
+      ),
+      1838886358 => 
+      array (
+        'icon' => 75,
+        'name' => 'Song of Triumph',
+      ),
+      1740977345 => 
+      array (
+        'icon' => 2519,
+        'name' => 'Regalia Core',
+      ),
+      3146524090 => 
+      array (
+        'icon' => 1170,
+        'name' => 'Burden of Fascination',
       ),
     ),
   ),
@@ -60504,6 +63856,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3310588948 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Tunic of Kinship',
+    'level' => 120,
+    'crc' => 3310588948,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3068039163 => 
+      array (
+        'icon' => 1446,
+        'name' => 'Firefall Caller Tunic',
+      ),
+      4155754715 => 
+      array (
+        'icon' => 781,
+        'name' => 'Silvered Wire Thread',
+      ),
+      1121662733 => 
+      array (
+        'icon' => 158,
+        'name' => 'Unpolished Shissar Scales',
+      ),
+      3314091606 => 
+      array (
+        'icon' => 238,
+        'name' => 'Cloth of Shade',
+      ),
+      2705068181 => 
+      array (
+        'icon' => 4085,
+        'name' => 'Principle of Kinship',
+      ),
+    ),
+  ),
   2475900726 => 
   array (
     'category' => 'Shadow Odyssey',
@@ -61433,6 +64822,43 @@ $CollectionsData = array (
       array (
         'icon' => 4359,
         'name' => 'Va Dyn Kar\'s Clinging Shadow',
+      ),
+    ),
+  ),
+  991983753 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Vah Shir Skin Robe',
+    'level' => 120,
+    'crc' => 991983753,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4075612072 => 
+      array (
+        'icon' => 132,
+        'name' => 'Tanned Vah Shir Skin',
+      ),
+      1577514050 => 
+      array (
+        'icon' => 321,
+        'name' => 'Woven Linen Lining',
+      ),
+      411577126 => 
+      array (
+        'icon' => 781,
+        'name' => 'Creeping Root Thread',
+      ),
+      3811803975 => 
+      array (
+        'icon' => 1025,
+        'name' => 'Fine Electrum Buttons',
+      ),
+      1638566784 => 
+      array (
+        'icon' => 3166,
+        'name' => 'Attribute of Turpitude',
       ),
     ),
   ),
@@ -62484,6 +65910,98 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2045197278 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'War of the Grimlings',
+    'level' => 120,
+    'crc' => 2045197278,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3016346828 => 
+      array (
+        'icon' => 3826,
+        'name' => 'Crux of Cullin',
+      ),
+      3348953801 => 
+      array (
+        'icon' => 3827,
+        'name' => 'Crux of Darznel',
+      ),
+      1280829736 => 
+      array (
+        'icon' => 3828,
+        'name' => 'Crux of Felles',
+      ),
+      3094296431 => 
+      array (
+        'icon' => 3828,
+        'name' => 'Crux of Gelg',
+      ),
+      283697875 => 
+      array (
+        'icon' => 3826,
+        'name' => 'Crux of Grughat',
+      ),
+      2427939979 => 
+      array (
+        'icon' => 3827,
+        'name' => 'Crux of Harsbren',
+      ),
+      2584562464 => 
+      array (
+        'icon' => 3831,
+        'name' => 'Crux of Kavgis',
+      ),
+      1187451833 => 
+      array (
+        'icon' => 3831,
+        'name' => 'Crux of Khati Sha',
+      ),
+      1439297840 => 
+      array (
+        'icon' => 3826,
+        'name' => 'Crux of Korin',
+      ),
+      4017117027 => 
+      array (
+        'icon' => 3827,
+        'name' => 'Crux of Necin',
+      ),
+      633516759 => 
+      array (
+        'icon' => 3828,
+        'name' => 'Crux of Niverin',
+      ),
+      1835473270 => 
+      array (
+        'icon' => 3826,
+        'name' => 'Crux of Soul Echo',
+      ),
+      653457334 => 
+      array (
+        'icon' => 3831,
+        'name' => 'Crux of Staginar',
+      ),
+      2373247858 => 
+      array (
+        'icon' => 3827,
+        'name' => 'Crux of Tregli',
+      ),
+      2139087360 => 
+      array (
+        'icon' => 3828,
+        'name' => 'Crux of Ukigit',
+      ),
+      1193974179 => 
+      array (
+        'icon' => 3831,
+        'name' => 'Crux of Warblood Sindrig',
+      ),
+    ),
+  ),
   659538072 => 
   array (
     'category' => 'Kunark Ascending',
@@ -62634,6 +66152,43 @@ $CollectionsData = array (
       array (
         'icon' => 839,
         'name' => 'Watchman\'s Club',
+      ),
+    ),
+  ),
+  2295832444 => 
+  array (
+    'category' => 'Live Events',
+    'name' => 'Water Skeeter Bugs',
+    'level' => 80,
+    'crc' => 2295832444,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2084783108 => 
+      array (
+        'icon' => 1892,
+        'name' => 'bog water skeeter',
+      ),
+      1882361877 => 
+      array (
+        'icon' => 1891,
+        'name' => 'ichor water skeeter',
+      ),
+      1330814010 => 
+      array (
+        'icon' => 1893,
+        'name' => 'lake water skeeter',
+      ),
+      2137636011 => 
+      array (
+        'icon' => 1895,
+        'name' => 'mud water skeeter',
+      ),
+      164791583 => 
+      array (
+        'icon' => 1894,
+        'name' => 'sulfur water skeeter',
       ),
     ),
   ),
@@ -63386,6 +66941,43 @@ $CollectionsData = array (
       array (
         'icon' => 3716,
         'name' => 'Grethah\'s Wand',
+      ),
+    ),
+  ),
+  686501234 => 
+  array (
+    'category' => 'Reign of Shadows',
+    'name' => 'Wicked Mail',
+    'level' => 120,
+    'crc' => 686501234,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      672288049 => 
+      array (
+        'icon' => 238,
+        'name' => 'Dark Assassin Cloth',
+      ),
+      4024357928 => 
+      array (
+        'icon' => 2713,
+        'name' => 'Reaver\'s Buckle',
+      ),
+      1026824891 => 
+      array (
+        'icon' => 1621,
+        'name' => 'Desolate Etched Plate',
+      ),
+      1203761001 => 
+      array (
+        'icon' => 4882,
+        'name' => 'Distilled Shissar Blood',
+      ),
+      975537517 => 
+      array (
+        'icon' => 946,
+        'name' => 'Basis of Iniquity',
       ),
     ),
   ),

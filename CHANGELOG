@@ -40,6 +40,8 @@ Changelog:
 9.1.2
 * Added new collections for Blood of Luclin.
 * Created handler for missing collection icons.
+* Removed "elements parsed." message from the quest array generator, as it
+  was screwing up cut-and-paste of the data into the include files.
 
 9.1.1
 * Corrected version number in file headers.

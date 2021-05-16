@@ -779,7 +779,9 @@ function build_questsdata() {
 			}
 //			cpg_error('<pre style="text-align:left">'.htmlspecialchars(var_export($QuestsData, TRUE)).";</pre>\n");
 		}
-	echo '<pre style="text-align:left">'.count($QuestsData)." elements parsed.\n\n\$Timelines['{$series}'] = ".htmlspecialchars(var_export($QuestsData, TRUE)).";\n\n</pre>\n";
+	echo '<pre style="text-align:left">';
+//	echo count($QuestsData)." elements parsed.\n\n";
+	echo "\$Timelines['{$series}'] = ".htmlspecialchars(var_export($QuestsData, TRUE)).";\n\n</pre>\n";
 	}
 
 	CloseTable();
