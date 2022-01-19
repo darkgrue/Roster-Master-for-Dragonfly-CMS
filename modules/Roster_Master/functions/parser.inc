@@ -177,7 +177,10 @@ function fetch_URL($url, $return_status = FALSE, $referer = NULL, $depth = 0) {
 			// FATAL: Log the fetch failure.
 			$error = sprintf(_ERR_CURLERR, curl_error($ch));
 			trigger_error($error, E_USER_NOTICE);
-			if ($config['logfile'] & 16) { $GLOBALS['log'][] = $error; }
+			if ($config['logfile'] & 16) {
+				$GLOBALS['log'][] = _ERR_URL.$url;
+				$GLOBALS['log'][] = $error;
+			}
 
 			if ($return_status) {
 				$statuscode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
@@ -291,7 +294,10 @@ function get_JSON($file = '', $url = '') {
 			.sprintf(_ERR_JSON_FAIL2b, "<a href=\"{$url}\">{$url}</a>"), E_USER_NOTICE);
 
 		// FATAL: Log the fetch failure.
-		if ($config['logfile'] & 16) { $GLOBALS['log'][] = _ERR_JSON_FAIL2a; }
+		if ($config['logfile'] & 16) {
+			$GLOBALS['log'][] = _ERR_URL.$url;
+			$GLOBALS['log'][] = _ERR_JSON_FAIL2a;
+		}
 
 		return FALSE;
 	}
@@ -311,8 +317,11 @@ function get_JSON($file = '', $url = '') {
 	if (json_last_error() !== JSON_ERROR_NONE) {
 		trigger_error(json_last_error_msg());
 
-		// FATAL: Log the fetch failure.
-		if ($config['logfile'] & 16) { $GLOBALS['log'][] = _ERR_JSON_FAIL2a; }
+		// FATAL: Log the fetch failure.\
+		if ($config['logfile'] & 16) {
+			$GLOBALS['log'][] = _ERR_URL.$url;
+			$GLOBALS['log'][] = _ERR_JSON_FAIL2a;
+		}
 
 		return FALSE;
 	}

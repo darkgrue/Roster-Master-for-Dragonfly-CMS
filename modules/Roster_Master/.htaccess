@@ -22,3 +22,12 @@
   RewriteCond expr "! %{HTTP_REFERER} -strmatch '*://%{HTTP_HOST}/*'"
   RewriteRule \.(jpe?g?|gif|png|bmp)$ - [F,NC,L]
 </IfModule>
+
+# This sets the maximum amount of memory in bytes that a script is
+# allowed to allocate. This helps prevent poorly written scripts for
+# eating up all available memory on a server. Note that to have no
+# memory limit, set this directive to -1.
+# When an int is used, the value is measured in bytes. Shorthand
+# notation, K (for Kilobytes), M (for Megabytes) and
+# G (for Gigabytes), may also be used.
+php_value memory_limit 256M
