@@ -345,10 +345,28 @@ function parse_guild_JSON() {
 
 	// Get the JSON data.
 	if (!($json = get_JSON('guild_list', $config['json_guild_url']))) {
+		trigger_error(_ERR_JSON_FAIL2a, E_USER_NOTICE);
+
+		// FATAL: Log the fetch failure.
+		if ($config['logfile'] & 16) {
+			$GLOBALS['log'][] = _ERR_JSON_FAIL2a;
+		}
+
 		// Fetch failed, return.
 		return FALSE;
 	}
-//	cpg_error('<pre style="text-align:left">'.count($json)." elements parsed.\n\n\$json = ".htmlspecialchars(var_dump_r($json))."</pre>\n");
+	if (!empty($json['error'])) {
+		trigger_error(htmlspecialchars(var_dump_r($json['error'])), E_USER_NOTICE);
+
+		// FATAL: Log the fetch failure.
+		if ($config['logfile'] & 16) {
+			$GLOBALS['log'][] = htmlspecialchars(var_dump_r($json['error']));
+		}
+
+		// Fetch failed, return.
+		return FALSE;
+	}
+	//cpg_error('<pre style="text-align:left">'.count($json)." elements parsed.\n\n\$json = ".htmlspecialchars(var_dump_r($json))."</pre>\n");
 
 	// Calculate function duration in seconds.
 	$timer_r = get_microtime(TRUE) - $timer_r;
