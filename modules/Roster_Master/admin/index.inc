@@ -448,6 +448,7 @@ function diagnostics() {
 	echo '<tr><td>'._CMSVERSION.'</td><td>'.CPG_NUKE.'</td></tr>';
 	// PHP Version
 	echo '<tr><td class="row2">'._PHPVERSION.'</td><td class="row2">'.phpversion().'</td></tr>';
+	echo '<tr><td class="row2">'._PHPINI.'</td><td class="row2">'.php_ini_loaded_file().'</td></tr>';
 	echo '<tr><td>PHP_INT_SIZE</td><td>'.PHP_INT_SIZE.'</td></tr>';
 	echo '<tr><td class="row2">PHP_INT_MAX</td><td class="row2">'.PHP_INT_MAX.'</td></tr>';	
 	// Server Environment
@@ -514,7 +515,7 @@ function diagnostics() {
 		.(($statuscode == '200') ? '<span style="color:green">OK</span>' : "<b style=\"color:red\">FAIL</b> - Recieved HTTP response status code $statuscode")
 		.'</td></tr>';
 	// Check if the cURL extension is loaded.
-	echo '<tr><td class="row2">Check cURL extension [via extension_loaded()]</td><td class="row2">'
+	echo '<tr><td class="row2">Check cURL extension [via extension_loaded()] (package php*-curl)</td><td class="row2">'
 		.((extension_loaded('cURL')) ? '<span style="color:green">OK</span>' : '<b style="color:red">FAIL</b> - does not exist')
 		.'</td></tr>';
 	// Check for JSON decode support [json_decode()].
@@ -543,7 +544,7 @@ function diagnostics() {
 		.'    <td>'
 		.'      <table class="forumline" style="width:100%" cellpadding="4" cellspacing="1">';
 	// Check if the GD library extension is loaded.
-	echo '<tr><td>GD Library Extension</td><td>'
+	echo '<tr><td>GD Library Extension (package php*-gd)</td><td>'
 		.((extension_loaded('gd')) ? '<span style="color:green">OK</span>' : '<b style="color:red">FAIL</b> - not loaded and/or installed')
 		.'</td></tr>';
 	// Check for FreeType support.

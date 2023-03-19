@@ -130,6 +130,7 @@ define('_OPTIMIZETABLESCOMP', 'Table optimization completed.');
 define('_ORPHANCLAIM', 'Orphaned Claims');
 define('_PHPDIAGNOSTICSDESC', 'Display core PHP configuration for PHP.');
 define('_PHPINFO', 'PHP Info');
+define('_PHPINI', 'Loaded php.ini');
 define('_PHPVERSION', 'PHP Version');
 define('_PRIMARY', 'Primary');
 define('_PROGRESS', 'Progress');
