@@ -33,7 +33,7 @@
 if (!defined('CPG_NUKE')) { exit; }
 
 
-//1781 elements parsed.
+// 2055 elements parsed.
 
 $CollectionsData = array (
   209952092 => 
@@ -453,6 +453,43 @@ $CollectionsData = array (
       array (
         'icon' => 2180,
         'name' => '3rd Lieutenant Gerrog - Logbook - Page 12',
+      ),
+    ),
+  ),
+  3525272096 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'A Bug\'s Life',
+    'level' => 125,
+    'crc' => 3525272096,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1932725624 => 
+      array (
+        'icon' => 2817,
+        'name' => 'Blightswarm Claw',
+      ),
+      3933638166 => 
+      array (
+        'icon' => 110,
+        'name' => 'Broken Hatchling Wing',
+      ),
+      3216818436 => 
+      array (
+        'icon' => 1132,
+        'name' => 'Bug-Gnawed Luclinite',
+      ),
+      4253956345 => 
+      array (
+        'icon' => 144,
+        'name' => 'Fossilized Shik\'Nar Egg',
+      ),
+      2612296782 => 
+      array (
+        'icon' => 158,
+        'name' => 'Shik\'Nar Ichor',
       ),
     ),
   ),
@@ -914,6 +951,38 @@ $CollectionsData = array (
       array (
         'icon' => 4092,
         'name' => 'Vexven Mucktail\'s Spirit Essence',
+      ),
+    ),
+  ),
+  2344496795 => 
+  array (
+    'category' => 'Tradeskill',
+    'name' => 'A Plethora of Nails',
+    'level' => 125,
+    'crc' => 2344496795,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1108125909 => 
+      array (
+        'icon' => 706,
+        'name' => 'No Nails in These',
+      ),
+      3128774897 => 
+      array (
+        'icon' => 706,
+        'name' => 'Cannot Build with These Nails',
+      ),
+      3679813031 => 
+      array (
+        'icon' => 706,
+        'name' => 'More Crafting Nails',
+      ),
+      1489800923 => 
+      array (
+        'icon' => 706,
+        'name' => 'Other Crafting Nails',
       ),
     ),
   ),
@@ -1738,6 +1807,167 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1155203805 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Adja-Beryl Berms Catalog',
+    'level' => 130,
+    'crc' => 1155203805,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      94634372 => 
+      array (
+        'icon' => 1085,
+        'name' => 'Silver Nugget',
+      ),
+      907166977 => 
+      array (
+        'icon' => 1085,
+        'name' => 'Silver Flakes',
+      ),
+      3270423266 => 
+      array (
+        'icon' => 1085,
+        'name' => 'Silver Grains',
+      ),
+      3607059599 => 
+      array (
+        'icon' => 1001,
+        'name' => 'Silver Pebble',
+      ),
+      3614260496 => 
+      array (
+        'icon' => 1085,
+        'name' => 'Silver Chunk',
+      ),
+      4182192232 => 
+      array (
+        'icon' => 1085,
+        'name' => 'Silver Clump',
+      ),
+      3557914431 => 
+      array (
+        'icon' => 947,
+        'name' => 'Silver Disc',
+      ),
+      3276078707 => 
+      array (
+        'icon' => 1031,
+        'name' => 'Silver Sliver',
+      ),
+      519058679 => 
+      array (
+        'icon' => 1001,
+        'name' => 'Silver Bead',
+      ),
+      2278333709 => 
+      array (
+        'icon' => 986,
+        'name' => 'Silver Pellet',
+      ),
+    ),
+  ),
+  832693110 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Adja-Beryl Berms Gemstones',
+    'level' => 130,
+    'crc' => 832693110,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4079161755 => 
+      array (
+        'icon' => 4799,
+        'name' => 'Polished Aventurine Gemstone',
+      ),
+      2031641654 => 
+      array (
+        'icon' => 4799,
+        'name' => 'Tapered Aventurine Gemstone',
+      ),
+      3756154573 => 
+      array (
+        'icon' => 4799,
+        'name' => 'Glossy Aventurine Gemstone',
+      ),
+      4040077674 => 
+      array (
+        'icon' => 4799,
+        'name' => 'Clear Aventurine Gemstone',
+      ),
+      2757262115 => 
+      array (
+        'icon' => 4799,
+        'name' => 'Trillion Aventurine Gemstone',
+      ),
+      897394180 => 
+      array (
+        'icon' => 4799,
+        'name' => 'Round Aventurine Gemstone',
+      ),
+      2228385269 => 
+      array (
+        'icon' => 4799,
+        'name' => 'Opaque Aventurine Gemstone',
+      ),
+      627642920 => 
+      array (
+        'icon' => 4799,
+        'name' => 'Murky Aventurine Gemstone',
+      ),
+      2939811851 => 
+      array (
+        'icon' => 4943,
+        'name' => 'Powdered Aventurine Gemstone',
+      ),
+      753301876 => 
+      array (
+        'icon' => 4799,
+        'name' => 'Oval Aventurine Gemstone',
+      ),
+    ),
+  ),
+  801973186 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Adventuring Goals',
+    'level' => 125,
+    'crc' => 801973186,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      313405095 => 
+      array (
+        'icon' => 4199,
+        'name' => 'Delve and Depart',
+      ),
+      3134156570 => 
+      array (
+        'icon' => 2242,
+        'name' => 'Disempower Edrigan',
+      ),
+      2418298044 => 
+      array (
+        'icon' => 46,
+        'name' => 'Slice Sanum',
+      ),
+      4033554509 => 
+      array (
+        'icon' => 1008,
+        'name' => 'Steal the Key',
+      ),
+      3179909866 => 
+      array (
+        'icon' => 747,
+        'name' => 'The Baron\'s Threads',
+      ),
+    ),
+  ),
   1855738065 => 
   array (
     'category' => 'Chaos Descending',
@@ -1819,6 +2049,63 @@ $CollectionsData = array (
       array (
         'icon' => 3772,
         'name' => 'After The Shifting - Shard 6',
+      ),
+    ),
+  ),
+  3547583018 => 
+  array (
+    'category' => 'Chronoportal Phenomenon',
+    'name' => 'Age of Turmoil Talismans',
+    'level' => 60,
+    'crc' => 3547583018,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1168535035 => 
+      array (
+        'icon' => 2241,
+        'name' => 'Cracked Amber Talisman',
+      ),
+      3702471745 => 
+      array (
+        'icon' => 3456,
+        'name' => 'Polished Azure Talisman',
+      ),
+      2879917271 => 
+      array (
+        'icon' => 4864,
+        'name' => 'Crimson Talisman',
+      ),
+      902601076 => 
+      array (
+        'icon' => 4865,
+        'name' => 'Broken Verdant Talisman',
+      ),
+      1120643554 => 
+      array (
+        'icon' => 3275,
+        'name' => 'Pearlescent Talisman',
+      ),
+      3686987864 => 
+      array (
+        'icon' => 2765,
+        'name' => 'Ebon Talisman ',
+      ),
+      2898643150 => 
+      array (
+        'icon' => 5001,
+        'name' => 'Chrysoberyl Talisman',
+      ),
+      1014682975 => 
+      array (
+        'icon' => 2765,
+        'name' => 'Petrified Talisman',
+      ),
+      1266542025 => 
+      array (
+        'icon' => 1171,
+        'name' => 'Magenta Talisman',
       ),
     ),
   ),
@@ -2227,6 +2514,68 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2707604562 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Albalatin Terrace Gemstones',
+    'level' => 130,
+    'crc' => 2707604562,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1127794427 => 
+      array (
+        'icon' => 4790,
+        'name' => 'Polished Sapphire Gemstone',
+      ),
+      208353081 => 
+      array (
+        'icon' => 4790,
+        'name' => 'Tapered Sapphire Gemstone',
+      ),
+      3779255401 => 
+      array (
+        'icon' => 4790,
+        'name' => 'Glossy Sapphire Gemstone',
+      ),
+      1931034631 => 
+      array (
+        'icon' => 4790,
+        'name' => 'Clear Sapphire Gemstone',
+      ),
+      4030588131 => 
+      array (
+        'icon' => 4790,
+        'name' => 'Trillion Sapphire Gemstone',
+      ),
+      1770377995 => 
+      array (
+        'icon' => 4790,
+        'name' => 'Round Sapphire Gemstone',
+      ),
+      1778798443 => 
+      array (
+        'icon' => 4790,
+        'name' => 'Opaque Sapphire Gemstone',
+      ),
+      1175967356 => 
+      array (
+        'icon' => 4790,
+        'name' => 'Murky Sapphire Gemstone',
+      ),
+      2080517655 => 
+      array (
+        'icon' => 4944,
+        'name' => 'Powdered Sapphire Gemstone',
+      ),
+      766174797 => 
+      array (
+        'icon' => 4790,
+        'name' => 'Oval Sapphire Gemstone',
+      ),
+    ),
+  ),
   3669713765 => 
   array (
     'category' => 'Planes of Prophecy',
@@ -2595,6 +2944,78 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1048138136 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Amok in the Desert',
+    'level' => 125,
+    'crc' => 1048138136,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      50684683 => 
+      array (
+        'icon' => 569,
+        'name' => 'Buried Vessels',
+      ),
+      2172067316 => 
+      array (
+        'icon' => 2497,
+        'name' => 'Goblin Games',
+      ),
+      251225297 => 
+      array (
+        'icon' => 4567,
+        'name' => 'Grisly Souvenirs',
+      ),
+      2015919478 => 
+      array (
+        'icon' => 998,
+        'name' => 'Mirror Mirror',
+      ),
+      3076051398 => 
+      array (
+        'icon' => 1125,
+        'name' => 'Petrified',
+      ),
+      941704892 => 
+      array (
+        'icon' => 75,
+        'name' => 'Poor Life Choices',
+      ),
+      2130275953 => 
+      array (
+        'icon' => 1136,
+        'name' => 'Salty',
+      ),
+      1088235608 => 
+      array (
+        'icon' => 1815,
+        'name' => 'Sand Beetles',
+      ),
+      2142490462 => 
+      array (
+        'icon' => 857,
+        'name' => 'Scrambled Tomes',
+      ),
+      151728967 => 
+      array (
+        'icon' => 4367,
+        'name' => 'The Power of Music',
+      ),
+      256068441 => 
+      array (
+        'icon' => 2798,
+        'name' => 'What One Eye Sees',
+      ),
+      3349786998 => 
+      array (
+        'icon' => 2799,
+        'name' => 'What the Other Eye Sees',
+      ),
+    ),
+  ),
   2415982405 => 
   array (
     'category' => 'Tome',
@@ -2921,6 +3342,48 @@ $CollectionsData = array (
       array (
         'icon' => 322,
         'name' => 'an ancient finger bone skeleton chip',
+      ),
+    ),
+  ),
+  824668873 => 
+  array (
+    'category' => 'Live Events',
+    'name' => 'Ancient Elven Pottery Shards',
+    'level' => 100,
+    'crc' => 824668873,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      632605059 => 
+      array (
+        'icon' => 1136,
+        'name' => 'Alabaster Elven Pottery Shard',
+      ),
+      3166541881 => 
+      array (
+        'icon' => 1126,
+        'name' => 'Emerald Elven Pottery Shard',
+      ),
+      3418007727 => 
+      array (
+        'icon' => 1143,
+        'name' => 'Lapis Lazuli Elven Pottery Shard',
+      ),
+      1440627980 => 
+      array (
+        'icon' => 2697,
+        'name' => 'Runic Elven Pottery Shard',
+      ),
+      584650138 => 
+      array (
+        'icon' => 2699,
+        'name' => 'Arcane Elven Pottery Shard',
+      ),
+      3150994464 => 
+      array (
+        'icon' => 2698,
+        'name' => 'Vine Etched Elven Pottery Shard',
       ),
     ),
   ),
@@ -3304,6 +3767,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  423314077 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Angry Elddar',
+    'level' => 125,
+    'crc' => 423314077,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4012548005 => 
+      array (
+        'icon' => 2486,
+        'name' => 'Abducted Leaders',
+      ),
+      598075920 => 
+      array (
+        'icon' => 2486,
+        'name' => 'Eldritch Experimentation',
+      ),
+      1387332278 => 
+      array (
+        'icon' => 2486,
+        'name' => 'Endless Servitude',
+      ),
+      4169358221 => 
+      array (
+        'icon' => 2486,
+        'name' => 'Greedy Geomancer',
+      ),
+      1422215233 => 
+      array (
+        'icon' => 2486,
+        'name' => 'Transformational Curses',
+      ),
+    ),
+  ),
   2987855955 => 
   array (
     'category' => 'Fabled Echoes of Faydwer',
@@ -3556,6 +4056,85 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2989352082 => 
+  array (
+    'category' => 'Shattered Overture',
+    'name' => 'Arcane Tome Bits',
+    'level' => 125,
+    'crc' => 2989352082,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      30652324 => 
+      array (
+        'icon' => 185,
+        'name' => 'Torn Pages',
+      ),
+      3606479316 => 
+      array (
+        'icon' => 185,
+        'name' => 'Ripped Pages',
+      ),
+      317826030 => 
+      array (
+        'icon' => 195,
+        'name' => 'Mangled Cover',
+      ),
+      1176596572 => 
+      array (
+        'icon' => 195,
+        'name' => 'Burnt Endband',
+      ),
+      3808658378 => 
+      array (
+        'icon' => 195,
+        'name' => 'Severed Book Spine',
+      ),
+    ),
+  ),
+  1773012674 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Arcaneframe Sigils',
+    'level' => 130,
+    'crc' => 1773012674,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4282351620 => 
+      array (
+        'icon' => 3774,
+        'name' => 'Sigil of the Daggerclaw',
+      ),
+      3489704117 => 
+      array (
+        'icon' => 3776,
+        'name' => 'Sigil of the Razorfang',
+      ),
+      624626969 => 
+      array (
+        'icon' => 3771,
+        'name' => 'Sigil of Command',
+      ),
+      4056356648 => 
+      array (
+        'icon' => 3777,
+        'name' => 'Sigil of the Hammerhoof',
+      ),
+      1177209734 => 
+      array (
+        'icon' => 3773,
+        'name' => 'Sigil of Control',
+      ),
+      324084324 => 
+      array (
+        'icon' => 3772,
+        'name' => 'Sigil of Confinement',
+      ),
+    ),
+  ),
   3742943560 => 
   array (
     'category' => 'Blood of Luclin',
@@ -3590,6 +4169,43 @@ $CollectionsData = array (
       array (
         'icon' => 4359,
         'name' => 'Rhag\'Nazza\'s Bubble',
+      ),
+    ),
+  ),
+  531448574 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Archaeology Finds',
+    'level' => 125,
+    'crc' => 531448574,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1242198687 => 
+      array (
+        'icon' => 2983,
+        'name' => 'Broken Diadem',
+      ),
+      4230639780 => 
+      array (
+        'icon' => 2676,
+        'name' => 'Fossilized Scarab',
+      ),
+      2227643011 => 
+      array (
+        'icon' => 3410,
+        'name' => 'Parchment Dust',
+      ),
+      845744517 => 
+      array (
+        'icon' => 2704,
+        'name' => 'Shattered Stele',
+      ),
+      70350298 => 
+      array (
+        'icon' => 2342,
+        'name' => 'Tarnished Bowl',
       ),
     ),
   ),
@@ -4110,6 +4726,468 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1228562706 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Articles of Argent Sanctuary',
+    'level' => 130,
+    'crc' => 1228562706,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      754161815 => 
+      array (
+        'icon' => 5708,
+        'name' => 'Blade of Ra\'Zaal',
+      ),
+      1960578090 => 
+      array (
+        'icon' => 2444,
+        'name' => 'Robes of Ra\'Zaal',
+      ),
+      944627317 => 
+      array (
+        'icon' => 5698,
+        'name' => 'Scepter of Ra\'Zaal',
+      ),
+      3892832818 => 
+      array (
+        'icon' => 5741,
+        'name' => 'Fang of the Steel Serpent',
+      ),
+      2035338952 => 
+      array (
+        'icon' => 5824,
+        'name' => 'Feather of the Steel Serpent',
+      ),
+      1538783170 => 
+      array (
+        'icon' => 5733,
+        'name' => 'Eye of the Steel Serpent',
+      ),
+    ),
+  ),
+  624828777 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Articles of Etosh',
+    'level' => 130,
+    'crc' => 624828777,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1343769467 => 
+      array (
+        'icon' => 3066,
+        'name' => 'Vambraces of the Electrifying',
+      ),
+      1365186137 => 
+      array (
+        'icon' => 3061,
+        'name' => 'Greaves of the Electrifying',
+      ),
+      2639923524 => 
+      array (
+        'icon' => 5718,
+        'name' => 'Mace of the Electrifying',
+      ),
+      3939282787 => 
+      array (
+        'icon' => 3121,
+        'name' => 'Halberd of the Electrifying',
+      ),
+      2353873561 => 
+      array (
+        'icon' => 3062,
+        'name' => 'Helm of the Electrifying',
+      ),
+      1417424508 => 
+      array (
+        'icon' => 3063,
+        'name' => 'Gauntlets of the Electrifying',
+      ),
+    ),
+  ),
+  2704509285 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Articles of Hasira',
+    'level' => 130,
+    'crc' => 2704509285,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      252575504 => 
+      array (
+        'icon' => 3127,
+        'name' => 'Greatsword of the Hawk',
+      ),
+      356047479 => 
+      array (
+        'icon' => 3069,
+        'name' => 'Sabatons of the Hawk',
+      ),
+      2900796253 => 
+      array (
+        'icon' => 2987,
+        'name' => 'Necklace of the Hawk',
+      ),
+      2360287651 => 
+      array (
+        'icon' => 5748,
+        'name' => 'Bangle of the Hawk',
+      ),
+      3572782507 => 
+      array (
+        'icon' => 3116,
+        'name' => 'Great-Staff of the Hawk',
+      ),
+      24898081 => 
+      array (
+        'icon' => 3136,
+        'name' => 'Scepter of the Hawk',
+      ),
+    ),
+  ),
+  2823562119 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Articles of Shanrazad',
+    'level' => 130,
+    'crc' => 2823562119,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2206334119 => 
+      array (
+        'icon' => 5719,
+        'name' => 'Blade of the Spared',
+      ),
+      934594782 => 
+      array (
+        'icon' => 2858,
+        'name' => 'Helm of the Spared',
+      ),
+      268358052 => 
+      array (
+        'icon' => 2910,
+        'name' => 'Gauntlets of the Spared',
+      ),
+      2021753766 => 
+      array (
+        'icon' => 2999,
+        'name' => 'Shield of the Spared',
+      ),
+      3893295867 => 
+      array (
+        'icon' => 2955,
+        'name' => 'Staff of the Spared',
+      ),
+      2116378989 => 
+      array (
+        'icon' => 2981,
+        'name' => 'Ring of the Spared',
+      ),
+    ),
+  ),
+  2309491065 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Articles of Strungstone',
+    'level' => 130,
+    'crc' => 2309491065,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1840959067 => 
+      array (
+        'icon' => 2612,
+        'name' => 'Sigil of Fuejenyrus',
+      ),
+      1613930935 => 
+      array (
+        'icon' => 5792,
+        'name' => 'Horn of Fuejenyrus',
+      ),
+      465983517 => 
+      array (
+        'icon' => 2607,
+        'name' => 'Signet of Fuejenyrus',
+      ),
+      3448968724 => 
+      array (
+        'icon' => 2609,
+        'name' => 'Sigil of Crisj\'Jen',
+      ),
+      2132305304 => 
+      array (
+        'icon' => 2792,
+        'name' => 'Claw of Crisj\'Jen',
+      ),
+      279391988 => 
+      array (
+        'icon' => 2605,
+        'name' => 'Signet of Crisj\'Jen',
+      ),
+    ),
+  ),
+  4291158990 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Articles of Zenith Helionae',
+    'level' => 130,
+    'crc' => 4291158990,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1790692630 => 
+      array (
+        'icon' => 2988,
+        'name' => 'Sigil of Queen Era\'selka',
+      ),
+      4267469458 => 
+      array (
+        'icon' => 5952,
+        'name' => 'Scale of Queen Era\'selka',
+      ),
+      962533244 => 
+      array (
+        'icon' => 2833,
+        'name' => 'Signet of Queen Era\'selka',
+      ),
+      4064838438 => 
+      array (
+        'icon' => 2801,
+        'name' => 'Sigil of Doda K\'Bael',
+      ),
+      1507781472 => 
+      array (
+        'icon' => 5929,
+        'name' => 'Banner of Doda K\'Bael',
+      ),
+      254257817 => 
+      array (
+        'icon' => 2835,
+        'name' => 'Signet of Doda K\'Bael',
+      ),
+    ),
+  ),
+  1039731978 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Articles of the Duende',
+    'level' => 130,
+    'crc' => 1039731978,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1874590794 => 
+      array (
+        'icon' => 5702,
+        'name' => 'Dagger of the Bashi',
+      ),
+      1064187242 => 
+      array (
+        'icon' => 5716,
+        'name' => 'Staff of the Bashia',
+      ),
+      1156373341 => 
+      array (
+        'icon' => 5722,
+        'name' => 'Scimitar of the Iskem',
+      ),
+      3875546456 => 
+      array (
+        'icon' => 5708,
+        'name' => 'Kukuri of the Iskma',
+      ),
+      34158326 => 
+      array (
+        'icon' => 5717,
+        'name' => 'Staff of the Nizam',
+      ),
+      3329420483 => 
+      array (
+        'icon' => 5699,
+        'name' => 'Scepter of the Nizama',
+      ),
+    ),
+  ),
+  1213048575 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Articles of the Golden Rule',
+    'level' => 130,
+    'crc' => 1213048575,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3997264280 => 
+      array (
+        'icon' => 2766,
+        'name' => 'Bracelet of Ashnu',
+      ),
+      465422080 => 
+      array (
+        'icon' => 2984,
+        'name' => 'Ring of Ashnu',
+      ),
+      3512815263 => 
+      array (
+        'icon' => 5951,
+        'name' => 'Scale of Hezodhan',
+      ),
+      2297816484 => 
+      array (
+        'icon' => 2817,
+        'name' => 'Horn of Hezodhan',
+      ),
+      2692372697 => 
+      array (
+        'icon' => 2766,
+        'name' => 'Veil of the Storm Mistress',
+      ),
+      465111008 => 
+      array (
+        'icon' => 2983,
+        'name' => 'Crown of the Storm Mistress',
+      ),
+    ),
+  ),
+  3751370058 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Articles of the Ironborne',
+    'level' => 130,
+    'crc' => 3751370058,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3140232537 => 
+      array (
+        'icon' => 1757,
+        'name' => 'Ironborne Rune',
+      ),
+      3536018706 => 
+      array (
+        'icon' => 1755,
+        'name' => 'Ironborne Sigil',
+      ),
+      3790751015 => 
+      array (
+        'icon' => 1758,
+        'name' => 'Ironborne Seal',
+      ),
+      1114363222 => 
+      array (
+        'icon' => 1756,
+        'name' => 'Ironborne Stamping',
+      ),
+      2847283558 => 
+      array (
+        'icon' => 1756,
+        'name' => 'Ironborne Mark',
+      ),
+      4292042691 => 
+      array (
+        'icon' => 1755,
+        'name' => 'Ironborne Casting',
+      ),
+    ),
+  ),
+  875368452 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Articles of the Jann',
+    'level' => 130,
+    'crc' => 875368452,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2145074307 => 
+      array (
+        'icon' => 2424,
+        'name' => 'Gauntlets of the Raja',
+      ),
+      719150729 => 
+      array (
+        'icon' => 2401,
+        'name' => 'Boots of the Rani',
+      ),
+      2921324125 => 
+      array (
+        'icon' => 2400,
+        'name' => 'Cuirass of the Shahan',
+      ),
+      4062291520 => 
+      array (
+        'icon' => 2405,
+        'name' => 'Greaves of the Shadan',
+      ),
+      300081125 => 
+      array (
+        'icon' => 2402,
+        'name' => 'Vambraces of the Khediva',
+      ),
+      2247066442 => 
+      array (
+        'icon' => 2406,
+        'name' => 'Pauldrons of the Reis',
+      ),
+    ),
+  ),
+  586846075 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Articles of the Yazdani',
+    'level' => 130,
+    'crc' => 586846075,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      733087153 => 
+      array (
+        'icon' => 5723,
+        'name' => 'Yazdani War Blade',
+      ),
+      4226191957 => 
+      array (
+        'icon' => 2377,
+        'name' => 'Yazdani Prayer Robes',
+      ),
+      1293807377 => 
+      array (
+        'icon' => 5832,
+        'name' => 'Yazdani Coin',
+      ),
+      913550891 => 
+      array (
+        'icon' => 5749,
+        'name' => 'Yazdani Priest Ring',
+      ),
+      1294258521 => 
+      array (
+        'icon' => 5756,
+        'name' => 'Yazdani Ceremonial Bowl',
+      ),
+      3869823665 => 
+      array (
+        'icon' => 650,
+        'name' => 'Yazdani Ancient Brazier',
+      ),
+    ),
+  ),
   1106314349 => 
   array (
     'category' => 'Blood of Luclin',
@@ -4275,6 +5353,43 @@ $CollectionsData = array (
       array (
         'icon' => 4855,
         'name' => 'Icon of the Ancient',
+      ),
+    ),
+  ),
+  535471726 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Artist Sketches',
+    'level' => 125,
+    'crc' => 535471726,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2600699595 => 
+      array (
+        'icon' => 185,
+        'name' => 'Ancient Aqueducts',
+      ),
+      1675785437 => 
+      array (
+        'icon' => 185,
+        'name' => 'Colorful Desert Flowers',
+      ),
+      3859116121 => 
+      array (
+        'icon' => 185,
+        'name' => 'Plateau Vista',
+      ),
+      1273451647 => 
+      array (
+        'icon' => 185,
+        'name' => 'Reservoir Shelter',
+      ),
+      1831648376 => 
+      array (
+        'icon' => 185,
+        'name' => 'Rocky Pinnacles',
       ),
     ),
   ),
@@ -4599,6 +5714,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2156027862 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Auduborian Colossus Collectables',
+    'level' => 130,
+    'crc' => 2156027862,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1852060507 => 
+      array (
+        'icon' => 198,
+        'name' => 'Colossus Root',
+      ),
+      3188706023 => 
+      array (
+        'icon' => 199,
+        'name' => 'Colossus Leaf',
+      ),
+      1183262759 => 
+      array (
+        'icon' => 196,
+        'name' => 'Colossus Bark',
+      ),
+      2179881694 => 
+      array (
+        'icon' => 194,
+        'name' => 'Colossus Branch',
+      ),
+      641613881 => 
+      array (
+        'icon' => 187,
+        'name' => 'Colossus Heartwood',
+      ),
+      1494522371 => 
+      array (
+        'icon' => 165,
+        'name' => 'Colossus Sapwood',
+      ),
+    ),
+  ),
   3027874832 => 
   array (
     'category' => 'Planes of Prophecy',
@@ -4868,6 +6025,43 @@ $CollectionsData = array (
       array (
         'icon' => 167,
         'name' => 'worn aviak talon',
+      ),
+    ),
+  ),
+  733625410 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Avoiding Heat Stroke',
+    'level' => 125,
+    'crc' => 733625410,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2650331996 => 
+      array (
+        'icon' => 406,
+        'name' => 'Carry Water',
+      ),
+      3679013007 => 
+      array (
+        'icon' => 4354,
+        'name' => 'Find an Oasis',
+      ),
+      2391590067 => 
+      array (
+        'icon' => 4373,
+        'name' => 'Shelter During Midday',
+      ),
+      2650132559 => 
+      array (
+        'icon' => 4365,
+        'name' => 'Travel by Night',
+      ),
+      3356988656 => 
+      array (
+        'icon' => 2685,
+        'name' => 'Wear a Headcovering',
       ),
     ),
   ),
@@ -5556,6 +6750,53 @@ $CollectionsData = array (
       ),
     ),
   ),
+  686775426 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Ballads of Zimara',
+    'level' => 130,
+    'crc' => 686775426,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      375450576 => 
+      array (
+        'icon' => 5788,
+        'name' => 'Songs of Fire and Rage',
+      ),
+      2597439701 => 
+      array (
+        'icon' => 5788,
+        'name' => 'The Fractal Chorals',
+      ),
+      3350451985 => 
+      array (
+        'icon' => 5788,
+        'name' => 'The Aerie Overture',
+      ),
+      3407286028 => 
+      array (
+        'icon' => 5788,
+        'name' => 'Flight of the Felfeather',
+      ),
+      3607735662 => 
+      array (
+        'icon' => 5788,
+        'name' => 'Songs of the Maedjinn',
+      ),
+      3651962864 => 
+      array (
+        'icon' => 5788,
+        'name' => 'The Lunatic\'s Lament',
+      ),
+      2040513275 => 
+      array (
+        'icon' => 5788,
+        'name' => 'The Vaashkaani Crescendo',
+      ),
+    ),
+  ),
   1659882258 => 
   array (
     'category' => 'Chaos Descending',
@@ -5637,6 +6878,43 @@ $CollectionsData = array (
       array (
         'icon' => 1328,
         'name' => 'wooden bandit coin',
+      ),
+    ),
+  ),
+  216519838 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Bandit Discards',
+    'level' => 125,
+    'crc' => 216519838,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3051740600 => 
+      array (
+        'icon' => 54,
+        'name' => 'Broken Scimitar',
+      ),
+      1120271453 => 
+      array (
+        'icon' => 604,
+        'name' => 'Chipped Bandit Ring',
+      ),
+      3840867108 => 
+      array (
+        'icon' => 91,
+        'name' => 'Dead Caravan Guard',
+      ),
+      1519841406 => 
+      array (
+        'icon' => 2685,
+        'name' => 'Discarded Headcovering',
+      ),
+      1910735826 => 
+      array (
+        'icon' => 1270,
+        'name' => 'Raj\'Dur Insignia',
       ),
     ),
   ),
@@ -6036,6 +7314,85 @@ $CollectionsData = array (
       array (
         'icon' => 354,
         'name' => 'Magical Light Varnish',
+      ),
+    ),
+  ),
+  3874398171 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Bark of the Greenwood',
+    'level' => 125,
+    'crc' => 3874398171,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      863662066 => 
+      array (
+        'icon' => 196,
+        'name' => 'Ancient Oak Bark',
+      ),
+      1344635529 => 
+      array (
+        'icon' => 196,
+        'name' => 'Ancient Ash Bark',
+      ),
+      436978748 => 
+      array (
+        'icon' => 196,
+        'name' => 'Ancient Cedar Bark',
+      ),
+      2980391293 => 
+      array (
+        'icon' => 196,
+        'name' => 'Ancient Ironwood Bark',
+      ),
+      1813399784 => 
+      array (
+        'icon' => 415,
+        'name' => 'Ancient Mahogany Bark',
+      ),
+    ),
+  ),
+  3486002636 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Basalt Artifacts',
+    'level' => 130,
+    'crc' => 3486002636,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1244918195 => 
+      array (
+        'icon' => 3838,
+        'name' => 'Jagged Basalt Shard',
+      ),
+      1585320612 => 
+      array (
+        'icon' => 2527,
+        'name' => 'Vesicular Basalt Fragment',
+      ),
+      1653333378 => 
+      array (
+        'icon' => 2519,
+        'name' => 'Columnar Basalt Plate',
+      ),
+      3148645792 => 
+      array (
+        'icon' => 3836,
+        'name' => 'Tholeiitic Basalt Nugget',
+      ),
+      821399783 => 
+      array (
+        'icon' => 2918,
+        'name' => 'Akali Basalt Round',
+      ),
+      3312177189 => 
+      array (
+        'icon' => 4696,
+        'name' => 'Perfect Basalt Stele',
       ),
     ),
   ),
@@ -6745,6 +8102,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  441969695 => 
+  array (
+    'category' => 'Shattered Overture',
+    'name' => 'Billy Doll Bits',
+    'level' => 125,
+    'crc' => 441969695,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2623697947 => 
+      array (
+        'icon' => 4066,
+        'name' => 'Torn Billy Doll Bit',
+      ),
+      2279675489 => 
+      array (
+        'icon' => 4065,
+        'name' => 'Ripped Billy Doll Bit',
+      ),
+      1638058583 => 
+      array (
+        'icon' => 4064,
+        'name' => 'Mangled Billy Doll Bit',
+      ),
+      2995003869 => 
+      array (
+        'icon' => 4067,
+        'name' => 'Burnt Billy Doll Bit',
+      ),
+      3248535269 => 
+      array (
+        'icon' => 781,
+        'name' => 'Severed Burlap String',
+      ),
+    ),
+  ),
   2632734290 => 
   array (
     'category' => 'Tome',
@@ -6964,6 +8358,48 @@ $CollectionsData = array (
       array (
         'icon' => 1372,
         'name' => 'Signet of Wisdom',
+      ),
+    ),
+  ),
+  2398405722 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Blackspawn Trappings',
+    'level' => 125,
+    'crc' => 2398405722,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3299555699 => 
+      array (
+        'icon' => 5292,
+        'name' => 'Robes of the Blackspawn',
+      ),
+      1984178459 => 
+      array (
+        'icon' => 5322,
+        'name' => 'Slippers of the Blackspawn',
+      ),
+      599646873 => 
+      array (
+        'icon' => 5340,
+        'name' => 'Wand of the Blackspawn',
+      ),
+      2973863675 => 
+      array (
+        'icon' => 4814,
+        'name' => 'Tome of the Blackspawn',
+      ),
+      1034883457 => 
+      array (
+        'icon' => 5343,
+        'name' => 'Symbol of the Blackspawn',
+      ),
+      535097914 => 
+      array (
+        'icon' => 4730,
+        'name' => 'Orb of the Blackspawn',
       ),
     ),
   ),
@@ -7433,6 +8869,43 @@ $CollectionsData = array (
       array (
         'icon' => 162,
         'name' => 'Humator Thorax',
+      ),
+    ),
+  ),
+  3715021363 => 
+  array (
+    'category' => 'Shattered Overture',
+    'name' => 'Boney Bits',
+    'level' => 125,
+    'crc' => 3715021363,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      833499051 => 
+      array (
+        'icon' => 91,
+        'name' => 'Busted Boney Bit',
+      ),
+      2157144023 => 
+      array (
+        'icon' => 91,
+        'name' => 'Cracked Boney Bit',
+      ),
+      1982330653 => 
+      array (
+        'icon' => 91,
+        'name' => 'Fractured Boney Bit',
+      ),
+      1140003770 => 
+      array (
+        'icon' => 91,
+        'name' => 'Split Boney Bit',
+      ),
+      447029949 => 
+      array (
+        'icon' => 91,
+        'name' => 'Shattered Boney Bit',
       ),
     ),
   ),
@@ -8211,6 +9684,43 @@ $CollectionsData = array (
       array (
         'icon' => 2694,
         'name' => 'a brigand\'s wicked deed',
+      ),
+    ),
+  ),
+  3003418628 => 
+  array (
+    'category' => 'Shattered Overture',
+    'name' => 'Brilliant Dust',
+    'level' => 125,
+    'crc' => 3003418628,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2266468639 => 
+      array (
+        'icon' => 4945,
+        'name' => 'Brilliant Beryl Dust',
+      ),
+      3225212425 => 
+      array (
+        'icon' => 4947,
+        'name' => 'Brilliant Crimson Dust',
+      ),
+      815049623 => 
+      array (
+        'icon' => 4944,
+        'name' => 'Brilliant Azure Dust',
+      ),
+      3773451232 => 
+      array (
+        'icon' => 4946,
+        'name' => 'Brilliant Flaxen Dust',
+      ),
+      978026961 => 
+      array (
+        'icon' => 4948,
+        'name' => 'Brilliant Violet Dust',
       ),
     ),
   ),
@@ -9205,6 +10715,189 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3692529206 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Buried Takish\'Hiz Treasures',
+    'level' => 125,
+    'crc' => 3692529206,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1278348966 => 
+      array (
+        'icon' => 4901,
+        'name' => 'Takka Kevad\'s Marauder Blade',
+      ),
+      493772470 => 
+      array (
+        'icon' => 4903,
+        'name' => 'Idol of Caedor\'s Growth Dagger',
+      ),
+      4051933348 => 
+      array (
+        'icon' => 4521,
+        'name' => 'Grenhuud the Fierce\'s Fist',
+      ),
+      2115568220 => 
+      array (
+        'icon' => 4897,
+        'name' => 'Dendrae\'s Nymph Blade',
+      ),
+      1658193112 => 
+      array (
+        'icon' => 4905,
+        'name' => 'Ceroth\'s Stone Club',
+      ),
+      1422527323 => 
+      array (
+        'icon' => 4406,
+        'name' => 'Queen Millidreex\'s Wand',
+      ),
+      3544126627 => 
+      array (
+        'icon' => 4927,
+        'name' => 'Flitter\'s Flittering Daggers',
+      ),
+      1235684955 => 
+      array (
+        'icon' => 4518,
+        'name' => 'Kragstag the Craggy\'s Staff',
+      ),
+      2056208707 => 
+      array (
+        'icon' => 4902,
+        'name' => 'Golgon\'s Gorer',
+      ),
+      489376424 => 
+      array (
+        'icon' => 4930,
+        'name' => 'Bulbrusk the Bulbous\' Basher',
+      ),
+    ),
+  ),
+  4146935541 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Buried Treasures',
+    'level' => 125,
+    'crc' => 4146935541,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2062003792 => 
+      array (
+        'icon' => 566,
+        'name' => 'Ancient Trapped Chest',
+      ),
+      966931741 => 
+      array (
+        'icon' => 718,
+        'name' => 'Bespelled Dusty Volume',
+      ),
+      116708563 => 
+      array (
+        'icon' => 3825,
+        'name' => 'Forgotten Gems',
+      ),
+      3053379083 => 
+      array (
+        'icon' => 217,
+        'name' => 'Rusted Elddar Armor',
+      ),
+      3937643398 => 
+      array (
+        'icon' => 976,
+        'name' => 'Tarnished Coins',
+      ),
+    ),
+  ),
+  2719925311 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Buried Vessels',
+    'level' => 125,
+    'crc' => 2719925311,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3462807788 => 
+      array (
+        'icon' => 569,
+        'name' => 'Broken Jug',
+      ),
+      2826397398 => 
+      array (
+        'icon' => 569,
+        'name' => 'Chipped Amphora',
+      ),
+      3315103525 => 
+      array (
+        'icon' => 569,
+        'name' => 'Cracked Urn',
+      ),
+      2633305864 => 
+      array (
+        'icon' => 569,
+        'name' => 'Dusty Vase',
+      ),
+      277560502 => 
+      array (
+        'icon' => 569,
+        'name' => 'Forgotten Vessel',
+      ),
+      1536189881 => 
+      array (
+        'icon' => 569,
+        'name' => 'Leaky Jar',
+      ),
+    ),
+  ),
+  1538813070 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Burning Hand Remnants',
+    'level' => 130,
+    'crc' => 1538813070,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      585215937 => 
+      array (
+        'icon' => 4823,
+        'name' => 'Shackle of the Burning Hand',
+      ),
+      1992699988 => 
+      array (
+        'icon' => 4953,
+        'name' => 'Gemstone of the Burning Hand',
+      ),
+      2777718780 => 
+      array (
+        'icon' => 4942,
+        'name' => 'Silvered Ring of the Burning Hand',
+      ),
+      3665575992 => 
+      array (
+        'icon' => 4868,
+        'name' => 'Finger Nail of the Burning Hand',
+      ),
+      1137249301 => 
+      array (
+        'icon' => 4645,
+        'name' => 'Cuticle of the Burning Hand',
+      ),
+      3469737022 => 
+      array (
+        'icon' => 5954,
+        'name' => 'Callus of the Burning Hand',
+      ),
+    ),
+  ),
   1515969934 => 
   array (
     'category' => 'Scorched Sky',
@@ -9254,6 +10947,90 @@ $CollectionsData = array (
       array (
         'icon' => 4585,
         'name' => 'Winds of Radiance',
+      ),
+    ),
+  ),
+  405106776 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Burnt Bark Bits',
+    'level' => 130,
+    'crc' => 405106776,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4189258089 => 
+      array (
+        'icon' => 196,
+        'name' => 'Burnt Pine Bits',
+      ),
+      276877650 => 
+      array (
+        'icon' => 196,
+        'name' => 'Burnt Burch Bits',
+      ),
+      408223208 => 
+      array (
+        'icon' => 196,
+        'name' => 'Burnt Maple Bits',
+      ),
+      1223322809 => 
+      array (
+        'icon' => 196,
+        'name' => 'Burnt Oak Bits',
+      ),
+      820371856 => 
+      array (
+        'icon' => 196,
+        'name' => 'Burnt Cork Bits',
+      ),
+      733315522 => 
+      array (
+        'icon' => 196,
+        'name' => 'Burnt Ash Bits',
+      ),
+    ),
+  ),
+  3633987406 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Burrower\'s Timber Leaves',
+    'level' => 130,
+    'crc' => 3633987406,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      941238911 => 
+      array (
+        'icon' => 2100,
+        'name' => 'Cheerful Noble Leaf',
+      ),
+      819718171 => 
+      array (
+        'icon' => 2118,
+        'name' => 'Contented Cedar Leaf',
+      ),
+      3362702552 => 
+      array (
+        'icon' => 2122,
+        'name' => 'Pleasant Pine Needle',
+      ),
+      1904270902 => 
+      array (
+        'icon' => 2093,
+        'name' => 'Jubilant Hemlock Leaf',
+      ),
+      1675726656 => 
+      array (
+        'icon' => 2107,
+        'name' => 'Lively Larch Leaf',
+      ),
+      104863696 => 
+      array (
+        'icon' => 2110,
+        'name' => 'Merry Spruce Leaf',
       ),
     ),
   ),
@@ -9667,6 +11444,58 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2852871949 => 
+  array (
+    'category' => 'Tradeskill',
+    'name' => 'Cannot Build with These Nails',
+    'level' => 125,
+    'crc' => 2852871949,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1549964749 => 
+      array (
+        'icon' => 707,
+        'name' => 'Hangnail',
+      ),
+      3019526005 => 
+      array (
+        'icon' => 707,
+        'name' => 'Cracked Fingernail',
+      ),
+      680814750 => 
+      array (
+        'icon' => 707,
+        'name' => 'Ingrown Toenail',
+      ),
+      3240823441 => 
+      array (
+        'icon' => 707,
+        'name' => 'Nailed the Landing',
+      ),
+      736498651 => 
+      array (
+        'icon' => 707,
+        'name' => 'Hit the Nail on the Head',
+      ),
+      2717566120 => 
+      array (
+        'icon' => 707,
+        'name' => 'Fight Tooth and Nail',
+      ),
+      3353308396 => 
+      array (
+        'icon' => 707,
+        'name' => 'Nail Biter',
+      ),
+      323818047 => 
+      array (
+        'icon' => 707,
+        'name' => 'Hard as Nails',
+      ),
+    ),
+  ),
   2739959683 => 
   array (
     'category' => 'Silent City: The Delving Dead',
@@ -9874,6 +11703,85 @@ $CollectionsData = array (
       array (
         'icon' => 4634,
         'name' => 'Don\'t-ever-try-a-muzzle',
+      ),
+    ),
+  ),
+  1857575924 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Carnivorous Corpse Eater Blooms',
+    'level' => 130,
+    'crc' => 1857575924,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3020673046 => 
+      array (
+        'icon' => 5862,
+        'name' => 'Monstrous Marigold',
+      ),
+      280233354 => 
+      array (
+        'icon' => 5860,
+        'name' => 'Diabolical Buttercup',
+      ),
+      1535631358 => 
+      array (
+        'icon' => 1962,
+        'name' => 'Ominous Hibiscus',
+      ),
+      479617571 => 
+      array (
+        'icon' => 5861,
+        'name' => 'Violent Violet',
+      ),
+      1701607907 => 
+      array (
+        'icon' => 1968,
+        'name' => 'Loathsome Lotus',
+      ),
+      485523612 => 
+      array (
+        'icon' => 5863,
+        'name' => 'Gruesome Goldenrod',
+      ),
+    ),
+  ),
+  2703389623 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Carpeting the Area',
+    'level' => 125,
+    'crc' => 2703389623,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1899898702 => 
+      array (
+        'icon' => 563,
+        'name' => 'Furious Fringe',
+      ),
+      1249651314 => 
+      array (
+        'icon' => 563,
+        'name' => 'Malicious Motive',
+      ),
+      2547943603 => 
+      array (
+        'icon' => 563,
+        'name' => 'Pernicious Pattern',
+      ),
+      3341660612 => 
+      array (
+        'icon' => 563,
+        'name' => 'Wacky Weft',
+      ),
+      1231770070 => 
+      array (
+        'icon' => 563,
+        'name' => 'Wicked Warp',
       ),
     ),
   ),
@@ -11009,6 +12917,48 @@ $CollectionsData = array (
       array (
         'icon' => 1124,
         'name' => 'Substance of Umbra',
+      ),
+    ),
+  ),
+  2147364449 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Chromacloud Substances',
+    'level' => 130,
+    'crc' => 2147364449,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2267444861 => 
+      array (
+        'icon' => 5770,
+        'name' => 'Chromacloud Essence',
+      ),
+      2869541378 => 
+      array (
+        'icon' => 5773,
+        'name' => 'Chromacloud Residue',
+      ),
+      3632214788 => 
+      array (
+        'icon' => 5768,
+        'name' => 'Chromacloud Crux',
+      ),
+      2531880567 => 
+      array (
+        'icon' => 5769,
+        'name' => 'Chromacloud Cores',
+      ),
+      2965393755 => 
+      array (
+        'icon' => 5771,
+        'name' => 'Chromacloud Grains',
+      ),
+      2324255540 => 
+      array (
+        'icon' => 5772,
+        'name' => 'Chromacloud Quintessence',
       ),
     ),
   ),
@@ -12824,6 +14774,167 @@ $CollectionsData = array (
       ),
     ),
   ),
+  203305158 => 
+  array (
+    'category' => 'Shattered Overture',
+    'name' => 'Copper Slivers',
+    'level' => 125,
+    'crc' => 203305158,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4099188185 => 
+      array (
+        'icon' => 3776,
+        'name' => 'Heated Copper Sliver',
+      ),
+      1798824147 => 
+      array (
+        'icon' => 3776,
+        'name' => 'Chilled Copper Sliver',
+      ),
+      2607690374 => 
+      array (
+        'icon' => 3776,
+        'name' => 'Vibrating Copper Sliver',
+      ),
+      916837781 => 
+      array (
+        'icon' => 3776,
+        'name' => 'Stable Copper Sliver',
+      ),
+      2076216919 => 
+      array (
+        'icon' => 3776,
+        'name' => 'Glassy Copper Sliver',
+      ),
+    ),
+  ),
+  2166395499 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Coppercurl Maze Catalog',
+    'level' => 130,
+    'crc' => 2166395499,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3599207920 => 
+      array (
+        'icon' => 1086,
+        'name' => 'Copper Nugget',
+      ),
+      3845245301 => 
+      array (
+        'icon' => 1086,
+        'name' => 'Copper Flakes',
+      ),
+      298663574 => 
+      array (
+        'icon' => 1086,
+        'name' => 'Copper Grains',
+      ),
+      98357499 => 
+      array (
+        'icon' => 1002,
+        'name' => 'Copper Pebble',
+      ),
+      571847287 => 
+      array (
+        'icon' => 1086,
+        'name' => 'Copper Chunk',
+      ),
+      205504271 => 
+      array (
+        'icon' => 1086,
+        'name' => 'Copper Clump',
+      ),
+      2740602728 => 
+      array (
+        'icon' => 948,
+        'name' => 'Copper Disc',
+      ),
+      275214855 => 
+      array (
+        'icon' => 1032,
+        'name' => 'Copper Sliver',
+      ),
+      1773864096 => 
+      array (
+        'icon' => 1002,
+        'name' => 'Copper Bead',
+      ),
+      1424953721 => 
+      array (
+        'icon' => 987,
+        'name' => 'Copper Pellet',
+      ),
+    ),
+  ),
+  1932639479 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Coppercurl Maze Gemstones',
+    'level' => 130,
+    'crc' => 1932639479,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1423815878 => 
+      array (
+        'icon' => 4789,
+        'name' => 'Polished Emerald Gemstone',
+      ),
+      52010907 => 
+      array (
+        'icon' => 4789,
+        'name' => 'Tapered Emerald Gemstone',
+      ),
+      105140032 => 
+      array (
+        'icon' => 4789,
+        'name' => 'Glossy Emerald Gemstone',
+      ),
+      3386289971 => 
+      array (
+        'icon' => 4789,
+        'name' => 'Clear Emerald Gemstone',
+      ),
+      931496510 => 
+      array (
+        'icon' => 4789,
+        'name' => 'Trillion Emerald Gemstone',
+      ),
+      2408701479 => 
+      array (
+        'icon' => 4789,
+        'name' => 'Round Emerald Gemstone',
+      ),
+      338177899 => 
+      array (
+        'icon' => 4789,
+        'name' => 'Opaque Emerald Gemstone',
+      ),
+      1927818779 => 
+      array (
+        'icon' => 4789,
+        'name' => 'Murky Emerald Gemstone',
+      ),
+      3677586784 => 
+      array (
+        'icon' => 4945,
+        'name' => 'Powdered Emerald Gemstone',
+      ),
+      2994630563 => 
+      array (
+        'icon' => 4789,
+        'name' => 'Oval Emerald Gemstone',
+      ),
+    ),
+  ),
   963339350 => 
   array (
     'category' => 'Scorched Sky',
@@ -12878,6 +14989,63 @@ $CollectionsData = array (
       array (
         'icon' => 1187,
         'name' => 'Polished Lapis Lava',
+      ),
+    ),
+  ),
+  2033549373 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Corny Brigade',
+    'level' => 125,
+    'crc' => 2033549373,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      339579570 => 
+      array (
+        'icon' => 5442,
+        'name' => 'Lieutenant Colonel Flint',
+      ),
+      223400576 => 
+      array (
+        'icon' => 5442,
+        'name' => 'Major Dent',
+      ),
+      1407968071 => 
+      array (
+        'icon' => 5442,
+        'name' => 'Captain Popcorn',
+      ),
+      3452073033 => 
+      array (
+        'icon' => 5442,
+        'name' => 'Sergeant Major Sweet',
+      ),
+      470980319 => 
+      array (
+        'icon' => 5442,
+        'name' => 'Sergeant Pod',
+      ),
+      3599886663 => 
+      array (
+        'icon' => 5442,
+        'name' => 'Corporal Flour',
+      ),
+      899242538 => 
+      array (
+        'icon' => 5442,
+        'name' => 'Private Blue',
+      ),
+      2342971526 => 
+      array (
+        'icon' => 5442,
+        'name' => 'Private Red',
+      ),
+      2278634490 => 
+      array (
+        'icon' => 5442,
+        'name' => 'Private White',
       ),
     ),
   ),
@@ -14334,6 +16502,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1403569455 => 
+  array (
+    'category' => 'Live Events',
+    'name' => 'Curiosities of Fractured Skies',
+    'level' => 25,
+    'crc' => 1403569455,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2892181631 => 
+      array (
+        'icon' => 679,
+        'name' => 'Ferroalloy Metal Shard',
+      ),
+      896164293 => 
+      array (
+        'icon' => 2536,
+        'name' => 'Burnished Metal Chunk',
+      ),
+      1114460499 => 
+      array (
+        'icon' => 4616,
+        'name' => 'Diaphanous Globe',
+      ),
+      3691627760 => 
+      array (
+        'icon' => 2514,
+        'name' => 'Swirling Mist',
+      ),
+      2869884006 => 
+      array (
+        'icon' => 1151,
+        'name' => 'Crimson Tessera',
+      ),
+      839362012 => 
+      array (
+        'icon' => 3025,
+        'name' => 'Shimmering Topaz',
+      ),
+    ),
+  ),
   3858486605 => 
   array (
     'category' => 'Kunark Ascending',
@@ -14596,6 +16806,48 @@ $CollectionsData = array (
       array (
         'icon' => 3008,
         'name' => 'appropriated sigil of phenomenon',
+      ),
+    ),
+  ),
+  167827742 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Curses',
+    'level' => 125,
+    'crc' => 167827742,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3493708192 => 
+      array (
+        'icon' => 4377,
+        'name' => 'Harmful Utterance',
+      ),
+      2929203520 => 
+      array (
+        'icon' => 4377,
+        'name' => 'Hex',
+      ),
+      682574931 => 
+      array (
+        'icon' => 4377,
+        'name' => 'Ill-Will',
+      ),
+      2055584240 => 
+      array (
+        'icon' => 4377,
+        'name' => 'Imprecation',
+      ),
+      2445727769 => 
+      array (
+        'icon' => 4377,
+        'name' => 'Malediction',
+      ),
+      3896847804 => 
+      array (
+        'icon' => 4377,
+        'name' => 'Malicious Intent',
       ),
     ),
   ),
@@ -15380,6 +17632,110 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3500363857 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Darkmystic Trappings',
+    'level' => 125,
+    'crc' => 3500363857,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      761472037 => 
+      array (
+        'icon' => 5321,
+        'name' => 'Robes of the Darkmystic',
+      ),
+      3229083070 => 
+      array (
+        'icon' => 5319,
+        'name' => 'Slippers of the Darkmystic',
+      ),
+      4139057161 => 
+      array (
+        'icon' => 5356,
+        'name' => 'Wand of the Darkmystic',
+      ),
+      1682533483 => 
+      array (
+        'icon' => 4812,
+        'name' => 'Tome of the Darkmystic',
+      ),
+      2791091117 => 
+      array (
+        'icon' => 5359,
+        'name' => 'Symbol of the Darkmystic',
+      ),
+      167184270 => 
+      array (
+        'icon' => 5189,
+        'name' => 'Orb of the Darkmystic',
+      ),
+    ),
+  ),
+  3811679928 => 
+  array (
+    'category' => 'Darkpaw Rising',
+    'name' => 'Darkpaw Remains',
+    'level' => 130,
+    'crc' => 3811679928,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1282678221 => 
+      array (
+        'icon' => 3188,
+        'name' => 'Desiccated Claw',
+      ),
+      1581030189 => 
+      array (
+        'icon' => 5744,
+        'name' => 'Shriveled Ear',
+      ),
+      3805331368 => 
+      array (
+        'icon' => 5747,
+        'name' => 'Preserved Matted Tail',
+      ),
+      4199494369 => 
+      array (
+        'icon' => 5794,
+        'name' => 'Stretched Fur Drum',
+      ),
+      3740950928 => 
+      array (
+        'icon' => 5734,
+        'name' => 'Torrid Flesh',
+      ),
+      4222259534 => 
+      array (
+        'icon' => 2686,
+        'name' => 'Rotted Skull',
+      ),
+      395709786 => 
+      array (
+        'icon' => 5735,
+        'name' => 'Sapless Paw',
+      ),
+      365570590 => 
+      array (
+        'icon' => 5733,
+        'name' => 'Solidified Eye',
+      ),
+      983714863 => 
+      array (
+        'icon' => 5727,
+        'name' => 'Baked Flesh',
+      ),
+      1369894530 => 
+      array (
+        'icon' => 5739,
+        'name' => 'Dried Intestines',
+      ),
+    ),
+  ),
   1554982209 => 
   array (
     'category' => 'Kunark Ascending',
@@ -15575,6 +17931,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  4060045933 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Deadly Dangers',
+    'level' => 125,
+    'crc' => 4060045933,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2528944745 => 
+      array (
+        'icon' => 3951,
+        'name' => 'Crazed Madmen',
+      ),
+      355994318 => 
+      array (
+        'icon' => 3951,
+        'name' => 'Deadly Duststorms',
+      ),
+      2627612900 => 
+      array (
+        'icon' => 3951,
+        'name' => 'Deceptive Mirages',
+      ),
+      542836347 => 
+      array (
+        'icon' => 3951,
+        'name' => 'Dehydration',
+      ),
+      3595195975 => 
+      array (
+        'icon' => 3951,
+        'name' => 'Venomous Creatures',
+      ),
+    ),
+  ),
   1684567099 => 
   array (
     'category' => 'Altar of Malice',
@@ -15651,6 +18044,43 @@ $CollectionsData = array (
       array (
         'icon' => 1157,
         'name' => 'Vampire\'s Black Heart',
+      ),
+    ),
+  ),
+  1480049579 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Deadly Waterworks',
+    'level' => 125,
+    'crc' => 1480049579,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2333470801 => 
+      array (
+        'icon' => 4354,
+        'name' => 'Maelstrom',
+      ),
+      3790625838 => 
+      array (
+        'icon' => 4354,
+        'name' => 'Tsunami',
+      ),
+      187463119 => 
+      array (
+        'icon' => 4354,
+        'name' => 'Typhoon',
+      ),
+      266664855 => 
+      array (
+        'icon' => 4354,
+        'name' => 'Waterspout',
+      ),
+      1575206331 => 
+      array (
+        'icon' => 4354,
+        'name' => 'Whirlpool',
       ),
     ),
   ),
@@ -16210,6 +18640,80 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1376219474 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Delving in the Delta',
+    'level' => 125,
+    'crc' => 1376219474,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1805524789 => 
+      array (
+        'icon' => 1148,
+        'name' => 'Yet Another Luclinite Shard',
+      ),
+      339305465 => 
+      array (
+        'icon' => 161,
+        'name' => 'Severed Shik\'Nar Leg',
+      ),
+      1562190127 => 
+      array (
+        'icon' => 935,
+        'name' => 'Ortallian Offerings to Ro',
+      ),
+      1683835746 => 
+      array (
+        'icon' => 30,
+        'name' => 'Stormfury Fishing Net',
+      ),
+      1622365522 => 
+      array (
+        'icon' => 927,
+        'name' => 'Crate of Swordfury Salt',
+      ),
+    ),
+  ),
+  1484566333 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Denizen\'s Remains',
+    'level' => 125,
+    'crc' => 1484566333,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2689864942 => 
+      array (
+        'icon' => 4586,
+        'name' => 'Flutterwasp Wing',
+      ),
+      1983018266 => 
+      array (
+        'icon' => 5011,
+        'name' => 'Geonid Arm',
+      ),
+      1226969138 => 
+      array (
+        'icon' => 5262,
+        'name' => 'Mosquito Proboscis',
+      ),
+      2954070933 => 
+      array (
+        'icon' => 5112,
+        'name' => 'Sabertooth Fur',
+      ),
+      4054520266 => 
+      array (
+        'icon' => 157,
+        'name' => 'Tentacle Terror Tooth',
+      ),
+    ),
+  ),
   1511470939 => 
   array (
     'category' => 'Siren\'s Grotto',
@@ -16482,6 +18986,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1818210483 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Desert Glass',
+    'level' => 125,
+    'crc' => 1818210483,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      373696531 => 
+      array (
+        'icon' => 3478,
+        'name' => 'Colorful Pigments',
+      ),
+      3003262581 => 
+      array (
+        'icon' => 4879,
+        'name' => 'Graphite Marver',
+      ),
+      2307261767 => 
+      array (
+        'icon' => 4180,
+        'name' => 'Hot Flames',
+      ),
+      1494447569 => 
+      array (
+        'icon' => 2705,
+        'name' => 'Patterned Crimp',
+      ),
+      4210412567 => 
+      array (
+        'icon' => 3426,
+        'name' => 'Plentiful Sand',
+      ),
+    ),
+  ),
   3402389695 => 
   array (
     'category' => 'Fabled',
@@ -16573,6 +19114,43 @@ $CollectionsData = array (
       array (
         'icon' => 345,
         'name' => 'yellow sand',
+      ),
+    ),
+  ),
+  92969607 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Desert Sands',
+    'level' => 125,
+    'crc' => 92969607,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3581431354 => 
+      array (
+        'icon' => 3430,
+        'name' => 'Beige Sand',
+      ),
+      1685825207 => 
+      array (
+        'icon' => 3409,
+        'name' => 'Black Sand',
+      ),
+      3601794056 => 
+      array (
+        'icon' => 3410,
+        'name' => 'Brown Sand',
+      ),
+      1030535233 => 
+      array (
+        'icon' => 3412,
+        'name' => 'Maroon Sand',
+      ),
+      3011929490 => 
+      array (
+        'icon' => 3476,
+        'name' => 'White Sand',
       ),
     ),
   ),
@@ -16763,6 +19341,48 @@ $CollectionsData = array (
       array (
         'icon' => 3028,
         'name' => 'Worn Devourer Tooth',
+      ),
+    ),
+  ),
+  3140492241 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Dew Collection',
+    'level' => 125,
+    'crc' => 3140492241,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      728570623 => 
+      array (
+        'icon' => 701,
+        'name' => 'Careful Assembly',
+      ),
+      3284484983 => 
+      array (
+        'icon' => 5381,
+        'name' => 'Spigot',
+      ),
+      44904563 => 
+      array (
+        'icon' => 651,
+        'name' => 'Sturdy Frame',
+      ),
+      1108467242 => 
+      array (
+        'icon' => 2288,
+        'name' => 'Water Collection Trough',
+      ),
+      1142233187 => 
+      array (
+        'icon' => 2524,
+        'name' => 'Water from the Air',
+      ),
+      950115949 => 
+      array (
+        'icon' => 1111,
+        'name' => 'Waxed Strands',
       ),
     ),
   ),
@@ -17238,6 +19858,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  204809828 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Diseased Harbinger Gases',
+    'level' => 130,
+    'crc' => 204809828,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      430571553 => 
+      array (
+        'icon' => 5891,
+        'name' => 'Offensive Marsh Gas',
+      ),
+      872243651 => 
+      array (
+        'icon' => 5890,
+        'name' => 'Malodorous Methane',
+      ),
+      354231126 => 
+      array (
+        'icon' => 5887,
+        'name' => 'Corrupted Carbon Dioxide',
+      ),
+      1349997699 => 
+      array (
+        'icon' => 5888,
+        'name' => 'Repugnant Ethane',
+      ),
+      247327807 => 
+      array (
+        'icon' => 5892,
+        'name' => 'Stinky Sulfide',
+      ),
+      1282626134 => 
+      array (
+        'icon' => 5889,
+        'name' => 'Fusty Phosphine',
+      ),
+    ),
+  ),
   2252493158 => 
   array (
     'category' => 'Shard of Love',
@@ -17520,6 +20182,43 @@ $CollectionsData = array (
       array (
         'icon' => 1366,
         'name' => 'Dominus\' Coin',
+      ),
+    ),
+  ),
+  2953419751 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Don\'t Boss Me',
+    'level' => 125,
+    'crc' => 2953419751,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1442442688 => 
+      array (
+        'icon' => 879,
+        'name' => 'Dunesea\'s Headdress',
+      ),
+      3619821478 => 
+      array (
+        'icon' => 158,
+        'name' => 'Harrower\'s Ectoplasm',
+      ),
+      3757954040 => 
+      array (
+        'icon' => 835,
+        'name' => 'Kigathor\'s Bark',
+      ),
+      475228872 => 
+      array (
+        'icon' => 100,
+        'name' => 'Lopik\'s Tooth',
+      ),
+      1472513455 => 
+      array (
+        'icon' => 107,
+        'name' => 'Migral\'s Toenail',
       ),
     ),
   ),
@@ -18918,6 +21617,93 @@ $CollectionsData = array (
       ),
     ),
   ),
+  672585134 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Dropped Trappings',
+    'level' => 130,
+    'crc' => 672585134,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4103151664 => 
+      array (
+        'icon' => 5942,
+        'name' => 'Ravenous Cyphered Tome Page',
+      ),
+      2832513245 => 
+      array (
+        'icon' => 5942,
+        'name' => 'Starved Cyphered Tome Page',
+      ),
+      3978934990 => 
+      array (
+        'icon' => 5942,
+        'name' => 'Craving Cyphered Tome Page',
+      ),
+      267064750 => 
+      array (
+        'icon' => 5942,
+        'name' => 'Voracious Cyphered Tome Page',
+      ),
+      2464076166 => 
+      array (
+        'icon' => 5942,
+        'name' => 'Thirsting Cyphered Tome Page',
+      ),
+      1661366779 => 
+      array (
+        'icon' => 5880,
+        'name' => 'Ethereal Tattered Wrappings',
+      ),
+      36076272 => 
+      array (
+        'icon' => 5880,
+        'name' => 'Ominous Tattered Wrappings',
+      ),
+      535074002 => 
+      array (
+        'icon' => 5880,
+        'name' => 'Haunting Tattered Wrappings',
+      ),
+      1213926622 => 
+      array (
+        'icon' => 5880,
+        'name' => 'Spectral Tattered Wrappings',
+      ),
+      2341934071 => 
+      array (
+        'icon' => 5880,
+        'name' => 'Chilling Tattered Wrappings',
+      ),
+      3170059352 => 
+      array (
+        'icon' => 5697,
+        'name' => 'Bleak Crystal Pendant Fragment',
+      ),
+      76714386 => 
+      array (
+        'icon' => 5697,
+        'name' => 'Dismal Crystal Pendant Fragment',
+      ),
+      2364896240 => 
+      array (
+        'icon' => 5697,
+        'name' => 'Muted Crystal Pendant Fragment',
+      ),
+      1513000752 => 
+      array (
+        'icon' => 5697,
+        'name' => 'Somber Crystal Pendant Fragment',
+      ),
+      1649459579 => 
+      array (
+        'icon' => 5697,
+        'name' => 'Gloomy Crystal Pendant Fragment',
+      ),
+    ),
+  ),
   970882080 => 
   array (
     'category' => 'Frostfell',
@@ -19031,6 +21817,196 @@ $CollectionsData = array (
       array (
         'icon' => 1827,
         'name' => 'plain purple butterfly',
+      ),
+    ),
+  ),
+  3814187308 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Duende Ancient Armaments',
+    'level' => 125,
+    'crc' => 3814187308,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4263754178 => 
+      array (
+        'icon' => 4920,
+        'name' => 'Blackmetal Scimitar',
+      ),
+      1389392546 => 
+      array (
+        'icon' => 4911,
+        'name' => 'Blackspawn Trident',
+      ),
+      1947135439 => 
+      array (
+        'icon' => 4908,
+        'name' => 'Shadowbane Scimitar',
+      ),
+      3976129083 => 
+      array (
+        'icon' => 4916,
+        'name' => 'Darkmystic Trident',
+      ),
+    ),
+  ),
+  3241805773 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Dunebug Organs',
+    'level' => 125,
+    'crc' => 3241805773,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      439569177 => 
+      array (
+        'icon' => 194,
+        'name' => 'Dunebug Ganglion',
+      ),
+      188747972 => 
+      array (
+        'icon' => 99,
+        'name' => 'Dunebug Caecae',
+      ),
+      16151554 => 
+      array (
+        'icon' => 160,
+        'name' => 'Dunebug Malphigian',
+      ),
+      2223876089 => 
+      array (
+        'icon' => 135,
+        'name' => 'Dunebug Ventriculus',
+      ),
+      1096537843 => 
+      array (
+        'icon' => 98,
+        'name' => 'Dunebug Tacheal',
+      ),
+    ),
+  ),
+  3042473273 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Dunebug Parts',
+    'level' => 125,
+    'crc' => 3042473273,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1789347991 => 
+      array (
+        'icon' => 164,
+        'name' => 'Dunebug Elytron',
+      ),
+      3715319633 => 
+      array (
+        'icon' => 1186,
+        'name' => 'Dunebug Protothorax',
+      ),
+      1789606068 => 
+      array (
+        'icon' => 165,
+        'name' => 'Dunebug Mesothorax',
+      ),
+      810633968 => 
+      array (
+        'icon' => 771,
+        'name' => 'Dunebug Metathorax',
+      ),
+      635092959 => 
+      array (
+        'icon' => 162,
+        'name' => 'Dunebug Pygidium',
+      ),
+    ),
+  ),
+  95449707 => 
+  array (
+    'category' => 'Darkpaw Rising',
+    'name' => 'Dustpaw Relics',
+    'level' => 130,
+    'crc' => 95449707,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      235095023 => 
+      array (
+        'icon' => 5802,
+        'name' => 'Dustpaw Charred Relic',
+      ),
+      3927006375 => 
+      array (
+        'icon' => 5744,
+        'name' => 'Dustpaw Singed Remnant',
+      ),
+      732471570 => 
+      array (
+        'icon' => 5787,
+        'name' => 'Dustpaw Branded Keepsake',
+      ),
+      513668889 => 
+      array (
+        'icon' => 5739,
+        'name' => 'Dustpawn Burnt Memento',
+      ),
+      772218147 => 
+      array (
+        'icon' => 4428,
+        'name' => 'Dustpaw Scalded Fragment',
+      ),
+      956699487 => 
+      array (
+        'icon' => 5695,
+        'name' => 'Dustpaw Blistered Curio',
+      ),
+    ),
+  ),
+  402950191 => 
+  array (
+    'category' => 'Darkpaw Rising',
+    'name' => 'Dustpaw Weapons',
+    'level' => 10,
+    'crc' => 402950191,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2904417262 => 
+      array (
+        'icon' => 5726,
+        'name' => 'Dustpaw Bone Dagger',
+      ),
+      867142921 => 
+      array (
+        'icon' => 5703,
+        'name' => 'Dustpaw Lashed Hammer',
+      ),
+      958622316 => 
+      array (
+        'icon' => 5715,
+        'name' => 'Dustpaw Splintered Club',
+      ),
+      1157497451 => 
+      array (
+        'icon' => 5716,
+        'name' => 'Dustpaw Burnt Staff',
+      ),
+      4180110557 => 
+      array (
+        'icon' => 5702,
+        'name' => 'Dustpaw Flint Knife',
+      ),
+      247021630 => 
+      array (
+        'icon' => 5718,
+        'name' => 'Dustpaw Jagged Tooth Mace',
       ),
     ),
   ),
@@ -19467,6 +22443,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3277980948 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Efreeti Ciphers',
+    'level' => 130,
+    'crc' => 3277980948,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1733254887 => 
+      array (
+        'icon' => 5940,
+        'name' => 'Cipher of the Emir',
+      ),
+      79456587 => 
+      array (
+        'icon' => 5940,
+        'name' => 'Cipher of the Emira',
+      ),
+      524728398 => 
+      array (
+        'icon' => 5940,
+        'name' => 'Cipher of the Sheikh',
+      ),
+      2882436065 => 
+      array (
+        'icon' => 5940,
+        'name' => 'Cipher of the Sheikha',
+      ),
+      1525794853 => 
+      array (
+        'icon' => 5940,
+        'name' => 'Runed Cipher of the Efreeti',
+      ),
+      3454179313 => 
+      array (
+        'icon' => 5940,
+        'name' => 'Flaming Cipher of the Efreeti',
+      ),
+    ),
+  ),
   773346732 => 
   array (
     'category' => 'Fabled Echoes of Faydwer',
@@ -19568,6 +22586,80 @@ $CollectionsData = array (
       array (
         'icon' => 1285,
         'name' => 'Eidolon of Geonach',
+      ),
+    ),
+  ),
+  4106608772 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Elddar Ghostly Essence',
+    'level' => 125,
+    'crc' => 4106608772,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3474934770 => 
+      array (
+        'icon' => 2516,
+        'name' => 'Essence of Darkness',
+      ),
+      2823307243 => 
+      array (
+        'icon' => 2509,
+        'name' => 'Essence of Pain',
+      ),
+      1498416114 => 
+      array (
+        'icon' => 2514,
+        'name' => 'Essence of Anxiety',
+      ),
+      680617750 => 
+      array (
+        'icon' => 2510,
+        'name' => 'Essence of Unsurety',
+      ),
+      3666339208 => 
+      array (
+        'icon' => 2520,
+        'name' => 'Essence of Time',
+      ),
+    ),
+  ),
+  4097280589 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Elddar Ghostly Vestments',
+    'level' => 125,
+    'crc' => 4097280589,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1317123007 => 
+      array (
+        'icon' => 5329,
+        'name' => 'Shroud of the Chronicler',
+      ),
+      1974379650 => 
+      array (
+        'icon' => 5329,
+        'name' => 'Shroud of the Scroll Keeper',
+      ),
+      2318825812 => 
+      array (
+        'icon' => 5329,
+        'name' => 'Shroud of the Archivist',
+      ),
+      1227419999 => 
+      array (
+        'icon' => 5329,
+        'name' => 'Cloak of the Archivist',
+      ),
+      2611332462 => 
+      array (
+        'icon' => 5332,
+        'name' => 'Cloak of the Scroll Keeper',
       ),
     ),
   ),
@@ -19932,6 +23024,78 @@ $CollectionsData = array (
       array (
         'icon' => 278,
         'name' => 'Decomposing Nizari Tabard',
+      ),
+    ),
+  ),
+  2861225321 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Emotion Commotion',
+    'level' => 125,
+    'crc' => 2861225321,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3212137869 => 
+      array (
+        'icon' => 3026,
+        'name' => 'Nature\'s Shard of Enmity',
+      ),
+      199601641 => 
+      array (
+        'icon' => 3025,
+        'name' => 'Nature\'s Shard of Rage',
+      ),
+      354344135 => 
+      array (
+        'icon' => 3487,
+        'name' => 'Nature\'s Shard of Passion',
+      ),
+      18706558 => 
+      array (
+        'icon' => 3029,
+        'name' => 'Nature\'s Shard of Sorrow',
+      ),
+      243299774 => 
+      array (
+        'icon' => 3030,
+        'name' => 'Nature\'s Shard of Misery',
+      ),
+      2638132885 => 
+      array (
+        'icon' => 3028,
+        'name' => 'Nature\'s Shard of Grief',
+      ),
+      3841973351 => 
+      array (
+        'icon' => 3027,
+        'name' => 'Nature\'s Shard of Resentment',
+      ),
+      1443703757 => 
+      array (
+        'icon' => 3024,
+        'name' => 'Nature\'s Shard of Grievance',
+      ),
+      1320702553 => 
+      array (
+        'icon' => 3488,
+        'name' => 'Nature\'s Shard of Failure',
+      ),
+      3991373402 => 
+      array (
+        'icon' => 3489,
+        'name' => 'Nature\'s Shard of Loathing',
+      ),
+      3121375819 => 
+      array (
+        'icon' => 3490,
+        'name' => 'Nature\'s Shard of Revulsion',
+      ),
+      604854151 => 
+      array (
+        'icon' => 3030,
+        'name' => 'Nature\'s Shard of Abhorrence',
       ),
     ),
   ),
@@ -21836,6 +25000,147 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1633907729 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled A Dragon\'s Dream Come True',
+    'level' => 20,
+    'crc' => 1633907729,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1691637322 => 
+      array (
+        'icon' => 2240,
+        'name' => '\\#FC94AFDoll of an Intrepid Paladin',
+      ),
+      1426310662 => 
+      array (
+        'icon' => 1059,
+        'name' => '\\#FC94AFDoll of a Cunning Brigand',
+      ),
+      201633530 => 
+      array (
+        'icon' => 652,
+        'name' => '\\#FC94AFDoll of a Stoic Templar',
+      ),
+      2245013543 => 
+      array (
+        'icon' => 1060,
+        'name' => '\\#FC94AFDoll of a Warlike Wizard',
+      ),
+      3979322275 => 
+      array (
+        'icon' => 2253,
+        'name' => '\\#FC94AFDoll of a Fearless Berserker',
+      ),
+      3630263586 => 
+      array (
+        'icon' => 2241,
+        'name' => '\\#FC94AFDoll of a Dashing Swashbuckler',
+      ),
+      1239048605 => 
+      array (
+        'icon' => 2242,
+        'name' => '\\#FC94AFDoll of a Lamenting Dirge',
+      ),
+      399177328 => 
+      array (
+        'icon' => 2254,
+        'name' => '\\#FC94AFDoll of a Faithful Mystic',
+      ),
+      407818290 => 
+      array (
+        'icon' => 1058,
+        'name' => '\\#FC94AFDoll of a Forceful Bruiser',
+      ),
+    ),
+  ),
+  2344604493 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Abyssal Carpet Fragments',
+    'level' => 20,
+    'crc' => 2344604493,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1570784259 => 
+      array (
+        'icon' => 741,
+        'name' => '\\#FC94AFFront Left Corner',
+      ),
+      1235055942 => 
+      array (
+        'icon' => 741,
+        'name' => '\\#FC94AFFront Right Corner',
+      ),
+      4186253142 => 
+      array (
+        'icon' => 741,
+        'name' => '\\#FC94AFRear Right Corner',
+      ),
+      3617161806 => 
+      array (
+        'icon' => 741,
+        'name' => '\\#FC94AFRear Left Corner',
+      ),
+      2137284845 => 
+      array (
+        'icon' => 741,
+        'name' => '\\#FC94AFLarge Middle Section',
+      ),
+      3805750396 => 
+      array (
+        'icon' => 1218,
+        'name' => '\\#FC94AFCorner Carpet Tassel',
+      ),
+    ),
+  ),
+  2791449156 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Akhevan Antiquity',
+    'level' => 20,
+    'crc' => 2791449156,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1118422173 => 
+      array (
+        'icon' => 2425,
+        'name' => '\\#FC94AFHelm of the Torgarath',
+      ),
+      1055796516 => 
+      array (
+        'icon' => 1214,
+        'name' => '\\#FC94AFSymbol of Diabo Xin Thall',
+      ),
+      1933443885 => 
+      array (
+        'icon' => 2236,
+        'name' => '\\#FC94AFRing of Diabo Rentha',
+      ),
+      1914834629 => 
+      array (
+        'icon' => 2240,
+        'name' => '\\#FC94AFEffigy of Aten Ha Ra',
+      ),
+      3671329314 => 
+      array (
+        'icon' => 3584,
+        'name' => '\\#FC94AFBlade of the Liako',
+      ),
+      1549239814 => 
+      array (
+        'icon' => 879,
+        'name' => '\\#FC94AFMask of the Senshali',
+      ),
+    ),
+  ),
   954331375 => 
   array (
     'category' => 'Fabled Echoes of Faydwer',
@@ -21865,6 +25170,2459 @@ $CollectionsData = array (
       array (
         'icon' => 4418,
         'name' => 'Fabled Fragment of Ydal - Bottom Right',
+      ),
+    ),
+  ),
+  1917708235 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Awakened Emblems',
+    'level' => 20,
+    'crc' => 1917708235,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      746327831 => 
+      array (
+        'icon' => 1759,
+        'name' => '\\#FC94AFbronze emblem of awakened',
+      ),
+      1945225873 => 
+      array (
+        'icon' => 1762,
+        'name' => '\\#FC94AFgold emblem of awakened',
+      ),
+      3184504517 => 
+      array (
+        'icon' => 1760,
+        'name' => '\\#FC94AFsilver emblem of awakened',
+      ),
+      2745896235 => 
+      array (
+        'icon' => 1761,
+        'name' => '\\#FC94AFplatinum emblem of awakened',
+      ),
+    ),
+  ),
+  3724861324 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Blood Vials',
+    'level' => 20,
+    'crc' => 3724861324,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2274351938 => 
+      array (
+        'icon' => 326,
+        'name' => '\\#FC94AFbarbarian blood vial',
+      ),
+      1521884214 => 
+      array (
+        'icon' => 323,
+        'name' => '\\#FC94AFdwarf blood vial',
+      ),
+      2479325828 => 
+      array (
+        'icon' => 356,
+        'name' => '\\#FC94AFelf blood vial',
+      ),
+      1858735325 => 
+      array (
+        'icon' => 2207,
+        'name' => '\\#FC94AFgnome blood vial',
+      ),
+      2665475746 => 
+      array (
+        'icon' => 3051,
+        'name' => '\\#FC94AFhalfling blood vial',
+      ),
+      1398868344 => 
+      array (
+        'icon' => 8,
+        'name' => '\\#FC94AFhuman blood vial',
+      ),
+      2597899708 => 
+      array (
+        'icon' => 180,
+        'name' => '\\#FC94AFogre blood vial',
+      ),
+    ),
+  ),
+  2946587165 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Chokidai Collars',
+    'level' => 20,
+    'crc' => 2946587165,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      412731230 => 
+      array (
+        'icon' => 2194,
+        'name' => '\\#FC94AFslimy chokidai collar',
+      ),
+      2370969709 => 
+      array (
+        'icon' => 2193,
+        'name' => '\\#FC94AFchewed chokidai collar',
+      ),
+      1221269864 => 
+      array (
+        'icon' => 2189,
+        'name' => '\\#FC94AFgilded chokidai collar',
+      ),
+      27382200 => 
+      array (
+        'icon' => 2329,
+        'name' => '\\#FC94AFrope chokidai collar',
+      ),
+      1150354353 => 
+      array (
+        'icon' => 983,
+        'name' => '\\#FC94AFsteel linked chokidai collar',
+      ),
+      2749113842 => 
+      array (
+        'icon' => 2135,
+        'name' => '\\#FC94AFwoven chokidai collar',
+      ),
+      1372601561 => 
+      array (
+        'icon' => 985,
+        'name' => '\\#FC94AFmesh chokidai collar',
+      ),
+    ),
+  ),
+  2316668242 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Coldain Relics',
+    'level' => 20,
+    'crc' => 2316668242,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3915220755 => 
+      array (
+        'icon' => 4,
+        'name' => '\\#FC94AFColdain Pick-Axe',
+      ),
+      527840380 => 
+      array (
+        'icon' => 552,
+        'name' => '\\#FC94AFColdain Beard Ring',
+      ),
+      2692143958 => 
+      array (
+        'icon' => 2554,
+        'name' => '\\#FC94AFBarrel of Coldain Ale',
+      ),
+      4134961875 => 
+      array (
+        'icon' => 2129,
+        'name' => '\\#FC94AFVelium War Wolf Choker',
+      ),
+      561043107 => 
+      array (
+        'icon' => 2411,
+        'name' => '\\#FC94AFAncient Battlepriest Helm',
+      ),
+      1276485901 => 
+      array (
+        'icon' => 2264,
+        'name' => '\\#FC94AFAncient Velium Battle Axe',
+      ),
+      1483621115 => 
+      array (
+        'icon' => 2262,
+        'name' => '\\#FC94AFVelium Forging Hammer',
+      ),
+    ),
+  ),
+  4215033890 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Cracked Bone Fragments Collection',
+    'level' => 20,
+    'crc' => 4215033890,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2854648017 => 
+      array (
+        'icon' => 322,
+        'name' => '\\#FC94AFcracked barbarian bone fragment',
+      ),
+      561587448 => 
+      array (
+        'icon' => 322,
+        'name' => '\\#FC94AFcracked high elf bone fragment',
+      ),
+      1443090089 => 
+      array (
+        'icon' => 322,
+        'name' => '\\#FC94AFcracked human bone fragment',
+      ),
+      3642496384 => 
+      array (
+        'icon' => 322,
+        'name' => '\\#FC94AFcracked iksar bone fragment',
+      ),
+      2811255720 => 
+      array (
+        'icon' => 322,
+        'name' => '\\#FC94AFcracked kerra bone fragment',
+      ),
+      4165472123 => 
+      array (
+        'icon' => 322,
+        'name' => '\\#FC94AFcracked ogre bone fragment',
+      ),
+      2007290974 => 
+      array (
+        'icon' => 322,
+        'name' => '\\#FC94AFcracked orc bone fragment',
+      ),
+      3319141239 => 
+      array (
+        'icon' => 322,
+        'name' => '\\#FC94AFcracked ratonga bone fragment',
+      ),
+      920668060 => 
+      array (
+        'icon' => 322,
+        'name' => '\\#FC94AFcracked troll bone fragment',
+      ),
+      470867899 => 
+      array (
+        'icon' => 322,
+        'name' => '\\#FC94AFcracked wood elf bone fragment',
+      ),
+      2956950525 => 
+      array (
+        'icon' => 322,
+        'name' => '\\#FC94AFcracked dark elf bone fragment',
+      ),
+      1607785447 => 
+      array (
+        'icon' => 322,
+        'name' => '\\#FC94AFcracked dwarf bone fragment',
+      ),
+      1799486653 => 
+      array (
+        'icon' => 322,
+        'name' => '\\#FC94AFcracked erudite bone fragment',
+      ),
+      705290907 => 
+      array (
+        'icon' => 322,
+        'name' => '\\#FC94AFcracked froglok bone fragment',
+      ),
+      191841001 => 
+      array (
+        'icon' => 322,
+        'name' => '\\#FC94AFcracked gnoll bone fragment',
+      ),
+      1806224140 => 
+      array (
+        'icon' => 322,
+        'name' => '\\#FC94AFcracked gnome bone fragment',
+      ),
+      1512431799 => 
+      array (
+        'icon' => 322,
+        'name' => '\\#FC94AFcracked half elf bone fragment',
+      ),
+      898887773 => 
+      array (
+        'icon' => 322,
+        'name' => '\\#FC94AFcracked halfling bone fragment',
+      ),
+    ),
+  ),
+  1168495621 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Danak Legion Medals',
+    'level' => 20,
+    'crc' => 1168495621,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      836996364 => 
+      array (
+        'icon' => 3452,
+        'name' => '\\#FC94AFmedal of honor',
+      ),
+      224921522 => 
+      array (
+        'icon' => 3448,
+        'name' => '\\#FC94AFmedal of valor',
+      ),
+      3069417010 => 
+      array (
+        'icon' => 3456,
+        'name' => '\\#FC94AFmedal of ferocity',
+      ),
+      2180811207 => 
+      array (
+        'icon' => 3459,
+        'name' => '\\#FC94AFmedal of courage',
+      ),
+      3776313467 => 
+      array (
+        'icon' => 3453,
+        'name' => '\\#FC94AFmedal of allegiance',
+      ),
+      2616587139 => 
+      array (
+        'icon' => 3454,
+        'name' => '\\#FC94AFmedal of strength',
+      ),
+    ),
+  ),
+  3757829910 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Dragon Entertainment',
+    'level' => 20,
+    'crc' => 3757829910,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3161656379 => 
+      array (
+        'icon' => 1221,
+        'name' => '\\#FC94AFFluffy',
+      ),
+      2328299640 => 
+      array (
+        'icon' => 748,
+        'name' => '\\#FC94AFBall of Yarn',
+      ),
+      4177171372 => 
+      array (
+        'icon' => 143,
+        'name' => '\\#FC94AFRubber Ducky',
+      ),
+      3368084339 => 
+      array (
+        'icon' => 781,
+        'name' => '\\#FC94AFBobbin of Thread',
+      ),
+      1865353289 => 
+      array (
+        'icon' => 1225,
+        'name' => '\\#FC94AFDragon Dice',
+      ),
+      4207723277 => 
+      array (
+        'icon' => 2254,
+        'name' => '\\#FC94AFMindy',
+      ),
+      3788281096 => 
+      array (
+        'icon' => 2256,
+        'name' => '\\#FC94AFBruno',
+      ),
+    ),
+  ),
+  4241277763 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Dragons to Be',
+    'level' => 20,
+    'crc' => 4241277763,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3159775200 => 
+      array (
+        'icon' => 2523,
+        'name' => '\\#FC94AFBrown Dragon Egg',
+      ),
+      1176617826 => 
+      array (
+        'icon' => 2524,
+        'name' => '\\#FC94AFBlue Dragon Egg',
+      ),
+      3137378488 => 
+      array (
+        'icon' => 2525,
+        'name' => '\\#FC94AFYellow Dragon Egg',
+      ),
+      2770565172 => 
+      array (
+        'icon' => 2526,
+        'name' => '\\#FC94AFGray Dragon Egg',
+      ),
+    ),
+  ),
+  2258738171 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Droag Scales',
+    'level' => 20,
+    'crc' => 2258738171,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      205594294 => 
+      array (
+        'icon' => 2007,
+        'name' => '\\#FC94AFblemished Droag scale',
+      ),
+      1319598964 => 
+      array (
+        'icon' => 2007,
+        'name' => '\\#FC94AFdecaying Droag scale',
+      ),
+      3018897552 => 
+      array (
+        'icon' => 2007,
+        'name' => '\\#FC94AFpristine Droag scale',
+      ),
+      1819533426 => 
+      array (
+        'icon' => 2007,
+        'name' => '\\#FC94AFtarnished Droag scale',
+      ),
+    ),
+  ),
+  581808542 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Essence of Dragonkin',
+    'level' => 20,
+    'crc' => 581808542,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3175106190 => 
+      array (
+        'icon' => 3431,
+        'name' => '\\#FC94AFAerakyn Essence',
+      ),
+      1460359764 => 
+      array (
+        'icon' => 3426,
+        'name' => '\\#FC94AFDragon Essence',
+      ),
+      1508143010 => 
+      array (
+        'icon' => 3427,
+        'name' => '\\#FC94AFDrake Essence',
+      ),
+      4108090175 => 
+      array (
+        'icon' => 3428,
+        'name' => '\\#FC94AFDrakota Essence',
+      ),
+      843513067 => 
+      array (
+        'icon' => 3429,
+        'name' => '\\#FC94AFDroag Essence',
+      ),
+      1487750058 => 
+      array (
+        'icon' => 3430,
+        'name' => '\\#FC94AFWyvern Essence',
+      ),
+    ),
+  ),
+  1318057345 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Estate Mementos',
+    'level' => 20,
+    'crc' => 1318057345,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1758076056 => 
+      array (
+        'icon' => 2995,
+        'name' => '\\#FC94AFancient symbol of tranquility',
+      ),
+      3150256069 => 
+      array (
+        'icon' => 1069,
+        'name' => '\\#FC94AFchef demme\'s scorched skillet',
+      ),
+      984155929 => 
+      array (
+        'icon' => 2257,
+        'name' => '\\#FC94AFdusty baby rattle',
+      ),
+      2455846181 => 
+      array (
+        'icon' => 856,
+        'name' => '\\#FC94AFfaded quellborn portrait',
+      ),
+      1210164345 => 
+      array (
+        'icon' => 1071,
+        'name' => '\\#FC94AFhemstall\'s warped serving tray',
+      ),
+      1291476033 => 
+      array (
+        'icon' => 202,
+        'name' => '\\#FC94AFjessa\'s rusted knitting needles',
+      ),
+      3358019761 => 
+      array (
+        'icon' => 314,
+        'name' => '\\#FC94AFkyll\'s cracked stein',
+      ),
+      387007361 => 
+      array (
+        'icon' => 150,
+        'name' => '\\#FC94AFnicadius\' dry quill pen',
+      ),
+      1735927933 => 
+      array (
+        'icon' => 2533,
+        'name' => '\\#FC94AFryline\'s shabby feather duster',
+      ),
+      1319951917 => 
+      array (
+        'icon' => 841,
+        'name' => '\\#FC94AFviktur\'s broken pipe',
+      ),
+    ),
+  ),
+  3493154757 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Gardens of Erudin',
+    'level' => 20,
+    'crc' => 3493154757,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      18203345 => 
+      array (
+        'icon' => 2091,
+        'name' => '\\#FC94AFErudin lily pad',
+      ),
+      3566625681 => 
+      array (
+        'icon' => 1956,
+        'name' => '\\#FC94AFErudin lilac',
+      ),
+      3437468152 => 
+      array (
+        'icon' => 1960,
+        'name' => '\\#FC94AFErudin blossom',
+      ),
+      1237676538 => 
+      array (
+        'icon' => 2119,
+        'name' => '\\#FC94AFErudin grass blade',
+      ),
+      756400415 => 
+      array (
+        'icon' => 1965,
+        'name' => '\\#FC94AFErudin sun flower',
+      ),
+      260268426 => 
+      array (
+        'icon' => 2098,
+        'name' => '\\#FC94AFErudin elm leaf',
+      ),
+    ),
+  ),
+  3646644668 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Ghostly Essences',
+    'level' => 20,
+    'crc' => 3646644668,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1743080346 => 
+      array (
+        'icon' => 2512,
+        'name' => '\\#FC94AFblack ghostly essence',
+      ),
+      4291568784 => 
+      array (
+        'icon' => 2514,
+        'name' => '\\#FC94AFblue ghostly essence',
+      ),
+      1905643559 => 
+      array (
+        'icon' => 2515,
+        'name' => '\\#FC94AFbright ghostly essence',
+      ),
+      3832052122 => 
+      array (
+        'icon' => 2510,
+        'name' => '\\#FC94AFbrilliant ghostly essence',
+      ),
+      2849566749 => 
+      array (
+        'icon' => 2516,
+        'name' => '\\#FC94AFdim ghostly essence',
+      ),
+      1679480951 => 
+      array (
+        'icon' => 2509,
+        'name' => '\\#FC94AFred ghostly essence',
+      ),
+      2897165334 => 
+      array (
+        'icon' => 2511,
+        'name' => '\\#FC94AFwhite ghostly essence',
+      ),
+    ),
+  ),
+  1304605616 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Glowing Shards Collection',
+    'level' => 20,
+    'crc' => 1304605616,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3804478236 => 
+      array (
+        'icon' => 183,
+        'name' => '\\#FC94AFglowing shard of abjuration',
+      ),
+      619634521 => 
+      array (
+        'icon' => 183,
+        'name' => '\\#FC94AFglowing shard of alteration',
+      ),
+      1062578024 => 
+      array (
+        'icon' => 183,
+        'name' => '\\#FC94AFglowing shard of channeling',
+      ),
+      3154905001 => 
+      array (
+        'icon' => 183,
+        'name' => '\\#FC94AFglowing shard of conjuration',
+      ),
+      2042756795 => 
+      array (
+        'icon' => 183,
+        'name' => '\\#FC94AFglowing shard of divination',
+      ),
+      743392663 => 
+      array (
+        'icon' => 183,
+        'name' => '\\#FC94AFglowing shard of evocation',
+      ),
+    ),
+  ),
+  2668016269 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Gnoll Bone Fragment Collection',
+    'level' => 20,
+    'crc' => 2668016269,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2188222624 => 
+      array (
+        'icon' => 322,
+        'name' => '\\#FC94AFshattered gnoll bone fragment',
+      ),
+      191841001 => 
+      array (
+        'icon' => 322,
+        'name' => '\\#FC94AFcracked gnoll bone fragment',
+      ),
+      453501844 => 
+      array (
+        'icon' => 322,
+        'name' => '\\#FC94AFweathered gnoll bone fragment',
+      ),
+      3668796086 => 
+      array (
+        'icon' => 322,
+        'name' => '\\#FC94AFunscathed gnoll bone fragment',
+      ),
+      555900777 => 
+      array (
+        'icon' => 322,
+        'name' => '\\#FC94AFenchanted gnoll bone fragment',
+      ),
+    ),
+  ),
+  896292964 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Gnomish Devices',
+    'level' => 20,
+    'crc' => 896292964,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3484663870 => 
+      array (
+        'icon' => 3084,
+        'name' => '\\#FC94AFGnomish Height Calibration Boots',
+      ),
+      819448497 => 
+      array (
+        'icon' => 3087,
+        'name' => '\\#FC94AFGnomish Electrozap Bug Mask',
+      ),
+      2505699725 => 
+      array (
+        'icon' => 3088,
+        'name' => '\\#FC94AFGnomish Triple Recordatron',
+      ),
+      428921255 => 
+      array (
+        'icon' => 3089,
+        'name' => '\\#FC94AFGnomish Smellinator',
+      ),
+      2575410976 => 
+      array (
+        'icon' => 3092,
+        'name' => '\\#FC94AFGnomish Cogmopolisher Shinavator',
+      ),
+      3020290317 => 
+      array (
+        'icon' => 3083,
+        'name' => '\\#FC94AFGnomish Windspeedomometer Hat',
+      ),
+      2913470973 => 
+      array (
+        'icon' => 3095,
+        'name' => '\\#FC94AFGnomish Proptunamatic 5000',
+      ),
+      1880941350 => 
+      array (
+        'icon' => 3093,
+        'name' => '\\#FC94AFGnomish Autodockotronic',
+      ),
+    ),
+  ),
+  3480837968 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Gukish Cuisine',
+    'level' => 20,
+    'crc' => 3480837968,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4139016742 => 
+      array (
+        'icon' => 789,
+        'name' => '\\#FC94AFA Grimberry',
+      ),
+      2577885137 => 
+      array (
+        'icon' => 784,
+        'name' => '\\#FC94AFA Chokecherry',
+      ),
+      2008974821 => 
+      array (
+        'icon' => 788,
+        'name' => '\\#FC94AFA Pinchberry',
+      ),
+      37235229 => 
+      array (
+        'icon' => 795,
+        'name' => '\\#FC94AFA Mortecorn',
+      ),
+      339065107 => 
+      array (
+        'icon' => 797,
+        'name' => '\\#FC94AFA Bahera Nut',
+      ),
+      188986769 => 
+      array (
+        'icon' => 786,
+        'name' => '\\#FC94AFA Malberry',
+      ),
+      357687416 => 
+      array (
+        'icon' => 822,
+        'name' => '\\#FC94AFA Bathu Leaf',
+      ),
+      3179872959 => 
+      array (
+        'icon' => 782,
+        'name' => '\\#FC94AFA Zol Fruit',
+      ),
+    ),
+  ),
+  1940057428 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Hua Mein Bamboo Items',
+    'level' => 20,
+    'crc' => 1940057428,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2925188985 => 
+      array (
+        'icon' => 744,
+        'name' => '\\#FC94AFHua Mein bamboo matting',
+      ),
+      757771852 => 
+      array (
+        'icon' => 919,
+        'name' => '\\#FC94AFHua Mein bamboo bed',
+      ),
+      2022730681 => 
+      array (
+        'icon' => 193,
+        'name' => '\\#FC94AFHua Mein bamboo candle',
+      ),
+      2924957876 => 
+      array (
+        'icon' => 560,
+        'name' => '\\#FC94AFHua Mein bamboo chair',
+      ),
+      468718383 => 
+      array (
+        'icon' => 621,
+        'name' => '\\#FC94AFHua Mein bamboo fishing pole',
+      ),
+      2710694872 => 
+      array (
+        'icon' => 914,
+        'name' => '\\#FC94AFHua Mein bamboo basket',
+      ),
+    ),
+  ),
+  2710695326 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Hunters of Obol Plains',
+    'level' => 20,
+    'crc' => 2710695326,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      127311244 => 
+      array (
+        'icon' => 10,
+        'name' => '\\#FC94AFAnura\'s Herbalist Pouch',
+      ),
+      3510356415 => 
+      array (
+        'icon' => 833,
+        'name' => '\\#FC94AFDredgeleaf\'s Petrified Bark',
+      ),
+      1906862667 => 
+      array (
+        'icon' => 97,
+        'name' => '\\#FC94AFGlomer\'s Poisoned Fang',
+      ),
+      2253699968 => 
+      array (
+        'icon' => 3188,
+        'name' => '\\#FC94AFLeukos\' Claw Print',
+      ),
+      2620789891 => 
+      array (
+        'icon' => 207,
+        'name' => '\\#FC94AFOgrom\'s Muddied Handwraps',
+      ),
+      824237855 => 
+      array (
+        'icon' => 161,
+        'name' => '\\#FC94AFRazakhem\'s Broken Staff',
+      ),
+      2545298352 => 
+      array (
+        'icon' => 157,
+        'name' => '\\#FC94AFSlizzera\'s Enchanted Horn',
+      ),
+      955483885 => 
+      array (
+        'icon' => 184,
+        'name' => '\\#FC94AFTiruno\'s Soul Shard',
+      ),
+    ),
+  ),
+  2982642271 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Keepsakes of Eidolon',
+    'level' => 20,
+    'crc' => 2982642271,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2552385124 => 
+      array (
+        'icon' => 102,
+        'name' => '\\#FC94AFA Fearling Horn',
+      ),
+      3757240569 => 
+      array (
+        'icon' => 2650,
+        'name' => '\\#FC94AFA Razorclaw Stinger',
+      ),
+      2791819712 => 
+      array (
+        'icon' => 197,
+        'name' => '\\#FC94AFA Shaderoot Branch',
+      ),
+      3336240114 => 
+      array (
+        'icon' => 3185,
+        'name' => '\\#FC94AFA Soullight Spark',
+      ),
+      4077854790 => 
+      array (
+        'icon' => 141,
+        'name' => '\\#FC94AFA Tuft of Shiverback Hair',
+      ),
+      2807290918 => 
+      array (
+        'icon' => 2226,
+        'name' => '\\#FC94AFAn Orafik Eyestalk',
+      ),
+    ),
+  ),
+  241141552 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Kerran Toys',
+    'level' => 20,
+    'crc' => 241141552,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      913970591 => 
+      array (
+        'icon' => 770,
+        'name' => '\\#FC94AFKerran rubber ball',
+      ),
+      666311688 => 
+      array (
+        'icon' => 961,
+        'name' => '\\#FC94AFKerran wiggle hoop',
+      ),
+      3783006100 => 
+      array (
+        'icon' => 126,
+        'name' => '\\#FC94AFKerran stuffed animal',
+      ),
+      2671779574 => 
+      array (
+        'icon' => 286,
+        'name' => '\\#FC94AFKerran flinga sting',
+      ),
+      595423510 => 
+      array (
+        'icon' => 397,
+        'name' => '\\#FC94AFKerran cruncha sack',
+      ),
+      415379785 => 
+      array (
+        'icon' => 652,
+        'name' => '\\#FC94AFKerran warm up post',
+      ),
+    ),
+  ),
+  2171056315 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Large Pieces of Airship Plating',
+    'level' => 20,
+    'crc' => 2171056315,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1335348814 => 
+      array (
+        'icon' => 734,
+        'name' => '\\#FC94AFlarge dusky piece of airship plating',
+      ),
+      4250360783 => 
+      array (
+        'icon' => 735,
+        'name' => '\\#FC94AFlarge pristine piece of airship plating',
+      ),
+      639049501 => 
+      array (
+        'icon' => 731,
+        'name' => '\\#FC94AFlarge shining piece of airship plating',
+      ),
+      2281085232 => 
+      array (
+        'icon' => 733,
+        'name' => '\\#FC94AFlarge weathered piece of airship plating',
+      ),
+      1917847491 => 
+      array (
+        'icon' => 732,
+        'name' => '\\#FC94AFlarge worn piece of airship plating',
+      ),
+    ),
+  ),
+  1095497064 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Library of Erudin Murder Weapons',
+    'level' => 20,
+    'crc' => 1095497064,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      387477124 => 
+      array (
+        'icon' => 2716,
+        'name' => '\\#FC94AFTorqued Spanner',
+      ),
+      139913273 => 
+      array (
+        'icon' => 2975,
+        'name' => '\\#FC94AFOverloaded Wand',
+      ),
+      3776254301 => 
+      array (
+        'icon' => 3134,
+        'name' => '\\#FC94AFCracked Staff',
+      ),
+      1886940786 => 
+      array (
+        'icon' => 2138,
+        'name' => '\\#FC94AFBloodied Chain of Office',
+      ),
+      2787013538 => 
+      array (
+        'icon' => 2528,
+        'name' => '\\#FC94AFBloody Dagger',
+      ),
+      2488096917 => 
+      array (
+        'icon' => 1055,
+        'name' => '\\#FC94AFTarnished Candlestick',
+      ),
+    ),
+  ),
+  2707021585 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Medals of the Guardians',
+    'level' => 20,
+    'crc' => 2707021585,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2137593119 => 
+      array (
+        'icon' => 1292,
+        'name' => '\\#FC94AFMedal of the Bastion',
+      ),
+      2223547146 => 
+      array (
+        'icon' => 1316,
+        'name' => '\\#FC94AFMedal of the Bound',
+      ),
+      2326938490 => 
+      array (
+        'icon' => 1262,
+        'name' => '\\#FC94AFMedal of the Construct',
+      ),
+      28078759 => 
+      array (
+        'icon' => 1276,
+        'name' => '\\#FC94AFMedal of the Inventor',
+      ),
+      2097544632 => 
+      array (
+        'icon' => 1243,
+        'name' => '\\#FC94AFMedal of the Lost',
+      ),
+      1974652793 => 
+      array (
+        'icon' => 1288,
+        'name' => '\\#FC94AFMedal of the Overlord',
+      ),
+      3353613412 => 
+      array (
+        'icon' => 1269,
+        'name' => '\\#FC94AFMedal of the Reaper',
+      ),
+    ),
+  ),
+  2560901443 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Memories of Velketor',
+    'level' => 20,
+    'crc' => 2560901443,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4284205045 => 
+      array (
+        'icon' => 2203,
+        'name' => '\\#FC94AFBracelet of Frostbite',
+      ),
+      4287758088 => 
+      array (
+        'icon' => 2521,
+        'name' => '\\#FC94AFVermilion Orb of Torrefaction',
+      ),
+      1380392968 => 
+      array (
+        'icon' => 3087,
+        'name' => '\\#FC94AFSnow Storm Mask',
+      ),
+      673903173 => 
+      array (
+        'icon' => 2375,
+        'name' => '\\#FC94AFCrystal Rod of Confusion',
+      ),
+      3816817483 => 
+      array (
+        'icon' => 2301,
+        'name' => '\\#FC94AFVelketor\'s Spellbook',
+      ),
+    ),
+  ),
+  4254432415 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Memories of a Cursed Bride',
+    'level' => 20,
+    'crc' => 4254432415,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1793274504 => 
+      array (
+        'icon' => 1665,
+        'name' => '\\#FC94AFCeremonial Wedding Sword',
+      ),
+      3891338848 => 
+      array (
+        'icon' => 1955,
+        'name' => '\\#FC94AFA Scorned Bride\'s Bouquet',
+      ),
+      358697940 => 
+      array (
+        'icon' => 1223,
+        'name' => '\\#FC94AFA Discarded Invitation',
+      ),
+      4153824703 => 
+      array (
+        'icon' => 1000,
+        'name' => '\\#FC94AFA Shattered Mirror',
+      ),
+      962122769 => 
+      array (
+        'icon' => 965,
+        'name' => '\\#FC94AFA Scorned Bride\'s Ripped Veil',
+      ),
+    ),
+  ),
+  1503498463 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Mists of Vesspyr',
+    'level' => 20,
+    'crc' => 1503498463,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3909596665 => 
+      array (
+        'icon' => 3054,
+        'name' => '\\#FC94AFBlightscale Mist',
+      ),
+      2622649556 => 
+      array (
+        'icon' => 3055,
+        'name' => '\\#FC94AFDaarspire Mist',
+      ),
+      3478325226 => 
+      array (
+        'icon' => 3056,
+        'name' => '\\#FC94AFDroumlunds Mist',
+      ),
+      2961464253 => 
+      array (
+        'icon' => 3055,
+        'name' => '\\#FC94AFFalinpol Mist',
+      ),
+      1164674597 => 
+      array (
+        'icon' => 3058,
+        'name' => '\\#FC94AFMist of Aeterna Gardens',
+      ),
+      697418413 => 
+      array (
+        'icon' => 3059,
+        'name' => '\\#FC94AFMist of Karak Peak',
+      ),
+      27866115 => 
+      array (
+        'icon' => 3484,
+        'name' => '\\#FC94AFMist of Veeshena Tol',
+      ),
+      2742071484 => 
+      array (
+        'icon' => 3485,
+        'name' => '\\#FC94AFMist of Veiled Thessk',
+      ),
+      2609886670 => 
+      array (
+        'icon' => 3057,
+        'name' => '\\#FC94AFNuthshae Mist',
+      ),
+      2391504631 => 
+      array (
+        'icon' => 3486,
+        'name' => '\\#FC94AFSothshae Mist',
+      ),
+    ),
+  ),
+  27082029 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Najena\'s Lab Equipment',
+    'level' => 20,
+    'crc' => 27082029,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2395630699 => 
+      array (
+        'icon' => 313,
+        'name' => '\\#FC94AFNajena\'s Magical Beaker',
+      ),
+      2577977083 => 
+      array (
+        'icon' => 180,
+        'name' => '\\#FC94AFNajena\'s Fireproof Flask',
+      ),
+      2518506572 => 
+      array (
+        'icon' => 1013,
+        'name' => '\\#FC94AFNajena\'s Adamantine Calipers',
+      ),
+      2857222515 => 
+      array (
+        'icon' => 1082,
+        'name' => '\\#FC94AFNajena\'s Never-Extinguishing Burner',
+      ),
+      2812521929 => 
+      array (
+        'icon' => 32,
+        'name' => '\\#FC94AFNajena\'s Titanium Tongs',
+      ),
+      258783160 => 
+      array (
+        'icon' => 705,
+        'name' => '\\#FC94AFNajena\'s Clamp of Doom',
+      ),
+      3719554218 => 
+      array (
+        'icon' => 2800,
+        'name' => '\\#FC94AFNajena\'s Testy Test-Tube',
+      ),
+      2794001907 => 
+      array (
+        'icon' => 982,
+        'name' => '\\#FC94AFNajena\'s Un-melt-able Crucible',
+      ),
+    ),
+  ),
+  3697674263 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Nektulos Pine Needle Collection',
+    'level' => 20,
+    'crc' => 3697674263,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2143412397 => 
+      array (
+        'icon' => 2123,
+        'name' => '\\#FC94AFdark brown nektulos pine needle',
+      ),
+      1151632024 => 
+      array (
+        'icon' => 2120,
+        'name' => '\\#FC94AFblue nektulos pine needle',
+      ),
+      3932821639 => 
+      array (
+        'icon' => 2121,
+        'name' => '\\#FC94AFpurple nektulos pine needle',
+      ),
+      815464199 => 
+      array (
+        'icon' => 2119,
+        'name' => '\\#FC94AFgreen nektulos pine needle',
+      ),
+      3505096446 => 
+      array (
+        'icon' => 2124,
+        'name' => '\\#FC94AFyellow nektulos pine needle',
+      ),
+      133944258 => 
+      array (
+        'icon' => 2125,
+        'name' => '\\#FC94AFred nektulos pine needle',
+      ),
+      4247177603 => 
+      array (
+        'icon' => 2122,
+        'name' => '\\#FC94AFlight brown nektulos pine needle',
+      ),
+    ),
+  ),
+  3677739885 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Objects of Malice',
+    'level' => 20,
+    'crc' => 3677739885,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2988788375 => 
+      array (
+        'icon' => 3310,
+        'name' => '\\#FC94AFTalisman of the Flesh Stripper',
+      ),
+      3221011158 => 
+      array (
+        'icon' => 3565,
+        'name' => '\\#FC94AFMace of Dark Obscenity',
+      ),
+      1783903030 => 
+      array (
+        'icon' => 4108,
+        'name' => '\\#FC94AFHelm of Disembodied Spirit',
+      ),
+      2531359274 => 
+      array (
+        'icon' => 3433,
+        'name' => '\\#FC94AFRing of Imbued Blood',
+      ),
+      3609320841 => 
+      array (
+        'icon' => 3572,
+        'name' => '\\#FC94AFBlood Inquisitor\'s Dagger',
+      ),
+      1843364202 => 
+      array (
+        'icon' => 3311,
+        'name' => '\\#FC94AFPrimordial Talisman',
+      ),
+    ),
+  ),
+  1415849601 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Othmir Vestments',
+    'level' => 20,
+    'crc' => 1415849601,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4262729693 => 
+      array (
+        'icon' => 1433,
+        'name' => '\\#FC94AFCrustacean Shell Boots',
+      ),
+      3059606707 => 
+      array (
+        'icon' => 1434,
+        'name' => '\\#FC94AFCrustacean Shell Bracers',
+      ),
+      1214974569 => 
+      array (
+        'icon' => 1523,
+        'name' => '\\#FC94AFCrustacean Shell Breastplate',
+      ),
+      2291230955 => 
+      array (
+        'icon' => 1435,
+        'name' => '\\#FC94AFCrustacean Shell Gauntlets',
+      ),
+      2685353184 => 
+      array (
+        'icon' => 1528,
+        'name' => '\\#FC94AFCrustacean Shell Greaves',
+      ),
+      3982505306 => 
+      array (
+        'icon' => 1436,
+        'name' => '\\#FC94AFCrustacean Shell Helm',
+      ),
+      984047316 => 
+      array (
+        'icon' => 1529,
+        'name' => '\\#FC94AFCrustacean Shell Vambraces',
+      ),
+    ),
+  ),
+  267092012 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Pirate Coat Buttons',
+    'level' => 20,
+    'crc' => 267092012,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3354994436 => 
+      array (
+        'icon' => 1026,
+        'name' => '\\#FC94AFGolden Silversmith Button',
+      ),
+      12418961 => 
+      array (
+        'icon' => 1026,
+        'name' => '\\#FC94AFSilver Swirl Button',
+      ),
+      3083045829 => 
+      array (
+        'icon' => 1026,
+        'name' => '\\#FC94AFGolden Shank Button',
+      ),
+      1723091956 => 
+      array (
+        'icon' => 1025,
+        'name' => '\\#FC94AFBone-Carved Pants Button',
+      ),
+      1851111188 => 
+      array (
+        'icon' => 1027,
+        'name' => '\\#FC94AFSilver Shank Button',
+      ),
+      169173451 => 
+      array (
+        'icon' => 1025,
+        'name' => '\\#FC94AFBone-Carved Vest Button',
+      ),
+    ),
+  ),
+  2798730006 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Planar Orbs',
+    'level' => 20,
+    'crc' => 2798730006,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      424909976 => 
+      array (
+        'icon' => 2526,
+        'name' => '\\#FC94AFplanar orb of air',
+      ),
+      2016353689 => 
+      array (
+        'icon' => 2525,
+        'name' => '\\#FC94AFplanar orb of earth',
+      ),
+      1589831044 => 
+      array (
+        'icon' => 2523,
+        'name' => '\\#FC94AFplanar orb of fire',
+      ),
+      3359211427 => 
+      array (
+        'icon' => 2524,
+        'name' => '\\#FC94AFplanar orb of water',
+      ),
+    ),
+  ),
+  470332649 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Rare Stones',
+    'level' => 20,
+    'crc' => 470332649,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      293161818 => 
+      array (
+        'icon' => 1141,
+        'name' => '\\#FC94AFbrume stone',
+      ),
+      2020789295 => 
+      array (
+        'icon' => 769,
+        'name' => '\\#FC94AFcloud stone',
+      ),
+      1783972001 => 
+      array (
+        'icon' => 1164,
+        'name' => '\\#FC94AFdust stone',
+      ),
+      1291025476 => 
+      array (
+        'icon' => 1170,
+        'name' => '\\#FC94AFfey stone',
+      ),
+      2202940319 => 
+      array (
+        'icon' => 1166,
+        'name' => '\\#FC94AFmurk stone',
+      ),
+      3365744721 => 
+      array (
+        'icon' => 1184,
+        'name' => '\\#FC94AFsky stone',
+      ),
+      3743325884 => 
+      array (
+        'icon' => 1186,
+        'name' => '\\#FC94AFwind stone',
+      ),
+    ),
+  ),
+  826484550 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Reet Knight Armor',
+    'level' => 20,
+    'crc' => 826484550,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2884393493 => 
+      array (
+        'icon' => 3233,
+        'name' => '\\#FC94AFreet knight cuirass',
+      ),
+      477347617 => 
+      array (
+        'icon' => 3230,
+        'name' => '\\#FC94AFreet knight boots',
+      ),
+      2401261523 => 
+      array (
+        'icon' => 3232,
+        'name' => '\\#FC94AFreet knight bracer',
+      ),
+      4159877912 => 
+      array (
+        'icon' => 3229,
+        'name' => '\\#FC94AFreet knight gauntlets',
+      ),
+      3221969900 => 
+      array (
+        'icon' => 3231,
+        'name' => '\\#FC94AFreet knight greaves',
+      ),
+      850582931 => 
+      array (
+        'icon' => 3234,
+        'name' => '\\#FC94AFreet knight helm',
+      ),
+      520615304 => 
+      array (
+        'icon' => 3235,
+        'name' => '\\#FC94AFreet knight pauldrons',
+      ),
+    ),
+  ),
+  2833284882 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Relics of the Battle of Thurgadin',
+    'level' => 20,
+    'crc' => 2833284882,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1870998433 => 
+      array (
+        'icon' => 1159,
+        'name' => '\\#FC94AFAn Icy Symbol of Rallos',
+      ),
+      363844446 => 
+      array (
+        'icon' => 680,
+        'name' => '\\#FC94AFA Chipped Axe Blade',
+      ),
+      810254492 => 
+      array (
+        'icon' => 1254,
+        'name' => '\\#FC94AFA Frosty Symbol of Brell ',
+      ),
+      2846446761 => 
+      array (
+        'icon' => 1223,
+        'name' => '\\#FC94AFA Coldain Love Letter',
+      ),
+      3630815392 => 
+      array (
+        'icon' => 1152,
+        'name' => '\\#FC94AFA Primal Velium Whetstone',
+      ),
+      4293771709 => 
+      array (
+        'icon' => 91,
+        'name' => '\\#FC94AFA Cleft Kromrif Skull',
+      ),
+    ),
+  ),
+  1467254853 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Relics of the Onaya',
+    'level' => 20,
+    'crc' => 1467254853,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1461150812 => 
+      array (
+        'icon' => 982,
+        'name' => '\\#FC94AFOnayan ceremonial urn',
+      ),
+      4035257222 => 
+      array (
+        'icon' => 2592,
+        'name' => '\\#FC94AFOnayan dragon effigy',
+      ),
+      4193968733 => 
+      array (
+        'icon' => 861,
+        'name' => '\\#FC94AFOnayan ocean totem',
+      ),
+      1831617644 => 
+      array (
+        'icon' => 1791,
+        'name' => '\\#FC94AFOnayan sash button',
+      ),
+      1792017667 => 
+      array (
+        'icon' => 3116,
+        'name' => '\\#FC94AFOnayan staff of the waves',
+      ),
+      1057858136 => 
+      array (
+        'icon' => 385,
+        'name' => '\\#FC94AFOnayan coral necklace',
+      ),
+    ),
+  ),
+  3695020808 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Remnants of Refuge',
+    'level' => 20,
+    'crc' => 3695020808,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3621240800 => 
+      array (
+        'icon' => 2338,
+        'name' => '\\#FC94AFCantrie\'s Fishing Hook',
+      ),
+      3132608251 => 
+      array (
+        'icon' => 3131,
+        'name' => '\\#FC94AFDeebo\'s Fishing Pole',
+      ),
+      3099475956 => 
+      array (
+        'icon' => 402,
+        'name' => '\\#FC94AFDovin\'s Merchant Sack',
+      ),
+      1825458966 => 
+      array (
+        'icon' => 2252,
+        'name' => '\\#FC94AFGerrin\'s Pocket Watch',
+      ),
+      1136042105 => 
+      array (
+        'icon' => 719,
+        'name' => '\\#FC94AFValik\'s Map Book',
+      ),
+      233020773 => 
+      array (
+        'icon' => 4073,
+        'name' => '\\#FC94AFAnikra\'s Doll',
+      ),
+    ),
+  ),
+  3512193866 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Rivervale Coins Collection',
+    'level' => 20,
+    'crc' => 3512193866,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1560515366 => 
+      array (
+        'icon' => 1345,
+        'name' => '\\#FC94AFsilver coin of rivervale',
+      ),
+      224191627 => 
+      array (
+        'icon' => 1355,
+        'name' => '\\#FC94AFplatinum coin of rivervale',
+      ),
+      815756290 => 
+      array (
+        'icon' => 1350,
+        'name' => '\\#FC94AFgold coin of rivervale',
+      ),
+    ),
+  ),
+  2897853954 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Scorpikis Stingers',
+    'level' => 20,
+    'crc' => 2897853954,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2646101678 => 
+      array (
+        'icon' => 202,
+        'name' => '\\#FC94AFa crusted scorpikis stinger',
+      ),
+      765640684 => 
+      array (
+        'icon' => 202,
+        'name' => '\\#FC94AFa dark scorpikis stinger',
+      ),
+      3917727356 => 
+      array (
+        'icon' => 202,
+        'name' => '\\#FC94AFa deathly scorpikis stinger',
+      ),
+      98609366 => 
+      array (
+        'icon' => 202,
+        'name' => '\\#FC94AFan envenomed scorpikis stinger',
+      ),
+      989718719 => 
+      array (
+        'icon' => 202,
+        'name' => '\\#FC94AFa light scorpikis stinger',
+      ),
+    ),
+  ),
+  1981521357 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Sebilisian Symbols',
+    'level' => 20,
+    'crc' => 1981521357,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3409758635 => 
+      array (
+        'icon' => 2614,
+        'name' => '\\#FC94AFa symbol of the Jarsath',
+      ),
+      4282102690 => 
+      array (
+        'icon' => 2615,
+        'name' => '\\#FC94AFa symbol of the Kunzar',
+      ),
+      1617563543 => 
+      array (
+        'icon' => 2616,
+        'name' => '\\#FC94AFa symbol of the Kylong',
+      ),
+      3797852406 => 
+      array (
+        'icon' => 2617,
+        'name' => '\\#FC94AFa symbol of the Nathsar',
+      ),
+      1886409401 => 
+      array (
+        'icon' => 2613,
+        'name' => '\\#FC94AFa symbol of the obulus',
+      ),
+    ),
+  ),
+  571139931 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Shining Locust Collection',
+    'level' => 20,
+    'crc' => 571139931,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3897673084 => 
+      array (
+        'icon' => 2655,
+        'name' => '\\#FC94AFshining black locust',
+      ),
+      786185548 => 
+      array (
+        'icon' => 2677,
+        'name' => '\\#FC94AFshining blue locust',
+      ),
+      214821632 => 
+      array (
+        'icon' => 2659,
+        'name' => '\\#FC94AFshining brown locust',
+      ),
+      2974716277 => 
+      array (
+        'icon' => 2673,
+        'name' => '\\#FC94AFshining green locust',
+      ),
+      3479500243 => 
+      array (
+        'icon' => 2669,
+        'name' => '\\#FC94AFshining red locust',
+      ),
+    ),
+  ),
+  3506174661 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Shining Scarab Collection',
+    'level' => 20,
+    'crc' => 3506174661,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3755423488 => 
+      array (
+        'icon' => 1805,
+        'name' => '\\#FC94AFshining black scarab',
+      ),
+      1880469927 => 
+      array (
+        'icon' => 1807,
+        'name' => '\\#FC94AFshining blue scarab',
+      ),
+      994777468 => 
+      array (
+        'icon' => 1808,
+        'name' => '\\#FC94AFshining brown scarab',
+      ),
+      2261279497 => 
+      array (
+        'icon' => 1806,
+        'name' => '\\#FC94AFshining green scarab',
+      ),
+      3624997035 => 
+      array (
+        'icon' => 1809,
+        'name' => '\\#FC94AFshining red scarab',
+      ),
+    ),
+  ),
+  4084390772 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Shining Solifugid Collection',
+    'level' => 20,
+    'crc' => 4084390772,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1216292499 => 
+      array (
+        'icon' => 1841,
+        'name' => '\\#FC94AFshining black solifugid',
+      ),
+      182299308 => 
+      array (
+        'icon' => 1843,
+        'name' => '\\#FC94AFshining blue solifugid',
+      ),
+      2900560111 => 
+      array (
+        'icon' => 1844,
+        'name' => '\\#FC94AFshining brown solifugid',
+      ),
+      291533466 => 
+      array (
+        'icon' => 1842,
+        'name' => '\\#FC94AFshining green solifugid',
+      ),
+      2052109088 => 
+      array (
+        'icon' => 1845,
+        'name' => '\\#FC94AFshining red solifugid',
+      ),
+    ),
+  ),
+  1519676895 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Shiny Lamp',
+    'level' => 20,
+    'crc' => 1519676895,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1663676620 => 
+      array (
+        'icon' => 2700,
+        'name' => '\\#FC94AFshining lamp handle',
+      ),
+      1071729495 => 
+      array (
+        'icon' => 2700,
+        'name' => '\\#FC94AFshining left side of a lamp',
+      ),
+      1012016825 => 
+      array (
+        'icon' => 2700,
+        'name' => '\\#FC94AFshining right side of a lamp',
+      ),
+      2436780640 => 
+      array (
+        'icon' => 2700,
+        'name' => '\\#FC94AFshining spout of a lamp',
+      ),
+    ),
+  ),
+  447687631 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Shissar Tools',
+    'level' => 20,
+    'crc' => 447687631,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      125287340 => 
+      array (
+        'icon' => 362,
+        'name' => '\\#FC94AFStonecutter\'s Knife',
+      ),
+      559664448 => 
+      array (
+        'icon' => 739,
+        'name' => '\\#FC94AFLeather Straps',
+      ),
+      3869185441 => 
+      array (
+        'icon' => 697,
+        'name' => '\\#FC94AFStonecutter\'s Hammer',
+      ),
+      2738033807 => 
+      array (
+        'icon' => 35,
+        'name' => '\\#FC94AFQuarry Axe',
+      ),
+      81742670 => 
+      array (
+        'icon' => 675,
+        'name' => '\\#FC94AFQuarry Pick',
+      ),
+      3622602945 => 
+      array (
+        'icon' => 694,
+        'name' => '\\#FC94AFEbon Chisel',
+      ),
+    ),
+  ),
+  2183241829 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Songs of the Grotto',
+    'level' => 20,
+    'crc' => 2183241829,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2060638397 => 
+      array (
+        'icon' => 75,
+        'name' => '\\#FC94AFSiren Beguiler Song',
+      ),
+      3108141181 => 
+      array (
+        'icon' => 75,
+        'name' => '\\#FC94AFSiren Enticer Song',
+      ),
+      2339896748 => 
+      array (
+        'icon' => 75,
+        'name' => '\\#FC94AFSiren Mistress Song',
+      ),
+      1473322156 => 
+      array (
+        'icon' => 75,
+        'name' => '\\#FC94AFSiren Priestess Song',
+      ),
+      935614141 => 
+      array (
+        'icon' => 75,
+        'name' => '\\#FC94AFSiren Seductress Song',
+      ),
+      3395813936 => 
+      array (
+        'icon' => 75,
+        'name' => '\\#FC94AFSiren Temptress Song',
+      ),
+    ),
+  ),
+  1381380012 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Stained Glass Fragments',
+    'level' => 20,
+    'crc' => 1381380012,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      510422253 => 
+      array (
+        'icon' => 1177,
+        'name' => '\\#FC94AFblue stained glass fragment',
+      ),
+      279949914 => 
+      array (
+        'icon' => 1163,
+        'name' => '\\#FC94AFgreen stained glass fragment',
+      ),
+      147899165 => 
+      array (
+        'icon' => 1145,
+        'name' => '\\#FC94AForange stained glass fragment',
+      ),
+      4287627395 => 
+      array (
+        'icon' => 1187,
+        'name' => '\\#FC94AFpurple stained glass fragment',
+      ),
+      3402284348 => 
+      array (
+        'icon' => 1171,
+        'name' => '\\#FC94AFred stained glass fragment',
+      ),
+      2197459423 => 
+      array (
+        'icon' => 1178,
+        'name' => '\\#FC94AFwhite stained glass fragment',
+      ),
+      3306266362 => 
+      array (
+        'icon' => 1165,
+        'name' => '\\#FC94AFyellow stained glass fragment',
+      ),
+    ),
+  ),
+  4159427777 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Symbols of the Planes',
+    'level' => 20,
+    'crc' => 4159427777,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3981627548 => 
+      array (
+        'icon' => 2067,
+        'name' => '\\#FC94AFRemnant of Water',
+      ),
+      1564783270 => 
+      array (
+        'icon' => 860,
+        'name' => '\\#FC94AFRemnant of Earth',
+      ),
+      3219798814 => 
+      array (
+        'icon' => 2515,
+        'name' => '\\#FC94AFRemnant of Air',
+      ),
+      2979612423 => 
+      array (
+        'icon' => 2713,
+        'name' => '\\#FC94AFRemnant of Fear',
+      ),
+      3794402107 => 
+      array (
+        'icon' => 2243,
+        'name' => '\\#FC94AFRemnant of Hate',
+      ),
+      1872260820 => 
+      array (
+        'icon' => 2274,
+        'name' => '\\#FC94AFRemnant of War',
+      ),
+      1522498102 => 
+      array (
+        'icon' => 2509,
+        'name' => '\\#FC94AFRemnant of Fire',
+      ),
+      1959297141 => 
+      array (
+        'icon' => 92,
+        'name' => '\\#FC94AFRemnant of Disease',
+      ),
+      1347128090 => 
+      array (
+        'icon' => 2824,
+        'name' => '\\#FC94AFRemnant of Growth',
+      ),
+      2021396217 => 
+      array (
+        'icon' => 2298,
+        'name' => '\\#FC94AFRemnant of Mischief',
+      ),
+      986662375 => 
+      array (
+        'icon' => 2941,
+        'name' => '\\#FC94AFRemnant of Nightmare',
+      ),
+      4237773531 => 
+      array (
+        'icon' => 2294,
+        'name' => '\\#FC94AFRemnant of Justice',
+      ),
+      954786670 => 
+      array (
+        'icon' => 3141,
+        'name' => '\\#FC94AFRemnant of Valor',
+      ),
+      1357028392 => 
+      array (
+        'icon' => 1132,
+        'name' => '\\#FC94AFRemnant of Storms',
+      ),
+      1844833212 => 
+      array (
+        'icon' => 2252,
+        'name' => '\\#FC94AFRemnant of Time',
+      ),
+    ),
+  ),
+  3782675681 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Tales of Kael Drakkel',
+    'level' => 20,
+    'crc' => 3782675681,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      302587357 => 
+      array (
+        'icon' => 185,
+        'name' => '\\#FC94AFTales of Kael Drakkel Page 1',
+      ),
+      2332052583 => 
+      array (
+        'icon' => 185,
+        'name' => '\\#FC94AFTales of Kael Drakkel Page 2',
+      ),
+      4228349169 => 
+      array (
+        'icon' => 185,
+        'name' => '\\#FC94AFTales of Kael Drakkel Page 3',
+      ),
+      1650714962 => 
+      array (
+        'icon' => 185,
+        'name' => '\\#FC94AFTales of Kael Drakkel Page 4',
+      ),
+      358930884 => 
+      array (
+        'icon' => 185,
+        'name' => '\\#FC94AFTales of Kael Drakkel Page 5',
+      ),
+      2355988606 => 
+      array (
+        'icon' => 185,
+        'name' => '\\#FC94AFTales of Kael Drakkel Page 6',
+      ),
+    ),
+  ),
+  232181496 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Tarton\'s Wheel',
+    'level' => 20,
+    'crc' => 232181496,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1610591958 => 
+      array (
+        'icon' => 882,
+        'name' => '\\#FC94AFRod of Azia',
+      ),
+      1004512487 => 
+      array (
+        'icon' => 877,
+        'name' => '\\#FC94AFRod of Beza',
+      ),
+      2221566814 => 
+      array (
+        'icon' => 839,
+        'name' => '\\#FC94AFRod of Caza',
+      ),
+      807021678 => 
+      array (
+        'icon' => 838,
+        'name' => '\\#FC94AFRod of Dena',
+      ),
+      3713673699 => 
+      array (
+        'icon' => 836,
+        'name' => '\\#FC94AFRod of Ena',
+      ),
+      2635746361 => 
+      array (
+        'icon' => 840,
+        'name' => '\\#FC94AFRod of Fana',
+      ),
+      201413845 => 
+      array (
+        'icon' => 841,
+        'name' => '\\#FC94AFRod of Geza',
+      ),
+      2149808988 => 
+      array (
+        'icon' => 876,
+        'name' => '\\#FC94AFRod of Heda',
+      ),
+      726578325 => 
+      array (
+        'icon' => 837,
+        'name' => '\\#FC94AFRod of Izah',
+      ),
+      2864383940 => 
+      array (
+        'icon' => 875,
+        'name' => '\\#FC94AFRod of Jaka',
+      ),
+      1152516647 => 
+      array (
+        'icon' => 2847,
+        'name' => '\\#FC94AFStaff of the Wheel',
+      ),
+      2013752840 => 
+      array (
+        'icon' => 1156,
+        'name' => '\\#FC94AFStar of Eyes',
+      ),
+      267551241 => 
+      array (
+        'icon' => 2709,
+        'name' => '\\#FC94AFTome of the Wheel',
+      ),
+    ),
+  ),
+  3800132234 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Tattered Mummy Wrappings',
+    'level' => 20,
+    'crc' => 3800132234,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1672014121 => 
+      array (
+        'icon' => 1089,
+        'name' => '\\#FC94AFtattered arm wrapping',
+      ),
+      2405634908 => 
+      array (
+        'icon' => 1089,
+        'name' => '\\#FC94AFtattered foot wrapping',
+      ),
+      1913397823 => 
+      array (
+        'icon' => 1089,
+        'name' => '\\#FC94AFtattered hand wrapping',
+      ),
+      3807571334 => 
+      array (
+        'icon' => 1089,
+        'name' => '\\#FC94AFtattered head wrapping',
+      ),
+      1843964230 => 
+      array (
+        'icon' => 1089,
+        'name' => '\\#FC94AFtattered leg wrapping',
+      ),
+      598100851 => 
+      array (
+        'icon' => 1089,
+        'name' => '\\#FC94AFtattered torso wrapping',
+      ),
+    ),
+  ),
+  2499266551 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled The Merchants of Skyshrine',
+    'level' => 20,
+    'crc' => 2499266551,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1800115923 => 
+      array (
+        'icon' => 1251,
+        'name' => '\\#FC94AFRaelrik\'s Medallion',
+      ),
+      4212081362 => 
+      array (
+        'icon' => 1246,
+        'name' => '\\#FC94AFChef Norador\'s Medallion',
+      ),
+      1067889306 => 
+      array (
+        'icon' => 1276,
+        'name' => '\\#FC94AFPurveyor Stitch\'s Medallion',
+      ),
+      4084789041 => 
+      array (
+        'icon' => 1253,
+        'name' => '\\#FC94AFBarkeep Dablen\'s Medallion',
+      ),
+      322375665 => 
+      array (
+        'icon' => 1293,
+        'name' => '\\#FC94AFGuardian Trekolz\'s Medallion',
+      ),
+      3690249136 => 
+      array (
+        'icon' => 1288,
+        'name' => '\\#FC94AFSalginor\'s Medallion',
+      ),
+      727621004 => 
+      array (
+        'icon' => 1268,
+        'name' => '\\#FC94AFZildainez\'s Medallion',
+      ),
+      621178749 => 
+      array (
+        'icon' => 1273,
+        'name' => '\\#FC94AFHytloc\'s Medallion',
+      ),
+      3369622660 => 
+      array (
+        'icon' => 1285,
+        'name' => '\\#FC94AFTulgadin\'s Medallion',
+      ),
+    ),
+  ),
+  3239572432 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Tunarian Spearheads',
+    'level' => 20,
+    'crc' => 3239572432,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1651942957 => 
+      array (
+        'icon' => 683,
+        'name' => '\\#FC94AFbent tunarian spearhead',
+      ),
+      2450002170 => 
+      array (
+        'icon' => 673,
+        'name' => '\\#FC94AFbloody tunarian spearhead',
+      ),
+      2420360629 => 
+      array (
+        'icon' => 685,
+        'name' => '\\#FC94AFcracked tunarian spearhead',
+      ),
+      2053218389 => 
+      array (
+        'icon' => 1021,
+        'name' => '\\#FC94AFdull tunarian spearhead',
+      ),
+      55305233 => 
+      array (
+        'icon' => 671,
+        'name' => '\\#FC94AFpristine tunarian spearhead',
+      ),
+      2241479682 => 
+      array (
+        'icon' => 684,
+        'name' => '\\#FC94AFshattered tunarian spearhead',
+      ),
+      1995205114 => 
+      array (
+        'icon' => 675,
+        'name' => '\\#FC94AFshiny tunarian spearhead',
       ),
     ),
   ),
@@ -21902,6 +27660,90 @@ $CollectionsData = array (
       array (
         'icon' => 690,
         'name' => 'Fabled Stalker\'s Longsword of Silence',
+      ),
+    ),
+  ),
+  4139198604 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Withered Lands Dragon Sigils',
+    'level' => 20,
+    'crc' => 4139198604,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1437075011 => 
+      array (
+        'icon' => 1152,
+        'name' => '\\#FC94AFSkyshrine Sigil',
+      ),
+      3431532589 => 
+      array (
+        'icon' => 1156,
+        'name' => '\\#FC94AFEternal Sigil',
+      ),
+      1505648695 => 
+      array (
+        'icon' => 1168,
+        'name' => '\\#FC94AFVeeshan Sigil',
+      ),
+      2104528231 => 
+      array (
+        'icon' => 1131,
+        'name' => '\\#FC94AFStorm Sigil',
+      ),
+      2435009578 => 
+      array (
+        'icon' => 1159,
+        'name' => '\\#FC94AFFrost Sigil',
+      ),
+      948738176 => 
+      array (
+        'icon' => 1145,
+        'name' => '\\#FC94AFFire Sigil',
+      ),
+      1245219897 => 
+      array (
+        'icon' => 1143,
+        'name' => '\\#FC94AFAir Sigil',
+      ),
+      3310599408 => 
+      array (
+        'icon' => 1142,
+        'name' => '\\#FC94AFWater Sigil',
+      ),
+    ),
+  ),
+  2885779429 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Fabled Yeti Fur',
+    'level' => 20,
+    'crc' => 2885779429,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3583488247 => 
+      array (
+        'icon' => 127,
+        'name' => '\\#FC94AFtuft of bloody yeti fur',
+      ),
+      4022548781 => 
+      array (
+        'icon' => 168,
+        'name' => '\\#FC94AFtuft of blue yeti fur',
+      ),
+      3503715574 => 
+      array (
+        'icon' => 125,
+        'name' => '\\#FC94AFtuft of frozen yeti fur',
+      ),
+      2841031318 => 
+      array (
+        'icon' => 126,
+        'name' => '\\#FC94AFtuft of white yeti fur',
       ),
     ),
   ),
@@ -23101,6 +28943,78 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1079545509 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Feathers From the Aerie',
+    'level' => 130,
+    'crc' => 1079545509,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2964873461 => 
+      array (
+        'icon' => 5824,
+        'name' => 'Perfect Hooluk Feather',
+      ),
+      3481693552 => 
+      array (
+        'icon' => 5821,
+        'name' => 'White Hooluk Feather',
+      ),
+      1839266440 => 
+      array (
+        'icon' => 5820,
+        'name' => 'Brown Hooluk Feather',
+      ),
+      3258411678 => 
+      array (
+        'icon' => 5821,
+        'name' => 'Ruffled Hooluk Feather',
+      ),
+      3910944558 => 
+      array (
+        'icon' => 5822,
+        'name' => 'Singed Hooluk Feather',
+      ),
+      3493766527 => 
+      array (
+        'icon' => 5821,
+        'name' => 'Broken Hooluk Feather',
+      ),
+      3205294542 => 
+      array (
+        'icon' => 5825,
+        'name' => 'Bloody Aviak Feather',
+      ),
+      3849186235 => 
+      array (
+        'icon' => 5823,
+        'name' => 'Burnt Aviak Feather',
+      ),
+      1422907514 => 
+      array (
+        'icon' => 5821,
+        'name' => 'Tortured Aviak Feather',
+      ),
+      2841314268 => 
+      array (
+        'icon' => 5821,
+        'name' => 'Clipped Aviak Feather',
+      ),
+      1421605944 => 
+      array (
+        'icon' => 5823,
+        'name' => 'Severed Aviak Feather',
+      ),
+      506108704 => 
+      array (
+        'icon' => 5826,
+        'name' => 'Muddy Aviak Feather',
+      ),
+    ),
+  ),
   3279283960 => 
   array (
     'category' => 'Test',
@@ -23150,6 +29064,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  4103282116 => 
+  array (
+    'category' => 'Shattered Overture',
+    'name' => 'Festering Bits',
+    'level' => 125,
+    'crc' => 4103282116,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      83929369 => 
+      array (
+        'icon' => 134,
+        'name' => 'Torn Festering Bit',
+      ),
+      1798691647 => 
+      array (
+        'icon' => 135,
+        'name' => 'Ripped Festering Bit',
+      ),
+      1069142534 => 
+      array (
+        'icon' => 135,
+        'name' => 'Mangled Festering Bit',
+      ),
+      105279892 => 
+      array (
+        'icon' => 136,
+        'name' => 'Burnt Festering Bit',
+      ),
+      2719743932 => 
+      array (
+        'icon' => 87,
+        'name' => 'Severed Hag Hand',
+      ),
+    ),
+  ),
   948088086 => 
   array (
     'category' => 'Chaos Descending',
@@ -23184,6 +29135,68 @@ $CollectionsData = array (
       array (
         'icon' => 1265,
         'name' => 'Rune of Rot',
+      ),
+    ),
+  ),
+  3080819973 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Fiddtan Crest Gemstones',
+    'level' => 130,
+    'crc' => 3080819973,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1115021432 => 
+      array (
+        'icon' => 4793,
+        'name' => 'Polished Amethyst Gemstone',
+      ),
+      1771400566 => 
+      array (
+        'icon' => 4793,
+        'name' => 'Tapered Amethyst Gemstone',
+      ),
+      1550355007 => 
+      array (
+        'icon' => 4793,
+        'name' => 'Glossy Amethyst Gemstone',
+      ),
+      387241465 => 
+      array (
+        'icon' => 4793,
+        'name' => 'Clear Amethyst Gemstone',
+      ),
+      4050698848 => 
+      array (
+        'icon' => 4793,
+        'name' => 'Trillion Amethyst Gemstone',
+      ),
+      227034869 => 
+      array (
+        'icon' => 4793,
+        'name' => 'Round Amethyst Gemstone',
+      ),
+      3609991485 => 
+      array (
+        'icon' => 4793,
+        'name' => 'Opaque Amethyst Gemstone',
+      ),
+      572146562 => 
+      array (
+        'icon' => 4793,
+        'name' => 'Murky Amethyst Gemstone',
+      ),
+      2102331540 => 
+      array (
+        'icon' => 4948,
+        'name' => 'Powdered Amethyst Gemstone',
+      ),
+      3091072858 => 
+      array (
+        'icon' => 4793,
+        'name' => 'Oval Amethyst Gemstone',
       ),
     ),
   ),
@@ -23748,6 +29761,63 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3244956599 => 
+  array (
+    'category' => 'Oceansfull',
+    'name' => 'Flashy Fishing Lures',
+    'level' => 20,
+    'crc' => 3244956599,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1434767353 => 
+      array (
+        'icon' => 1037,
+        'name' => 'Mesmerizing Jig',
+      ),
+      3431833155 => 
+      array (
+        'icon' => 588,
+        'name' => 'Spiroc Feather Spinnerbait',
+      ),
+      3146428117 => 
+      array (
+        'icon' => 5732,
+        'name' => 'Carved Shell Spoon Lure',
+      ),
+      636369782 => 
+      array (
+        'icon' => 5691,
+        'name' => 'Carved Bone Stickbait',
+      ),
+      1391004640 => 
+      array (
+        'icon' => 1020,
+        'name' => 'Tinkered Copper Swimbait',
+      ),
+      3420478042 => 
+      array (
+        'icon' => 1191,
+        'name' => 'Red Glass Lure',
+      ),
+      3169282764 => 
+      array (
+        'icon' => 150,
+        'name' => 'Vulrich Feather Top Water Lure',
+      ),
+      743995229 => 
+      array (
+        'icon' => 85,
+        'name' => 'Drakota Scale Spinnerbait',
+      ),
+      1532970955 => 
+      array (
+        'icon' => 5691,
+        'name' => 'Carved Wood Decoy Lure',
+      ),
+    ),
+  ),
   3476983637 => 
   array (
     'category' => 'Altar of Malice',
@@ -23787,6 +29857,43 @@ $CollectionsData = array (
       array (
         'icon' => 141,
         'name' => 'Punctured Flesh Scrap',
+      ),
+    ),
+  ),
+  1717226927 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Flora Or Fauna?',
+    'level' => 125,
+    'crc' => 1717226927,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3191091050 => 
+      array (
+        'icon' => 2095,
+        'name' => 'Leaf from a Flora Flying Snake',
+      ),
+      986777081 => 
+      array (
+        'icon' => 2091,
+        'name' => 'Scale from a Flora Crocodile',
+      ),
+      2151444814 => 
+      array (
+        'icon' => 2119,
+        'name' => 'Tooth from a Flora Devourer',
+      ),
+      1654118991 => 
+      array (
+        'icon' => 2105,
+        'name' => 'Leafy Octopus-Thing',
+      ),
+      3350957190 => 
+      array (
+        'icon' => 2123,
+        'name' => 'An Antenna or a Branch?',
       ),
     ),
   ),
@@ -24007,6 +30114,33 @@ $CollectionsData = array (
       array (
         'icon' => 1928,
         'name' => 'Olive Dragonfly',
+      ),
+    ),
+  ),
+  4205698876 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Flying Through Ro',
+    'level' => 125,
+    'crc' => 4205698876,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2512562440 => 
+      array (
+        'icon' => 5366,
+        'name' => 'Flora Or Fauna?',
+      ),
+      245807734 => 
+      array (
+        'icon' => 4533,
+        'name' => 'Mysterious Locales',
+      ),
+      3713341785 => 
+      array (
+        'icon' => 2687,
+        'name' => 'Raj\'Dur Residents',
       ),
     ),
   ),
@@ -25590,6 +31724,90 @@ $CollectionsData = array (
       ),
     ),
   ),
+  743368361 => 
+  array (
+    'category' => 'Darkpaw Rising',
+    'name' => 'Fungal Spores',
+    'level' => 10,
+    'crc' => 743368361,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4012267686 => 
+      array (
+        'icon' => 5745,
+        'name' => 'Darkened Fungal Spore',
+      ),
+      119105991 => 
+      array (
+        'icon' => 5745,
+        'name' => 'Glowing Fungal Spore',
+      ),
+      3275061460 => 
+      array (
+        'icon' => 5745,
+        'name' => 'Florid Fungal Spore',
+      ),
+      1829329795 => 
+      array (
+        'icon' => 5745,
+        'name' => 'Luminous Fungal Spore',
+      ),
+      1503311501 => 
+      array (
+        'icon' => 5745,
+        'name' => 'Lambent Fungal Spore',
+      ),
+      1102764497 => 
+      array (
+        'icon' => 5745,
+        'name' => 'Sticky Fungal Spore',
+      ),
+    ),
+  ),
+  1932708006 => 
+  array (
+    'category' => 'Darkpaw Rising',
+    'name' => 'Fungalfiend Talisman',
+    'level' => 10,
+    'crc' => 1932708006,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2156345141 => 
+      array (
+        'icon' => 4865,
+        'name' => 'Talisman of Spores',
+      ),
+      2428621023 => 
+      array (
+        'icon' => 4865,
+        'name' => 'Talisman of Mold',
+      ),
+      2264864785 => 
+      array (
+        'icon' => 4863,
+        'name' => 'Talisman of  Wet',
+      ),
+      609636732 => 
+      array (
+        'icon' => 4865,
+        'name' => 'Talisman of the Putrid',
+      ),
+      1612126271 => 
+      array (
+        'icon' => 4864,
+        'name' => 'Talisman of the Rotting',
+      ),
+      372881060 => 
+      array (
+        'icon' => 4863,
+        'name' => 'Talisman of the Airless',
+      ),
+    ),
+  ),
   3027965095 => 
   array (
     'category' => 'Return to Guk',
@@ -26136,6 +32354,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2786828002 => 
+  array (
+    'category' => 'Shattered Overture',
+    'name' => 'Gelatinous Bits',
+    'level' => 125,
+    'crc' => 2786828002,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1879235158 => 
+      array (
+        'icon' => 334,
+        'name' => 'Clumped Jellied Bit',
+      ),
+      2276828842 => 
+      array (
+        'icon' => 333,
+        'name' => 'Dried Jellied Bit',
+      ),
+      1534149422 => 
+      array (
+        'icon' => 330,
+        'name' => 'Sizzled Jellied Bit',
+      ),
+      10964038 => 
+      array (
+        'icon' => 331,
+        'name' => 'Resinous Jellied Bit',
+      ),
+      2185859440 => 
+      array (
+        'icon' => 335,
+        'name' => 'Darkend Jellied Bit',
+      ),
+    ),
+  ),
   1782549884 => 
   array (
     'category' => 'Chaos Descending',
@@ -26291,6 +32546,48 @@ $CollectionsData = array (
       array (
         'icon' => 3777,
         'name' => 'A Yellow Shimmering Gem',
+      ),
+    ),
+  ),
+  1885193133 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Gemstone Plants',
+    'level' => 130,
+    'crc' => 1885193133,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2248820397 => 
+      array (
+        'icon' => 4893,
+        'name' => 'Emerald Fern Frond',
+      ),
+      3476962272 => 
+      array (
+        'icon' => 4892,
+        'name' => 'Rubied Agave Leaf',
+      ),
+      2531664393 => 
+      array (
+        'icon' => 4893,
+        'name' => 'Copper Pine Branch',
+      ),
+      927249165 => 
+      array (
+        'icon' => 4894,
+        'name' => 'Amythest Grasses',
+      ),
+      674929701 => 
+      array (
+        'icon' => 5853,
+        'name' => 'Diamond Flecked Orchid',
+      ),
+      3736986836 => 
+      array (
+        'icon' => 4890,
+        'name' => 'Citrine Iris Petal',
       ),
     ),
   ),
@@ -26778,12 +33075,91 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3371445517 => 
+  array (
+    'category' => 'Shattered Overture',
+    'name' => 'Glassy Dust',
+    'level' => 125,
+    'crc' => 3371445517,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2400015921 => 
+      array (
+        'icon' => 4945,
+        'name' => 'Glassy Verdant Dust',
+      ),
+      2248685564 => 
+      array (
+        'icon' => 4949,
+        'name' => 'Glassy Pink Dust',
+      ),
+      3272646679 => 
+      array (
+        'icon' => 4944,
+        'name' => 'Glassy Cobalt Dust',
+      ),
+      3210711837 => 
+      array (
+        'icon' => 4946,
+        'name' => 'Glassy Amber Dust',
+      ),
+      1350540660 => 
+      array (
+        'icon' => 4948,
+        'name' => 'Glassy Amaranthine Dust',
+      ),
+    ),
+  ),
   3887099110 => 
   array (
     'category' => 'Terrors of Thalumbra',
     'name' => 'Glaufaye Memories',
     'level' => 100,
     'crc' => 3887099110,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2636799561 => 
+      array (
+        'icon' => 1962,
+        'name' => 'Memory of Silfae',
+      ),
+      1409827927 => 
+      array (
+        'icon' => 1948,
+        'name' => 'Memory of Growth',
+      ),
+      3991668256 => 
+      array (
+        'icon' => 1985,
+        'name' => 'Memory of Arcanna\'se',
+      ),
+      1520479838 => 
+      array (
+        'icon' => 1943,
+        'name' => 'Memory of Zou Kunnen',
+      ),
+      2418617573 => 
+      array (
+        'icon' => 1953,
+        'name' => 'Memory of Eternity',
+      ),
+      1775192558 => 
+      array (
+        'icon' => 1956,
+        'name' => 'Memory of Death',
+      ),
+    ),
+  ),
+  4118806840 => 
+  array (
+    'category' => 'Terrors of Thalumbra',
+    'name' => 'Glaufaye Memories',
+    'level' => 100,
+    'crc' => 4118806840,
     'isclass' => false,
     'ismeta' => false,
     'reference_list' => 
@@ -26968,6 +33344,130 @@ $CollectionsData = array (
       ),
     ),
   ),
+  705436871 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Glistervein Grove Catalog',
+    'level' => 130,
+    'crc' => 705436871,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      495712673 => 
+      array (
+        'icon' => 1087,
+        'name' => 'Gold Nugget',
+      ),
+      775798052 => 
+      array (
+        'icon' => 1087,
+        'name' => 'Gold Flakes',
+      ),
+      3670100679 => 
+      array (
+        'icon' => 1087,
+        'name' => 'Gold Grains',
+      ),
+      3469780138 => 
+      array (
+        'icon' => 1003,
+        'name' => 'Gold Pebble',
+      ),
+      1339191239 => 
+      array (
+        'icon' => 1087,
+        'name' => 'Gold Chunk',
+      ),
+      1643668159 => 
+      array (
+        'icon' => 1087,
+        'name' => 'Gold Clump',
+      ),
+      3110280317 => 
+      array (
+        'icon' => 949,
+        'name' => 'Gold Disc',
+      ),
+      3681224278 => 
+      array (
+        'icon' => 1033,
+        'name' => 'Gold Sliver',
+      ),
+      1937924021 => 
+      array (
+        'icon' => 1003,
+        'name' => 'Gold Bead',
+      ),
+      2682479912 => 
+      array (
+        'icon' => 988,
+        'name' => 'Gold Pellet',
+      ),
+    ),
+  ),
+  156327290 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Glistervein Grove Gemstones',
+    'level' => 130,
+    'crc' => 156327290,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3849053755 => 
+      array (
+        'icon' => 4791,
+        'name' => 'Polished Ruby Gemstone',
+      ),
+      1361705548 => 
+      array (
+        'icon' => 4791,
+        'name' => 'Tapered Ruby Gemstone',
+      ),
+      1961751062 => 
+      array (
+        'icon' => 4791,
+        'name' => 'Glossy Ruby Gemstone',
+      ),
+      2990887378 => 
+      array (
+        'icon' => 4791,
+        'name' => 'Clear Ruby Gemstone',
+      ),
+      2201567272 => 
+      array (
+        'icon' => 4791,
+        'name' => 'Trillion Ruby Gemstone',
+      ),
+      1665171992 => 
+      array (
+        'icon' => 4791,
+        'name' => 'Round Ruby Gemstone',
+      ),
+      2242564808 => 
+      array (
+        'icon' => 4791,
+        'name' => 'Opaque Ruby Gemstone',
+      ),
+      3978099285 => 
+      array (
+        'icon' => 4791,
+        'name' => 'Murky Ruby Gemstone',
+      ),
+      89579744 => 
+      array (
+        'icon' => 4947,
+        'name' => 'Powdered Ruby Gemstone',
+      ),
+      1266945806 => 
+      array (
+        'icon' => 4791,
+        'name' => 'Oval Ruby Gemstone',
+      ),
+    ),
+  ),
   1355228597 => 
   array (
     'category' => 'Tears of Veeshan',
@@ -27081,6 +33581,48 @@ $CollectionsData = array (
       array (
         'icon' => 3819,
         'name' => 'Glowing Rune of Myr',
+      ),
+    ),
+  ),
+  4131036237 => 
+  array (
+    'category' => 'Darkpaw Rising',
+    'name' => 'Glowing Slugs',
+    'level' => 10,
+    'crc' => 4131036237,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3544819560 => 
+      array (
+        'icon' => 5944,
+        'name' => 'Ardent Slug',
+      ),
+      443048696 => 
+      array (
+        'icon' => 5949,
+        'name' => 'Sparkling Slug',
+      ),
+      711422941 => 
+      array (
+        'icon' => 5946,
+        'name' => 'Radiant Slug',
+      ),
+      3456437292 => 
+      array (
+        'icon' => 5945,
+        'name' => 'Incandescebt Slug',
+      ),
+      2246682156 => 
+      array (
+        'icon' => 5947,
+        'name' => 'Brilliant Slug',
+      ),
+      3246951061 => 
+      array (
+        'icon' => 5948,
+        'name' => 'Refulgent Slug',
       ),
     ),
   ),
@@ -27514,6 +34056,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  268383749 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Goblin Games',
+    'level' => 125,
+    'crc' => 268383749,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3166042245 => 
+      array (
+        'icon' => 2497,
+        'name' => 'Armapine Bowling',
+      ),
+      3792132818 => 
+      array (
+        'icon' => 2497,
+        'name' => 'Bluff Diving',
+      ),
+      2071827623 => 
+      array (
+        'icon' => 2497,
+        'name' => 'Go Fish for Yha-Lei',
+      ),
+      1932101150 => 
+      array (
+        'icon' => 2497,
+        'name' => 'Grub Racing',
+      ),
+      4025229472 => 
+      array (
+        'icon' => 2497,
+        'name' => 'Spider Catching',
+      ),
+    ),
+  ),
   1082887989 => 
   array (
     'category' => 'Fabled Runnyeye: The Gathering',
@@ -27733,6 +34312,43 @@ $CollectionsData = array (
       array (
         'icon' => 1818,
         'name' => 'Tarnished Golden Scarab',
+      ),
+    ),
+  ),
+  1216027020 => 
+  array (
+    'category' => 'Shattered Overture',
+    'name' => 'Golden Slivers',
+    'level' => 125,
+    'crc' => 1216027020,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2800014416 => 
+      array (
+        'icon' => 3777,
+        'name' => 'Heated Golden Sliver',
+      ),
+      3663756032 => 
+      array (
+        'icon' => 3777,
+        'name' => 'Chilled Golden Sliver',
+      ),
+      2716838666 => 
+      array (
+        'icon' => 3777,
+        'name' => 'Vibrating Golden Sliver',
+      ),
+      1679139868 => 
+      array (
+        'icon' => 3777,
+        'name' => 'Stable Golden Sliver',
+      ),
+      695271390 => 
+      array (
+        'icon' => 3777,
+        'name' => 'Glassy Golden Sliver',
       ),
     ),
   ),
@@ -27963,6 +34579,88 @@ $CollectionsData = array (
       array (
         'icon' => 2180,
         'name' => 'Good Eatin\' - Page 12',
+      ),
+    ),
+  ),
+  1081460205 => 
+  array (
+    'category' => 'Shattered Overture',
+    'name' => 'Gooey Bits Meta',
+    'level' => 125,
+    'crc' => 1081460205,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3502231301 => 
+      array (
+        'icon' => 2508,
+        'name' => 'Gooey Jack-O-Lantern Bits',
+      ),
+      4124756494 => 
+      array (
+        'icon' => 2513,
+        'name' => 'Gooey Shriller Bits',
+      ),
+      1814459277 => 
+      array (
+        'icon' => 2514,
+        'name' => 'Gooey Owlbear Bits',
+      ),
+      3377229660 => 
+      array (
+        'icon' => 2521,
+        'name' => 'Gooey Carrion Bits',
+      ),
+      1669976188 => 
+      array (
+        'icon' => 2513,
+        'name' => 'Gooey Imp Bits',
+      ),
+      678869423 => 
+      array (
+        'icon' => 2514,
+        'name' => 'Gooey Gelatinous Bits',
+      ),
+      3701183493 => 
+      array (
+        'icon' => 2515,
+        'name' => 'Gooey Spectral Bits',
+      ),
+      320627497 => 
+      array (
+        'icon' => 2509,
+        'name' => 'Gooey Goo Bits',
+      ),
+      330271976 => 
+      array (
+        'icon' => 2510,
+        'name' => 'Gooey Goblin Bits',
+      ),
+      2445656378 => 
+      array (
+        'icon' => 185,
+        'name' => 'Gooey Arcana Bits',
+      ),
+      4187075085 => 
+      array (
+        'icon' => 185,
+        'name' => 'Gooey Tome Bits',
+      ),
+      2378934844 => 
+      array (
+        'icon' => 2520,
+        'name' => 'Gooey Corpse Bits',
+      ),
+      2299209982 => 
+      array (
+        'icon' => 2522,
+        'name' => 'Gooey Bloody Bits',
+      ),
+      1984989365 => 
+      array (
+        'icon' => 2512,
+        'name' => 'Gooey Hag Bits',
       ),
     ),
   ),
@@ -28287,6 +34985,43 @@ $CollectionsData = array (
       array (
         'icon' => 1208,
         'name' => 'Specter\'s Terror',
+      ),
+    ),
+  ),
+  717247233 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Graven in the Grange',
+    'level' => 125,
+    'crc' => 717247233,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2975196569 => 
+      array (
+        'icon' => 2803,
+        'name' => 'Decomposed Sarnak',
+      ),
+      3420844627 => 
+      array (
+        'icon' => 2252,
+        'name' => 'Does Tickster Tick?',
+      ),
+      3905981356 => 
+      array (
+        'icon' => 109,
+        'name' => 'Mungo\'s Brains',
+      ),
+      37992828 => 
+      array (
+        'icon' => 115,
+        'name' => 'Scarecrow Hat for Mungo',
+      ),
+      925103732 => 
+      array (
+        'icon' => 1847,
+        'name' => 'Skittering Skitterers',
       ),
     ),
   ),
@@ -28865,6 +35600,43 @@ $CollectionsData = array (
       array (
         'icon' => 713,
         'name' => 'Fisher\'s Spell of Swimming',
+      ),
+    ),
+  ),
+  4250992758 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Grisly Souvenirs',
+    'level' => 125,
+    'crc' => 4250992758,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      943007958 => 
+      array (
+        'icon' => 87,
+        'name' => 'Anirath\'s Hand',
+      ),
+      3516545269 => 
+      array (
+        'icon' => 83,
+        'name' => 'Displacer Beast Eye',
+      ),
+      1360413913 => 
+      array (
+        'icon' => 161,
+        'name' => 'Exorax\'s Antenna',
+      ),
+      4099894656 => 
+      array (
+        'icon' => 172,
+        'name' => 'Ganadan\'s Tentacle',
+      ),
+      3904737411 => 
+      array (
+        'icon' => 5321,
+        'name' => 'Shroud of a Revenant',
       ),
     ),
   ),
@@ -30379,6 +37151,53 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1513174382 => 
+  array (
+    'category' => 'Darkpaw Rising',
+    'name' => 'Hatcheteer Hatchets',
+    'level' => 10,
+    'crc' => 1513174382,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3640539559 => 
+      array (
+        'icon' => 5704,
+        'name' => 'Bloody Hatchet',
+      ),
+      1009836358 => 
+      array (
+        'icon' => 5704,
+        'name' => 'Dull Hatchet',
+      ),
+      3143009299 => 
+      array (
+        'icon' => 5704,
+        'name' => 'Rusted Hatchet',
+      ),
+      2764763639 => 
+      array (
+        'icon' => 5704,
+        'name' => 'Fur-Handled Hatchet',
+      ),
+      682910325 => 
+      array (
+        'icon' => 5704,
+        'name' => 'Gored Hatchet',
+      ),
+      799253974 => 
+      array (
+        'icon' => 5704,
+        'name' => 'Blackened Hatchet',
+      ),
+      2876866995 => 
+      array (
+        'icon' => 5704,
+        'name' => 'Stone Hatchet',
+      ),
+    ),
+  ),
   1806814076 => 
   array (
     'category' => 'Shadow Odyssey',
@@ -30571,6 +37390,118 @@ $CollectionsData = array (
       array (
         'icon' => 601,
         'name' => 'Insignia of Brine',
+      ),
+    ),
+  ),
+  1444377936 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Heroics in the Desert',
+    'level' => 125,
+    'crc' => 1444377936,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      213900545 => 
+      array (
+        'icon' => 3850,
+        'name' => 'Adventuring Goals',
+      ),
+      3089163689 => 
+      array (
+        'icon' => 2486,
+        'name' => 'Angry Elddar',
+      ),
+      1021295677 => 
+      array (
+        'icon' => 2683,
+        'name' => 'Archaeology Finds',
+      ),
+      1470826561 => 
+      array (
+        'icon' => 185,
+        'name' => 'Artist Sketches',
+      ),
+      1151761073 => 
+      array (
+        'icon' => 2688,
+        'name' => 'Bandit Discards',
+      ),
+      1555319298 => 
+      array (
+        'icon' => 114,
+        'name' => 'Buried Treasures',
+      ),
+      2741801539 => 
+      array (
+        'icon' => 563,
+        'name' => 'Carpeting the Area',
+      ),
+      1985224918 => 
+      array (
+        'icon' => 4377,
+        'name' => 'Curses',
+      ),
+      4091925450 => 
+      array (
+        'icon' => 2713,
+        'name' => 'Denizen\'s Remains',
+      ),
+      286407891 => 
+      array (
+        'icon' => 2711,
+        'name' => 'Don\'t Boss Me',
+      ),
+      2367530776 => 
+      array (
+        'icon' => 371,
+        'name' => 'Graven in the Grange',
+      ),
+      1199479885 => 
+      array (
+        'icon' => 2710,
+        'name' => 'Like a Boss',
+      ),
+      2089196252 => 
+      array (
+        'icon' => 4391,
+        'name' => 'Odd Advice',
+      ),
+      1617219595 => 
+      array (
+        'icon' => 858,
+        'name' => 'Rejected Tomes',
+      ),
+      4058992616 => 
+      array (
+        'icon' => 4878,
+        'name' => 'Ruined Ruins',
+      ),
+      2452215536 => 
+      array (
+        'icon' => 4204,
+        'name' => 'Threshold Things',
+      ),
+      1029466285 => 
+      array (
+        'icon' => 4895,
+        'name' => 'Ubiquitous Cacti',
+      ),
+      1068795925 => 
+      array (
+        'icon' => 4893,
+        'name' => 'Uncontrolled Growth',
+      ),
+      3704652460 => 
+      array (
+        'icon' => 2694,
+        'name' => 'Vultures 101',
+      ),
+      1224013012 => 
+      array (
+        'icon' => 2929,
+        'name' => 'Watery Wonders',
       ),
     ),
   ),
@@ -31300,6 +38231,58 @@ $CollectionsData = array (
       array (
         'icon' => 1374,
         'name' => 'Dusk\'s Forelorn Icon',
+      ),
+    ),
+  ),
+  3447480739 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Identifying Igneous Rocks',
+    'level' => 130,
+    'crc' => 3447480739,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1869537578 => 
+      array (
+        'icon' => 1122,
+        'name' => 'Super-Heated Granite',
+      ),
+      3139649129 => 
+      array (
+        'icon' => 1166,
+        'name' => 'Super-Heated Obsidian',
+      ),
+      2456313769 => 
+      array (
+        'icon' => 1123,
+        'name' => 'Super-Heated Diorite',
+      ),
+      622893886 => 
+      array (
+        'icon' => 1124,
+        'name' => 'Super-Heated Basalt',
+      ),
+      3018163304 => 
+      array (
+        'icon' => 1151,
+        'name' => 'Super-Heated Rhyolite',
+      ),
+      2913158341 => 
+      array (
+        'icon' => 1136,
+        'name' => 'Super-Heated Pumice',
+      ),
+      2205154496 => 
+      array (
+        'icon' => 5695,
+        'name' => 'Super-Heated Scoria',
+      ),
+      2423500025 => 
+      array (
+        'icon' => 1131,
+        'name' => 'Super-Heated Peridotite',
       ),
     ),
   ),
@@ -32584,6 +39567,167 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1601691052 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Iron Flats Catalog',
+    'level' => 130,
+    'crc' => 1601691052,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3620769645 => 
+      array (
+        'icon' => 1085,
+        'name' => 'Iron Nugget',
+      ),
+      3831942120 => 
+      array (
+        'icon' => 1085,
+        'name' => 'Iron Flakes',
+      ),
+      278543371 => 
+      array (
+        'icon' => 1085,
+        'name' => 'Iron Grains',
+      ),
+      76272230 => 
+      array (
+        'icon' => 1001,
+        'name' => 'Iron Pebble',
+      ),
+      2925930806 => 
+      array (
+        'icon' => 1085,
+        'name' => 'Iron Chunk',
+      ),
+      2152473678 => 
+      array (
+        'icon' => 1085,
+        'name' => 'Iron Clump',
+      ),
+      62780726 => 
+      array (
+        'icon' => 1016,
+        'name' => 'Iron Disc',
+      ),
+      288387226 => 
+      array (
+        'icon' => 1031,
+        'name' => 'Iron Sliver',
+      ),
+      3378296574 => 
+      array (
+        'icon' => 1001,
+        'name' => 'Iron Bead',
+      ),
+      1438127076 => 
+      array (
+        'icon' => 986,
+        'name' => 'Iron Pellet',
+      ),
+    ),
+  ),
+  1955048057 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Iron Flats Gemstones',
+    'level' => 130,
+    'crc' => 1955048057,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      621747449 => 
+      array (
+        'icon' => 4792,
+        'name' => 'Polished Citrine Gemstone',
+      ),
+      139222478 => 
+      array (
+        'icon' => 4792,
+        'name' => 'Tapered Citrine Gemstone',
+      ),
+      3760279454 => 
+      array (
+        'icon' => 4792,
+        'name' => 'Glossy Citrine Gemstone',
+      ),
+      2817655917 => 
+      array (
+        'icon' => 4792,
+        'name' => 'Clear Citrine Gemstone',
+      ),
+      1180117505 => 
+      array (
+        'icon' => 4792,
+        'name' => 'Trillion Citrine Gemstone',
+      ),
+      3786765689 => 
+      array (
+        'icon' => 4792,
+        'name' => 'Round Citrine Gemstone',
+      ),
+      4065144757 => 
+      array (
+        'icon' => 4792,
+        'name' => 'Opaque Citrine Gemstone',
+      ),
+      483165509 => 
+      array (
+        'icon' => 4792,
+        'name' => 'Murky Citrine Gemstone',
+      ),
+      2866883935 => 
+      array (
+        'icon' => 4946,
+        'name' => 'Powdered Citrine Gemstone',
+      ),
+      2511053349 => 
+      array (
+        'icon' => 4792,
+        'name' => 'Oval Citrine Gemstone',
+      ),
+    ),
+  ),
+  3440463647 => 
+  array (
+    'category' => 'Shattered Overture',
+    'name' => 'Iron Slivers',
+    'level' => 125,
+    'crc' => 3440463647,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2587402122 => 
+      array (
+        'icon' => 3778,
+        'name' => 'Heated Iron Sliver',
+      ),
+      1226994591 => 
+      array (
+        'icon' => 3778,
+        'name' => 'Chilled Iron Sliver',
+      ),
+      187846588 => 
+      array (
+        'icon' => 3778,
+        'name' => 'Vibrating Iron Sliver',
+      ),
+      3437465530 => 
+      array (
+        'icon' => 3778,
+        'name' => 'Stable Iron Sliver',
+      ),
+      4222288219 => 
+      array (
+        'icon' => 3778,
+        'name' => 'Glassy Iron Sliver',
+      ),
+    ),
+  ),
   2476423113 => 
   array (
     'category' => 'Shadow Odyssey',
@@ -32670,6 +39814,43 @@ $CollectionsData = array (
       array (
         'icon' => 1775,
         'name' => 'Signet of Ivory',
+      ),
+    ),
+  ),
+  811779403 => 
+  array (
+    'category' => 'Shattered Overture',
+    'name' => 'Jack-O-Lantern Bits',
+    'level' => 125,
+    'crc' => 811779403,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1922320430 => 
+      array (
+        'icon' => 384,
+        'name' => 'Torn Canvas Bit',
+      ),
+      4216786936 => 
+      array (
+        'icon' => 321,
+        'name' => 'Ripped Burlap Bit',
+      ),
+      2950821112 => 
+      array (
+        'icon' => 414,
+        'name' => 'Mangled Pumpkin Bit',
+      ),
+      3616136559 => 
+      array (
+        'icon' => 415,
+        'name' => 'Burnt Pumpkin Bit',
+      ),
+      1208977129 => 
+      array (
+        'icon' => 773,
+        'name' => 'Severed Broomstick Handle',
       ),
     ),
   ),
@@ -34983,6 +42164,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3287486303 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Kusala\'Din\'s Conjured',
+    'level' => 130,
+    'crc' => 3287486303,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2889470035 => 
+      array (
+        'icon' => 4756,
+        'name' => 'Conjured Calamity',
+      ),
+      1043551703 => 
+      array (
+        'icon' => 5013,
+        'name' => 'Milked Monstrosity',
+      ),
+      1576926547 => 
+      array (
+        'icon' => 4766,
+        'name' => 'Awakened Horror',
+      ),
+      546578915 => 
+      array (
+        'icon' => 5189,
+        'name' => 'Provoked Distress',
+      ),
+      4015734384 => 
+      array (
+        'icon' => 5256,
+        'name' => 'Roused Beast',
+      ),
+      3154181597 => 
+      array (
+        'icon' => 5281,
+        'name' => 'Recalled Atrocity',
+      ),
+    ),
+  ),
   2365968190 => 
   array (
     'category' => 'Visions of Vetrovia',
@@ -36150,6 +43373,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2370492140 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Like a Boss',
+    'level' => 125,
+    'crc' => 2370492140,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1014927274 => 
+      array (
+        'icon' => 4375,
+        'name' => 'Cleavespine\'s Spine',
+      ),
+      3297610217 => 
+      array (
+        'icon' => 99,
+        'name' => 'Gobbler\'s Tail',
+      ),
+      1199523886 => 
+      array (
+        'icon' => 101,
+        'name' => 'Leafjaw\'s Jaw',
+      ),
+      1855727331 => 
+      array (
+        'icon' => 102,
+        'name' => 'Florafang\'s Fangs',
+      ),
+      4184776681 => 
+      array (
+        'icon' => 106,
+        'name' => 'Tawerk\'s Toes',
+      ),
+    ),
+  ),
   78076647 => 
   array (
     'category' => 'Tears of Veeshan',
@@ -36496,6 +43756,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3277527294 => 
+  array (
+    'category' => 'Terrors of Thalumbra',
+    'name' => 'Lost Dwarven Caravan',
+    'level' => 100,
+    'crc' => 3277527294,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      72612670 => 
+      array (
+        'icon' => 300,
+        'name' => 'Dwarven Travel Provisions',
+      ),
+      875300901 => 
+      array (
+        'icon' => 718,
+        'name' => 'Dwarven Trade Journal',
+      ),
+      2407607326 => 
+      array (
+        'icon' => 2279,
+        'name' => 'Dwarven Caravan Wheel',
+      ),
+      1478173742 => 
+      array (
+        'icon' => 3163,
+        'name' => 'Dwarven Route Map',
+      ),
+      4127085137 => 
+      array (
+        'icon' => 2695,
+        'name' => 'Dwarven Trade Goods',
+      ),
+      2436453808 => 
+      array (
+        'icon' => 1569,
+        'name' => 'Dwarven Guard Helm',
+      ),
+    ),
+  ),
   1226028682 => 
   array (
     'category' => 'Terrors of Thalumbra',
@@ -36754,6 +44056,48 @@ $CollectionsData = array (
     'name' => 'Lost Tales of the Aberrant',
     'level' => 100,
     'crc' => 2453714595,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      451045603 => 
+      array (
+        'icon' => 2179,
+        'name' => 'Sinking the Empire',
+      ),
+      1367555295 => 
+      array (
+        'icon' => 2179,
+        'name' => 'Summons of the Ill-Seen One',
+      ),
+      27027633 => 
+      array (
+        'icon' => 2179,
+        'name' => 'Slumber of the Servants',
+      ),
+      2126079640 => 
+      array (
+        'icon' => 2179,
+        'name' => 'Retribution',
+      ),
+      3264688624 => 
+      array (
+        'icon' => 2179,
+        'name' => 'Memories of Tides',
+      ),
+      2328786847 => 
+      array (
+        'icon' => 2179,
+        'name' => 'Defense of the Kedge',
+      ),
+    ),
+  ),
+  4223359768 => 
+  array (
+    'category' => 'Terrors of Thalumbra',
+    'name' => 'Lost Tales of the Aberrant',
+    'level' => 100,
+    'crc' => 4223359768,
     'isclass' => false,
     'ismeta' => false,
     'reference_list' => 
@@ -37671,6 +45015,105 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2480852441 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Maedjinn Symbols',
+    'level' => 130,
+    'crc' => 2480852441,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3099065700 => 
+      array (
+        'icon' => 3831,
+        'name' => 'Maedjinn Sigil',
+      ),
+      2142019912 => 
+      array (
+        'icon' => 3829,
+        'name' => 'Maedjinn Rune',
+      ),
+      3116155279 => 
+      array (
+        'icon' => 3827,
+        'name' => 'Maedjinn Emblem',
+      ),
+      3933519471 => 
+      array (
+        'icon' => 5801,
+        'name' => 'Maedjinn Cipher',
+      ),
+      417593645 => 
+      array (
+        'icon' => 3830,
+        'name' => 'Maedjinn Shackle',
+      ),
+      1832295799 => 
+      array (
+        'icon' => 3828,
+        'name' => 'Maedjinn Mark',
+      ),
+    ),
+  ),
+  3767389275 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Maedjinn\'s Requiem',
+    'level' => 130,
+    'crc' => 3767389275,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1046580770 => 
+      array (
+        'icon' => 5788,
+        'name' => 'Folded Sheet Music',
+      ),
+      3318827983 => 
+      array (
+        'icon' => 5788,
+        'name' => 'Singed Sheet Music',
+      ),
+      3806829253 => 
+      array (
+        'icon' => 5788,
+        'name' => 'Scribbled Sheet Music',
+      ),
+      1980207051 => 
+      array (
+        'icon' => 5788,
+        'name' => 'Gilded Sheet Music',
+      ),
+      715200254 => 
+      array (
+        'icon' => 5788,
+        'name' => 'Yellowed Sheet Music',
+      ),
+      1862912784 => 
+      array (
+        'icon' => 5788,
+        'name' => 'Delicate Sheet Music',
+      ),
+      411906028 => 
+      array (
+        'icon' => 5788,
+        'name' => 'Dirty Sheet Music',
+      ),
+      2095985732 => 
+      array (
+        'icon' => 5788,
+        'name' => 'Diamond-Flecked Sheet Music',
+      ),
+      3964693610 => 
+      array (
+        'icon' => 5788,
+        'name' => 'Platinum Etched Sheet Music',
+      ),
+    ),
+  ),
   3667172404 => 
   array (
     'category' => 'Reign of Shadows',
@@ -37710,6 +45153,90 @@ $CollectionsData = array (
       array (
         'icon' => 79,
         'name' => 'Apprentice\'s Trick Wand',
+      ),
+    ),
+  ),
+  3284451617 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Magics of Kusala\'Din',
+    'level' => 130,
+    'crc' => 3284451617,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      646905841 => 
+      array (
+        'icon' => 4082,
+        'name' => 'Fiery Figment',
+      ),
+      3102866131 => 
+      array (
+        'icon' => 5694,
+        'name' => 'Boiling Bubble',
+      ),
+      345185164 => 
+      array (
+        'icon' => 4080,
+        'name' => 'Fervid Fiction',
+      ),
+      3258048499 => 
+      array (
+        'icon' => 4076,
+        'name' => 'Igneous Illusion',
+      ),
+      3074863459 => 
+      array (
+        'icon' => 4081,
+        'name' => 'Flaring Fantasy',
+      ),
+      160809403 => 
+      array (
+        'icon' => 4083,
+        'name' => 'Fevered Fabrication',
+      ),
+    ),
+  ),
+  243827240 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Magmalatorr\'s Magmas',
+    'level' => 130,
+    'crc' => 243827240,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4153764914 => 
+      array (
+        'icon' => 4085,
+        'name' => 'Magmalatorr\'s Basalt Magma',
+      ),
+      4198512761 => 
+      array (
+        'icon' => 4084,
+        'name' => 'Magmalatorr\'s Felsic Magma',
+      ),
+      2897317609 => 
+      array (
+        'icon' => 4092,
+        'name' => 'Magmalatorr\'s Mafic Magma',
+      ),
+      3928577990 => 
+      array (
+        'icon' => 4088,
+        'name' => 'Magmalatorr\'s Dacite Magma',
+      ),
+      1921397012 => 
+      array (
+        'icon' => 4093,
+        'name' => 'Magmalatorr\'s Diorite Magma',
+      ),
+      2410112429 => 
+      array (
+        'icon' => 4090,
+        'name' => 'Magmalatorr\'s Ultramafic Magma',
       ),
     ),
   ),
@@ -38037,6 +45564,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3646263741 => 
+  array (
+    'category' => 'Terrors of Thalumbra',
+    'name' => 'Malduran Lost Possessions',
+    'level' => 100,
+    'crc' => 3646263741,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2299792662 => 
+      array (
+        'icon' => 358,
+        'name' => 'Gavitzle\'s Shifting Potion',
+      ),
+      3387938884 => 
+      array (
+        'icon' => 582,
+        'name' => 'Cugdava\'s Charm of Enchantment',
+      ),
+      3447790292 => 
+      array (
+        'icon' => 717,
+        'name' => 'Gavitzle\'s Notebook',
+      ),
+      2389562344 => 
+      array (
+        'icon' => 280,
+        'name' => 'Cugdava\'s Spare Robe',
+      ),
+      2197615230 => 
+      array (
+        'icon' => 2261,
+        'name' => 'Tothrak\'s Forge Hammer',
+      ),
+      2220658862 => 
+      array (
+        'icon' => 1092,
+        'name' => 'Tothrak\'s Smithing Apron',
+      ),
+    ),
+  ),
   3499102907 => 
   array (
     'category' => 'Return to Guk',
@@ -38318,6 +45887,68 @@ $CollectionsData = array (
       array (
         'icon' => 2707,
         'name' => 'Deino Chew Toys',
+      ),
+    ),
+  ),
+  1579515373 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Marble Statue Pieces',
+    'level' => 125,
+    'crc' => 1579515373,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2439981330 => 
+      array (
+        'icon' => 1058,
+        'name' => 'Grey Marble Toe',
+      ),
+      1246930886 => 
+      array (
+        'icon' => 1058,
+        'name' => 'Grey Marble Hand',
+      ),
+      2764037338 => 
+      array (
+        'icon' => 1058,
+        'name' => 'Grey Marble Foot',
+      ),
+      2447067164 => 
+      array (
+        'icon' => 1058,
+        'name' => 'Grey Marble Ear',
+      ),
+      2075072459 => 
+      array (
+        'icon' => 1058,
+        'name' => 'Grey Marble Finger',
+      ),
+      983188634 => 
+      array (
+        'icon' => 1058,
+        'name' => 'Alabaster Toe',
+      ),
+      2845465017 => 
+      array (
+        'icon' => 1060,
+        'name' => 'Alabaster Hand',
+      ),
+      1198989989 => 
+      array (
+        'icon' => 1060,
+        'name' => 'Alabaster Foot',
+      ),
+      976102804 => 
+      array (
+        'icon' => 1060,
+        'name' => 'Alabaster Ear',
+      ),
+      2299350561 => 
+      array (
+        'icon' => 1060,
+        'name' => 'Alabaster Finger',
       ),
     ),
   ),
@@ -39921,6 +47552,162 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1876064642 => 
+  array (
+    'category' => 'Tome',
+    'name' => 'Merchants\' Wishes',
+    'level' => 125,
+    'crc' => 1876064642,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1725388216 => 
+      array (
+        'icon' => 2180,
+        'name' => 'Merchants\' Wishes - Page 1',
+      ),
+      4292740098 => 
+      array (
+        'icon' => 2180,
+        'name' => 'Merchants\' Wishes - Page 2',
+      ),
+      2295936148 => 
+      array (
+        'icon' => 2180,
+        'name' => 'Merchants\' Wishes - Page 3',
+      ),
+      381526327 => 
+      array (
+        'icon' => 2180,
+        'name' => 'Merchants\' Wishes - Page 4',
+      ),
+      1639616929 => 
+      array (
+        'icon' => 2180,
+        'name' => 'Merchants\' Wishes - Page 5',
+      ),
+      4172529691 => 
+      array (
+        'icon' => 2180,
+        'name' => 'Merchants\' Wishes - Page 6',
+      ),
+      2410999949 => 
+      array (
+        'icon' => 2180,
+        'name' => 'Merchants\' Wishes - Page 7',
+      ),
+      520875292 => 
+      array (
+        'icon' => 2180,
+        'name' => 'Merchants\' Wishes - Page 8',
+      ),
+      1745673610 => 
+      array (
+        'icon' => 2180,
+        'name' => 'Merchants\' Wishes - Page 9',
+      ),
+      147543151 => 
+      array (
+        'icon' => 2180,
+        'name' => 'Merchants\' Wishes - Page 10',
+      ),
+      2144101625 => 
+      array (
+        'icon' => 2180,
+        'name' => 'Merchants\' Wishes - Page 11',
+      ),
+      3871683907 => 
+      array (
+        'icon' => 2180,
+        'name' => 'Merchants\' Wishes - Page 12',
+      ),
+    ),
+  ),
+  3587858577 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Metal-Infected Fragments',
+    'level' => 130,
+    'crc' => 3587858577,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2863101458 => 
+      array (
+        'icon' => 1676,
+        'name' => 'Metal-Infected Claw',
+      ),
+      2053416472 => 
+      array (
+        'icon' => 157,
+        'name' => 'Metal-Infected Horn',
+      ),
+      755878275 => 
+      array (
+        'icon' => 172,
+        'name' => 'Metal-Infected Tail',
+      ),
+      1218482239 => 
+      array (
+        'icon' => 591,
+        'name' => 'Metal-Infected Eyeball',
+      ),
+      2847038308 => 
+      array (
+        'icon' => 152,
+        'name' => 'Metal-Infected Feather',
+      ),
+      1602097063 => 
+      array (
+        'icon' => 184,
+        'name' => 'Metal-Infected Scale',
+      ),
+    ),
+  ),
+  16407859 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Metalbound Behemoth Articles',
+    'level' => 130,
+    'crc' => 16407859,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2536959135 => 
+      array (
+        'icon' => 5750,
+        'name' => 'Shackle of the Metalbound Behemoth',
+      ),
+      2660483336 => 
+      array (
+        'icon' => 2984,
+        'name' => 'Runed Collar of the Metalbound Behemoth',
+      ),
+      1235262654 => 
+      array (
+        'icon' => 2811,
+        'name' => 'Blazing Sigil of the Metalbound Behemoth',
+      ),
+      848150499 => 
+      array (
+        'icon' => 2812,
+        'name' => 'Fiery Marking of the Metalbound Behemoth',
+      ),
+      3579560562 => 
+      array (
+        'icon' => 1103,
+        'name' => 'Gold-Threading Sash of the Metalbound Behemoth',
+      ),
+      1591430778 => 
+      array (
+        'icon' => 666,
+        'name' => 'Platinum Fist of the Metalbound Behemoth',
+      ),
+    ),
+  ),
   4232026189 => 
   array (
     'category' => 'Planes of Prophecy',
@@ -39965,6 +47752,48 @@ $CollectionsData = array (
       array (
         'icon' => 1041,
         'name' => 'Brass Gear',
+      ),
+    ),
+  ),
+  2912374493 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Metallic Figurines',
+    'level' => 130,
+    'crc' => 2912374493,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3663038795 => 
+      array (
+        'icon' => 2238,
+        'name' => 'Solid Copper Figurine',
+      ),
+      1402560312 => 
+      array (
+        'icon' => 2237,
+        'name' => 'Solid Iron Figurine',
+      ),
+      3037219154 => 
+      array (
+        'icon' => 2241,
+        'name' => 'Solid Gold Figurine',
+      ),
+      321100768 => 
+      array (
+        'icon' => 2242,
+        'name' => 'Solid Platinum Figurine',
+      ),
+      2809522035 => 
+      array (
+        'icon' => 2239,
+        'name' => 'Solid Silver Figurine',
+      ),
+      3823711865 => 
+      array (
+        'icon' => 2240,
+        'name' => 'Solid Palladium Figurine',
       ),
     ),
   ),
@@ -40292,6 +48121,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2988193751 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Mirror Mirror',
+    'level' => 125,
+    'crc' => 2988193751,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2782575286 => 
+      array (
+        'icon' => 998,
+        'name' => 'A Pinch of Sugar',
+      ),
+      1577026550 => 
+      array (
+        'icon' => 998,
+        'name' => 'Alchemical Ingredients',
+      ),
+      3028121577 => 
+      array (
+        'icon' => 998,
+        'name' => 'Glass',
+      ),
+      3477526255 => 
+      array (
+        'icon' => 998,
+        'name' => 'Silver Nitrate',
+      ),
+      3094276177 => 
+      array (
+        'icon' => 998,
+        'name' => 'Strong Heat Source',
+      ),
+    ),
+  ),
   3012840708 => 
   array (
     'category' => 'Tradeskill',
@@ -40534,6 +48400,48 @@ $CollectionsData = array (
       array (
         'icon' => 196,
         'name' => 'Amnesial Scraps',
+      ),
+    ),
+  ),
+  2722924303 => 
+  array (
+    'category' => 'Darkpaw Rising',
+    'name' => 'Moldfist Weapons',
+    'level' => 10,
+    'crc' => 2722924303,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4048995070 => 
+      array (
+        'icon' => 5709,
+        'name' => 'Moldfist Toothed Fist',
+      ),
+      265409251 => 
+      array (
+        'icon' => 5711,
+        'name' => 'Moldfist Wrapped Fist',
+      ),
+      341717363 => 
+      array (
+        'icon' => 5709,
+        'name' => 'Moldfist Tined Fist',
+      ),
+      1316288507 => 
+      array (
+        'icon' => 5709,
+        'name' => 'Moldfist Razored Fist',
+      ),
+      363012360 => 
+      array (
+        'icon' => 5711,
+        'name' => 'Moldfist Blazing Fist',
+      ),
+      757098378 => 
+      array (
+        'icon' => 5711,
+        'name' => 'Moldfist Darkened Fist',
       ),
     ),
   ),
@@ -40821,6 +48729,58 @@ $CollectionsData = array (
       ),
     ),
   ),
+  909464275 => 
+  array (
+    'category' => 'Tradeskill',
+    'name' => 'More Crafting Nails',
+    'level' => 125,
+    'crc' => 909464275,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4007570427 => 
+      array (
+        'icon' => 707,
+        'name' => 'Trim Nails',
+      ),
+      4182366017 => 
+      array (
+        'icon' => 707,
+        'name' => 'Finishing Nails',
+      ),
+      2182284338 => 
+      array (
+        'icon' => 707,
+        'name' => 'Brad Nails',
+      ),
+      733250767 => 
+      array (
+        'icon' => 707,
+        'name' => 'Flooring Nails',
+      ),
+      2307128509 => 
+      array (
+        'icon' => 707,
+        'name' => 'Tack Nails',
+      ),
+      3153154910 => 
+      array (
+        'icon' => 707,
+        'name' => 'Hardboard Nails',
+      ),
+      4046057309 => 
+      array (
+        'icon' => 707,
+        'name' => 'Horseshoe Nails',
+      ),
+      4103994950 => 
+      array (
+        'icon' => 707,
+        'name' => 'Coffin Nails',
+      ),
+    ),
+  ),
   3348203837 => 
   array (
     'category' => 'Visions of Vetrovia',
@@ -41074,6 +49034,90 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2982294270 => 
+  array (
+    'category' => 'Darkpaw Rising',
+    'name' => 'Mudpaw Relics',
+    'level' => 130,
+    'crc' => 2982294270,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1547604596 => 
+      array (
+        'icon' => 4696,
+        'name' => 'Mudpaw Cruddy Relic',
+      ),
+      4200649563 => 
+      array (
+        'icon' => 5737,
+        'name' => 'Mudpaw Slimy Remnant',
+      ),
+      865416658 => 
+      array (
+        'icon' => 5748,
+        'name' => 'Mudpaw Stained Keepsake',
+      ),
+      2355458007 => 
+      array (
+        'icon' => 5796,
+        'name' => 'Mudpaw Greasy Memento',
+      ),
+      1741812859 => 
+      array (
+        'icon' => 4430,
+        'name' => 'Mudpaw Begrimed Fragment',
+      ),
+      2222453949 => 
+      array (
+        'icon' => 5750,
+        'name' => 'Mudpaw Defiled Curio',
+      ),
+    ),
+  ),
+  2695715606 => 
+  array (
+    'category' => 'Darkpaw Rising',
+    'name' => 'Mudpaw Weapons',
+    'level' => 10,
+    'crc' => 2695715606,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1538122570 => 
+      array (
+        'icon' => 5715,
+        'name' => 'Mudpaw Victory Club',
+      ),
+      2315296482 => 
+      array (
+        'icon' => 5715,
+        'name' => 'Mudpaw Battle-Worn Club',
+      ),
+      2787000480 => 
+      array (
+        'icon' => 5715,
+        'name' => 'Mudpaw Mud-Forged Club',
+      ),
+      1342472353 => 
+      array (
+        'icon' => 5715,
+        'name' => 'Mudpaw Adorned Club',
+      ),
+      3743846248 => 
+      array (
+        'icon' => 5715,
+        'name' => 'Mudpaw Chief\'s Club',
+      ),
+      309962851 => 
+      array (
+        'icon' => 5715,
+        'name' => 'Mudpaw Shaman\'s Club',
+      ),
+    ),
+  ),
   1244910262 => 
   array (
     'category' => 'Silent City: The Delving Dead',
@@ -41259,6 +49303,210 @@ $CollectionsData = array (
       array (
         'icon' => 2241,
         'name' => 'Fiery Effigy of Clotl\'thoa',
+      ),
+    ),
+  ),
+  4228299230 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Music Box Keys',
+    'level' => 125,
+    'crc' => 4228299230,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3510078487 => 
+      array (
+        'icon' => 4842,
+        'name' => 'Doria Key',
+      ),
+      2430106620 => 
+      array (
+        'icon' => 4824,
+        'name' => 'Dedoria Key',
+      ),
+      620580143 => 
+      array (
+        'icon' => 4830,
+        'name' => 'Ardoria Key',
+      ),
+      2669081320 => 
+      array (
+        'icon' => 4830,
+        'name' => 'Frygia Key',
+      ),
+      2213746946 => 
+      array (
+        'icon' => 4848,
+        'name' => 'Eafrygia Key',
+      ),
+      3560292183 => 
+      array (
+        'icon' => 4848,
+        'name' => 'Lydia Key',
+      ),
+      3294449927 => 
+      array (
+        'icon' => 4824,
+        'name' => 'Falydia Key',
+      ),
+      303536628 => 
+      array (
+        'icon' => 4854,
+        'name' => 'Selydia Key',
+      ),
+      1740517671 => 
+      array (
+        'icon' => 4842,
+        'name' => 'Mezolydia Key',
+      ),
+      1575048961 => 
+      array (
+        'icon' => 4842,
+        'name' => 'Gezolydia Key',
+      ),
+      3844175438 => 
+      array (
+        'icon' => 4836,
+        'name' => 'Dizolydia Key',
+      ),
+      2486061453 => 
+      array (
+        'icon' => 4824,
+        'name' => 'Hypodoria Key',
+      ),
+      1858618685 => 
+      array (
+        'icon' => 4836,
+        'name' => 'Fypodoria Key',
+      ),
+      2408157559 => 
+      array (
+        'icon' => 4830,
+        'name' => 'Hypofrygia Key',
+      ),
+      3747133595 => 
+      array (
+        'icon' => 4854,
+        'name' => 'Epofrygia Key',
+      ),
+      4154473120 => 
+      array (
+        'icon' => 4854,
+        'name' => 'Gepofrygia Key',
+      ),
+      2435611341 => 
+      array (
+        'icon' => 4836,
+        'name' => 'Hypolydia Key',
+      ),
+      1808430717 => 
+      array (
+        'icon' => 4848,
+        'name' => 'Fypolydia Key',
+      ),
+    ),
+  ),
+  4217574401 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Music Boxes',
+    'level' => 125,
+    'crc' => 4217574401,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2915090735 => 
+      array (
+        'icon' => 926,
+        'name' => 'Doria Music Box',
+      ),
+      2927638954 => 
+      array (
+        'icon' => 927,
+        'name' => 'Dedoria Music Box',
+      ),
+      1106252749 => 
+      array (
+        'icon' => 926,
+        'name' => 'Ardoria Music Box',
+      ),
+      3073365052 => 
+      array (
+        'icon' => 927,
+        'name' => 'Frygia Music Box',
+      ),
+      3064230469 => 
+      array (
+        'icon' => 927,
+        'name' => 'Eafrygia Music Box',
+      ),
+      3906667381 => 
+      array (
+        'icon' => 926,
+        'name' => 'Lydia Music Box',
+      ),
+      3952486320 => 
+      array (
+        'icon' => 926,
+        'name' => 'Falydia Music Box',
+      ),
+      3696762566 => 
+      array (
+        'icon' => 928,
+        'name' => 'Selydia Music Box',
+      ),
+      1653385354 => 
+      array (
+        'icon' => 928,
+        'name' => 'Mezolydia Music Box',
+      ),
+      530166782 => 
+      array (
+        'icon' => 928,
+        'name' => 'Gezolydia Music Box',
+      ),
+      2687913053 => 
+      array (
+        'icon' => 928,
+        'name' => 'Dizolydia Music Box',
+      ),
+      426450209 => 
+      array (
+        'icon' => 926,
+        'name' => 'Hypodoria Music Box',
+      ),
+      2367032247 => 
+      array (
+        'icon' => 928,
+        'name' => 'Fypodoria Music Box',
+      ),
+      1344492263 => 
+      array (
+        'icon' => 927,
+        'name' => 'Hypofrygia Music Box',
+      ),
+      2334857259 => 
+      array (
+        'icon' => 928,
+        'name' => 'Epofrygia Music Box',
+      ),
+      3744926123 => 
+      array (
+        'icon' => 927,
+        'name' => 'Gepofrygia Music Box',
+      ),
+      1550901115 => 
+      array (
+        'icon' => 928,
+        'name' => 'Hypolydia Music Box',
+      ),
+      3356346861 => 
+      array (
+        'icon' => 926,
+        'name' => 'Fypolydia Music Box',
       ),
     ),
   ),
@@ -41489,6 +49737,43 @@ $CollectionsData = array (
       array (
         'icon' => 349,
         'name' => 'Core of Venomous Disease',
+      ),
+    ),
+  ),
+  216554370 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Mysterious Locales',
+    'level' => 125,
+    'crc' => 216554370,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2451275402 => 
+      array (
+        'icon' => 2353,
+        'name' => 'Ancient Signal Fires',
+      ),
+      1442694253 => 
+      array (
+        'icon' => 2365,
+        'name' => 'Many Abandoned Ruins',
+      ),
+      1317227495 => 
+      array (
+        'icon' => 4843,
+        'name' => 'Massive Whirlpool',
+      ),
+      2983793131 => 
+      array (
+        'icon' => 3024,
+        'name' => 'Chunks of Luclinite',
+      ),
+      811740802 => 
+      array (
+        'icon' => 2353,
+        'name' => 'Yet More Signal Fires',
       ),
     ),
   ),
@@ -42984,6 +51269,58 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3816026749 => 
+  array (
+    'category' => 'Tradeskill',
+    'name' => 'No Nails in These',
+    'level' => 125,
+    'crc' => 3816026749,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3198817436 => 
+      array (
+        'icon' => 707,
+        'name' => 'Sliding Dovetail Joint',
+      ),
+      532335375 => 
+      array (
+        'icon' => 707,
+        'name' => 'Box Joint',
+      ),
+      3003433026 => 
+      array (
+        'icon' => 707,
+        'name' => 'Pocket Joint',
+      ),
+      3212007008 => 
+      array (
+        'icon' => 707,
+        'name' => 'Tongue and Groove Joint',
+      ),
+      3798906677 => 
+      array (
+        'icon' => 707,
+        'name' => 'Mortise and Tenon Joint',
+      ),
+      2879092703 => 
+      array (
+        'icon' => 707,
+        'name' => 'Doweling',
+      ),
+      3285451286 => 
+      array (
+        'icon' => 707,
+        'name' => 'Biscuit Joint',
+      ),
+      57221643 => 
+      array (
+        'icon' => 707,
+        'name' => 'Half-Lap Joint',
+      ),
+    ),
+  ),
   953447164 => 
   array (
     'category' => 'Guide Quest',
@@ -43704,6 +52041,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  4061049133 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Odd Advice',
+    'level' => 125,
+    'crc' => 4061049133,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3042326458 => 
+      array (
+        'icon' => 4391,
+        'name' => 'Douse the Goo Fire',
+      ),
+      3767145362 => 
+      array (
+        'icon' => 4391,
+        'name' => 'Duel the Swordfish',
+      ),
+      3528482503 => 
+      array (
+        'icon' => 4391,
+        'name' => 'Paint the Darkmantle',
+      ),
+      444966007 => 
+      array (
+        'icon' => 4391,
+        'name' => 'Salt the Slug',
+      ),
+      312387810 => 
+      array (
+        'icon' => 4391,
+        'name' => 'Stare at the Beholder',
+      ),
+      3356933147 => 
+      array (
+        'icon' => 4391,
+        'name' => 'Tie the Eel in Knots',
+      ),
+    ),
+  ),
   850795330 => 
   array (
     'category' => 'Tome',
@@ -43943,6 +52322,48 @@ $CollectionsData = array (
       array (
         'icon' => 418,
         'name' => 'Ipsumodon Femur',
+      ),
+    ),
+  ),
+  1316784364 => 
+  array (
+    'category' => 'Darkpaw Rising',
+    'name' => 'Opolla Relics',
+    'level' => 130,
+    'crc' => 1316784364,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      58145800 => 
+      array (
+        'icon' => 5689,
+        'name' => 'Cursed Icon of Opolla',
+      ),
+      3098471642 => 
+      array (
+        'icon' => 5797,
+        'name' => 'Foredoomed Stone Etching',
+      ),
+      3640859297 => 
+      array (
+        'icon' => 5691,
+        'name' => 'Confounded Stitched Effigy',
+      ),
+      1670057653 => 
+      array (
+        'icon' => 5894,
+        'name' => 'Bedeviled Stone Figurine',
+      ),
+      1211459104 => 
+      array (
+        'icon' => 5690,
+        'name' => 'Accursed Fleshed Relic',
+      ),
+      3965437082 => 
+      array (
+        'icon' => 5903,
+        'name' => 'Atrocious Dried Limb',
       ),
     ),
   ),
@@ -44381,6 +52802,58 @@ $CollectionsData = array (
       ),
     ),
   ),
+  256465873 => 
+  array (
+    'category' => 'Tradeskill',
+    'name' => 'Other Crafting Nails',
+    'level' => 125,
+    'crc' => 256465873,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      728728142 => 
+      array (
+        'icon' => 707,
+        'name' => 'Framing Nails',
+      ),
+      1762771089 => 
+      array (
+        'icon' => 707,
+        'name' => 'Box Nails',
+      ),
+      1743811297 => 
+      array (
+        'icon' => 707,
+        'name' => 'Roofing Nails',
+      ),
+      1074379091 => 
+      array (
+        'icon' => 707,
+        'name' => 'Duplex Nails',
+      ),
+      4290305038 => 
+      array (
+        'icon' => 707,
+        'name' => 'Connector Nails',
+      ),
+      1477412999 => 
+      array (
+        'icon' => 707,
+        'name' => 'Cap Nails',
+      ),
+      1037763048 => 
+      array (
+        'icon' => 707,
+        'name' => 'Masonry Nails',
+      ),
+      1695770864 => 
+      array (
+        'icon' => 707,
+        'name' => 'Sinker Nails',
+      ),
+    ),
+  ),
   600171818 => 
   array (
     'category' => 'Destiny of Velious',
@@ -44576,6 +53049,252 @@ $CollectionsData = array (
       array (
         'icon' => 104,
         'name' => 'Wolf Paw',
+      ),
+    ),
+  ),
+  2297298342 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Overrealm Exploration',
+    'level' => 130,
+    'crc' => 2297298342,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1120554668 => 
+      array (
+        'icon' => 2334,
+        'name' => 'Upper Chassis',
+      ),
+      653231504 => 
+      array (
+        'icon' => 2333,
+        'name' => 'Lower Chassis',
+      ),
+      1999403719 => 
+      array (
+        'icon' => 2290,
+        'name' => 'Harmonic Controller',
+      ),
+      389544401 => 
+      array (
+        'icon' => 2351,
+        'name' => 'Sensory Focus',
+      ),
+      1577635657 => 
+      array (
+        'icon' => 2289,
+        'name' => 'Arcane Generator',
+      ),
+      3994776865 => 
+      array (
+        'icon' => 1194,
+        'name' => 'Runescribed Ruby',
+      ),
+      66924860 => 
+      array (
+        'icon' => 1200,
+        'name' => 'Runescribed Emerald',
+      ),
+      557891143 => 
+      array (
+        'icon' => 1196,
+        'name' => 'Runescribed Sapphire',
+      ),
+      2183810558 => 
+      array (
+        'icon' => 1175,
+        'name' => 'Runescribed Onyx',
+      ),
+      206802848 => 
+      array (
+        'icon' => 1177,
+        'name' => 'Runescribed Opal',
+      ),
+      3998298262 => 
+      array (
+        'icon' => 5820,
+        'name' => 'Tef-Feather',
+      ),
+      1824888659 => 
+      array (
+        'icon' => 5826,
+        'name' => 'Kur-Feather',
+      ),
+      3440453416 => 
+      array (
+        'icon' => 5824,
+        'name' => 'Dol-Feather',
+      ),
+      125533761 => 
+      array (
+        'icon' => 5822,
+        'name' => 'Nab-Feather',
+      ),
+      2009293247 => 
+      array (
+        'icon' => 5823,
+        'name' => 'Cip-Feather',
+      ),
+    ),
+  ),
+  95231747 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Overrealm Instruments',
+    'level' => 130,
+    'crc' => 95231747,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4077805923 => 
+      array (
+        'icon' => 366,
+        'name' => 'Sang\'Huuu Fiddle',
+      ),
+      2922690807 => 
+      array (
+        'icon' => 5785,
+        'name' => 'Sang\'Huuu Flute',
+      ),
+      1473691299 => 
+      array (
+        'icon' => 5785,
+        'name' => 'Sang\'Huuu Piccolo',
+      ),
+      3356746560 => 
+      array (
+        'icon' => 898,
+        'name' => 'Sang\'Huuu Celesta',
+      ),
+      2186515947 => 
+      array (
+        'icon' => 5791,
+        'name' => 'Sang\'Huuu Ocarina',
+      ),
+      2681898424 => 
+      array (
+        'icon' => 5784,
+        'name' => 'Yazdani Erhu',
+      ),
+      3013037592 => 
+      array (
+        'icon' => 903,
+        'name' => 'Yazdani Harp',
+      ),
+      256625926 => 
+      array (
+        'icon' => 5792,
+        'name' => 'Yazdani Shofar',
+      ),
+      3633531137 => 
+      array (
+        'icon' => 5792,
+        'name' => 'Yazdani Lur',
+      ),
+      1895756630 => 
+      array (
+        'icon' => 5793,
+        'name' => 'Yazdani Cornu',
+      ),
+      2058807655 => 
+      array (
+        'icon' => 5784,
+        'name' => 'Vaashkaani Kitar',
+      ),
+      1474268254 => 
+      array (
+        'icon' => 5793,
+        'name' => 'Vaashkaani Euphonium',
+      ),
+      3429047437 => 
+      array (
+        'icon' => 5792,
+        'name' => 'Vaashkaani Cornet',
+      ),
+      1343047757 => 
+      array (
+        'icon' => 5791,
+        'name' => 'Vaashkaani Saxhorn',
+      ),
+      2850723134 => 
+      array (
+        'icon' => 5793,
+        'name' => 'Vaashkaani Tenor Horn',
+      ),
+    ),
+  ),
+  2950977942 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Overrealm Percussion',
+    'level' => 130,
+    'crc' => 2950977942,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      255726562 => 
+      array (
+        'icon' => 2247,
+        'name' => 'Sang\'Huuu Tambourine',
+      ),
+      3452798532 => 
+      array (
+        'icon' => 3179,
+        'name' => 'Sang\'Huuu Triangle',
+      ),
+      4190708330 => 
+      array (
+        'icon' => 2344,
+        'name' => 'Sang\'Huuu Xylophone',
+      ),
+      2662638762 => 
+      array (
+        'icon' => 2343,
+        'name' => 'Sang\'Huuu Chimes',
+      ),
+      2704544292 => 
+      array (
+        'icon' => 5716,
+        'name' => 'Yazdani Claves',
+      ),
+      2415400659 => 
+      array (
+        'icon' => 5717,
+        'name' => 'Yazdani Maracas',
+      ),
+      3753794331 => 
+      array (
+        'icon' => 2247,
+        'name' => 'Yazdani Tabor',
+      ),
+      2951778172 => 
+      array (
+        'icon' => 2247,
+        'name' => 'Yazdani Bodhran',
+      ),
+      320652189 => 
+      array (
+        'icon' => 5786,
+        'name' => 'Vaashkaani Gong',
+      ),
+      2367274248 => 
+      array (
+        'icon' => 5783,
+        'name' => 'Vaashkaani Timpani',
+      ),
+      3235333911 => 
+      array (
+        'icon' => 5794,
+        'name' => 'Vaashkaani Bass Drum',
+      ),
+      1991723831 => 
+      array (
+        'icon' => 5777,
+        'name' => 'Vaashkaani Darbuka',
       ),
     ),
   ),
@@ -44991,6 +53710,85 @@ $CollectionsData = array (
       array (
         'icon' => 2292,
         'name' => 'Broken Navigation Tools',
+      ),
+    ),
+  ),
+  1713807764 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Petalcrown Perch Curios',
+    'level' => 130,
+    'crc' => 1713807764,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2703056156 => 
+      array (
+        'icon' => 665,
+        'name' => 'Sang\'Huuu Halberd',
+      ),
+      2133738141 => 
+      array (
+        'icon' => 637,
+        'name' => 'Sang\'Huuu Hammer',
+      ),
+      183492525 => 
+      array (
+        'icon' => 736,
+        'name' => 'Sang\'Huuu Hammock',
+      ),
+      2680286196 => 
+      array (
+        'icon' => 2326,
+        'name' => 'Sang\'Huuu Hoe',
+      ),
+      2747226825 => 
+      array (
+        'icon' => 630,
+        'name' => 'Sang\'Huuu Hacksaw',
+      ),
+      365313831 => 
+      array (
+        'icon' => 1219,
+        'name' => 'Sang\'Huuu Horn',
+      ),
+    ),
+  ),
+  580636605 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Petrified',
+    'level' => 125,
+    'crc' => 580636605,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2035285661 => 
+      array (
+        'icon' => 828,
+        'name' => 'Calcified Bark',
+      ),
+      1052897141 => 
+      array (
+        'icon' => 199,
+        'name' => 'Petrified Leaf',
+      ),
+      455327116 => 
+      array (
+        'icon' => 136,
+        'name' => 'Petrified Pinecone',
+      ),
+      3789190100 => 
+      array (
+        'icon' => 200,
+        'name' => 'Rocky Root',
+      ),
+      984958196 => 
+      array (
+        'icon' => 4889,
+        'name' => 'Stone Flower',
       ),
     ),
   ),
@@ -46562,6 +55360,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  803807761 => 
+  array (
+    'category' => 'Shattered Overture',
+    'name' => 'Platinum Slivers',
+    'level' => 125,
+    'crc' => 803807761,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2520704277 => 
+      array (
+        'icon' => 3774,
+        'name' => 'Heated Platinum Sliver',
+      ),
+      2702592956 => 
+      array (
+        'icon' => 3774,
+        'name' => 'Chilled Platinum Sliver',
+      ),
+      2352954268 => 
+      array (
+        'icon' => 3774,
+        'name' => 'Vibrating Platinum Sliver',
+      ),
+      2599900881 => 
+      array (
+        'icon' => 3774,
+        'name' => 'Stable Platinum Sliver',
+      ),
+      2676106756 => 
+      array (
+        'icon' => 3774,
+        'name' => 'Glassy Platinum Sliver',
+      ),
+    ),
+  ),
   16752282 => 
   array (
     'category' => 'Visions of Vetrovia',
@@ -46970,6 +55805,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1885399187 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Poor Life Choices',
+    'level' => 125,
+    'crc' => 1885399187,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      887764509 => 
+      array (
+        'icon' => 2296,
+        'name' => 'Cyclops Miniature-Maker',
+      ),
+      1836409735 => 
+      array (
+        'icon' => 2497,
+        'name' => 'Goblin Orator',
+      ),
+      2878996881 => 
+      array (
+        'icon' => 110,
+        'name' => 'Sifaye Tank',
+      ),
+      3585533348 => 
+      array (
+        'icon' => 384,
+        'name' => 'Spectre Healer',
+      ),
+      946429747 => 
+      array (
+        'icon' => 290,
+        'name' => 'Vulture Chef',
+      ),
+      1321405901 => 
+      array (
+        'icon' => 2229,
+        'name' => 'Yha-Lei Fire Eater',
+      ),
+    ),
+  ),
   2851201437 => 
   array (
     'category' => 'Shadow Odyssey',
@@ -47029,6 +55906,43 @@ $CollectionsData = array (
       array (
         'icon' => 942,
         'name' => 'Gynok Moltor\'s Gilded Cup',
+      ),
+    ),
+  ),
+  488659232 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Possessions of the Madmen',
+    'level' => 125,
+    'crc' => 488659232,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1165815393 => 
+      array (
+        'icon' => 116,
+        'name' => 'Beggar\'s Rags',
+      ),
+      3830944015 => 
+      array (
+        'icon' => 582,
+        'name' => 'Cursed Pendant',
+      ),
+      3554037517 => 
+      array (
+        'icon' => 3163,
+        'name' => 'Fake Treasure Map',
+      ),
+      31835298 => 
+      array (
+        'icon' => 1245,
+        'name' => 'Takish Token',
+      ),
+      4206589600 => 
+      array (
+        'icon' => 4386,
+        'name' => 'Vivid Hallucinations',
       ),
     ),
   ),
@@ -48542,6 +57456,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1993106862 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Raj\'Dur Residents',
+    'level' => 125,
+    'crc' => 1993106862,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1804759823 => 
+      array (
+        'icon' => 2687,
+        'name' => 'Brash Bandits',
+      ),
+      3271896274 => 
+      array (
+        'icon' => 2687,
+        'name' => 'Sly Thieves',
+      ),
+      4013633446 => 
+      array (
+        'icon' => 2687,
+        'name' => 'Menacing Marauders',
+      ),
+      816986983 => 
+      array (
+        'icon' => 2687,
+        'name' => 'Ruthless Raiders',
+      ),
+      787565563 => 
+      array (
+        'icon' => 2687,
+        'name' => 'Roving Brigands',
+      ),
+      2694229739 => 
+      array (
+        'icon' => 2687,
+        'name' => 'Brutish Thugs',
+      ),
+    ),
+  ),
   3286360920 => 
   array (
     'category' => 'Signature',
@@ -48668,6 +57624,68 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2773095511 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Rare Takish Flowers',
+    'level' => 125,
+    'crc' => 2773095511,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2854294807 => 
+      array (
+        'icon' => 1973,
+        'name' => 'Takish Poppy',
+      ),
+      2182553554 => 
+      array (
+        'icon' => 1968,
+        'name' => 'Sea Holly',
+      ),
+      691885749 => 
+      array (
+        'icon' => 1949,
+        'name' => 'Magenta Cosmos',
+      ),
+      598815410 => 
+      array (
+        'icon' => 1952,
+        'name' => 'Ghost Orchid',
+      ),
+      4025538093 => 
+      array (
+        'icon' => 1942,
+        'name' => 'Alabaster Rose',
+      ),
+      3067761592 => 
+      array (
+        'icon' => 1941,
+        'name' => 'Deadly Camillia',
+      ),
+      3718693337 => 
+      array (
+        'icon' => 1999,
+        'name' => 'Blooming Cerebus',
+      ),
+      756509323 => 
+      array (
+        'icon' => 1994,
+        'name' => 'Deepshade Hibiscus',
+      ),
+      2859950312 => 
+      array (
+        'icon' => 1990,
+        'name' => 'Jaded Vines',
+      ),
+      2151886284 => 
+      array (
+        'icon' => 1962,
+        'name' => 'Renda\'Dal Lilly',
+      ),
+    ),
+  ),
   2436780071 => 
   array (
     'category' => 'Altar of Malice',
@@ -48734,6 +57752,48 @@ $CollectionsData = array (
       array (
         'icon' => 163,
         'name' => 'worn ravasect mandible',
+      ),
+    ),
+  ),
+  3128033472 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Razeland Elements',
+    'level' => 130,
+    'crc' => 3128033472,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2686775854 => 
+      array (
+        'icon' => 2936,
+        'name' => 'Ironback Fist',
+      ),
+      1121899457 => 
+      array (
+        'icon' => 2869,
+        'name' => 'Ironback Foot',
+      ),
+      1600581231 => 
+      array (
+        'icon' => 2992,
+        'name' => 'Gilded-Back Fist',
+      ),
+      3181170560 => 
+      array (
+        'icon' => 2911,
+        'name' => 'Gilded-Back Foot',
+      ),
+      1632378369 => 
+      array (
+        'icon' => 2990,
+        'name' => 'Ironback Control Sigil',
+      ),
+      3034702525 => 
+      array (
+        'icon' => 2990,
+        'name' => 'Gilded-Back Control Sigil',
       ),
     ),
   ),
@@ -48971,6 +58031,43 @@ $CollectionsData = array (
       array (
         'icon' => 1289,
         'name' => 'Seal of Piercing',
+      ),
+    ),
+  ),
+  2482812076 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Rejected Tomes',
+    'level' => 125,
+    'crc' => 2482812076,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3732764169 => 
+      array (
+        'icon' => 2692,
+        'name' => 'Breath of Sand',
+      ),
+      2003423104 => 
+      array (
+        'icon' => 2692,
+        'name' => 'Bubonian Healers',
+      ),
+      3537800398 => 
+      array (
+        'icon' => 2692,
+        'name' => 'In the Company of Bliss',
+      ),
+      2699472197 => 
+      array (
+        'icon' => 2692,
+        'name' => 'Stampede of the Aviaks',
+      ),
+      3714578832 => 
+      array (
+        'icon' => 2692,
+        'name' => 'Survivors of the Party',
       ),
     ),
   ),
@@ -50121,6 +59218,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  261272938 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Remnants of the Titans',
+    'level' => 130,
+    'crc' => 261272938,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1517744088 => 
+      array (
+        'icon' => 1303,
+        'name' => 'Fist of the Golden Titan',
+      ),
+      2677370709 => 
+      array (
+        'icon' => 1302,
+        'name' => 'Fist of the Silver Titan',
+      ),
+      900747270 => 
+      array (
+        'icon' => 1304,
+        'name' => 'Fist of the Copper Titan',
+      ),
+      4222182115 => 
+      array (
+        'icon' => 1559,
+        'name' => 'Foot of the Golden Titan',
+      ),
+      1045095022 => 
+      array (
+        'icon' => 1566,
+        'name' => 'Foot of the Silver Titan',
+      ),
+      2490359101 => 
+      array (
+        'icon' => 1447,
+        'name' => 'Foot of the Copper Titan',
+      ),
+    ),
+  ),
   1297684590 => 
   array (
     'category' => 'Visions of Vetrovia',
@@ -50155,6 +59294,224 @@ $CollectionsData = array (
       array (
         'icon' => 374,
         'name' => 'Illegible Trusik Scroll',
+      ),
+    ),
+  ),
+  1038691010 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Renda\'Dal Wands',
+    'level' => 125,
+    'crc' => 1038691010,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2101140239 => 
+      array (
+        'icon' => 4525,
+        'name' => 'Wand of the Occupier',
+      ),
+      2390308807 => 
+      array (
+        'icon' => 4525,
+        'name' => 'Wand of the Repressor',
+      ),
+      294748100 => 
+      array (
+        'icon' => 4525,
+        'name' => 'Wand of the Subjugator',
+      ),
+      3137074211 => 
+      array (
+        'icon' => 4525,
+        'name' => 'Wand of the Infiltrator',
+      ),
+      1316358491 => 
+      array (
+        'icon' => 4516,
+        'name' => 'Wand of the Besieger',
+      ),
+    ),
+  ),
+  3280169031 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Renda\'Dal Weapons',
+    'level' => 125,
+    'crc' => 3280169031,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      516927172 => 
+      array (
+        'icon' => 2954,
+        'name' => 'Greatsword of the Crusader',
+      ),
+      1623762947 => 
+      array (
+        'icon' => 2961,
+        'name' => 'Mace of the Repressor',
+      ),
+      3742803671 => 
+      array (
+        'icon' => 2964,
+        'name' => 'Club of the Besieger',
+      ),
+      938774498 => 
+      array (
+        'icon' => 2970,
+        'name' => 'Dagger of the Adept',
+      ),
+      718073052 => 
+      array (
+        'icon' => 2975,
+        'name' => 'Staff of the Archmage',
+      ),
+    ),
+  ),
+  3798224495 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Renewal of Ro',
+    'level' => 125,
+    'crc' => 3798224495,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3126791194 => 
+      array (
+        'icon' => 337,
+        'name' => 'Thorns of Growth',
+      ),
+      3114297636 => 
+      array (
+        'icon' => 2776,
+        'name' => 'Wings of Growth',
+      ),
+      2849326303 => 
+      array (
+        'icon' => 2091,
+        'name' => 'Leaves of Growth',
+      ),
+      1267303737 => 
+      array (
+        'icon' => 4878,
+        'name' => 'Takish\'Hiz Stone',
+      ),
+      4245312573 => 
+      array (
+        'icon' => 4367,
+        'name' => 'Consonant Interval',
+      ),
+      1417516438 => 
+      array (
+        'icon' => 4367,
+        'name' => 'Dissonant Interval',
+      ),
+    ),
+  ),
+  3313477534 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Renewal of the Desert',
+    'level' => 125,
+    'crc' => 3313477534,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4077554994 => 
+      array (
+        'icon' => 1846,
+        'name' => 'A Bug\'s Life',
+      ),
+      174720130 => 
+      array (
+        'icon' => 4368,
+        'name' => 'Avoiding Heat Stroke',
+      ),
+      1516641946 => 
+      array (
+        'icon' => 3951,
+        'name' => 'Deadly Dangers',
+      ),
+      3806706511 => 
+      array (
+        'icon' => 4354,
+        'name' => 'Deadly Waterworks',
+      ),
+      1943488914 => 
+      array (
+        'icon' => 1202,
+        'name' => 'Delving in the Delta',
+      ),
+      2680673300 => 
+      array (
+        'icon' => 4880,
+        'name' => 'Desert Glass',
+      ),
+      4128439840 => 
+      array (
+        'icon' => 3477,
+        'name' => 'Desert Sands',
+      ),
+      279537446 => 
+      array (
+        'icon' => 4354,
+        'name' => 'Dew Collection',
+      ),
+      3233562982 => 
+      array (
+        'icon' => 405,
+        'name' => 'Possessions of the Madmen',
+      ),
+      2572339965 => 
+      array (
+        'icon' => 4972,
+        'name' => 'Riches of the Hizites',
+      ),
+      2148276905 => 
+      array (
+        'icon' => 1135,
+        'name' => 'Rock Collection',
+      ),
+      622295422 => 
+      array (
+        'icon' => 5205,
+        'name' => 'Sandstorms',
+      ),
+      2112834244 => 
+      array (
+        'icon' => 1133,
+        'name' => 'Shards of the Moon',
+      ),
+      3358458352 => 
+      array (
+        'icon' => 4362,
+        'name' => 'To Worship the Flame',
+      ),
+      1371048797 => 
+      array (
+        'icon' => 3163,
+        'name' => 'Water Maps',
+      ),
+      2323602995 => 
+      array (
+        'icon' => 1845,
+        'name' => 'What Is a Solifugid',
+      ),
+      2008642885 => 
+      array (
+        'icon' => 107,
+        'name' => 'Wildlife Signs',
+      ),
+      3960191116 => 
+      array (
+        'icon' => 2208,
+        'name' => 'Winemaking in the Delta',
       ),
     ),
   ),
@@ -50454,6 +59811,43 @@ $CollectionsData = array (
       array (
         'icon' => 3184,
         'name' => 'A Small Rhino Horn',
+      ),
+    ),
+  ),
+  2057995517 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Riches of the Hizites',
+    'level' => 125,
+    'crc' => 2057995517,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3438410525 => 
+      array (
+        'icon' => 851,
+        'name' => 'Artesian Well',
+      ),
+      3275977677 => 
+      array (
+        'icon' => 2119,
+        'name' => 'Desert Grasses',
+      ),
+      2519012537 => 
+      array (
+        'icon' => 5004,
+        'name' => 'Healthy Herds',
+      ),
+      1009668131 => 
+      array (
+        'icon' => 4201,
+        'name' => 'Protected Shelter',
+      ),
+      3265090910 => 
+      array (
+        'icon' => 5048,
+        'name' => 'Skilled Herd Dogs',
       ),
     ),
   ),
@@ -50841,6 +60235,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  913903033 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Riparian Crag Flora',
+    'level' => 130,
+    'crc' => 913903033,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4139020499 => 
+      array (
+        'icon' => 338,
+        'name' => 'Rugged Rhododendron',
+      ),
+      903705370 => 
+      array (
+        'icon' => 341,
+        'name' => 'Wily Weigela',
+      ),
+      396192737 => 
+      array (
+        'icon' => 337,
+        'name' => 'Mountainous Mountain-Laurel',
+      ),
+      1901922421 => 
+      array (
+        'icon' => 336,
+        'name' => 'Broken Boxwood',
+      ),
+      2156033587 => 
+      array (
+        'icon' => 340,
+        'name' => 'Tenacious Ninebark',
+      ),
+      2537924231 => 
+      array (
+        'icon' => 337,
+        'name' => 'Hardy Juniper',
+      ),
+    ),
+  ),
   933481588 => 
   array (
     'category' => 'Tome',
@@ -51078,6 +60514,53 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2913758316 => 
+  array (
+    'category' => 'Scorched Sky',
+    'name' => 'Ro Resident Relics',
+    'level' => 20,
+    'crc' => 2913758316,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2141842413 => 
+      array (
+        'icon' => 2201,
+        'name' => 'Efreeti Blazestone Bauble',
+      ),
+      3869293143 => 
+      array (
+        'icon' => 394,
+        'name' => 'Sizzlespit Corilac Iron Earring',
+      ),
+      2443676353 => 
+      array (
+        'icon' => 1462,
+        'name' => 'Blazewing Scale Bracer',
+      ),
+      264445794 => 
+      array (
+        'icon' => 4864,
+        'name' => 'Jopal Cinder Agate Necklace',
+      ),
+      2026123252 => 
+      array (
+        'icon' => 2245,
+        'name' => 'Flamelord Talisman',
+      ),
+      3788340814 => 
+      array (
+        'icon' => 955,
+        'name' => 'Fire Giant Torque',
+      ),
+      2529840856 => 
+      array (
+        'icon' => 375,
+        'name' => 'Inferno Fiend Bond Stone',
+      ),
+    ),
+  ),
   2147307771 => 
   array (
     'category' => 'Tears of Veeshan',
@@ -51142,6 +60625,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2743002218 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Rock Collection',
+    'level' => 125,
+    'crc' => 2743002218,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1769372960 => 
+      array (
+        'icon' => 1122,
+        'name' => 'Basic Red Sandstone',
+      ),
+      191809231 => 
+      array (
+        'icon' => 1120,
+        'name' => 'Chalcedony Geode',
+      ),
+      1525848283 => 
+      array (
+        'icon' => 1147,
+        'name' => 'Desert Jasper',
+      ),
+      3110842968 => 
+      array (
+        'icon' => 1123,
+        'name' => 'Desert Rose Gypsum',
+      ),
+      2339184135 => 
+      array (
+        'icon' => 1134,
+        'name' => 'Fulgurite',
+      ),
+      3656638158 => 
+      array (
+        'icon' => 1136,
+        'name' => 'Milky Quartz',
+      ),
+    ),
+  ),
   34902663 => 
   array (
     'category' => 'Blood of Luclin',
@@ -51176,6 +60701,90 @@ $CollectionsData = array (
       array (
         'icon' => 102,
         'name' => 'Sharp Rockhopper Horn',
+      ),
+    ),
+  ),
+  613292220 => 
+  array (
+    'category' => 'Darkpaw Rising',
+    'name' => 'Rockpaw Relics',
+    'level' => 130,
+    'crc' => 613292220,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2861222775 => 
+      array (
+        'icon' => 1085,
+        'name' => 'Rockpaw Hammered Relic',
+      ),
+      4282317859 => 
+      array (
+        'icon' => 1085,
+        'name' => 'Rockpaw Shaped Remnant',
+      ),
+      3102876663 => 
+      array (
+        'icon' => 1087,
+        'name' => 'Rockpaw Worked Fragment',
+      ),
+      3353491196 => 
+      array (
+        'icon' => 1087,
+        'name' => 'Rockpaw Trodden Memento',
+      ),
+      578797775 => 
+      array (
+        'icon' => 1086,
+        'name' => 'Rockpaw Pounded Keepsake',
+      ),
+      1634759474 => 
+      array (
+        'icon' => 1085,
+        'name' => 'Rockpaw Stamped Curio',
+      ),
+    ),
+  ),
+  253251294 => 
+  array (
+    'category' => 'Darkpaw Rising',
+    'name' => 'Rockpaw Weapons',
+    'level' => 10,
+    'crc' => 253251294,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1141555044 => 
+      array (
+        'icon' => 5707,
+        'name' => 'Rockpaw Flint Spear',
+      ),
+      4148697119 => 
+      array (
+        'icon' => 5707,
+        'name' => 'Rockpaw Toothed Spear',
+      ),
+      1227994591 => 
+      array (
+        'icon' => 5707,
+        'name' => 'Rockpaw Fur-Handled Spear',
+      ),
+      2311978 => 
+      array (
+        'icon' => 5707,
+        'name' => 'Rockpaw Gut-Wrapped Spear',
+      ),
+      198015886 => 
+      array (
+        'icon' => 5707,
+        'name' => 'Rockpaw Rusted Spear',
+      ),
+      1183063258 => 
+      array (
+        'icon' => 5707,
+        'name' => 'Rockpaw Polished Spear',
       ),
     ),
   ),
@@ -51275,6 +60884,48 @@ $CollectionsData = array (
       array (
         'icon' => 1967,
         'name' => 'Velious Chrysanthemum Petal',
+      ),
+    ),
+  ),
+  4137615501 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Rootland Rise Wilds',
+    'level' => 130,
+    'crc' => 4137615501,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      194974507 => 
+      array (
+        'icon' => 2823,
+        'name' => 'Auduborian Branch',
+      ),
+      3641242516 => 
+      array (
+        'icon' => 2820,
+        'name' => 'Aeraquis Feather',
+      ),
+      1662516546 => 
+      array (
+        'icon' => 2518,
+        'name' => 'Aeraquis Scale',
+      ),
+      3351411771 => 
+      array (
+        'icon' => 2803,
+        'name' => 'Auduborian Bark',
+      ),
+      1200594293 => 
+      array (
+        'icon' => 2806,
+        'name' => 'Direbeak Beak',
+      ),
+      3760851453 => 
+      array (
+        'icon' => 2578,
+        'name' => 'Bristlehide Hide',
       ),
     ),
   ),
@@ -51418,6 +61069,43 @@ $CollectionsData = array (
       array (
         'icon' => 2252,
         'name' => 'ancient Paineel clock',
+      ),
+    ),
+  ),
+  1358227676 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Ruined Ruins',
+    'level' => 125,
+    'crc' => 1358227676,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2631243962 => 
+      array (
+        'icon' => 4879,
+        'name' => 'Broken Blocks',
+      ),
+      352196149 => 
+      array (
+        'icon' => 4879,
+        'name' => 'Indistinct Statue',
+      ),
+      714504666 => 
+      array (
+        'icon' => 4879,
+        'name' => 'Overgrown Wall',
+      ),
+      3973021825 => 
+      array (
+        'icon' => 4879,
+        'name' => 'Shattered Cornerstone',
+      ),
+      4149086528 => 
+      array (
+        'icon' => 4879,
+        'name' => 'Submerged Pillar',
       ),
     ),
   ),
@@ -52068,6 +61756,90 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1180660055 => 
+  array (
+    'category' => 'Darkpaw Rising',
+    'name' => 'Sabertooth Relics',
+    'level' => 130,
+    'crc' => 1180660055,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1618662146 => 
+      array (
+        'icon' => 5736,
+        'name' => 'Sabertooth Bloodied Relic',
+      ),
+      2814333257 => 
+      array (
+        'icon' => 5762,
+        'name' => 'Sabertooth Ragged Remnant',
+      ),
+      1936152444 => 
+      array (
+        'icon' => 5727,
+        'name' => 'Sabertooth Marred Keepsake',
+      ),
+      467011117 => 
+      array (
+        'icon' => 5778,
+        'name' => 'Sabertooth Filthy Memento',
+      ),
+      3224228472 => 
+      array (
+        'icon' => 5697,
+        'name' => 'Sabertooth Twisted Fragment',
+      ),
+      1520909718 => 
+      array (
+        'icon' => 5735,
+        'name' => 'Sabertooth Smashed Curio',
+      ),
+    ),
+  ),
+  3154315261 => 
+  array (
+    'category' => 'Darkpaw Rising',
+    'name' => 'Sabertooth Weapons',
+    'level' => 10,
+    'crc' => 3154315261,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      654429972 => 
+      array (
+        'icon' => 5715,
+        'name' => 'Fur-lined Club',
+      ),
+      633798391 => 
+      array (
+        'icon' => 5706,
+        'name' => 'Leather-Wrapped Knife',
+      ),
+      3152204890 => 
+      array (
+        'icon' => 5719,
+        'name' => 'Rusted Iron Bastard Sword',
+      ),
+      195714485 => 
+      array (
+        'icon' => 19,
+        'name' => 'Bone-Ribbed Shield',
+      ),
+      2711373058 => 
+      array (
+        'icon' => 5716,
+        'name' => 'Tooth-Adorned Staff',
+      ),
+      178237051 => 
+      array (
+        'icon' => 5698,
+        'name' => 'Feathered Blood Staff',
+      ),
+    ),
+  ),
   2387542566 => 
   array (
     'category' => 'Chaos Descending',
@@ -52357,6 +62129,73 @@ $CollectionsData = array (
       ),
     ),
   ),
+  6466268 => 
+  array (
+    'category' => 'Tome',
+    'name' => 'Sacred to the Aurai',
+    'level' => 130,
+    'crc' => 6466268,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      966785022 => 
+      array (
+        'icon' => 2180,
+        'name' => 'Sacred to the Aurai - Page 2',
+      ),
+      1318635368 => 
+      array (
+        'icon' => 2180,
+        'name' => 'Sacred to the Aurai - Page 3',
+      ),
+      3506197195 => 
+      array (
+        'icon' => 2180,
+        'name' => 'Sacred to the Aurai - Page 4',
+      ),
+      2818269789 => 
+      array (
+        'icon' => 2180,
+        'name' => 'Sacred to the Aurai - Page 5',
+      ),
+      1056060391 => 
+      array (
+        'icon' => 2180,
+        'name' => 'Sacred to the Aurai - Page 6',
+      ),
+      1240793969 => 
+      array (
+        'icon' => 2180,
+        'name' => 'Sacred to the Aurai - Page 7',
+      ),
+      3645513440 => 
+      array (
+        'icon' => 2180,
+        'name' => 'Sacred to the Aurai - Page 8',
+      ),
+      2924293750 => 
+      array (
+        'icon' => 2180,
+        'name' => 'Sacred to the Aurai - Page 9',
+      ),
+      3465193363 => 
+      array (
+        'icon' => 2180,
+        'name' => 'Sacred to the Aurai - Page 10',
+      ),
+      3113064197 => 
+      array (
+        'icon' => 2180,
+        'name' => 'Sacred to the Aurai - Page 11',
+      ),
+      545572543 => 
+      array (
+        'icon' => 2180,
+        'name' => 'Sacred to the Aurai - Page 12',
+      ),
+    ),
+  ),
   4055364866 => 
   array (
     'category' => 'Reign of Shadows',
@@ -52515,6 +62354,48 @@ $CollectionsData = array (
       array (
         'icon' => 3489,
         'name' => 'chunk of coarse salt',
+      ),
+    ),
+  ),
+  1512300259 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Salty',
+    'level' => 125,
+    'crc' => 1512300259,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3690590260 => 
+      array (
+        'icon' => 1136,
+        'name' => 'Black Lava Salt',
+      ),
+      3612696829 => 
+      array (
+        'icon' => 1136,
+        'name' => 'Greyish Salt',
+      ),
+      1385142904 => 
+      array (
+        'icon' => 1136,
+        'name' => 'Pickling Salt',
+      ),
+      255717760 => 
+      array (
+        'icon' => 1136,
+        'name' => 'Rock Salt',
+      ),
+      3410068148 => 
+      array (
+        'icon' => 1136,
+        'name' => 'Salt Flakes',
+      ),
+      524277027 => 
+      array (
+        'icon' => 1136,
+        'name' => 'Evaporated Sea Salt',
       ),
     ),
   ),
@@ -52726,7 +62607,7 @@ $CollectionsData = array (
       3455031342 => 
       array (
         'icon' => 131,
-        'name' => 'a piece of cloud',
+        'name' => 'piece of cloud',
       ),
       1424798816 => 
       array (
@@ -53052,6 +62933,43 @@ $CollectionsData = array (
       array (
         'icon' => 1240,
         'name' => 'Insignia of the Vigilum',
+      ),
+    ),
+  ),
+  3461677993 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Sand Beetles',
+    'level' => 125,
+    'crc' => 3461677993,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      804354493 => 
+      array (
+        'icon' => 1805,
+        'name' => 'Black Sand Beetle',
+      ),
+      1820713178 => 
+      array (
+        'icon' => 1824,
+        'name' => 'Bronze Sand Beetle',
+      ),
+      3335063214 => 
+      array (
+        'icon' => 1821,
+        'name' => 'Emerald Sand Beetle',
+      ),
+      134425366 => 
+      array (
+        'icon' => 1809,
+        'name' => 'Ruby Sand Beetle',
+      ),
+      1934880013 => 
+      array (
+        'icon' => 1823,
+        'name' => 'Sapphire Sand Beetle',
       ),
     ),
   ),
@@ -53406,6 +63324,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2215435850 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Sandstorms',
+    'level' => 125,
+    'crc' => 2215435850,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4074818034 => 
+      array (
+        'icon' => 5205,
+        'name' => 'Duststorm',
+      ),
+      1333935152 => 
+      array (
+        'icon' => 5205,
+        'name' => 'Habub',
+      ),
+      2621359499 => 
+      array (
+        'icon' => 5205,
+        'name' => 'Harmattan',
+      ),
+      161329470 => 
+      array (
+        'icon' => 5205,
+        'name' => 'Samiel',
+      ),
+      2961727057 => 
+      array (
+        'icon' => 5205,
+        'name' => 'Simoom',
+      ),
+      3036168524 => 
+      array (
+        'icon' => 5205,
+        'name' => 'Sirocco',
+      ),
+    ),
+  ),
   3274407383 => 
   array (
     'category' => 'Visions of Vetrovia',
@@ -53606,6 +63566,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3584161903 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Satyr Alcohol',
+    'level' => 125,
+    'crc' => 3584161903,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      57502454 => 
+      array (
+        'icon' => 310,
+        'name' => 'Sylvan Mead',
+      ),
+      1521521644 => 
+      array (
+        'icon' => 309,
+        'name' => 'Herbacious Wine',
+      ),
+      3816441595 => 
+      array (
+        'icon' => 312,
+        'name' => 'Aged Spirits',
+      ),
+      1837602917 => 
+      array (
+        'icon' => 308,
+        'name' => 'Sylvan Stout',
+      ),
+      292769363 => 
+      array (
+        'icon' => 323,
+        'name' => 'Delectable Port',
+      ),
+    ),
+  ),
   606163234 => 
   array (
     'category' => 'Shard of Love',
@@ -53635,6 +63632,43 @@ $CollectionsData = array (
       array (
         'icon' => 2343,
         'name' => 'a satyr chime',
+      ),
+    ),
+  ),
+  981304856 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Satyr Pipes',
+    'level' => 125,
+    'crc' => 981304856,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1389781562 => 
+      array (
+        'icon' => 2343,
+        'name' => 'Gilded Pan Pipes',
+      ),
+      4074245434 => 
+      array (
+        'icon' => 2343,
+        'name' => 'Silver Pan Pipes',
+      ),
+      3848579503 => 
+      array (
+        'icon' => 2343,
+        'name' => 'Bronzed Pan Pipes',
+      ),
+      1150517961 => 
+      array (
+        'icon' => 2343,
+        'name' => 'Rusty Pan Pipes',
+      ),
+      3416953364 => 
+      array (
+        'icon' => 2343,
+        'name' => 'Gem Encrusted Pan Pipes',
       ),
     ),
   ),
@@ -54336,6 +64370,48 @@ $CollectionsData = array (
       array (
         'icon' => 43,
         'name' => 'Scourge Tainted Bow',
+      ),
+    ),
+  ),
+  1587945548 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Scrambled Tomes',
+    'level' => 125,
+    'crc' => 1587945548,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3424951795 => 
+      array (
+        'icon' => 2690,
+        'name' => 'Ascent of the Misery',
+      ),
+      3837653903 => 
+      array (
+        'icon' => 2690,
+        'name' => 'Bubonian Rock',
+      ),
+      1511675654 => 
+      array (
+        'icon' => 2690,
+        'name' => 'Flight of the Bacterium',
+      ),
+      3218488289 => 
+      array (
+        'icon' => 2690,
+        'name' => 'Of Sun and Storm',
+      ),
+      2672123153 => 
+      array (
+        'icon' => 2690,
+        'name' => 'Roots of Arcane',
+      ),
+      1255132915 => 
+      array (
+        'icon' => 2690,
+        'name' => 'Survivors of the Aviaks',
       ),
     ),
   ),
@@ -55205,6 +65281,78 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3122310082 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Seeds of Destruction',
+    'level' => 125,
+    'crc' => 3122310082,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1429208711 => 
+      array (
+        'icon' => 1962,
+        'name' => 'An Efflorescent Artemisia',
+      ),
+      552282146 => 
+      array (
+        'icon' => 1961,
+        'name' => 'An Efflorescent Astilbe',
+      ),
+      445885900 => 
+      array (
+        'icon' => 1978,
+        'name' => 'An Efflorescent Camellia',
+      ),
+      1159516592 => 
+      array (
+        'icon' => 1995,
+        'name' => 'An Efflorescent Columbine',
+      ),
+      909790066 => 
+      array (
+        'icon' => 1988,
+        'name' => 'An Efflorescent Dahlia',
+      ),
+      3823529059 => 
+      array (
+        'icon' => 1951,
+        'name' => 'An Efflorescent Foxglove',
+      ),
+      1675752860 => 
+      array (
+        'icon' => 1938,
+        'name' => 'An Efflorescent Gladiolus',
+      ),
+      1503700492 => 
+      array (
+        'icon' => 1969,
+        'name' => 'An Efflorescent Hyacinth',
+      ),
+      3761494819 => 
+      array (
+        'icon' => 1952,
+        'name' => 'An Efflorescent Marigold',
+      ),
+      3106499087 => 
+      array (
+        'icon' => 2004,
+        'name' => 'An Efflorescent Oleander',
+      ),
+      3730948179 => 
+      array (
+        'icon' => 1956,
+        'name' => 'An Efflorescent Wisteria',
+      ),
+      48263521 => 
+      array (
+        'icon' => 1959,
+        'name' => 'An Efflorescent Yarrow',
+      ),
+    ),
+  ),
   1343090744 => 
   array (
     'category' => 'Tome',
@@ -55662,6 +65810,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2846794908 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Shadowbane Trappings',
+    'level' => 125,
+    'crc' => 2846794908,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3668826836 => 
+      array (
+        'icon' => 5306,
+        'name' => 'Robes of the Shadowbane',
+      ),
+      3857323590 => 
+      array (
+        'icon' => 5307,
+        'name' => 'Slippers of the Shadowbane',
+      ),
+      3481740607 => 
+      array (
+        'icon' => 5357,
+        'name' => 'Wand of the Shadowbane',
+      ),
+      1568360797 => 
+      array (
+        'icon' => 4813,
+        'name' => 'Tome of the Shadowbane',
+      ),
+      1415380628 => 
+      array (
+        'icon' => 5344,
+        'name' => 'Symbol of the Shadowbane',
+      ),
+      2918873807 => 
+      array (
+        'icon' => 5087,
+        'name' => 'Orb of the Shadowbane',
+      ),
+    ),
+  ),
   2968427684 => 
   array (
     'category' => 'Blood of Luclin',
@@ -56101,6 +66291,43 @@ $CollectionsData = array (
       array (
         'icon' => 3772,
         'name' => 'Shard of the Five',
+      ),
+    ),
+  ),
+  3660758749 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Shards of the Moon',
+    'level' => 125,
+    'crc' => 3660758749,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      768584827 => 
+      array (
+        'icon' => 1133,
+        'name' => 'Ginormous Chunk of Luclinite',
+      ),
+      167075067 => 
+      array (
+        'icon' => 1133,
+        'name' => 'Growth-Infused Luclinite',
+      ),
+      659139939 => 
+      array (
+        'icon' => 1133,
+        'name' => 'Itty-Bitty Luclinite Pebble',
+      ),
+      1584907367 => 
+      array (
+        'icon' => 1133,
+        'name' => 'Luclinite Dust',
+      ),
+      2383770054 => 
+      array (
+        'icon' => 1133,
+        'name' => 'Pet Rock of Luclinite',
       ),
     ),
   ),
@@ -56586,6 +66813,93 @@ $CollectionsData = array (
       array (
         'icon' => 1369,
         'name' => 'Signet of Cold',
+      ),
+    ),
+  ),
+  3304243654 => 
+  array (
+    'category' => 'Jubilee',
+    'name' => 'Shindig Up Some Parts',
+    'level' => 1,
+    'crc' => 3304243654,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      719935637 => 
+      array (
+        'icon' => 3035,
+        'name' => 'Ark Diver\'s Goggles',
+      ),
+      1026782918 => 
+      array (
+        'icon' => 2342,
+        'name' => 'Vintage Vessel',
+      ),
+      1422910278 => 
+      array (
+        'icon' => 1019,
+        'name' => 'Saian\'s Spearhead',
+      ),
+      21865263 => 
+      array (
+        'icon' => 4883,
+        'name' => 'Solar Cauldron Concoction',
+      ),
+      2363469301 => 
+      array (
+        'icon' => 2951,
+        'name' => 'Mephlin Mold',
+      ),
+      2514215222 => 
+      array (
+        'icon' => 2520,
+        'name' => 'Ozani\'s Embers',
+      ),
+      2112751625 => 
+      array (
+        'icon' => 2916,
+        'name' => 'Firesun Pearl',
+      ),
+      1462288277 => 
+      array (
+        'icon' => 3788,
+        'name' => 'Stinging Seaweed',
+      ),
+      2692425358 => 
+      array (
+        'icon' => 2776,
+        'name' => 'Tidalax\'s Claw',
+      ),
+      1116114243 => 
+      array (
+        'icon' => 3480,
+        'name' => 'Obisidian Slag',
+      ),
+      1031855526 => 
+      array (
+        'icon' => 3057,
+        'name' => 'Pyromaniac Fuel',
+      ),
+      2481373126 => 
+      array (
+        'icon' => 4130,
+        'name' => 'Baron Bromz\' Blazer',
+      ),
+      2928967060 => 
+      array (
+        'icon' => 3112,
+        'name' => 'Greasy Saw Tooth Blade',
+      ),
+      2889162891 => 
+      array (
+        'icon' => 3145,
+        'name' => 'Meldrathian Manuscripts',
+      ),
+      2448114614 => 
+      array (
+        'icon' => 3150,
+        'name' => 'Sawclaw\'s Power Source',
       ),
     ),
   ),
@@ -57209,6 +67523,90 @@ $CollectionsData = array (
       ),
     ),
   ),
+  516879976 => 
+  array (
+    'category' => 'Darkpaw Rising',
+    'name' => 'Shroomblight Insignia',
+    'level' => 130,
+    'crc' => 516879976,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2669994205 => 
+      array (
+        'icon' => 5802,
+        'name' => 'Blight-Marked Stone',
+      ),
+      1451868266 => 
+      array (
+        'icon' => 5943,
+        'name' => 'Woe-Marked Scrap',
+      ),
+      1072342687 => 
+      array (
+        'icon' => 5802,
+        'name' => 'Rot-Marked Stone',
+      ),
+      1798918150 => 
+      array (
+        'icon' => 5943,
+        'name' => 'Bane-Marked Scrap',
+      ),
+      3119157307 => 
+      array (
+        'icon' => 5943,
+        'name' => 'Blood-Blotted Scrap',
+      ),
+      2200018693 => 
+      array (
+        'icon' => 5802,
+        'name' => 'Gore-Marked Stone',
+      ),
+    ),
+  ),
+  3510207185 => 
+  array (
+    'category' => 'Darkpaw Rising',
+    'name' => 'Shroomblight Talisman',
+    'level' => 10,
+    'crc' => 3510207185,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      8360335 => 
+      array (
+        'icon' => 4867,
+        'name' => 'Talisman of Affliction',
+      ),
+      3549706702 => 
+      array (
+        'icon' => 4868,
+        'name' => 'Talisman of Canker',
+      ),
+      3307834704 => 
+      array (
+        'icon' => 4867,
+        'name' => 'Talisman of Pestilence',
+      ),
+      3111250580 => 
+      array (
+        'icon' => 4868,
+        'name' => 'Talisman of Rot',
+      ),
+      1787468517 => 
+      array (
+        'icon' => 4866,
+        'name' => 'Talisman of Withering',
+      ),
+      2579061188 => 
+      array (
+        'icon' => 4866,
+        'name' => 'Talisman of Decay',
+      ),
+    ),
+  ),
   1633430830 => 
   array (
     'category' => 'Chaos Descending',
@@ -57682,6 +68080,43 @@ $CollectionsData = array (
       array (
         'icon' => 1290,
         'name' => 'Sigil of Allegiance: Windsisters',
+      ),
+    ),
+  ),
+  737065289 => 
+  array (
+    'category' => 'Shattered Overture',
+    'name' => 'Silver Slivers',
+    'level' => 125,
+    'crc' => 737065289,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3049321679 => 
+      array (
+        'icon' => 3773,
+        'name' => 'Heated Silver Sliver',
+      ),
+      1251634477 => 
+      array (
+        'icon' => 3773,
+        'name' => 'Chilled Silver Sliver',
+      ),
+      229665740 => 
+      array (
+        'icon' => 3773,
+        'name' => 'Vibrating Silver Sliver',
+      ),
+      1999733891 => 
+      array (
+        'icon' => 3773,
+        'name' => 'Stable Silver Sliver',
+      ),
+      978640705 => 
+      array (
+        'icon' => 3773,
+        'name' => 'Glassy Silver Sliver',
       ),
     ),
   ),
@@ -58864,6 +69299,53 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1727137054 => 
+  array (
+    'category' => 'Oceansfull',
+    'name' => 'Sounds of The Sea',
+    'level' => 20,
+    'crc' => 1727137054,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      837758451 => 
+      array (
+        'icon' => 2032,
+        'name' => 'Othmir\'s Lullaby',
+      ),
+      2833677385 => 
+      array (
+        'icon' => 2031,
+        'name' => 'Siren\'s Refrain',
+      ),
+      3756084447 => 
+      array (
+        'icon' => 2030,
+        'name' => 'Ulthork\'s Battle Cry',
+      ),
+      1099291004 => 
+      array (
+        'icon' => 2034,
+        'name' => 'Marid\'s Enchantment',
+      ),
+      914549226 => 
+      array (
+        'icon' => 2029,
+        'name' => 'Mariner\'s Shanty',
+      ),
+      2945169488 => 
+      array (
+        'icon' => 2033,
+        'name' => 'Kedge\'s Silence',
+      ),
+      3633088710 => 
+      array (
+        'icon' => 2028,
+        'name' => 'Yha-lei\'s Prayer',
+      ),
+    ),
+  ),
   991781570 => 
   array (
     'category' => 'Chaos Descending',
@@ -59212,6 +69694,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2304051520 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Spirits of Takish\'Hiz',
+    'level' => 125,
+    'crc' => 2304051520,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3190726142 => 
+      array (
+        'icon' => 5104,
+        'name' => 'Sigil of the Chronicler',
+      ),
+      941956307 => 
+      array (
+        'icon' => 5102,
+        'name' => 'Rune of the Archivist',
+      ),
+      1277841134 => 
+      array (
+        'icon' => 5103,
+        'name' => 'Glyph of the Scroll Keeper',
+      ),
+      3836755273 => 
+      array (
+        'icon' => 4878,
+        'name' => 'Petrified Tome',
+      ),
+      2020881428 => 
+      array (
+        'icon' => 4889,
+        'name' => 'An Efflorescent Bloom',
+      ),
+      1057962783 => 
+      array (
+        'icon' => 3810,
+        'name' => 'Nature\'s Shard of Emotions',
+      ),
+    ),
+  ),
   741507342 => 
   array (
     'category' => 'Planes of Prophecy',
@@ -59246,6 +69770,48 @@ $CollectionsData = array (
       array (
         'icon' => 746,
         'name' => 'Spitefully Muttered Hunger',
+      ),
+    ),
+  ),
+  2413969158 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Splendor Sky Aerie Berries',
+    'level' => 130,
+    'crc' => 2413969158,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      92257978 => 
+      array (
+        'icon' => 786,
+        'name' => 'Rootland Strawberry',
+      ),
+      2889763476 => 
+      array (
+        'icon' => 784,
+        'name' => 'Burrow Mulberry',
+      ),
+      3525244253 => 
+      array (
+        'icon' => 5867,
+        'name' => 'Tellurav Cranberry',
+      ),
+      989700016 => 
+      array (
+        'icon' => 5868,
+        'name' => 'Elder Elderberry',
+      ),
+      3074753369 => 
+      array (
+        'icon' => 788,
+        'name' => 'Petalcrown Salmon Berry',
+      ),
+      1448453650 => 
+      array (
+        'icon' => 788,
+        'name' => 'Riparian Raspberry',
       ),
     ),
   ),
@@ -59471,6 +70037,48 @@ $CollectionsData = array (
       array (
         'icon' => 3427,
         'name' => 'Lycoperdon Spore',
+      ),
+    ),
+  ),
+  1872755230 => 
+  array (
+    'category' => 'Darkpaw Rising',
+    'name' => 'Sporist Relics',
+    'level' => 10,
+    'crc' => 1872755230,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3855305933 => 
+      array (
+        'icon' => 5798,
+        'name' => 'Icon of Utricle',
+      ),
+      3379390985 => 
+      array (
+        'icon' => 5799,
+        'name' => 'Icon of Vacuole',
+      ),
+      3656004116 => 
+      array (
+        'icon' => 5800,
+        'name' => 'Icon of Cellule',
+      ),
+      2188224063 => 
+      array (
+        'icon' => 5797,
+        'name' => 'Icon of Haematid',
+      ),
+      186314465 => 
+      array (
+        'icon' => 5799,
+        'name' => 'Icon of Follicle',
+      ),
+      3356285121 => 
+      array (
+        'icon' => 5799,
+        'name' => 'Icon of Seed',
       ),
     ),
   ),
@@ -59763,6 +70371,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3001983707 => 
+  array (
+    'category' => 'Darkpaw Rising',
+    'name' => 'Stalker Wings',
+    'level' => 10,
+    'crc' => 3001983707,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      536553766 => 
+      array (
+        'icon' => 4625,
+        'name' => 'Torn Stalker Wing',
+      ),
+      207861229 => 
+      array (
+        'icon' => 4625,
+        'name' => 'Burnt Stalker Wing',
+      ),
+      2249228886 => 
+      array (
+        'icon' => 4625,
+        'name' => 'Severed Stalker Wing',
+      ),
+      2553949926 => 
+      array (
+        'icon' => 4625,
+        'name' => 'Chewed Stalker Wing',
+      ),
+      3079905808 => 
+      array (
+        'icon' => 4625,
+        'name' => 'Tanned Stalker Wing',
+      ),
+      4262873072 => 
+      array (
+        'icon' => 4625,
+        'name' => 'Painted Stalker Wing',
+      ),
+    ),
+  ),
   1283472228 => 
   array (
     'category' => 'Runnyeye: The Gathering',
@@ -59812,6 +70462,58 @@ $CollectionsData = array (
       array (
         'icon' => 1242,
         'name' => 'Standard of Naggresh',
+      ),
+    ),
+  ),
+  2628645056 => 
+  array (
+    'category' => 'Nights of the Dead',
+    'name' => 'Starving Skeleton Bones',
+    'level' => 30,
+    'crc' => 2628645056,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      37845765 => 
+      array (
+        'icon' => 92,
+        'name' => 'Brittle Phalanx',
+      ),
+      816714351 => 
+      array (
+        'icon' => 418,
+        'name' => 'Broken Humerus',
+      ),
+      1340723615 => 
+      array (
+        'icon' => 90,
+        'name' => 'Burned Ribs',
+      ),
+      2914069618 => 
+      array (
+        'icon' => 4351,
+        'name' => 'Chipped Tarsals',
+      ),
+      2628494067 => 
+      array (
+        'icon' => 418,
+        'name' => 'Cracked Femur',
+      ),
+      179854029 => 
+      array (
+        'icon' => 4351,
+        'name' => 'Shattered Vertebrae',
+      ),
+      541300625 => 
+      array (
+        'icon' => 91,
+        'name' => 'Toothless Skull',
+      ),
+      2760965443 => 
+      array (
+        'icon' => 4351,
+        'name' => 'Weathered Pelvis',
       ),
     ),
   ),
@@ -61212,6 +71914,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1055546534 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Swamp Terrors',
+    'level' => 130,
+    'crc' => 1055546534,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3673986716 => 
+      array (
+        'icon' => 5738,
+        'name' => 'Mephitic Mosquito Wing',
+      ),
+      4278572947 => 
+      array (
+        'icon' => 5740,
+        'name' => 'Mephitic Mosquito Thorax',
+      ),
+      3019225595 => 
+      array (
+        'icon' => 5741,
+        'name' => 'Probing Proboscis',
+      ),
+      1552060433 => 
+      array (
+        'icon' => 5734,
+        'name' => 'Corpse Eater Gland',
+      ),
+      1480763084 => 
+      array (
+        'icon' => 5739,
+        'name' => 'Corpse Eater Lobe',
+      ),
+      4197482608 => 
+      array (
+        'icon' => 5737,
+        'name' => 'Corpse Eater Leaf Blade',
+      ),
+    ),
+  ),
   3906405111 => 
   array (
     'category' => 'Signature',
@@ -61414,6 +72158,90 @@ $CollectionsData = array (
       array (
         'icon' => 2523,
         'name' => 'Quality of Prowess',
+      ),
+    ),
+  ),
+  3580024749 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Syllabary of the Winds',
+    'level' => 130,
+    'crc' => 3580024749,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3584843410 => 
+      array (
+        'icon' => 5799,
+        'name' => 'Syllabary of the North',
+      ),
+      1217600292 => 
+      array (
+        'icon' => 5798,
+        'name' => 'Syllabary of the South',
+      ),
+      144436480 => 
+      array (
+        'icon' => 5798,
+        'name' => 'Syllabary of the East',
+      ),
+      4118993608 => 
+      array (
+        'icon' => 5799,
+        'name' => 'Syllabary of the West',
+      ),
+      672157290 => 
+      array (
+        'icon' => 5797,
+        'name' => 'Syllabary of Fuejenyrus',
+      ),
+      2182616717 => 
+      array (
+        'icon' => 5797,
+        'name' => 'Syllabary of Chilled Gales',
+      ),
+    ),
+  ),
+  3600460638 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Symbols of Argent Sanctuary',
+    'level' => 130,
+    'crc' => 3600460638,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3181716965 => 
+      array (
+        'icon' => 2182,
+        'name' => 'Cipher of Ra\'Zaal',
+      ),
+      3376003172 => 
+      array (
+        'icon' => 3271,
+        'name' => 'Sigil of Ra\'Zaal',
+      ),
+      1266919265 => 
+      array (
+        'icon' => 2243,
+        'name' => 'Idol of Ra\'Zaal',
+      ),
+      3660353351 => 
+      array (
+        'icon' => 5930,
+        'name' => 'Banner of Ra\'Zaal',
+      ),
+      1855723768 => 
+      array (
+        'icon' => 1779,
+        'name' => 'Icon of Ra\'Zaal',
+      ),
+      676291488 => 
+      array (
+        'icon' => 1758,
+        'name' => 'Badge of Ra\'Zaal',
       ),
     ),
   ),
@@ -63748,6 +74576,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  8165189 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Tellurav Marshlands Grasses',
+    'level' => 130,
+    'crc' => 8165189,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3549936599 => 
+      array (
+        'icon' => 2119,
+        'name' => 'Salty Saltgrass',
+      ),
+      980828352 => 
+      array (
+        'icon' => 2124,
+        'name' => 'Crankly Canary Grass',
+      ),
+      732321185 => 
+      array (
+        'icon' => 2125,
+        'name' => 'Cross Cordgrass',
+      ),
+      886591894 => 
+      array (
+        'icon' => 2120,
+        'name' => 'Irritable Reeds',
+      ),
+      1492153970 => 
+      array (
+        'icon' => 2121,
+        'name' => 'Heated Glyceria',
+      ),
+      1569181050 => 
+      array (
+        'icon' => 2123,
+        'name' => 'Hateful Hordeum',
+      ),
+    ),
+  ),
   4207267798 => 
   array (
     'category' => 'Kunark Ascending',
@@ -64739,6 +75609,48 @@ $CollectionsData = array (
       array (
         'icon' => 308,
         'name' => 'A Quartermaster\'s Stein',
+      ),
+    ),
+  ),
+  3894140962 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'The Dreadcutter\'s Haul',
+    'level' => 20,
+    'crc' => 3894140962,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2851242194 => 
+      array (
+        'icon' => 2179,
+        'name' => '\\#FC94AFA Captain\'s Log',
+      ),
+      3745663938 => 
+      array (
+        'icon' => 1015,
+        'name' => '\\#FC94AFA Captor\'s Chains',
+      ),
+      3840276764 => 
+      array (
+        'icon' => 2326,
+        'name' => '\\#FC94AFA Chef\'s Wooden Spoon',
+      ),
+      1290045114 => 
+      array (
+        'icon' => 836,
+        'name' => '\\#FC94AFA Marauder\'s Spyglass',
+      ),
+      1290299552 => 
+      array (
+        'icon' => 566,
+        'name' => '\\#FC94AFA Plunderer\'s Chest',
+      ),
+      1896643784 => 
+      array (
+        'icon' => 308,
+        'name' => '\\#FC94AFA Quartermaster\'s Stein',
       ),
     ),
   ),
@@ -66738,6 +77650,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2727497648 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'The Power of Music',
+    'level' => 125,
+    'crc' => 2727497648,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4064117146 => 
+      array (
+        'icon' => 4367,
+        'name' => 'Gentle Lullabye',
+      ),
+      3542512389 => 
+      array (
+        'icon' => 4367,
+        'name' => 'Haunting Lament',
+      ),
+      2884740781 => 
+      array (
+        'icon' => 4367,
+        'name' => 'Intricate Descant',
+      ),
+      97927932 => 
+      array (
+        'icon' => 4367,
+        'name' => 'Jolly Ditty',
+      ),
+      2099549582 => 
+      array (
+        'icon' => 4367,
+        'name' => 'Soaring Aria',
+      ),
+      4009843755 => 
+      array (
+        'icon' => 4367,
+        'name' => 'Sprightly Tune',
+      ),
+    ),
+  ),
   2444811265 => 
   array (
     'category' => 'Fabled Kingdom of Sky',
@@ -67878,6 +78832,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  967879175 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Threshold Things',
+    'level' => 125,
+    'crc' => 967879175,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1147281752 => 
+      array (
+        'icon' => 2442,
+        'name' => 'Adherent Robes',
+      ),
+      3269835287 => 
+      array (
+        'icon' => 2243,
+        'name' => 'Malachiel\'s Focus',
+      ),
+      372261577 => 
+      array (
+        'icon' => 4719,
+        'name' => 'Rock from Terranus',
+      ),
+      1359086575 => 
+      array (
+        'icon' => 4625,
+        'name' => 'Shiroth\'s Wing',
+      ),
+      2184040480 => 
+      array (
+        'icon' => 4377,
+        'name' => 'Tualanan\'s Wail',
+      ),
+    ),
+  ),
   1832154965 => 
   array (
     'category' => 'Destiny of Velious',
@@ -68385,6 +79376,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  771156637 => 
+  array (
+    'category' => 'Live Events',
+    'name' => 'Tinmizer\'s Medals',
+    'level' => 60,
+    'crc' => 771156637,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4067219523 => 
+      array (
+        'icon' => 1256,
+        'name' => 'Rhodium Bolt',
+      ),
+      1801816569 => 
+      array (
+        'icon' => 1255,
+        'name' => 'Copper Cog',
+      ),
+      476232047 => 
+      array (
+        'icon' => 1258,
+        'name' => 'Carbonite Screw',
+      ),
+      2181442764 => 
+      array (
+        'icon' => 1257,
+        'name' => 'Platinum Wrench',
+      ),
+      4110490714 => 
+      array (
+        'icon' => 1256,
+        'name' => 'Velium Gear',
+      ),
+      1812483552 => 
+      array (
+        'icon' => 1255,
+        'name' => 'Silver Fuse',
+      ),
+    ),
+  ),
   2104989467 => 
   array (
     'category' => 'Destiny of Velious',
@@ -68493,6 +79526,43 @@ $CollectionsData = array (
       array (
         'icon' => 715,
         'name' => 'Music to the Ear',
+      ),
+    ),
+  ),
+  3925752112 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'To Worship the Flame',
+    'level' => 125,
+    'crc' => 3925752112,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1505364011 => 
+      array (
+        'icon' => 4362,
+        'name' => 'Ancient Temple',
+      ),
+      2921203329 => 
+      array (
+        'icon' => 4362,
+        'name' => 'Chant to Solusek',
+      ),
+      3656116697 => 
+      array (
+        'icon' => 4362,
+        'name' => 'Fiery Creatures',
+      ),
+      2571477853 => 
+      array (
+        'icon' => 4362,
+        'name' => 'Hymn to Rath\'Mana',
+      ),
+      1256674101 => 
+      array (
+        'icon' => 4362,
+        'name' => 'Ortallian Monks',
       ),
     ),
   ),
@@ -68815,6 +79885,68 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2235794049 => 
+  array (
+    'category' => 'Terrors of Thalumbra',
+    'name' => 'Tools of the Dark Gears',
+    'level' => 100,
+    'crc' => 2235794049,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      663790176 => 
+      array (
+        'icon' => 2243,
+        'name' => 'Gnemlin Gravemaster\'s Symbol',
+      ),
+      2111418215 => 
+      array (
+        'icon' => 620,
+        'name' => 'Gnemlin Nightcaller\'s Wand',
+      ),
+      1071140347 => 
+      array (
+        'icon' => 2367,
+        'name' => 'Gnemlin Lichbringer\'s Dagger',
+      ),
+      2315691609 => 
+      array (
+        'icon' => 3147,
+        'name' => 'Gnemlin Bonecaster\'s Tome',
+      ),
+      2962855224 => 
+      array (
+        'icon' => 2973,
+        'name' => 'Gnemlin Deathknight\'s Blade',
+      ),
+      4157188771 => 
+      array (
+        'icon' => 606,
+        'name' => 'Gnemlin Lichbringer\'s Signet',
+      ),
+      2396875055 => 
+      array (
+        'icon' => 142,
+        'name' => 'Gnemlin Deathknight\'s Fetish',
+      ),
+      687203658 => 
+      array (
+        'icon' => 280,
+        'name' => 'Gnemlin Bonecaster\'s Robe',
+      ),
+      836319231 => 
+      array (
+        'icon' => 1218,
+        'name' => 'Gnemlin Gravemaster\'s Shovel',
+      ),
+      3692360787 => 
+      array (
+        'icon' => 372,
+        'name' => 'Gnemlin Nightcaller\'s Idol',
+      ),
+    ),
+  ),
   920261053 => 
   array (
     'category' => 'Planes of Prophecy',
@@ -69037,6 +80169,53 @@ $CollectionsData = array (
       array (
         'icon' => 142,
         'name' => 'Ashlok Totem of Warning',
+      ),
+    ),
+  ),
+  2565217604 => 
+  array (
+    'category' => 'Year of Darkpaw',
+    'name' => 'Totems of the Ashlok',
+    'level' => 20,
+    'crc' => 2565217604,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      143009114 => 
+      array (
+        'icon' => 372,
+        'name' => '\\#FC94AFAshlok Totem of Disease',
+      ),
+      2654966318 => 
+      array (
+        'icon' => 860,
+        'name' => '\\#FC94AFAshlok Totem of Earthbending',
+      ),
+      3233634485 => 
+      array (
+        'icon' => 862,
+        'name' => '\\#FC94AFAshlok Totem of Healing',
+      ),
+      2077441354 => 
+      array (
+        'icon' => 1209,
+        'name' => '\\#FC94AFAshlok Totem of Protection',
+      ),
+      2014805264 => 
+      array (
+        'icon' => 2499,
+        'name' => '\\#FC94AFAshlok Totem of Rage',
+      ),
+      2062594809 => 
+      array (
+        'icon' => 2686,
+        'name' => '\\#FC94AFAshlok Totem of Savagery',
+      ),
+      1207161693 => 
+      array (
+        'icon' => 142,
+        'name' => '\\#FC94AFAshlok Totem of Warning',
       ),
     ),
   ),
@@ -69652,6 +80831,48 @@ $CollectionsData = array (
       array (
         'icon' => 527,
         'name' => 'Treskar\'s Boots of Shoving',
+      ),
+    ),
+  ),
+  3071992609 => 
+  array (
+    'category' => 'Darkpaw Rising',
+    'name' => 'Trickster Tails',
+    'level' => 130,
+    'crc' => 3071992609,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3446871851 => 
+      array (
+        'icon' => 95,
+        'name' => 'Bloody Trickster Tail',
+      ),
+      2596261782 => 
+      array (
+        'icon' => 95,
+        'name' => 'Singed Trickster Tail',
+      ),
+      893232764 => 
+      array (
+        'icon' => 95,
+        'name' => 'Matted Trickster Tail',
+      ),
+      2991290035 => 
+      array (
+        'icon' => 95,
+        'name' => 'Gnarled Trickster Tail',
+      ),
+      2555429477 => 
+      array (
+        'icon' => 95,
+        'name' => 'Muddy Trickster Tail',
+      ),
+      2713370251 => 
+      array (
+        'icon' => 5796,
+        'name' => 'Skinned Trickster Tail',
       ),
     ),
   ),
@@ -70710,6 +81931,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2529498202 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Ubiquitous Cacti',
+    'level' => 125,
+    'crc' => 2529498202,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1004944194 => 
+      array (
+        'icon' => 4895,
+        'name' => 'Edible Pads',
+      ),
+      524461343 => 
+      array (
+        'icon' => 4895,
+        'name' => 'Fruit for Food',
+      ),
+      1172796256 => 
+      array (
+        'icon' => 4895,
+        'name' => 'Roots for Textiles',
+      ),
+      2853571676 => 
+      array (
+        'icon' => 4895,
+        'name' => 'Sap for Moisture',
+      ),
+      2531567011 => 
+      array (
+        'icon' => 4895,
+        'name' => 'Spines for Sewing',
+      ),
+    ),
+  ),
   2666282385 => 
   array (
     'category' => 'Cobalt Scar',
@@ -70907,6 +82165,135 @@ $CollectionsData = array (
       array (
         'icon' => 2025,
         'name' => 'Umbral Scallop Shell',
+      ),
+    ),
+  ),
+  3028849671 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Unburied Booty',
+    'level' => 125,
+    'crc' => 3028849671,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1954573948 => 
+      array (
+        'icon' => 4654,
+        'name' => 'Hakri\'s Melting Heart',
+      ),
+      1166019903 => 
+      array (
+        'icon' => 5149,
+        'name' => 'Charred Heartwood Bark',
+      ),
+      3860599958 => 
+      array (
+        'icon' => 3145,
+        'name' => 'Gereden\'s Epic Research',
+      ),
+      1285689754 => 
+      array (
+        'icon' => 2182,
+        'name' => 'Pile of Pithy Pages',
+      ),
+      2734998868 => 
+      array (
+        'icon' => 3398,
+        'name' => 'Kragstag\'s Craggy Hide',
+      ),
+      2663990254 => 
+      array (
+        'icon' => 5421,
+        'name' => 'Toxic Sagebrush',
+      ),
+      94119499 => 
+      array (
+        'icon' => 4883,
+        'name' => 'Enexen\'s Ectoplasmic Residue',
+      ),
+      1629803673 => 
+      array (
+        'icon' => 4367,
+        'name' => 'Exhumed Eldritch Elegy',
+      ),
+      2620759991 => 
+      array (
+        'icon' => 4393,
+        'name' => 'Zazhim\'s Last Wish',
+      ),
+      3898023786 => 
+      array (
+        'icon' => 2702,
+        'name' => 'Displaced Djinn\'s Lamp',
+      ),
+      3572374474 => 
+      array (
+        'icon' => 5154,
+        'name' => 'Bulbrusk\'s Bulbous Bulk',
+      ),
+      224926863 => 
+      array (
+        'icon' => 5100,
+        'name' => 'Fungal Fairy Ring',
+      ),
+      1346715354 => 
+      array (
+        'icon' => 2813,
+        'name' => 'Scale of Reviviscence',
+      ),
+      2124906602 => 
+      array (
+        'icon' => 4129,
+        'name' => 'Claw of Antiquity',
+      ),
+      193701689 => 
+      array (
+        'icon' => 5087,
+        'name' => 'Breath of Rejuvination',
+      ),
+      3719039829 => 
+      array (
+        'icon' => 4868,
+        'name' => 'Fang of Yore',
+      ),
+    ),
+  ),
+  2238116081 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Uncontrolled Growth',
+    'level' => 125,
+    'crc' => 2238116081,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2407053504 => 
+      array (
+        'icon' => 4894,
+        'name' => 'Florphilim Everywhere',
+      ),
+      3245175892 => 
+      array (
+        'icon' => 4894,
+        'name' => 'House-Sized Leaf',
+      ),
+      4119927806 => 
+      array (
+        'icon' => 4894,
+        'name' => 'Oversized Insects',
+      ),
+      13236276 => 
+      array (
+        'icon' => 4894,
+        'name' => 'Vine Wider than an Ogre',
+      ),
+      3682698386 => 
+      array (
+        'icon' => 4894,
+        'name' => 'Walking Leaf',
       ),
     ),
   ),
@@ -71273,6 +82660,137 @@ $CollectionsData = array (
       array (
         'icon' => 696,
         'name' => 'Idol of Brell Serilis',
+      ),
+    ),
+  ),
+  1229505999 => 
+  array (
+    'category' => 'Darkpaw Rising',
+    'name' => 'Underpaw Relics',
+    'level' => 130,
+    'crc' => 1229505999,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      342876670 => 
+      array (
+        'icon' => 4865,
+        'name' => 'Braided Leather Relic',
+      ),
+      24730860 => 
+      array (
+        'icon' => 4866,
+        'name' => 'Painted Feather Relic',
+      ),
+      194403991 => 
+      array (
+        'icon' => 4863,
+        'name' => 'Polished Stone Relic',
+      ),
+      3540431057 => 
+      array (
+        'icon' => 4864,
+        'name' => 'Painted Bone Relic',
+      ),
+      583051000 => 
+      array (
+        'icon' => 4867,
+        'name' => 'Tanned Flesh Relic',
+      ),
+      2863290133 => 
+      array (
+        'icon' => 4868,
+        'name' => 'Tooth Adorned Relic',
+      ),
+    ),
+  ),
+  2006207897 => 
+  array (
+    'category' => 'Darkpaw Rising',
+    'name' => 'Underpaw Talisman',
+    'level' => 10,
+    'crc' => 2006207897,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4184067022 => 
+      array (
+        'icon' => 4090,
+        'name' => 'Eerrie Talisman',
+      ),
+      3498864408 => 
+      array (
+        'icon' => 4089,
+        'name' => 'Ghastly Talisman',
+      ),
+      3342640443 => 
+      array (
+        'icon' => 4084,
+        'name' => 'Spectral Talisman',
+      ),
+      2413701316 => 
+      array (
+        'icon' => 4091,
+        'name' => 'Phantom Talisman',
+      ),
+      2104865066 => 
+      array (
+        'icon' => 4085,
+        'name' => 'Unearthly Talisman',
+      ),
+      252102334 => 
+      array (
+        'icon' => 4092,
+        'name' => 'Eidolic Talisman',
+      ),
+      3587872342 => 
+      array (
+        'icon' => 4086,
+        'name' => 'Shadowed Talisman',
+      ),
+    ),
+  ),
+  160194484 => 
+  array (
+    'category' => 'Darkpaw Rising',
+    'name' => 'Underpaw Weapons',
+    'level' => 10,
+    'crc' => 160194484,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4284993930 => 
+      array (
+        'icon' => 5708,
+        'name' => 'Underpaw Grisly Blade',
+      ),
+      316482114 => 
+      array (
+        'icon' => 5708,
+        'name' => 'Underpaw Hemic Blade',
+      ),
+      2212777265 => 
+      array (
+        'icon' => 5708,
+        'name' => 'Underpaw Ferocious Blade',
+      ),
+      3802520289 => 
+      array (
+        'icon' => 5708,
+        'name' => 'Underpawn Savage Blade',
+      ),
+      3765035407 => 
+      array (
+        'icon' => 5708,
+        'name' => 'Underpaw Decimating Blade',
+      ),
+      3114906414 => 
+      array (
+        'icon' => 5708,
+        'name' => 'Underpaw Bloodthirsty Blade',
       ),
     ),
   ),
@@ -71661,6 +83179,63 @@ $CollectionsData = array (
       array (
         'icon' => 4359,
         'name' => 'Va Dyn Kar\'s Clinging Shadow',
+      ),
+    ),
+  ),
+  699861961 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Vaashkaani Mirror Shards',
+    'level' => 130,
+    'crc' => 699861961,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2548347410 => 
+      array (
+        'icon' => 2625,
+        'name' => 'Ragged Mirror Shard',
+      ),
+      2366084253 => 
+      array (
+        'icon' => 2619,
+        'name' => 'Jagged Mirror Shard',
+      ),
+      1772530069 => 
+      array (
+        'icon' => 2622,
+        'name' => 'Cracked Mirror Shard',
+      ),
+      2307705293 => 
+      array (
+        'icon' => 2619,
+        'name' => 'Imperfect Mirror Shard',
+      ),
+      3375357112 => 
+      array (
+        'icon' => 2628,
+        'name' => 'Reflective Mirror Shard',
+      ),
+      792988307 => 
+      array (
+        'icon' => 2625,
+        'name' => 'Entrancing Mirror Shard',
+      ),
+      2145736925 => 
+      array (
+        'icon' => 2622,
+        'name' => 'Vendored Mirror Shard',
+      ),
+      1516174705 => 
+      array (
+        'icon' => 2625,
+        'name' => 'Purchased Mirror Shard',
+      ),
+      3866365133 => 
+      array (
+        'icon' => 2628,
+        'name' => 'Paced Mirror Shard',
       ),
     ),
   ),
@@ -72592,6 +84167,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  875035658 => 
+  array (
+    'category' => 'Darkpaw Rising',
+    'name' => 'Viper Fangs',
+    'level' => 10,
+    'crc' => 875035658,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      325856056 => 
+      array (
+        'icon' => 5736,
+        'name' => 'Pointed Viper Fang',
+      ),
+      3937689851 => 
+      array (
+        'icon' => 5736,
+        'name' => 'Tapering Viper Fang',
+      ),
+      2736453280 => 
+      array (
+        'icon' => 5736,
+        'name' => 'Keen Viper Fang',
+      ),
+      2023695917 => 
+      array (
+        'icon' => 5736,
+        'name' => 'Jagged Viper Fang',
+      ),
+      1057892656 => 
+      array (
+        'icon' => 5736,
+        'name' => 'Splintered Viper Fang',
+      ),
+      145662241 => 
+      array (
+        'icon' => 5736,
+        'name' => 'Tined Viper Fang',
+      ),
+    ),
+  ),
   1838284929 => 
   array (
     'category' => 'Return to Guk',
@@ -73081,6 +84698,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2110465432 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Vultures 101',
+    'level' => 125,
+    'crc' => 2110465432,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3530436854 => 
+      array (
+        'icon' => 2694,
+        'name' => 'Bare Head',
+      ),
+      134630110 => 
+      array (
+        'icon' => 2694,
+        'name' => 'Capacious Crop',
+      ),
+      2178794291 => 
+      array (
+        'icon' => 2694,
+        'name' => 'Carrion Feeder',
+      ),
+      469880529 => 
+      array (
+        'icon' => 2694,
+        'name' => 'Large Wingspan',
+      ),
+      4196561517 => 
+      array (
+        'icon' => 2694,
+        'name' => 'Strong Beak',
+      ),
+    ),
+  ),
   1559528229 => 
   array (
     'category' => 'Blood of Luclin',
@@ -73558,6 +85212,85 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1041759061 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Watchress Trappings',
+    'level' => 125,
+    'crc' => 1041759061,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1226774213 => 
+      array (
+        'icon' => 5321,
+        'name' => 'Robes of the Watchress',
+      ),
+      622321597 => 
+      array (
+        'icon' => 5300,
+        'name' => 'Slippers of the Watchress',
+      ),
+      3639428554 => 
+      array (
+        'icon' => 5358,
+        'name' => 'Wand of the Watchress',
+      ),
+      4128226310 => 
+      array (
+        'icon' => 4813,
+        'name' => 'Tome of the Watchress',
+      ),
+      2211495793 => 
+      array (
+        'icon' => 5359,
+        'name' => 'Symbol of the Watchress',
+      ),
+      866249544 => 
+      array (
+        'icon' => 5087,
+        'name' => 'Orb of the Watchress',
+      ),
+    ),
+  ),
+  4037225577 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Water Maps',
+    'level' => 125,
+    'crc' => 4037225577,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3578286575 => 
+      array (
+        'icon' => 3163,
+        'name' => 'Goldami Reservoir Map',
+      ),
+      2053736131 => 
+      array (
+        'icon' => 3163,
+        'name' => 'Kalickia Falls Map',
+      ),
+      2315351966 => 
+      array (
+        'icon' => 3163,
+        'name' => 'Kulaidi Reservoir Map',
+      ),
+      3552849813 => 
+      array (
+        'icon' => 3163,
+        'name' => 'Najami Oasis Map',
+      ),
+      597512658 => 
+      array (
+        'icon' => 3163,
+        'name' => 'Nerive Reservoir Map',
+      ),
+    ),
+  ),
   2295832444 => 
   array (
     'category' => 'Live Events',
@@ -73753,6 +85486,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3144454259 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Watery Wonders',
+    'level' => 125,
+    'crc' => 3144454259,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      226796947 => 
+      array (
+        'icon' => 2929,
+        'name' => 'Dangerous Whirlpool',
+      ),
+      3323402604 => 
+      array (
+        'icon' => 2929,
+        'name' => 'Freshwater Sinkhole',
+      ),
+      292759765 => 
+      array (
+        'icon' => 2929,
+        'name' => 'Giant Waterfall',
+      ),
+      3136229973 => 
+      array (
+        'icon' => 2929,
+        'name' => 'Magic-Infused Rindle',
+      ),
+      3435372878 => 
+      array (
+        'icon' => 2929,
+        'name' => 'Rapids of Lifire',
+      ),
+    ),
+  ),
   4171714977 => 
   array (
     'category' => 'Tome',
@@ -73938,6 +85708,48 @@ $CollectionsData = array (
       array (
         'icon' => 622,
         'name' => 'Umbral Glowing Staff',
+      ),
+    ),
+  ),
+  1652708676 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Weapons of the Maedjinn',
+    'level' => 130,
+    'crc' => 1652708676,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      60785253 => 
+      array (
+        'icon' => 5720,
+        'name' => 'Sword of the Maedjinn',
+      ),
+      3777200994 => 
+      array (
+        'icon' => 5714,
+        'name' => 'Hammer of the Maedjinn',
+      ),
+      784436520 => 
+      array (
+        'icon' => 5706,
+        'name' => 'Dagger of the Maedjinn',
+      ),
+      2582956291 => 
+      array (
+        'icon' => 5723,
+        'name' => 'Katana of the Maedjinn',
+      ),
+      1801518808 => 
+      array (
+        'icon' => 5722,
+        'name' => 'Scimitar of the Maedjinn',
+      ),
+      1490497887 => 
+      array (
+        'icon' => 5712,
+        'name' => 'Great-Hammer of the Maedjinn',
       ),
     ),
   ),
@@ -74178,6 +85990,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3192629786 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Werebear Teeth',
+    'level' => 125,
+    'crc' => 3192629786,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1089726576 => 
+      array (
+        'icon' => 102,
+        'name' => 'Grizzly Direfist Fang',
+      ),
+      1617904988 => 
+      array (
+        'icon' => 102,
+        'name' => 'Grizzly Werebear Fang',
+      ),
+      2295488097 => 
+      array (
+        'icon' => 102,
+        'name' => 'Grizzly Razorclaw Fang',
+      ),
+      3779895953 => 
+      array (
+        'icon' => 102,
+        'name' => 'Grizzly Wildfang Fang',
+      ),
+      2216039075 => 
+      array (
+        'icon' => 137,
+        'name' => 'Broken Werebear Fang',
+      ),
+    ),
+  ),
   2688718733 => 
   array (
     'category' => 'Nights of the Dead',
@@ -74306,6 +86155,117 @@ $CollectionsData = array (
       array (
         'icon' => 2444,
         'name' => 'Embroidered Werewolf Robe',
+      ),
+    ),
+  ),
+  4004719367 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'What Is a Solifugid',
+    'level' => 125,
+    'crc' => 4004719367,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2538047590 => 
+      array (
+        'icon' => 1845,
+        'name' => 'Desert Arachnid',
+      ),
+      3843298430 => 
+      array (
+        'icon' => 1845,
+        'name' => 'Large Chelicerae',
+      ),
+      692412967 => 
+      array (
+        'icon' => 1845,
+        'name' => 'Not-quite Scorpion',
+      ),
+      99220511 => 
+      array (
+        'icon' => 1845,
+        'name' => 'Not-quite Spider',
+      ),
+      212541346 => 
+      array (
+        'icon' => 1845,
+        'name' => 'Strong Pedipalps',
+      ),
+    ),
+  ),
+  1191372150 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'What One Eye Sees',
+    'level' => 125,
+    'crc' => 1191372150,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1932870635 => 
+      array (
+        'icon' => 31,
+        'name' => 'Fishing Cyclops',
+      ),
+      1460856485 => 
+      array (
+        'icon' => 29,
+        'name' => 'Flattener\'s Flat Foot',
+      ),
+      2371137774 => 
+      array (
+        'icon' => 2983,
+        'name' => 'King Fisher\'s Crown',
+      ),
+      2090303835 => 
+      array (
+        'icon' => 3712,
+        'name' => 'Mhyt-moo Invaders',
+      ),
+      2873034009 => 
+      array (
+        'icon' => 3929,
+        'name' => 'Stormy\'s Captain\'s Hat',
+      ),
+    ),
+  ),
+  2741355586 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'What the Other Eye Sees',
+    'level' => 125,
+    'crc' => 2741355586,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1206975854 => 
+      array (
+        'icon' => 4853,
+        'name' => 'Ahuttam\'s Bat Bridle',
+      ),
+      724942126 => 
+      array (
+        'icon' => 4879,
+        'name' => 'Granite from Granight',
+      ),
+      3165768866 => 
+      array (
+        'icon' => 873,
+        'name' => 'Nenmioseh\'s Scrying Bowl',
+      ),
+      1334388373 => 
+      array (
+        'icon' => 4850,
+        'name' => 'Palaendor\'s Saddle',
+      ),
+      764129132 => 
+      array (
+        'icon' => 5087,
+        'name' => 'Shadowscum\'s Scum',
       ),
     ),
   ),
@@ -74534,6 +86494,80 @@ $CollectionsData = array (
       array (
         'icon' => 946,
         'name' => 'Basis of Iniquity',
+      ),
+    ),
+  ),
+  3693087154 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Wildlife Signs',
+    'level' => 125,
+    'crc' => 3693087154,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      241603689 => 
+      array (
+        'icon' => 136,
+        'name' => 'Armapine Scale',
+      ),
+      1585853936 => 
+      array (
+        'icon' => 97,
+        'name' => 'Cacti Spines',
+      ),
+      4292954944 => 
+      array (
+        'icon' => 98,
+        'name' => 'Cobra Moulting',
+      ),
+      2956090153 => 
+      array (
+        'icon' => 138,
+        'name' => 'Coyote Fur',
+      ),
+      3838260293 => 
+      array (
+        'icon' => 155,
+        'name' => 'Vulture Feathers',
+      ),
+    ),
+  ),
+  3974643906 => 
+  array (
+    'category' => 'Renewal of Ro',
+    'name' => 'Winemaking in the Delta',
+    'level' => 125,
+    'crc' => 3974643906,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      203426952 => 
+      array (
+        'icon' => 4700,
+        'name' => 'Desert Fruits',
+      ),
+      3665569330 => 
+      array (
+        'icon' => 310,
+        'name' => 'Glass Decanter',
+      ),
+      4258062361 => 
+      array (
+        'icon' => 3411,
+        'name' => 'Powdered Tannins',
+      ),
+      1672504880 => 
+      array (
+        'icon' => 315,
+        'name' => 'Wine Yeast',
+      ),
+      1848193694 => 
+      array (
+        'icon' => 650,
+        'name' => 'Wine Vat',
       ),
     ),
   ),
@@ -75613,6 +87647,130 @@ $CollectionsData = array (
       ),
     ),
   ),
+  784661668 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Wroughtlands Ingots',
+    'level' => 130,
+    'crc' => 784661668,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1418352470 => 
+      array (
+        'icon' => 1754,
+        'name' => 'Gold Ingot',
+      ),
+      1851804113 => 
+      array (
+        'icon' => 1745,
+        'name' => 'Silver Ingot',
+      ),
+      3292886658 => 
+      array (
+        'icon' => 1751,
+        'name' => 'Copper Ingot',
+      ),
+      3301886261 => 
+      array (
+        'icon' => 1753,
+        'name' => 'Ruthenium Ingot',
+      ),
+      863712878 => 
+      array (
+        'icon' => 1753,
+        'name' => 'Rhodium Ingot',
+      ),
+      1504667216 => 
+      array (
+        'icon' => 1744,
+        'name' => 'Palladium Ingot',
+      ),
+      1522355825 => 
+      array (
+        'icon' => 1752,
+        'name' => 'Osmium Ingot',
+      ),
+      1848631497 => 
+      array (
+        'icon' => 1744,
+        'name' => 'Iridium Ingot',
+      ),
+      1026792046 => 
+      array (
+        'icon' => 1745,
+        'name' => 'Iron Ingot',
+      ),
+      2673382627 => 
+      array (
+        'icon' => 1753,
+        'name' => 'Platinum Ingot',
+      ),
+    ),
+  ),
+  609762068 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Wroughtlands Prized Gemstones Super Secret',
+    'level' => 130,
+    'crc' => 609762068,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2997529849 => 
+      array (
+        'icon' => 4788,
+        'name' => 'Polished Diamond Gemstone',
+      ),
+      1076786398 => 
+      array (
+        'icon' => 4788,
+        'name' => 'Tapered Diamond Gemstone',
+      ),
+      3883023699 => 
+      array (
+        'icon' => 4788,
+        'name' => 'Glossy Diamond Gemstone',
+      ),
+      1494430517 => 
+      array (
+        'icon' => 4788,
+        'name' => 'Clear Diamond Gemstone',
+      ),
+      3522337281 => 
+      array (
+        'icon' => 4788,
+        'name' => 'Trillion Diamond Gemstone',
+      ),
+      525615649 => 
+      array (
+        'icon' => 4788,
+        'name' => 'Round Diamond Gemstone',
+      ),
+      492426505 => 
+      array (
+        'icon' => 4788,
+        'name' => 'Opaque Diamond Gemstone',
+      ),
+      3794645533 => 
+      array (
+        'icon' => 4788,
+        'name' => 'Murky Diamond Gemstone',
+      ),
+      1027906911 => 
+      array (
+        'icon' => 4943,
+        'name' => 'Powdered Diamond Gemstone',
+      ),
+      2676764070 => 
+      array (
+        'icon' => 4788,
+        'name' => 'Oval Diamond Gemstone',
+      ),
+    ),
+  ),
   1343421529 => 
   array (
     'category' => 'Myths and Monoliths',
@@ -75889,6 +88047,132 @@ $CollectionsData = array (
       array (
         'icon' => 750,
         'name' => 'Burlap Yarn',
+      ),
+    ),
+  ),
+  2649722675 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Yazdani Figurines',
+    'level' => 130,
+    'crc' => 2649722675,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2901887917 => 
+      array (
+        'icon' => 862,
+        'name' => 'Ivory Yazdani Figurine',
+      ),
+      3070681454 => 
+      array (
+        'icon' => 860,
+        'name' => 'Stone Yazdani Figurine',
+      ),
+      3802843878 => 
+      array (
+        'icon' => 1059,
+        'name' => 'Brass Yazdani Figurine',
+      ),
+      3150433776 => 
+      array (
+        'icon' => 1060,
+        'name' => 'Iron Yazdani Figurine',
+      ),
+      3054923591 => 
+      array (
+        'icon' => 1058,
+        'name' => 'Pewter Yazdani Figurine',
+      ),
+      2979959930 => 
+      array (
+        'icon' => 1058,
+        'name' => 'Lead Yazdani Figurine',
+      ),
+    ),
+  ),
+  2696074536 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Yazdani Protector Symbols',
+    'level' => 130,
+    'crc' => 2696074536,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1929968466 => 
+      array (
+        'icon' => 2604,
+        'name' => 'Symbol of the Vehement',
+      ),
+      2437656655 => 
+      array (
+        'icon' => 2604,
+        'name' => 'Symbol of the Vanquisher',
+      ),
+      873617141 => 
+      array (
+        'icon' => 2604,
+        'name' => 'Symbol of the Vindicator',
+      ),
+      4279936212 => 
+      array (
+        'icon' => 2608,
+        'name' => 'Banner of the Vindicators',
+      ),
+      605876881 => 
+      array (
+        'icon' => 2608,
+        'name' => 'Banner of the Vehements',
+      ),
+      3557533600 => 
+      array (
+        'icon' => 2608,
+        'name' => 'Banner of the Vanquishers',
+      ),
+    ),
+  ),
+  2613596106 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Yazdani Symbols',
+    'level' => 130,
+    'crc' => 2613596106,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3757541874 => 
+      array (
+        'icon' => 1804,
+        'name' => 'Symbol of the Yazdani',
+      ),
+      183702571 => 
+      array (
+        'icon' => 1803,
+        'name' => 'Emblem of the Yazdani',
+      ),
+      4088741115 => 
+      array (
+        'icon' => 1804,
+        'name' => 'Icon of the Yazdani',
+      ),
+      241680634 => 
+      array (
+        'icon' => 1801,
+        'name' => 'Badge of the Yazdani',
+      ),
+      1039306200 => 
+      array (
+        'icon' => 1802,
+        'name' => 'Banner of the Yazdani',
+      ),
+      4190453281 => 
+      array (
+        'icon' => 1801,
+        'name' => 'Signet of the Yazdani',
       ),
     ),
   ),
@@ -76176,6 +88460,174 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3389153748 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Zakir Rish Armor',
+    'level' => 130,
+    'crc' => 3389153748,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1814136123 => 
+      array (
+        'icon' => 4475,
+        'name' => 'Gold-Flecked Gauntlets',
+      ),
+      1018478133 => 
+      array (
+        'icon' => 4465,
+        'name' => 'Gold-Flecked Sabatons',
+      ),
+      537782286 => 
+      array (
+        'icon' => 4486,
+        'name' => 'Copper-Lined Coif',
+      ),
+      1409494729 => 
+      array (
+        'icon' => 4484,
+        'name' => 'Copper-Lined Leggings',
+      ),
+      3534041751 => 
+      array (
+        'icon' => 4473,
+        'name' => 'Silver-Threaded Sandals',
+      ),
+      3458874717 => 
+      array (
+        'icon' => 4479,
+        'name' => 'Silver-Threaded Jacket',
+      ),
+    ),
+  ),
+  1191921630 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Zakir Rish Blood',
+    'level' => 130,
+    'crc' => 1191921630,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2010621764 => 
+      array (
+        'icon' => 5884,
+        'name' => 'Iron-Flecked Blood',
+      ),
+      450139127 => 
+      array (
+        'icon' => 5884,
+        'name' => 'Gold-Flecked Blood',
+      ),
+      1879040615 => 
+      array (
+        'icon' => 5884,
+        'name' => 'Platinum-Flecked Blood',
+      ),
+      602807334 => 
+      array (
+        'icon' => 5884,
+        'name' => 'Copper-Flecked Blood',
+      ),
+      4010279777 => 
+      array (
+        'icon' => 5884,
+        'name' => 'Silver-Flecked Blood',
+      ),
+      960293353 => 
+      array (
+        'icon' => 5884,
+        'name' => 'Metal-Flecked Blood',
+      ),
+    ),
+  ),
+  3775537034 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Zakir Rish Symbols',
+    'level' => 130,
+    'crc' => 3775537034,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2458268545 => 
+      array (
+        'icon' => 2618,
+        'name' => 'Symbol of the Zakir Rish',
+      ),
+      3546025381 => 
+      array (
+        'icon' => 2615,
+        'name' => 'Emblem of the Zakir Rish',
+      ),
+      2702693829 => 
+      array (
+        'icon' => 2616,
+        'name' => 'Icon of the Zakir Rish',
+      ),
+      2761307968 => 
+      array (
+        'icon' => 2613,
+        'name' => 'Badge of the Zakir Rish',
+      ),
+      3009069534 => 
+      array (
+        'icon' => 5929,
+        'name' => 'Banner of the Zakir Rish',
+      ),
+      2115686705 => 
+      array (
+        'icon' => 2617,
+        'name' => 'Signet of the Zakir Rish',
+      ),
+    ),
+  ),
+  775617604 => 
+  array (
+    'category' => 'Ballads of Zimara',
+    'name' => 'Zakir Rish Weapons',
+    'level' => 130,
+    'crc' => 775617604,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4106671254 => 
+      array (
+        'icon' => 4927,
+        'name' => 'Gem-Encrusted Sabre',
+      ),
+      2490581823 => 
+      array (
+        'icon' => 4899,
+        'name' => 'Gem-Encrusted Dagger',
+      ),
+      2867230547 => 
+      array (
+        'icon' => 4896,
+        'name' => 'Gem-Encrusted Scimitar',
+      ),
+      113866291 => 
+      array (
+        'icon' => 4901,
+        'name' => 'Gem-Encrusted Kopis',
+      ),
+      4139436912 => 
+      array (
+        'icon' => 4928,
+        'name' => 'Gem-Encrusted Pole-Arm',
+      ),
+      718751092 => 
+      array (
+        'icon' => 4920,
+        'name' => 'Gem-Encrusted Kukuri',
+      ),
+    ),
+  ),
   2513649144 => 
   array (
     'category' => 'Altar of Malice',
@@ -76339,6 +88791,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1179441839 => 
+  array (
+    'category' => 'Shattered Overture',
+    'name' => 'Zombie Bits',
+    'level' => 125,
+    'crc' => 1179441839,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1169946683 => 
+      array (
+        'icon' => 3404,
+        'name' => 'Torn Zombie Bit',
+      ),
+      3050586285 => 
+      array (
+        'icon' => 3406,
+        'name' => 'Ripped Zombie Bit',
+      ),
+      1618813253 => 
+      array (
+        'icon' => 3407,
+        'name' => 'Mangled Zombie Bit',
+      ),
+      3085494552 => 
+      array (
+        'icon' => 3409,
+        'name' => 'Burnt Zombie Bit',
+      ),
+      536924996 => 
+      array (
+        'icon' => 2817,
+        'name' => 'Severed Zombie Foot',
+      ),
+    ),
+  ),
   1071012734 => 
   array (
     'category' => 'Return to Guk',
@@ -76373,6 +88862,90 @@ $CollectionsData = array (
       array (
         'icon' => 711,
         'name' => 'Zraxth\'s Invocation of Blood',
+      ),
+    ),
+  ),
+  134287115 => 
+  array (
+    'category' => 'Darkpaw Rising',
+    'name' => 'Zygomyd Fetish',
+    'level' => 10,
+    'crc' => 134287115,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3112530315 => 
+      array (
+        'icon' => 5690,
+        'name' => 'Zygomyd Fetish of Sod',
+      ),
+      1021145520 => 
+      array (
+        'icon' => 5690,
+        'name' => 'Zygomyd Fetish of Loam',
+      ),
+      1317402564 => 
+      array (
+        'icon' => 5690,
+        'name' => 'Zygomyd Fetish of Muck',
+      ),
+      2551663323 => 
+      array (
+        'icon' => 5690,
+        'name' => 'Zygomyd Fetish of Marl',
+      ),
+      3508132216 => 
+      array (
+        'icon' => 5690,
+        'name' => 'Zygomyd Fetish of Loess',
+      ),
+      1735913724 => 
+      array (
+        'icon' => 5690,
+        'name' => 'Zygomyd Fetish of Bole',
+      ),
+    ),
+  ),
+  1958891880 => 
+  array (
+    'category' => 'Darkpaw Rising',
+    'name' => 'Zygomyd Gear',
+    'level' => 130,
+    'crc' => 1958891880,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3599636373 => 
+      array (
+        'icon' => 245,
+        'name' => 'Tanned Stalker Shoulder Guards',
+      ),
+      3106597838 => 
+      array (
+        'icon' => 120,
+        'name' => 'Painted Gnoll-Skin Leggings',
+      ),
+      2364592875 => 
+      array (
+        'icon' => 166,
+        'name' => 'Dirt-Clumped Tunic',
+      ),
+      1008856645 => 
+      array (
+        'icon' => 21,
+        'name' => 'Damp Wooden Shield',
+      ),
+      1949432189 => 
+      array (
+        'icon' => 5715,
+        'name' => 'Twisted Root Club',
+      ),
+      2268345539 => 
+      array (
+        'icon' => 5714,
+        'name' => 'Carved Stone Hammer',
       ),
     ),
   ),

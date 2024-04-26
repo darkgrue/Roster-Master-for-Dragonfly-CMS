@@ -194,7 +194,7 @@ function fetch_URL($url, $return_status = FALSE, $referer = NULL, $depth = 0) {
 		} else {
 			$csd = (int)curl_getinfo($ch, CURLINFO_SIZE_DOWNLOAD);
 			$cs = (int)strlen($content);
-			trigger_error(sprintf(_ERR_CURLINFO_SIZE_DOWNLOAD, formatBytes($csd), formatBytes($cs), (($csd != 0) ? ((1 - ($csd / $cs)) * 100) : 0)), E_USER_NOTICE);
+			trigger_error(sprintf(_ERR_CURLINFO_SIZE_DOWNLOAD, formatBytes($csd), formatBytes($cs), (($cs != 0) ? ((1 - ($csd / $cs)) * 100) : 0)), E_USER_NOTICE);
 
 			if ($return_status) {
 				$statuscode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
@@ -390,10 +390,10 @@ function parse_guild_JSON() {
 	$row['guildid'] = (int)$json['guild_list'][0]['guildid']; // usage?
 	$row['id'] = (int)$json['guild_list'][0]['id'];
 	// #### rank_list: Parse guild ranks.
-	$config['lookup_rank'] = array();
+	$config['lookup_grank'] = array();
 	if (!empty($json['guild_list'][0]['rank_list'])) {
-		foreach($json['guild_list'][0]['rank_list'] as $rank) {
-			$config['lookup_rank'][(int)$rank['id']] = (string)$rank['name'];
+		foreach($json['guild_list'][0]['rank_list'] as $grank) {
+			$config['lookup_grank'][(int)$grank['id']] = (string)$grank['name'];
 		}
 	}
 	// #### recruting: Not currently parsed.
@@ -576,7 +576,7 @@ function parse_character_JSON() {
 			//name
 			//level
 			$row['guild_joined'] = (int)$charobj['guild']['joined'];
-			$row['guild_rank'] = (int)$charobj['guild']['rank'];
+			$row['guild_rank'] = (int)$charobj['guild']['grank'];
 			//guildid
 			//id
 			// #### quests: Parse character quest data.
@@ -852,15 +852,15 @@ function update_data() {
 		// Calculate function duration in seconds.
 		$timer_pgs = get_microtime(TRUE) - $timer_pgs;
 
-		// Read current roster_master_guild_rank table contents and format into an array (added to $config['lookup_rank'] global).
+		// Read current roster_master_guild_rank table contents and format into an array (added to $config['lookup_grank'] global).
 		$result = $db->sql_query("SELECT * FROM {$prefix}_roster_master_guild_rank{$suffix}", FALSE);
-		$old_lookup_rank = array();
+		$old_lookup_grank = array();
 		while($row = $db->sql_fetchrow($result)) {
-			$old_lookup_rank[$row['rank']] = $row['name'];
-			if (!empty($config['lookup_rank'][$row['rank']]) && ($old_lookup_rank[$row['rank']] != $config['lookup_rank'][$row['rank']])) {
+			$old_lookup_grank[$row['grank']] = $row['name'];
+			if (!empty($config['lookup_grank'][$row['grank']]) && ($old_lookup_grank[$row['grank']] != $config['lookup_grank'][$row['grank']])) {
 
 				// Log field changes.
-				$error = sprintf(_LOG_ROSTERFIELDCHANGE, _GUILDRANK, $row['rank'], $old_lookup_rank[$row['rank']], $config['lookup_rank'][$row['rank']]);
+				$error = sprintf(_LOG_ROSTERFIELDCHANGE, _GUILDRANK, $row['grank'], $old_lookup_grank[$row['grank']], $config['lookup_grank'][$row['grank']]);
 //				trigger_error($error, E_USER_NOTICE);
 				$GLOBALS['log'][] = $error;
 			}
@@ -869,20 +869,20 @@ function update_data() {
 
 /*
 		cpg_error('<pre style="text-align:left">'
-			.'$old_lookup_rank = '.htmlspecialchars(print_r($old_lookup_rank, TRUE)).count($old_lookup_rank)." elements parsed.\n\n"
-			.'$config=[\'lookup_rank\'] = '.htmlspecialchars(print_r($config['lookup_rank'], TRUE)).count($config['lookup_rank'])." elements parsed.\n\n"
-			.(($old_lookup_rank != $config['lookup_rank']) ? 'IS NOT EQUAL' : 'IS EQUAL')
+			.'$old_lookup_grank = '.htmlspecialchars(print_r($old_lookup_grank, TRUE)).count($old_lookup_grank)." elements parsed.\n\n"
+			.'$config=[\'lookup_grank\'] = '.htmlspecialchars(print_r($config['lookup_grank'], TRUE)).count($config['lookup_grank'])." elements parsed.\n\n"
+			.(($old_lookup_grank != $config['lookup_grank']) ? 'IS NOT EQUAL' : 'IS EQUAL')
 			."</pre>\n");
 */
 		// Calculate function duration in seconds.
 		$timer_wgs = get_microtime(TRUE);
 
 		// Write changes to the local database if guild rank names have changed.
-		if ($old_lookup_rank != $config['lookup_rank']) {
+		if ($old_lookup_grank != $config['lookup_grank']) {
 			$db->sql_query("TRUNCATE TABLE {$prefix}_roster_master_guild_rank{$suffix}", FALSE);
-			foreach($config['lookup_rank'] as $rank => $name) {
-				$db->sql_query("INSERT INTO {$prefix}_roster_master_guild_rank{$suffix} (rank, name)
-					VALUES ('".intval($rank).'\',\''.Fix_Quotes($config['lookup_rank'][$rank], FALSE, TRUE).'\')', FALSE);
+			foreach($config['lookup_grank'] as $grank => $name) {
+				$db->sql_query("INSERT INTO {$prefix}_roster_master_guild_rank{$suffix} (grank, name)
+					VALUES ('".intval($grank).'\',\''.Fix_Quotes($config['lookup_grank'][$grank], FALSE, TRUE).'\')', FALSE);
 			}
 		}
 
@@ -890,7 +890,7 @@ function update_data() {
 		$duration_a_wgs = get_microtime(TRUE) - $timer_wgs;
 
 		// Free up array copies.
-		unset($old_lookup_rank);
+		unset($old_lookup_grank);
 
 		// Read the contents of the guild summary database.
 		$old_summary_data = read_summary_db();

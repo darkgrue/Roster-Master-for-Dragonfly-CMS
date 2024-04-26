@@ -98,15 +98,15 @@ function getsigimage($char_info) {
 	$char_info['FullName'] = $char_info['name_first'].((empty($char_info['name_last'])) ? '' : " {$char_info['name_last']}");
 	list($char_info['guild_name']) = $db->sql_ufetchrow("SELECT value FROM {$prefix}_roster_master_guild{$suffix} WHERE name='Guild Name'", SQL_NUM);
 	list($char_info['Server']) = $db->sql_ufetchrow("SELECT value FROM {$prefix}_roster_master_guild{$suffix} WHERE name='Server'", SQL_NUM);
-	if (empty($config['lookup_rank'])) {
+	if (empty($config['lookup_grank'])) {
 		$result = $db->sql_query("SELECT * FROM {$prefix}_roster_master_guild_rank{$suffix}", FALSE);
-		$config['lookup_rank'] = array();
+		$config['lookup_grank'] = array();
 		while($row = $db->sql_fetchrow($result)) {
-			$config['lookup_rank'][$row['rank']] = $row['name'];
+			$config['lookup_grank'][$row['grank']] = $row['name'];
 		}
 		$db->sql_freeresult($result);
 	}
-	$char_info['guild_rankname'] =  ((empty($config['lookup_rank'][$char_info['guild_rank']])) ? _UNKNOWN_RM : $config['lookup_rank'][$char_info['guild_rank']]);
+	$char_info['guild_rankname'] =  ((empty($config['lookup_grank'][$char_info['guild_rank']])) ? _UNKNOWN_RM : $config['lookup_grank'][$char_info['guild_rank']]);
 //	cpg_error('<pre style="text-align:left">'.print_r($char_info, TRUE)."</pre>\n");
 
 	// Select signature block image file.
@@ -116,7 +116,7 @@ function getsigimage($char_info) {
 	// Get block basename to place attributes off the end of.
 	switch (strtoupper($config['sigblock_type'])) {
 		case 'ARCH':
-			if ($archetype = MB::tolower(retkey_in_array($char_info['type_class'], $config['archetypes']))) {
+			if ($archetype = mb_strtolower(retkey_in_array($char_info['type_class'], $config['archetypes']))) {
 				if (in_array($char_info['guild_rank'], $config['officers']) && file_exists("modules/{$mod_dirname}/images/sigblocks/{$config['sigblock_basename']}_officer_".str_replace(' ', '_', $archetype).'.png')) {
 					$block_file = "modules/{$mod_dirname}/images/sigblocks/{$config['sigblock_basename']}_officer_".str_replace(' ', '_', $archetype).'.png';
 				} else if (file_exists("modules/{$mod_dirname}/images/sigblocks/{$config['sigblock_basename']}_".str_replace(' ', '_', $archetype).'.png')) {
@@ -125,7 +125,7 @@ function getsigimage($char_info) {
 			}
 			break;
 		case 'CLASS':
-			if ($class = MB::tolower($char_info['type_class'])) {
+			if ($class = mb_strtolower($char_info['type_class'])) {
 				if (in_array($char_info['guild_rank'], $config['officers']) && file_exists("modules/{$mod_dirname}/images/sigblocks/{$config['sigblock_basename']}_officer_".str_replace(' ', '_', $class).'.png')) {
 					$block_file = "modules/{$mod_dirname}/images/sigblocks/{$config['sigblock_basename']}_officer_".str_replace(' ', '_', $class).'.png';
 				} else if (file_exists("modules/{$mod_dirname}/images/sigblocks/{$config['sigblock_basename']}_".str_replace(' ', '_', $class).'.png')) {
@@ -259,7 +259,7 @@ function getsigimage($char_info) {
 
 			switch (strtoupper($matches[1])) {
 				case 'ARCH':
-					if ($archetype = MB::tolower(retkey_in_array($char_info['type_class'], $config['archetypes']))) {
+					if ($archetype = mb_strtolower(retkey_in_array($char_info['type_class'], $config['archetypes']))) {
 						if (in_array($char_info['guild_rank'], $config['officers']) && file_exists("modules/{$mod_dirname}/images/avatars/ranks/officer_".str_replace(' ', '_', $archetype).'.png')) {
 							$avatar_file = "modules/{$mod_dirname}/images/avatars/ranks/officer_".str_replace(' ', '_', $archetype).'.png';
 						} else if (file_exists("modules/{$mod_dirname}/images/avatars/archetypes/".str_replace(' ', '_', $archetype).'.png')) {
@@ -268,7 +268,7 @@ function getsigimage($char_info) {
 					}
 					break;
 				case 'CLASS':
-					if ($class = MB::tolower($char_info['type_class'])) {
+					if ($class = mb_strtolower($char_info['type_class'])) {
 						if (in_array($char_info['guild_rank'], $config['officers']) && file_exists("modules/{$mod_dirname}/images/avatars/ranks/officer_".str_replace(' ', '_', $class).'.png')) {
 							$avatar_file = "modules/{$mod_dirname}/images/avatars/ranks/officer_".str_replace(' ', '_', $class).'.png';
       						} else if (file_exists("modules/{$mod_dirname}/images/avatars/classes/".str_replace(' ', '_', $class).'.png')) {

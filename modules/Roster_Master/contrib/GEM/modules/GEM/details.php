@@ -230,7 +230,7 @@ function EventDetails($eid) {
 				$char_name = $row['name_first'];
 				$char_level = $row['type_level'];
 				$char_class = $row['type_class'];
-				$rank = $row['guild_rank'];
+				$grank = $row['guild_rank'];
 				$signupContent .= '<option value="'.$char_sel_id.'" >'.$char_name.' '._GEM_A_LEVEL.' '.$char_level.' '.$char_class.'</option>';
 			}
 		}
@@ -258,7 +258,7 @@ function EventDetails($eid) {
 					$char_name = $row['name_first'];
 					$char_level = $row['type_level'];
 					$char_class = $row['type_class'];
-					$rank = $row['guild_rank'];
+					$grank = $row['guild_rank'];
 					$removeContent .= '<option value="'.$char_sel_id.'" >'.$char_name.' '._GEM_A_LEVEL.' '.$char_level.' '.$char_class.'</option>';
 				}
 			}

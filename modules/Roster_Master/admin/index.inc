@@ -530,6 +530,10 @@ function diagnostics() {
 	echo '<tr><td>Check json_last_error_msg() function</td><td>'
 		.((!preg_match('/json_last_error_msg/', @ini_get('suhosin.executor.func.blacklist')) && function_exists('json_last_error_msg')) ? '<span style="color:green">OK</span>' : ((preg_match('/json_last_error_msg/', ini_get('disable_functions'))) ? '<b style="color:red">FAIL</b> - is disabled by configuration' : '<b style="color:red">FAIL</b> - does not exist'))
 		.'</td></tr>';
+	// Check image path is writable.
+	echo "<tr><td class=\"row2\">Items images directory (modules/{$mod_dirname}/images/items) is writable</td><td class=\"row2\">"
+		.((is_writable("modules/{$mod_dirname}/images/items")) ? '<span style="color:green">OK</span>' : '<b style="color:red">FAIL</b> - does not exist or unwritable')
+		.'</td></tr>';		
 	// ************* END ROSTER MASTER *************
 	echo '      </table>'
 		.'  <br />'

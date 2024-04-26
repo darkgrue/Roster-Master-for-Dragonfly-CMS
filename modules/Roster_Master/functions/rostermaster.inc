@@ -137,11 +137,11 @@ function read_summary_db() {
 
 	// Fetch guild ranks from the table.
 	$result = $db->sql_query("SELECT * FROM {$prefix}_roster_master_guild_rank{$suffix}", FALSE);
-	$config['lookup_rank'] = array();
-	// Put $config['lookup_rank'] into the global array.
+	$config['lookup_grank'] = array();
+	// Put $config['lookup_grank'] into the global array.
 	$row = array();
 	while($row = $db->sql_fetchrow($result)) {
-		$config['lookup_rank'][$row['rank']] = $row['name'];
+		$config['lookup_grank'][$row['grank']] = $row['name'];
 	}
 	$db->sql_freeresult($result);
 
@@ -577,7 +577,7 @@ function rostermaster() {
 			$currentfield = $char_info[$sort_options[$s1]['field']];
 			switch ($s1) {
 				case 'gr':
-					$groupheader = ((empty($config['lookup_rank'][$char_info['guild_rank']])) ? _UNKNOWN_RM : $config['lookup_rank'][$char_info['guild_rank']]);
+					$groupheader = ((empty($config['lookup_grank'][$char_info['guild_rank']])) ? _UNKNOWN_RM : $config['lookup_grank'][$char_info['guild_rank']]);
 					break;
 				default:
 					$groupheader = (($currentfield == '') ? _NONE : $currentfield);
@@ -601,7 +601,7 @@ function rostermaster() {
 				$is_officer = in_array($char_info['guild_rank'], $config['officers']);
 				switch (strtoupper($config['avatars'])) {
 					case 'ARCH':
-						if ($archetype = MB::tolower(retkey_in_array($char_info['type_class'], $config['archetypes']))) {
+						if ($archetype = mb_strtolower(retkey_in_array($char_info['type_class'], $config['archetypes']))) {
 							if ($is_officer && in_array("modules/{$mod_dirname}/images/avatars/archetypes/officer_{$archetype}.png", $avatarimages)) {
 								$avatar_file = "modules/{$mod_dirname}/images/avatars/archetypes/officer_{$archetype}.png";
 							} else if (in_array("modules/{$mod_dirname}/images/avatars/archetypes/{$archetype}.png", $avatarimages)) {
@@ -610,7 +610,7 @@ function rostermaster() {
 						}
 						break;
 					case 'CLASS':
-						$class = MB::tolower(str_replace(' ', '', $char_info['type_class']));
+						$class = mb_strtolower(str_replace(' ', '', $char_info['type_class']));
 						if ($is_officer && in_array("modules/{$mod_dirname}/images/avatars/classes/officer_{$class}.png", $avatarimages)) {
 							$avatar_file = "modules/{$mod_dirname}/images/avatars/classes/officer_{$class}.png";
 						} else if (in_array("modules/{$mod_dirname}/images/avatars/classes/{$class}.png", $avatarimages)) {
@@ -673,10 +673,10 @@ function rostermaster() {
 			'S_COLLECTIONS_TITLE' => _TRACKERCOLLECT,
 			'U_EDIT_CLAIM' => ((isset($char_info['user_id']) && ($char_info['user_id'] == $userinfo['user_id'])) ? getlink("{$baselink}&rm=rm_edit_claim&characterId={$char_info['characterId']}") : ''),
 			'U_EDIT_CLAIM_IMG' => "modules/{$mod_dirname}/images/icon_edit.png",
-			'U_CLASS_IMG' => ((in_array("modules/{$mod_dirname}/images/roster/classes/".MB::tolower($char_info['type_class']).'.png', $classesimages)) ? "modules/{$mod_dirname}/images/roster/classes/".MB::tolower(str_replace(' ', '', $char_info['type_class'])).'.png' : "modules/{$mod_dirname}/images/roster/classes/unknown.png"),
-			'U_RACE_IMG' => ((in_array("modules/{$mod_dirname}/images/roster/races/".MB::tolower(str_replace(' ', '', $char_info['type_race'])."-{$char_info['type_gender']}").'.png', $racesimages)) ? "modules/{$mod_dirname}/images/roster/races/".MB::tolower(str_replace(' ', '', "{$char_info['type_race']}-{$char_info['type_gender']}")).'.png' : "modules/{$mod_dirname}/images/roster/races/unknown.png"),
+			'U_CLASS_IMG' => ((in_array("modules/{$mod_dirname}/images/roster/classes/".mb_strtolower($char_info['type_class']).'.png', $classesimages)) ? "modules/{$mod_dirname}/images/roster/classes/".mb_strtolower(str_replace(' ', '', $char_info['type_class'])).'.png' : "modules/{$mod_dirname}/images/roster/classes/unknown.png"),
+			'U_RACE_IMG' => ((in_array("modules/{$mod_dirname}/images/roster/races/".mb_strtolower(str_replace(' ', '', $char_info['type_race'])."-{$char_info['type_gender']}").'.png', $racesimages)) ? "modules/{$mod_dirname}/images/roster/races/".mb_strtolower(str_replace(' ', '', "{$char_info['type_race']}-{$char_info['type_gender']}")).'.png' : "modules/{$mod_dirname}/images/roster/races/unknown.png"),
 			'U_RANK_IMG' => ((in_array("modules/{$mod_dirname}/images/roster/ranks/"."rank-{$char_info['guild_rank']}.png", $ranksimages)) ? "modules/{$mod_dirname}/images/roster/ranks/rank-{$char_info['guild_rank']}.png" : "modules/{$mod_dirname}/images/roster/ranks/unknown.png"),
-			'U_TRADESKILL_IMG' => ((in_array("modules/{$mod_dirname}/images/roster/tradeskills/".MB::tolower($char_info['tradeskill_class']).'.png', $tradeskillsimages)) ? "modules/{$mod_dirname}/images/roster/tradeskills/".MB::tolower($char_info['tradeskill_class']).'.png' : "modules/{$mod_dirname}/images/roster/tradeskills/unknown.png"),
+			'U_TRADESKILL_IMG' => ((in_array("modules/{$mod_dirname}/images/roster/tradeskills/".mb_strtolower($char_info['tradeskill_class']).'.png', $tradeskillsimages)) ? "modules/{$mod_dirname}/images/roster/tradeskills/".mb_strtolower($char_info['tradeskill_class']).'.png' : "modules/{$mod_dirname}/images/roster/tradeskills/unknown.png"),
 			'S_ALTLIST' => $alts,
 			// character collection
 			'S_CHAR_PLAYEDTIME' => ((empty($char_info['playedtime'])) ? _UNKNOWN_RM : format_time_duration($char_info['playedtime'])),
@@ -746,7 +746,7 @@ function rostermaster() {
 			'S_CHAR_GUILD_STATUS' => number_format($char_info['guild_status']),
 			'S_CHAR_GUILD_JOINED' => ((empty($char_info['guild_joined'])) ? _UNKNOWN_RM : formatDateTime($char_info['guild_joined'], "%a, %d %b %Y %H:%M:%S")),
 			'S_CHAR_GUILD_RANK' => intval($char_info['guild_rank']),
-			'S_GUILD_RANKNAME' => ((empty($config['lookup_rank'][$char_info['guild_rank']])) ? _UNKNOWN_RM : $config['lookup_rank'][$char_info['guild_rank']]),
+			'S_GUILD_RANKNAME' => ((empty($config['lookup_grank'][$char_info['guild_rank']])) ? _UNKNOWN_RM : $config['lookup_grank'][$char_info['guild_rank']]),
 			// name		
 			'S_CHAR_NAME_SUFFIX' => htmlspecialchars($char_info['name_suffix']),
 			'S_CHAR_NAME_PREFIX' => htmlspecialchars($char_info['name_prefix']),

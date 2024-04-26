@@ -56,15 +56,15 @@ if (preg_match("/^{$mod_basename}(?:_(\d+))?$/", $mod_dirname, $matches)) {
 
 
 eval("class $mod_dirname {
-	var \$description;
 	var \$radmin;
-	var \$modname;
 	var \$version;
+	var \$modname;
+	var \$description;
 	var \$author;
 	var \$website;
 	var \$dbtables;
 
-	function $mod_dirname() {
+	function __construct() {
 		\$this->radmin = true;
 		\$this->version = '9.1.1';
 		\$this->modname = 'Roster Master';
@@ -163,8 +163,8 @@ eval("class $mod_dirname {
 			value VARCHAR(255) NOT NULL\", 'roster_master_guild{$suffix}');
 
 		\$installer->add_query('CREATE', 'roster_master_guild_rank{$suffix}', \"
-			rank SMALLINT UNIQUE NOT NULL,
-			name VARCHAR(255) NOT NULL\", 'roster_master_guild_rank{$suffix}');
+			grank SMALLINT NOT NULL,
+			name VARCHAR(255)\", 'roster_master_guild_rank{$suffix}');
 
 		\$installer->add_query('CREATE', 'roster_master_users{$suffix}', \"
 			characterId BIGINT NOT NULL,
@@ -194,14 +194,21 @@ eval("class $mod_dirname {
 	}
 
 	function uninstall() {
-		global \$installer, \$db, \$prefix;
+		global \$db, \$prefix;
 
-		foreach(\$this->dbtables as \$table) {
+		foreach(array(
+			'roster_master{$suffix}',
+			'roster_master_guild{$suffix}',
+			'roster_master_guild_rank{$suffix}',
+			'roster_master_users{$suffix}',
+			'roster_master_collection_status{$suffix}',
+			'roster_master_quest_status{$suffix}') as \$table) {
 			\$db->sql_query(\"DROP TABLE IF EXISTS {\$prefix}_{\$table}\", FALSE);
 		}
 
 		return TRUE;
 	}
+
 
 	function upgrade(\$prev_version) {
 		global \$installer, \$db, \$prefix;
@@ -219,7 +226,7 @@ eval("class $mod_dirname {
 		if (version_compare(\$prev_version, '8.0.0', '<')) {
 			\$db->sql_query(\"TRUNCATE TABLE {\$prefix}_roster_master_guild{$suffix}\", FALSE);
 			\$db->sql_query(\"CREATE TABLE {\$prefix}_roster_master_guild_rank{$suffix} (
-				rank SMALLINT UNIQUE NOT NULL,
+				grank SMALLINT UNIQUE NOT NULL,
 				name VARCHAR(255) NOT NULL
 				)\", FALSE);
 		}
