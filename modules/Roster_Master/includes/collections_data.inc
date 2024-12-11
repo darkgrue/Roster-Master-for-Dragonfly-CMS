@@ -33,7 +33,7 @@
 if (!defined('CPG_NUKE')) { exit; }
 
 
-// 2055 elements parsed.
+// 2078 elements parsed.
 
 $CollectionsData = array (
   209952092 => 
@@ -2049,6 +2049,48 @@ $CollectionsData = array (
       array (
         'icon' => 3772,
         'name' => 'After The Shifting - Shard 6',
+      ),
+    ),
+  ),
+  4208600794 => 
+  array (
+    'category' => 'Immeasurable Menagerie',
+    'name' => 'Aftereffects',
+    'level' => 130,
+    'crc' => 4208600794,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4268121684 => 
+      array (
+        'icon' => 4430,
+        'name' => 'Sickly Aftereffect',
+      ),
+      4107969890 => 
+      array (
+        'icon' => 4433,
+        'name' => 'Dizzying Aftereffect',
+      ),
+      2436156051 => 
+      array (
+        'icon' => 4431,
+        'name' => 'Glowing Aftereffect ',
+      ),
+      1027623374 => 
+      array (
+        'icon' => 4434,
+        'name' => 'Painful Aftereffect',
+      ),
+      1722187951 => 
+      array (
+        'icon' => 4432,
+        'name' => 'Warming Aftereffect',
+      ),
+      1155163856 => 
+      array (
+        'icon' => 4429,
+        'name' => 'Shivering Aftereffect',
       ),
     ),
   ),
@@ -8477,6 +8519,58 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3245449898 => 
+  array (
+    'category' => 'Hot Zones',
+    'name' => 'Blaze of Glory',
+    'level' => 130,
+    'crc' => 3245449898,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3659292973 => 
+      array (
+        'icon' => 5686,
+        'name' => 'Ring of Fire',
+      ),
+      4025431485 => 
+      array (
+        'icon' => 5695,
+        'name' => 'Great Ball of Fire',
+      ),
+      482198460 => 
+      array (
+        'icon' => 5189,
+        'name' => 'Wheel of Fire',
+      ),
+      3321885791 => 
+      array (
+        'icon' => 5866,
+        'name' => 'Firework',
+      ),
+      2974736792 => 
+      array (
+        'icon' => 4831,
+        'name' => 'Burning Female Figurine',
+      ),
+      3976509946 => 
+      array (
+        'icon' => 5531,
+        'name' => 'Flaming Ethereal Effigy',
+      ),
+      261998696 => 
+      array (
+        'icon' => 5865,
+        'name' => 'Unclaimed Fire Starter',
+      ),
+      1391315200 => 
+      array (
+        'icon' => 5773,
+        'name' => 'Dwelling Ashes',
+      ),
+    ),
+  ),
   34396 => 
   array (
     'category' => 'Shadow Odyssey',
@@ -14027,6 +14121,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2227246267 => 
+  array (
+    'category' => 'Immeasurable Menagerie',
+    'name' => 'Cognizance',
+    'level' => 130,
+    'crc' => 2227246267,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2255139956 => 
+      array (
+        'icon' => 5696,
+        'name' => 'Cognizance of Peril',
+      ),
+      2534760377 => 
+      array (
+        'icon' => 5696,
+        'name' => 'Cognizance of Familiarity',
+      ),
+      304272300 => 
+      array (
+        'icon' => 5696,
+        'name' => 'Cognizance of Information',
+      ),
+      664674433 => 
+      array (
+        'icon' => 5696,
+        'name' => 'Cognizance of Fear',
+      ),
+      2475380135 => 
+      array (
+        'icon' => 5696,
+        'name' => 'Cognizance of Doom',
+      ),
+      2096669371 => 
+      array (
+        'icon' => 5696,
+        'name' => 'Cognizance of Joy',
+      ),
+    ),
+  ),
   3933050613 => 
   array (
     'category' => 'Chains of Eternity',
@@ -14742,6 +14878,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1873537840 => 
+  array (
+    'category' => 'Immeasurable Menagerie',
+    'name' => 'Consciousness',
+    'level' => 130,
+    'crc' => 1873537840,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4278437296 => 
+      array (
+        'icon' => 5695,
+        'name' => 'Consciousness of Hopes',
+      ),
+      3545318152 => 
+      array (
+        'icon' => 5695,
+        'name' => 'Consciousness of Discern',
+      ),
+      703969913 => 
+      array (
+        'icon' => 5695,
+        'name' => 'Consciousness of Scrutiny',
+      ),
+      819439676 => 
+      array (
+        'icon' => 5695,
+        'name' => 'Consciousness of Being',
+      ),
+      2742509260 => 
+      array (
+        'icon' => 5695,
+        'name' => 'Consciousness of Bearing',
+      ),
+      4183726341 => 
+      array (
+        'icon' => 5695,
+        'name' => 'Consciousness of Self',
+      ),
+    ),
+  ),
   4099058736 => 
   array (
     'category' => 'Tears of Veeshan',
@@ -15046,6 +15224,48 @@ $CollectionsData = array (
       array (
         'icon' => 5442,
         'name' => 'Private White',
+      ),
+    ),
+  ),
+  661137070 => 
+  array (
+    'category' => 'Immeasurable Menagerie',
+    'name' => 'Corollary',
+    'level' => 130,
+    'crc' => 661137070,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3318420036 => 
+      array (
+        'icon' => 5943,
+        'name' => 'Fateful Corollary',
+      ),
+      135637053 => 
+      array (
+        'icon' => 5943,
+        'name' => 'Uncomfortable Corollary',
+      ),
+      4251484558 => 
+      array (
+        'icon' => 5943,
+        'name' => 'Deathly Corollary',
+      ),
+      495393141 => 
+      array (
+        'icon' => 5943,
+        'name' => 'Fetid Corollary',
+      ),
+      496633813 => 
+      array (
+        'icon' => 5943,
+        'name' => 'Magical Corollary',
+      ),
+      2378753999 => 
+      array (
+        'icon' => 5943,
+        'name' => 'Innate Corollary',
       ),
     ),
   ),
@@ -16452,6 +16672,48 @@ $CollectionsData = array (
       array (
         'icon' => 1182,
         'name' => 'Hematite',
+      ),
+    ),
+  ),
+  2034649169 => 
+  array (
+    'category' => 'Immeasurable Menagerie',
+    'name' => 'Culminations',
+    'level' => 130,
+    'crc' => 2034649169,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2335193968 => 
+      array (
+        'icon' => 5942,
+        'name' => 'Culmination of Power',
+      ),
+      3916174937 => 
+      array (
+        'icon' => 5942,
+        'name' => 'Culmination of Potential',
+      ),
+      1138451464 => 
+      array (
+        'icon' => 5942,
+        'name' => 'Culmination of Influence',
+      ),
+      3728296114 => 
+      array (
+        'icon' => 5942,
+        'name' => 'Culmination of Excess',
+      ),
+      2919905579 => 
+      array (
+        'icon' => 5942,
+        'name' => 'Culmination of Amity',
+      ),
+      2665729596 => 
+      array (
+        'icon' => 5942,
+        'name' => 'Culmination of Thirst',
       ),
     ),
   ),
@@ -22945,6 +23207,53 @@ $CollectionsData = array (
       array (
         'icon' => 347,
         'name' => 'Crackling Residue',
+      ),
+    ),
+  ),
+  2657902036 => 
+  array (
+    'category' => 'Immeasurable Menagerie',
+    'name' => 'Emanations',
+    'level' => 130,
+    'crc' => 2657902036,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1277187315 => 
+      array (
+        'icon' => 5887,
+        'name' => 'Emanation of Sanguine Gas',
+      ),
+      1838613164 => 
+      array (
+        'icon' => 5889,
+        'name' => 'Emanation of Cerulean Gas',
+      ),
+      2943748071 => 
+      array (
+        'icon' => 5891,
+        'name' => 'Emanation of Beryl Gas',
+      ),
+      3326644122 => 
+      array (
+        'icon' => 5890,
+        'name' => 'Emanation of Coral Gas',
+      ),
+      269301648 => 
+      array (
+        'icon' => 5888,
+        'name' => 'Emanation of Tawny Gas',
+      ),
+      2298763098 => 
+      array (
+        'icon' => 5888,
+        'name' => 'Emanation of Amber Gas',
+      ),
+      29168676 => 
+      array (
+        'icon' => 5892,
+        'name' => 'Emanation of Darkened Gas',
       ),
     ),
   ),
@@ -33612,7 +33921,7 @@ $CollectionsData = array (
       3456437292 => 
       array (
         'icon' => 5945,
-        'name' => 'Incandescebt Slug',
+        'name' => 'Incandescent Slug',
       ),
       2246682156 => 
       array (
@@ -38906,6 +39215,90 @@ $CollectionsData = array (
       array (
         'icon' => 99,
         'name' => 'Orc tail',
+      ),
+    ),
+  ),
+  2448124554 => 
+  array (
+    'category' => 'Immeasurable Menagerie',
+    'name' => 'Impressions',
+    'level' => 130,
+    'crc' => 2448124554,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3946390515 => 
+      array (
+        'icon' => 5694,
+        'name' => 'Violent Impression',
+      ),
+      3724128061 => 
+      array (
+        'icon' => 5694,
+        'name' => 'Painful Impression',
+      ),
+      318299067 => 
+      array (
+        'icon' => 5694,
+        'name' => 'Sorrowful Impression',
+      ),
+      643596932 => 
+      array (
+        'icon' => 5694,
+        'name' => 'Joyful Impression',
+      ),
+      643536107 => 
+      array (
+        'icon' => 5694,
+        'name' => 'Rageful Impression',
+      ),
+      2431167900 => 
+      array (
+        'icon' => 5694,
+        'name' => 'Conscience Impression',
+      ),
+    ),
+  ),
+  1772456788 => 
+  array (
+    'category' => 'Immeasurable Menagerie',
+    'name' => 'Imprints',
+    'level' => 130,
+    'crc' => 1772456788,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1317346568 => 
+      array (
+        'icon' => 5935,
+        'name' => 'Torsis Imprint',
+      ),
+      2236975136 => 
+      array (
+        'icon' => 5935,
+        'name' => 'Pickclaw Imprint',
+      ),
+      99885877 => 
+      array (
+        'icon' => 5935,
+        'name' => 'Ssraeshzian Imprint',
+      ),
+      3045437218 => 
+      array (
+        'icon' => 5935,
+        'name' => 'Brokenskull Imprint',
+      ),
+      3359290568 => 
+      array (
+        'icon' => 5935,
+        'name' => 'Urzurach Imprint',
+      ),
+      1276243337 => 
+      array (
+        'icon' => 5935,
+        'name' => 'Aberrant Imprint',
       ),
     ),
   ),
@@ -48403,6 +48796,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1784641291 => 
+  array (
+    'category' => 'Immeasurable Menagerie',
+    'name' => 'Mnemonics',
+    'level' => 130,
+    'crc' => 1784641291,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      756935985 => 
+      array (
+        'icon' => 5697,
+        'name' => 'Mnemonic of Spark',
+      ),
+      3866384219 => 
+      array (
+        'icon' => 5697,
+        'name' => 'Mnemonic of Might',
+      ),
+      1862884493 => 
+      array (
+        'icon' => 5697,
+        'name' => 'Mnemonic of Summoning',
+      ),
+      3050219878 => 
+      array (
+        'icon' => 5697,
+        'name' => 'Mnemonic of Healing',
+      ),
+      3757503703 => 
+      array (
+        'icon' => 5697,
+        'name' => 'Mnemonic of Barbs',
+      ),
+      3400011871 => 
+      array (
+        'icon' => 5697,
+        'name' => 'Mnemonics of Pace',
+      ),
+    ),
+  ),
   2722924303 => 
   array (
     'category' => 'Darkpaw Rising',
@@ -56398,6 +56833,53 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1628213330 => 
+  array (
+    'category' => 'Immeasurable Menagerie',
+    'name' => 'Prestidigitation',
+    'level' => 130,
+    'crc' => 1628213330,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3206019859 => 
+      array (
+        'icon' => 5697,
+        'name' => 'Prestidigitation of Sound',
+      ),
+      3328208457 => 
+      array (
+        'icon' => 5697,
+        'name' => 'Prestidigitation of Thought',
+      ),
+      895761302 => 
+      array (
+        'icon' => 5745,
+        'name' => 'Prestidigitation of Feeling',
+      ),
+      3960682807 => 
+      array (
+        'icon' => 5695,
+        'name' => 'Prestidigitation of Power',
+      ),
+      3200760267 => 
+      array (
+        'icon' => 5695,
+        'name' => 'Prestidigitation of Ire',
+      ),
+      3350704159 => 
+      array (
+        'icon' => 5694,
+        'name' => 'Prestidigitation of Glee',
+      ),
+      1877568223 => 
+      array (
+        'icon' => 5694,
+        'name' => 'Prestidigitation of Locus',
+      ),
+    ),
+  ),
   567415259 => 
   array (
     'category' => 'Planes of Prophecy',
@@ -57866,6 +58348,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1885104836 => 
+  array (
+    'category' => 'Immeasurable Menagerie',
+    'name' => 'Recollections Meta',
+    'level' => 130,
+    'crc' => 1885104836,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      436682587 => 
+      array (
+        'icon' => 5941,
+        'name' => 'Fearful Recollection',
+      ),
+      1773435006 => 
+      array (
+        'icon' => 5941,
+        'name' => 'Doleful Recollection',
+      ),
+      117386465 => 
+      array (
+        'icon' => 5941,
+        'name' => 'Confused Recollection',
+      ),
+      1039822201 => 
+      array (
+        'icon' => 5941,
+        'name' => 'False Recollection',
+      ),
+      3365031218 => 
+      array (
+        'icon' => 5941,
+        'name' => 'Anxious Recollection',
+      ),
+    ),
+  ),
   1963170717 => 
   array (
     'category' => 'Blood of Luclin',
@@ -57900,6 +58419,48 @@ $CollectionsData = array (
       array (
         'icon' => 2719,
         'name' => 'Recuso Wand',
+      ),
+    ),
+  ),
+  1067328384 => 
+  array (
+    'category' => 'Immeasurable Menagerie',
+    'name' => 'Redolents',
+    'level' => 130,
+    'crc' => 1067328384,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      242894821 => 
+      array (
+        'icon' => 5882,
+        'name' => 'Acrid Redolent',
+      ),
+      2821481524 => 
+      array (
+        'icon' => 5886,
+        'name' => 'Sweet Redolent',
+      ),
+      847424051 => 
+      array (
+        'icon' => 5885,
+        'name' => 'Biting Redolent',
+      ),
+      319480057 => 
+      array (
+        'icon' => 5883,
+        'name' => 'Caustic Redolent',
+      ),
+      1300738350 => 
+      array (
+        'icon' => 5884,
+        'name' => 'Vitriolic Redolent',
+      ),
+      1476247243 => 
+      array (
+        'icon' => 5885,
+        'name' => 'Burning Redolent',
       ),
     ),
   ),
@@ -58998,6 +59559,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2759306087 => 
+  array (
+    'category' => 'Immeasurable Menagerie',
+    'name' => 'Remnants',
+    'level' => 130,
+    'crc' => 2759306087,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1295909508 => 
+      array (
+        'icon' => 5745,
+        'name' => 'Remnants of Shadow',
+      ),
+      1301794986 => 
+      array (
+        'icon' => 5745,
+        'name' => 'Remnants of Undeath',
+      ),
+      1823880457 => 
+      array (
+        'icon' => 5745,
+        'name' => 'Remnants of Shade',
+      ),
+      3848294648 => 
+      array (
+        'icon' => 5745,
+        'name' => 'Remnants of Deception',
+      ),
+      4100702257 => 
+      array (
+        'icon' => 5745,
+        'name' => 'Remnants of Knowledge',
+      ),
+      4144482597 => 
+      array (
+        'icon' => 5745,
+        'name' => 'Remnants of Time',
+      ),
+    ),
+  ),
   278212723 => 
   array (
     'category' => 'Terrors of Thalumbra',
@@ -59690,6 +60293,174 @@ $CollectionsData = array (
       array (
         'icon' => 2341,
         'name' => 'Magical Containment Spell',
+      ),
+    ),
+  ),
+  2832548886 => 
+  array (
+    'category' => 'Immeasurable Menagerie',
+    'name' => 'Residuals',
+    'level' => 130,
+    'crc' => 2832548886,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4090108582 => 
+      array (
+        'icon' => 5686,
+        'name' => 'Residual Energy',
+      ),
+      1399929928 => 
+      array (
+        'icon' => 5686,
+        'name' => 'Residual Spirit',
+      ),
+      1668312891 => 
+      array (
+        'icon' => 5686,
+        'name' => 'Residual Potential',
+      ),
+      3348592083 => 
+      array (
+        'icon' => 5686,
+        'name' => 'Residual Potency',
+      ),
+      684262423 => 
+      array (
+        'icon' => 5686,
+        'name' => 'Residual Force',
+      ),
+      3064426001 => 
+      array (
+        'icon' => 5686,
+        'name' => 'Residual Magic',
+      ),
+    ),
+  ),
+  1543473967 => 
+  array (
+    'category' => 'Immeasurable Menagerie',
+    'name' => 'Residues',
+    'level' => 130,
+    'crc' => 1543473967,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1639448836 => 
+      array (
+        'icon' => 5735,
+        'name' => 'Residue of Scale',
+      ),
+      48107253 => 
+      array (
+        'icon' => 5735,
+        'name' => 'Residue of Claw',
+      ),
+      3422927438 => 
+      array (
+        'icon' => 5735,
+        'name' => 'Residue of Bone',
+      ),
+      624546655 => 
+      array (
+        'icon' => 5735,
+        'name' => 'Residue of Flesh',
+      ),
+      656567388 => 
+      array (
+        'icon' => 5735,
+        'name' => 'Residue of Sinew',
+      ),
+      613037709 => 
+      array (
+        'icon' => 5735,
+        'name' => 'Residue of Marrow',
+      ),
+    ),
+  ),
+  3945964573 => 
+  array (
+    'category' => 'Immeasurable Menagerie',
+    'name' => 'Residuum',
+    'level' => 130,
+    'crc' => 3945964573,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      779211284 => 
+      array (
+        'icon' => 431,
+        'name' => 'Residuum of Scarlet Dust',
+      ),
+      919072936 => 
+      array (
+        'icon' => 424,
+        'name' => 'Residuum of Cobalt Dust',
+      ),
+      3559272316 => 
+      array (
+        'icon' => 429,
+        'name' => 'Residuum of Verdant Dust',
+      ),
+      1721581259 => 
+      array (
+        'icon' => 428,
+        'name' => 'Residuum of Amethyst Dust',
+      ),
+      182533755 => 
+      array (
+        'icon' => 422,
+        'name' => 'Residuum of Saffron Dust',
+      ),
+      1940992468 => 
+      array (
+        'icon' => 421,
+        'name' => 'Residuum of Titian Dust',
+      ),
+    ),
+  ),
+  2568123440 => 
+  array (
+    'category' => 'Immeasurable Menagerie',
+    'name' => 'Resonance',
+    'level' => 130,
+    'crc' => 2568123440,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2149746553 => 
+      array (
+        'icon' => 4966,
+        'name' => 'Fluttering Resonance',
+      ),
+      3425073085 => 
+      array (
+        'icon' => 4966,
+        'name' => 'Reverberating Resonance',
+      ),
+      101502485 => 
+      array (
+        'icon' => 4960,
+        'name' => 'Disorienting Resonance',
+      ),
+      4020337333 => 
+      array (
+        'icon' => 4960,
+        'name' => 'Perplexing Resonance',
+      ),
+      3801519196 => 
+      array (
+        'icon' => 4967,
+        'name' => 'Unfamiliar Resonance',
+      ),
+      952097424 => 
+      array (
+        'icon' => 4961,
+        'name' => 'Recognizable Resonance',
       ),
     ),
   ),
@@ -62646,6 +63417,68 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3255596202 => 
+  array (
+    'category' => 'Heroes\' Festival',
+    'name' => 'Samples of Fate',
+    'level' => 20,
+    'crc' => 3255596202,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3037345602 => 
+      array (
+        'icon' => 2994,
+        'name' => 'Sigil of The Fell Blade',
+      ),
+      738420472 => 
+      array (
+        'icon' => 2240,
+        'name' => 'Carved Queen Martah Figurine',
+      ),
+      1527010926 => 
+      array (
+        'icon' => 5935,
+        'name' => 'Frozen Mirror Shard',
+      ),
+      3311453133 => 
+      array (
+        'icon' => 2814,
+        'name' => 'Scarred Wurm Scale',
+      ),
+      2993156955 => 
+      array (
+        'icon' => 5729,
+        'name' => 'Ichor-Veined Tusk',
+      ),
+      728670945 => 
+      array (
+        'icon' => 5939,
+        'name' => 'Alivan Promissory Note',
+      ),
+      1550422647 => 
+      array (
+        'icon' => 2937,
+        'name' => 'Polished Fearcreep Agate',
+      ),
+      3436613606 => 
+      array (
+        'icon' => 4939,
+        'name' => 'Silver Lujien Coin',
+      ),
+      3151085424 => 
+      array (
+        'icon' => 2782,
+        'name' => 'Falinpol Icon',
+      ),
+      3675666069 => 
+      array (
+        'icon' => 5728,
+        'name' => 'Broken Aerakyn Horn',
+      ),
+    ),
+  ),
   4068315622 => 
   array (
     'category' => 'Terrors of Thalumbra',
@@ -65481,6 +66314,48 @@ $CollectionsData = array (
       array (
         'icon' => 2938,
         'name' => 'worn sentry shard',
+      ),
+    ),
+  ),
+  3506563905 => 
+  array (
+    'category' => 'Immeasurable Menagerie',
+    'name' => 'Sequence',
+    'level' => 130,
+    'crc' => 3506563905,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1407009512 => 
+      array (
+        'icon' => 5939,
+        'name' => 'Sequence of Events',
+      ),
+      3237360506 => 
+      array (
+        'icon' => 5939,
+        'name' => 'Sequence of Stones',
+      ),
+      1181980464 => 
+      array (
+        'icon' => 5939,
+        'name' => 'Sequence of Song',
+      ),
+      3213063618 => 
+      array (
+        'icon' => 5939,
+        'name' => 'Sequence of Clues',
+      ),
+      977933455 => 
+      array (
+        'icon' => 5939,
+        'name' => 'Sequence of Series',
+      ),
+      526710964 => 
+      array (
+        'icon' => 5939,
+        'name' => 'Sequence of Books',
       ),
     ),
   ),
@@ -69103,6 +69978,48 @@ $CollectionsData = array (
       array (
         'icon' => 2516,
         'name' => 'Nebula Spore',
+      ),
+    ),
+  ),
+  4270369518 => 
+  array (
+    'category' => 'Immeasurable Menagerie',
+    'name' => 'Sonance',
+    'level' => 130,
+    'crc' => 4270369518,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3347931509 => 
+      array (
+        'icon' => 5924,
+        'name' => 'Piercing Sonance',
+      ),
+      3313846203 => 
+      array (
+        'icon' => 5924,
+        'name' => 'Serene Sonance',
+      ),
+      1699271610 => 
+      array (
+        'icon' => 5924,
+        'name' => 'Luring Sonance',
+      ),
+      3102555653 => 
+      array (
+        'icon' => 5924,
+        'name' => 'Familiar Sonance',
+      ),
+      1050564337 => 
+      array (
+        'icon' => 5924,
+        'name' => 'Unsteady Sonance',
+      ),
+      500526304 => 
+      array (
+        'icon' => 5924,
+        'name' => 'Magnetic Sonance',
       ),
     ),
   ),
@@ -80256,6 +81173,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2459983720 => 
+  array (
+    'category' => 'Immeasurable Menagerie',
+    'name' => 'Traces',
+    'level' => 130,
+    'crc' => 2459983720,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2280982241 => 
+      array (
+        'icon' => 5893,
+        'name' => 'Traces of Mist',
+      ),
+      593465427 => 
+      array (
+        'icon' => 5893,
+        'name' => 'Traces of Fire',
+      ),
+      583424085 => 
+      array (
+        'icon' => 5893,
+        'name' => 'Traces of Magic',
+      ),
+      2496754884 => 
+      array (
+        'icon' => 5893,
+        'name' => 'Traces of Blood',
+      ),
+      3431425109 => 
+      array (
+        'icon' => 5893,
+        'name' => 'Traces of Death',
+      ),
+      770595942 => 
+      array (
+        'icon' => 5893,
+        'name' => 'Traces of Darkness',
+      ),
+    ),
+  ),
   2868235579 => 
   array (
     'category' => 'Blood of Luclin',
@@ -86568,6 +87527,58 @@ $CollectionsData = array (
       array (
         'icon' => 650,
         'name' => 'Wine Vat',
+      ),
+    ),
+  ),
+  1647496634 => 
+  array (
+    'category' => 'Frostfell',
+    'name' => 'Wintry Guardian Devotionals',
+    'level' => 20,
+    'crc' => 1647496634,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2949267814 => 
+      array (
+        'icon' => 1359,
+        'name' => 'Icy Trident Icon',
+      ),
+      918753500 => 
+      array (
+        'icon' => 575,
+        'name' => 'Velium Prayer Beads',
+      ),
+      1103372362 => 
+      array (
+        'icon' => 2293,
+        'name' => 'Everfrost Silver Censer',
+      ),
+      3751851497 => 
+      array (
+        'icon' => 962,
+        'name' => 'Opal Wintry Guardian Brooch',
+      ),
+      2829550975 => 
+      array (
+        'icon' => 1058,
+        'name' => 'Icy Figurine of E\'ci',
+      ),
+      833541317 => 
+      array (
+        'icon' => 1358,
+        'name' => 'Silver Trident Icon',
+      ),
+      1185539155 => 
+      array (
+        'icon' => 944,
+        'name' => 'Velium Chalice of the Wintry Guardian',
+      ),
+      3591829954 => 
+      array (
+        'icon' => 5702,
+        'name' => 'Silver Handled Dagger of Ice',
       ),
     ),
   ),
