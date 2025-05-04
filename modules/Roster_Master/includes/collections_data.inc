@@ -33,7 +33,7 @@
 if (!defined('CPG_NUKE')) { exit; }
 
 
-// 2078 elements parsed.
+// 2162 elements parsed.
 
 $CollectionsData = array (
   209952092 => 
@@ -1728,6 +1728,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1584041974 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Accursed Dragon Bones',
+    'level' => 130,
+    'crc' => 1584041974,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      583908837 => 
+      array (
+        'icon' => 2530,
+        'name' => 'Cursed Bone of the Eternal Wraith',
+      ),
+      1785690919 => 
+      array (
+        'icon' => 2530,
+        'name' => 'Cursed Bone of the Forsaken King',
+      ),
+      3244223400 => 
+      array (
+        'icon' => 2530,
+        'name' => 'Cursed Bone of the Devouring Void',
+      ),
+      1513942904 => 
+      array (
+        'icon' => 2530,
+        'name' => 'Cursed Bone of the Unyielding Torment',
+      ),
+      164719408 => 
+      array (
+        'icon' => 2530,
+        'name' => 'Cursed Bone of the Abyssal Reckoning',
+      ),
+      825158210 => 
+      array (
+        'icon' => 2530,
+        'name' => 'Cursed Bone of the Whispering Shadows',
+      ),
+    ),
+  ),
   3664372034 => 
   array (
     'category' => 'Planes of Prophecy',
@@ -1928,6 +1970,78 @@ $CollectionsData = array (
       array (
         'icon' => 4799,
         'name' => 'Oval Aventurine Gemstone',
+      ),
+    ),
+  ),
+  4085847689 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Adventure and Anguish',
+    'level' => 130,
+    'crc' => 4085847689,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      79438784 => 
+      array (
+        'icon' => 4932,
+        'name' => 'Token of Dimension',
+      ),
+      854193724 => 
+      array (
+        'icon' => 4935,
+        'name' => 'Token of Vortex',
+      ),
+      774059897 => 
+      array (
+        'icon' => 4935,
+        'name' => 'Token of Nonexistence',
+      ),
+      1101124284 => 
+      array (
+        'icon' => 4933,
+        'name' => 'Token of the Planes',
+      ),
+      2201870946 => 
+      array (
+        'icon' => 4932,
+        'name' => 'Token of the Wasteland',
+      ),
+      3024103206 => 
+      array (
+        'icon' => 4933,
+        'name' => 'Token of Escape',
+      ),
+      2463590734 => 
+      array (
+        'icon' => 4934,
+        'name' => 'Token of Truth',
+      ),
+      4104790009 => 
+      array (
+        'icon' => 4934,
+        'name' => 'Token of the Scholars',
+      ),
+      1647844496 => 
+      array (
+        'icon' => 4933,
+        'name' => 'Token of Theory',
+      ),
+      3080652541 => 
+      array (
+        'icon' => 4934,
+        'name' => 'Token of Isolation',
+      ),
+      2908163311 => 
+      array (
+        'icon' => 4935,
+        'name' => 'Token of the Underfoot',
+      ),
+      3839759749 => 
+      array (
+        'icon' => 4932,
+        'name' => 'Token of Shadow',
       ),
     ),
   ),
@@ -3387,6 +3501,58 @@ $CollectionsData = array (
       ),
     ),
   ),
+  455420363 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Ancient Dragon Bones',
+    'level' => 130,
+    'crc' => 455420363,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2594784031 => 
+      array (
+        'icon' => 5727,
+        'name' => 'Elder Dragon Bone Fragment',
+      ),
+      216661445 => 
+      array (
+        'icon' => 5726,
+        'name' => 'Elder Dragon Rib Shard',
+      ),
+      2894415686 => 
+      array (
+        'icon' => 5736,
+        'name' => 'Primordial Dragon Fang',
+      ),
+      3831805753 => 
+      array (
+        'icon' => 5740,
+        'name' => 'Primordial Dragon Talon',
+      ),
+      2222732700 => 
+      array (
+        'icon' => 5951,
+        'name' => 'Scale of the Old Wyrm',
+      ),
+      2730758145 => 
+      array (
+        'icon' => 5726,
+        'name' => 'Ancient Dragon Spine Bone',
+      ),
+      4024629452 => 
+      array (
+        'icon' => 5727,
+        'name' => 'Ancient Dragon Skull Fragment',
+      ),
+      4237883683 => 
+      array (
+        'icon' => 5728,
+        'name' => 'Dragon Horn',
+      ),
+    ),
+  ),
   824668873 => 
   array (
     'category' => 'Live Events',
@@ -3982,6 +4148,53 @@ $CollectionsData = array (
       ),
     ),
   ),
+  554733591 => 
+  array (
+    'category' => 'Scars of Destruction',
+    'name' => 'Ant Carapace',
+    'level' => 130,
+    'crc' => 554733591,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      217216762 => 
+      array (
+        'icon' => 5739,
+        'name' => 'Pristine Ant Carapace',
+      ),
+      1002157129 => 
+      array (
+        'icon' => 5739,
+        'name' => 'Glistening Ant Carapace',
+      ),
+      3519359006 => 
+      array (
+        'icon' => 5739,
+        'name' => 'Scarred Ant Carapace',
+      ),
+      3845351220 => 
+      array (
+        'icon' => 5739,
+        'name' => 'Faded Ant Carapace',
+      ),
+      2388668520 => 
+      array (
+        'icon' => 5739,
+        'name' => 'Gnarled Ant Carapace',
+      ),
+      2512938253 => 
+      array (
+        'icon' => 5739,
+        'name' => 'Polished Ant Carapace',
+      ),
+      4224922986 => 
+      array (
+        'icon' => 5739,
+        'name' => 'Tattered Ant Carapace',
+      ),
+    ),
+  ),
   122571517 => 
   array (
     'category' => 'Shard of Love',
@@ -4290,6 +4503,58 @@ $CollectionsData = array (
       array (
         'icon' => 1217,
         'name' => 'Mystic Crystal Bottle',
+      ),
+    ),
+  ),
+  3580100519 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Arctic Bloom',
+    'level' => 130,
+    'crc' => 3580100519,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3230265845 => 
+      array (
+        'icon' => 5853,
+        'name' => 'Radiant Arctic Bloom',
+      ),
+      3224805921 => 
+      array (
+        'icon' => 5851,
+        'name' => 'Prismatic Arctic Bloom',
+      ),
+      2283769756 => 
+      array (
+        'icon' => 5850,
+        'name' => 'Luminous Arctic Bloom',
+      ),
+      2760717929 => 
+      array (
+        'icon' => 5859,
+        'name' => 'Enigmatic Arctic Bloom',
+      ),
+      1482039819 => 
+      array (
+        'icon' => 5858,
+        'name' => 'Elegant Arctic Bloom',
+      ),
+      2602467010 => 
+      array (
+        'icon' => 5860,
+        'name' => 'Fanciful Arctic Bloom',
+      ),
+      3451361391 => 
+      array (
+        'icon' => 5863,
+        'name' => 'Transcendent Arctic Bloom',
+      ),
+      824155060 => 
+      array (
+        'icon' => 5861,
+        'name' => 'Majestic Arctic Bloom',
       ),
     ),
   ),
@@ -8403,6 +8668,266 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3357245467 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Blackhook Banners',
+    'level' => 130,
+    'crc' => 3357245467,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3965610987 => 
+      array (
+        'icon' => 5929,
+        'name' => 'Frayed Blackhook Banner',
+      ),
+      3362102687 => 
+      array (
+        'icon' => 5929,
+        'name' => 'Scorched Blackhook Banner',
+      ),
+      1890326762 => 
+      array (
+        'icon' => 5929,
+        'name' => 'Void Touched Blackhook Banner',
+      ),
+      2336569299 => 
+      array (
+        'icon' => 5929,
+        'name' => 'Ancient Blackhook Banner',
+      ),
+      625580552 => 
+      array (
+        'icon' => 5929,
+        'name' => 'Battle Worn Blackhook Banner',
+      ),
+      1967599325 => 
+      array (
+        'icon' => 5929,
+        'name' => 'Cursed Blackhook Banner',
+      ),
+      1558191372 => 
+      array (
+        'icon' => 5929,
+        'name' => 'Sullied Blackhook Banner',
+      ),
+    ),
+  ),
+  4056426897 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Blackhook Coins',
+    'level' => 130,
+    'crc' => 4056426897,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      532073668 => 
+      array (
+        'icon' => 1341,
+        'name' => 'Bloodstained Orcish Coin',
+      ),
+      2770123831 => 
+      array (
+        'icon' => 1343,
+        'name' => 'Doomed Orcish Coin',
+      ),
+      2195376138 => 
+      array (
+        'icon' => 1342,
+        'name' => 'Corrupt Orcish Coin',
+      ),
+      657656714 => 
+      array (
+        'icon' => 1343,
+        'name' => 'Cursed Orcish Coin',
+      ),
+      1138068863 => 
+      array (
+        'icon' => 1341,
+        'name' => 'Wicked Orcish Coin',
+      ),
+      380566925 => 
+      array (
+        'icon' => 1343,
+        'name' => 'Malefic Orcish Coin',
+      ),
+      451150811 => 
+      array (
+        'icon' => 1340,
+        'name' => 'Blighted Orcish Coin',
+      ),
+      3577900935 => 
+      array (
+        'icon' => 1341,
+        'name' => 'Dreadful Orcish Coin',
+      ),
+      3082603461 => 
+      array (
+        'icon' => 1340,
+        'name' => 'Forsaken Orcish Coin',
+      ),
+    ),
+  ),
+  2176630921 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Blackhook Medallions',
+    'level' => 130,
+    'crc' => 2176630921,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2392460781 => 
+      array (
+        'icon' => 4933,
+        'name' => 'Rusty Blackhook Medallion',
+      ),
+      2736740826 => 
+      array (
+        'icon' => 4934,
+        'name' => 'Cracked Blackhook Medallion',
+      ),
+      1074134800 => 
+      array (
+        'icon' => 4932,
+        'name' => 'Ensign Blackhook Medallion',
+      ),
+      960068820 => 
+      array (
+        'icon' => 4932,
+        'name' => 'Emblematic Blackhook Medallion',
+      ),
+      72937640 => 
+      array (
+        'icon' => 4935,
+        'name' => 'Ornate Blackhook Medallion',
+      ),
+      3509238550 => 
+      array (
+        'icon' => 4933,
+        'name' => 'Void Infused Blackhook Medallion',
+      ),
+      300931915 => 
+      array (
+        'icon' => 4935,
+        'name' => 'Enchanted Blackhook Medallion',
+      ),
+      1989141673 => 
+      array (
+        'icon' => 4934,
+        'name' => 'Legendary Blackhook Medallion',
+      ),
+      3842180918 => 
+      array (
+        'icon' => 4933,
+        'name' => 'Corrupted Blackhook Medallion',
+      ),
+      3603746589 => 
+      array (
+        'icon' => 4933,
+        'name' => 'Imperial Blackhook Medallion',
+      ),
+    ),
+  ),
+  3829584341 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Blackhook Raider Relics',
+    'level' => 130,
+    'crc' => 3829584341,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3876791974 => 
+      array (
+        'icon' => 219,
+        'name' => 'Warlord\'s Fractured Helm',
+      ),
+      677617447 => 
+      array (
+        'icon' => 371,
+        'name' => 'Raider\'s Ravaged Emblem',
+      ),
+      3969330732 => 
+      array (
+        'icon' => 19,
+        'name' => 'Scarred War Shield',
+      ),
+      2331500594 => 
+      array (
+        'icon' => 5929,
+        'name' => 'Torn Raider\'s Banner',
+      ),
+      4204084815 => 
+      array (
+        'icon' => 644,
+        'name' => 'Gouged Orcish Battleaxe',
+      ),
+      470090402 => 
+      array (
+        'icon' => 214,
+        'name' => 'Raider\'s Worn Gauntlet',
+      ),
+      1570807456 => 
+      array (
+        'icon' => 650,
+        'name' => 'Desecrated Orcish Chalice',
+      ),
+    ),
+  ),
+  333670512 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Blackhook Spoils',
+    'level' => 130,
+    'crc' => 333670512,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2543318935 => 
+      array (
+        'icon' => 566,
+        'name' => 'Forsaken Blackhook Chest',
+      ),
+      1433006551 => 
+      array (
+        'icon' => 33,
+        'name' => 'Rusted Blackhook Calipers',
+      ),
+      3102380885 => 
+      array (
+        'icon' => 958,
+        'name' => 'Rusted Blackhook Crown',
+      ),
+      3260111147 => 
+      array (
+        'icon' => 1015,
+        'name' => 'Corrupted Blackhook Chain',
+      ),
+      1981808670 => 
+      array (
+        'icon' => 2286,
+        'name' => 'Wicked Blackhook Anvil',
+      ),
+      3554932002 => 
+      array (
+        'icon' => 374,
+        'name' => 'Malignant Scroll',
+      ),
+      3544924089 => 
+      array (
+        'icon' => 2712,
+        'name' => 'Blackhook Orc Runed Skull',
+      ),
+    ),
+  ),
   2398405722 => 
   array (
     'category' => 'Renewal of Ro',
@@ -8746,6 +9271,98 @@ $CollectionsData = array (
       array (
         'icon' => 180,
         'name' => 'Blood of the Survivor',
+      ),
+    ),
+  ),
+  2696497556 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Blood and Abandonment',
+    'level' => 130,
+    'crc' => 2696497556,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      146323951 => 
+      array (
+        'icon' => 5691,
+        'name' => 'Kerra Totem of Hunger',
+      ),
+      1553760760 => 
+      array (
+        'icon' => 5691,
+        'name' => 'Kerra Totem of Pain',
+      ),
+      3244183853 => 
+      array (
+        'icon' => 5691,
+        'name' => 'Kerra Totem of Sorrow',
+      ),
+      1267164009 => 
+      array (
+        'icon' => 5693,
+        'name' => 'Kerra Totem of Hardship',
+      ),
+      2381389922 => 
+      array (
+        'icon' => 5693,
+        'name' => 'Kappa Idol of Toil',
+      ),
+      2138662861 => 
+      array (
+        'icon' => 5693,
+        'name' => 'Kappa Idol of Water',
+      ),
+      2536462739 => 
+      array (
+        'icon' => 5693,
+        'name' => 'Kappa Idol of the Feral Spirit',
+      ),
+      3994910870 => 
+      array (
+        'icon' => 5693,
+        'name' => 'Kappa Idol of Prosperity',
+      ),
+      2562799660 => 
+      array (
+        'icon' => 5802,
+        'name' => 'Kromzek Signet of Conquering',
+      ),
+      2040427710 => 
+      array (
+        'icon' => 5802,
+        'name' => 'Kromzek Signet of Domination',
+      ),
+      1426911003 => 
+      array (
+        'icon' => 5802,
+        'name' => 'Kromzek Signet of War',
+      ),
+      317228739 => 
+      array (
+        'icon' => 5802,
+        'name' => 'Kromzek Signet of Hatred',
+      ),
+      2633664964 => 
+      array (
+        'icon' => 860,
+        'name' => 'Chetari Totem of Blood',
+      ),
+      2865533152 => 
+      array (
+        'icon' => 862,
+        'name' => 'Chetari Totem of Claws',
+      ),
+      134679462 => 
+      array (
+        'icon' => 861,
+        'name' => 'Chetari Totem of Bone',
+      ),
+      3484248575 => 
+      array (
+        'icon' => 860,
+        'name' => 'Chetari Totem of Scale',
       ),
     ),
   ),
@@ -12374,6 +12991,53 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2525847714 => 
+  array (
+    'category' => 'Jubilee',
+    'name' => 'Celestial Realm Notions',
+    'level' => 1,
+    'crc' => 2525847714,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2903556614 => 
+      array (
+        'icon' => 2522,
+        'name' => 'Burning Desire',
+      ),
+      874091452 => 
+      array (
+        'icon' => 2524,
+        'name' => 'Drowned Sorrows',
+      ),
+      1126081322 => 
+      array (
+        'icon' => 3112,
+        'name' => 'Undefined Variables',
+      ),
+      3715774089 => 
+      array (
+        'icon' => 5695,
+        'name' => 'Hot as Blazes',
+      ),
+      2860320287 => 
+      array (
+        'icon' => 4354,
+        'name' => 'Against the Tide',
+      ),
+      863262629 => 
+      array (
+        'icon' => 2509,
+        'name' => 'Friendly Fire',
+      ),
+      1148413747 => 
+      array (
+        'icon' => 4374,
+        'name' => 'Broken Concentration',
+      ),
+    ),
+  ),
   3850391032 => 
   array (
     'category' => 'Visions of Vetrovia',
@@ -12693,6 +13357,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  409875953 => 
+  array (
+    'category' => 'Lure of Darkness',
+    'name' => 'Cherun\'s Horrible Coins',
+    'level' => 130,
+    'crc' => 409875953,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1454402801 => 
+      array (
+        'icon' => 5786,
+        'name' => 'Horrible Gashed Coin',
+      ),
+      2508656834 => 
+      array (
+        'icon' => 5786,
+        'name' => 'Horrible Rusted Coin',
+      ),
+      2850372228 => 
+      array (
+        'icon' => 5786,
+        'name' => 'Horrible Dented Coin',
+      ),
+      2335525261 => 
+      array (
+        'icon' => 5786,
+        'name' => 'Horrible Bent Coin',
+      ),
+      2301478601 => 
+      array (
+        'icon' => 5786,
+        'name' => 'Horrible Scarred Coin',
+      ),
+      1473780889 => 
+      array (
+        'icon' => 5786,
+        'name' => 'Horrible Marred Coin',
+      ),
+    ),
+  ),
   3462014059 => 
   array (
     'category' => 'Butcherblock Mountains',
@@ -12764,6 +13470,100 @@ $CollectionsData = array (
       array (
         'icon' => 2068,
         'name' => 'Intricately Etched Seashell',
+      ),
+    ),
+  ),
+  2402901317 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Chetari Relics',
+    'level' => 130,
+    'crc' => 2402901317,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1838664376 => 
+      array (
+        'icon' => 5230,
+        'name' => 'Chetari Tunnel Lamp',
+      ),
+      3009107089 => 
+      array (
+        'icon' => 5691,
+        'name' => 'Chetari Ritual Totem',
+      ),
+      1633535924 => 
+      array (
+        'icon' => 2953,
+        'name' => 'Chetari Poison Dagger',
+      ),
+      2014158620 => 
+      array (
+        'icon' => 2979,
+        'name' => 'Chetari Bone Charm',
+      ),
+      1701667895 => 
+      array (
+        'icon' => 2850,
+        'name' => 'Chetari Bone Harpoon',
+      ),
+      3483375523 => 
+      array (
+        'icon' => 2986,
+        'name' => 'Chetari Bloodstone Ring',
+      ),
+      1353573471 => 
+      array (
+        'icon' => 4818,
+        'name' => 'Chetari Bone Hoops',
+      ),
+    ),
+  ),
+  1720240441 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Chetari Remnants',
+    'level' => 130,
+    'crc' => 1720240441,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      710154502 => 
+      array (
+        'icon' => 840,
+        'name' => 'Chetari Feralmancer\'s Scepter',
+      ),
+      2808241550 => 
+      array (
+        'icon' => 202,
+        'name' => 'Chetari Enchanted Staff',
+      ),
+      2296887289 => 
+      array (
+        'icon' => 367,
+        'name' => 'Chetari Ritual Drum',
+      ),
+      2555858715 => 
+      array (
+        'icon' => 188,
+        'name' => 'Chetari Orb',
+      ),
+      1514257480 => 
+      array (
+        'icon' => 2765,
+        'name' => 'Chetari Blood Pendant',
+      ),
+      2532734967 => 
+      array (
+        'icon' => 137,
+        'name' => 'Chetari Fang',
+      ),
+      3326102988 => 
+      array (
+        'icon' => 879,
+        'name' => 'Chetari Warding Idol',
       ),
     ),
   ),
@@ -15640,6 +16440,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2481462641 => 
+  array (
+    'category' => 'Lure of Darkness',
+    'name' => 'Crabicus Crunch\'s King Cootie Claws',
+    'level' => 130,
+    'crc' => 2481462641,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3733060933 => 
+      array (
+        'icon' => 5909,
+        'name' => 'Crooked Cootie Claw',
+      ),
+      4117273622 => 
+      array (
+        'icon' => 5909,
+        'name' => 'Colorful Cootie Claw',
+      ),
+      2560078590 => 
+      array (
+        'icon' => 5909,
+        'name' => 'Captivating Cootie Claw',
+      ),
+      3889337950 => 
+      array (
+        'icon' => 5909,
+        'name' => 'Clean Cootie Claw',
+      ),
+      3092221768 => 
+      array (
+        'icon' => 5909,
+        'name' => 'Creepy Cootie Claw',
+      ),
+      2877570126 => 
+      array (
+        'icon' => 5909,
+        'name' => 'Crushed Cootie Claw',
+      ),
+    ),
+  ),
   4216392326 => 
   array (
     'category' => 'Sentinel\'s Fate',
@@ -16717,6 +17559,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  67411894 => 
+  array (
+    'category' => 'Lure of Darkness',
+    'name' => 'Cult of Vul Orders',
+    'level' => 130,
+    'crc' => 67411894,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      432425783 => 
+      array (
+        'icon' => 5989,
+        'name' => 'Damp Orders',
+      ),
+      1964343662 => 
+      array (
+        'icon' => 5989,
+        'name' => 'Ink-Stained Orders',
+      ),
+      3110331307 => 
+      array (
+        'icon' => 5989,
+        'name' => 'Blackened Orders',
+      ),
+      2152442008 => 
+      array (
+        'icon' => 5989,
+        'name' => 'Muddy Orders',
+      ),
+      2582117989 => 
+      array (
+        'icon' => 5989,
+        'name' => 'Wrinkled Orders',
+      ),
+      1177656998 => 
+      array (
+        'icon' => 5989,
+        'name' => 'Gold-Leafed Orders',
+      ),
+    ),
+  ),
   2545340443 => 
   array (
     'category' => 'Planes of Prophecy',
@@ -17019,6 +17903,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1198648186 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Cursed Necropolis Artifacts',
+    'level' => 130,
+    'crc' => 1198648186,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3506581901 => 
+      array (
+        'icon' => 4864,
+        'name' => 'Cursed Dragon Amulet',
+      ),
+      1491318284 => 
+      array (
+        'icon' => 964,
+        'name' => 'Sinister Wyrm Pendant',
+      ),
+      3193816082 => 
+      array (
+        'icon' => 969,
+        'name' => 'Damned Serpent Brooch',
+      ),
+      2161350733 => 
+      array (
+        'icon' => 3440,
+        'name' => 'Haunted Dragon Ring',
+      ),
+      1510882108 => 
+      array (
+        'icon' => 2269,
+        'name' => 'Hexed Wyrm Medallion',
+      ),
+      837212152 => 
+      array (
+        'icon' => 5786,
+        'name' => 'Accursed Dragon Talisman',
+      ),
+    ),
+  ),
   1993827019 => 
   array (
     'category' => 'Unrest',
@@ -17068,6 +17994,48 @@ $CollectionsData = array (
       array (
         'icon' => 3008,
         'name' => 'appropriated sigil of phenomenon',
+      ),
+    ),
+  ),
+  964492394 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Cursed Relics of Southern Coast',
+    'level' => 130,
+    'crc' => 964492394,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3123816257 => 
+      array (
+        'icon' => 5729,
+        'name' => 'Haunted Bone Fragment',
+      ),
+      679393450 => 
+      array (
+        'icon' => 5695,
+        'name' => 'Necrotic Essence Crystal',
+      ),
+      3631873639 => 
+      array (
+        'icon' => 92,
+        'name' => 'Skeletal Hand Relic',
+      ),
+      945535139 => 
+      array (
+        'icon' => 5696,
+        'name' => 'Cursed Tide Pearl',
+      ),
+      402310836 => 
+      array (
+        'icon' => 5692,
+        'name' => 'Wraith Touched Skull',
+      ),
+      349541250 => 
+      array (
+        'icon' => 5781,
+        'name' => 'Blighted Coral Fragment',
       ),
     ),
   ),
@@ -18939,6 +19907,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  122414588 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Den Mother\'s Artifacts',
+    'level' => 130,
+    'crc' => 122414588,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      846186260 => 
+      array (
+        'icon' => 5691,
+        'name' => 'Den Mother Ritual Totem',
+      ),
+      3525554671 => 
+      array (
+        'icon' => 5801,
+        'name' => 'Sacrificial Altar Stone',
+      ),
+      3689080629 => 
+      array (
+        'icon' => 5756,
+        'name' => 'Bloodied Offering Dish',
+      ),
+      2940206055 => 
+      array (
+        'icon' => 5864,
+        'name' => 'Ceremonial Bone Chimes',
+      ),
+      1981519622 => 
+      array (
+        'icon' => 5881,
+        'name' => 'Blood Soaked Ritual Cloth',
+      ),
+      999989997 => 
+      array (
+        'icon' => 5798,
+        'name' => 'Marisha Kur Bloodstone',
+      ),
+    ),
+  ),
   1484566333 => 
   array (
     'category' => 'Renewal of Ro',
@@ -20627,6 +21637,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  162096869 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Draconic Orbs of Darkness',
+    'level' => 130,
+    'crc' => 162096869,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4123938554 => 
+      array (
+        'icon' => 5695,
+        'name' => 'Draconic Orb of Decay',
+      ),
+      4273097411 => 
+      array (
+        'icon' => 5695,
+        'name' => 'Draconic Orb of Eternal Blight',
+      ),
+      2635567831 => 
+      array (
+        'icon' => 5696,
+        'name' => 'Draconic Orb of Shadows',
+      ),
+      779615071 => 
+      array (
+        'icon' => 5694,
+        'name' => 'Draconic Orb of the Undying',
+      ),
+      2135176102 => 
+      array (
+        'icon' => 5696,
+        'name' => 'Draconic Orb of Corruption',
+      ),
+    ),
+  ),
   3088055991 => 
   array (
     'category' => 'Kunark',
@@ -20656,6 +21703,58 @@ $CollectionsData = array (
       array (
         'icon' => 2606,
         'name' => 'Third Part of a Talisman',
+      ),
+    ),
+  ),
+  292700802 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Draconic Wasteland Artifacts',
+    'level' => 130,
+    'crc' => 292700802,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2725446418 => 
+      array (
+        'icon' => 576,
+        'name' => 'Emberscale Amulet',
+      ),
+      80685568 => 
+      array (
+        'icon' => 578,
+        'name' => 'Frostwyrm Pendant',
+      ),
+      1848406878 => 
+      array (
+        'icon' => 157,
+        'name' => 'Wasteland Dragon\'s Fang',
+      ),
+      3356586464 => 
+      array (
+        'icon' => 593,
+        'name' => 'Drake\'s Claw Ring',
+      ),
+      3149971455 => 
+      array (
+        'icon' => 372,
+        'name' => 'Draconic Shard Brooch',
+      ),
+      819716056 => 
+      array (
+        'icon' => 581,
+        'name' => 'Ancient Wyrm Circlet',
+      ),
+      504899565 => 
+      array (
+        'icon' => 590,
+        'name' => 'Dragon\'s Breath Earrings',
+      ),
+      794061013 => 
+      array (
+        'icon' => 579,
+        'name' => 'Wyrmkeeper\'s Tiara',
       ),
     ),
   ),
@@ -20901,6 +22000,68 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3758372410 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Dragon Lord Treasures',
+    'level' => 130,
+    'crc' => 3758372410,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2533588445 => 
+      array (
+        'icon' => 5002,
+        'name' => 'Golden Ingot',
+      ),
+      2453759004 => 
+      array (
+        'icon' => 5694,
+        'name' => 'Celestial Orb',
+      ),
+      2479859655 => 
+      array (
+        'icon' => 5874,
+        'name' => 'Ancient Tome',
+      ),
+      2599180498 => 
+      array (
+        'icon' => 3434,
+        'name' => 'Enchanted Ring',
+      ),
+      2019383532 => 
+      array (
+        'icon' => 5655,
+        'name' => 'Runed Staff',
+      ),
+      36178651 => 
+      array (
+        'icon' => 3453,
+        'name' => 'Emerald Pendant',
+      ),
+      3139736791 => 
+      array (
+        'icon' => 5608,
+        'name' => 'Eternal Helm',
+      ),
+      2015109124 => 
+      array (
+        'icon' => 5613,
+        'name' => 'Crooked Dagger',
+      ),
+      2238770838 => 
+      array (
+        'icon' => 5329,
+        'name' => 'Scaled Cloak',
+      ),
+      1282804690 => 
+      array (
+        'icon' => 4861,
+        'name' => 'Dragonstone Pendant',
+      ),
+    ),
+  ),
   3172771354 => 
   array (
     'category' => 'Tears of Veeshan',
@@ -21036,6 +22197,58 @@ $CollectionsData = array (
       array (
         'icon' => 85,
         'name' => 'unblemished dragon scale fragment',
+      ),
+    ),
+  ),
+  154844385 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Dragon Scales',
+    'level' => 130,
+    'crc' => 154844385,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3695914927 => 
+      array (
+        'icon' => 5953,
+        'name' => 'Glittering Azure Scale',
+      ),
+      1116353502 => 
+      array (
+        'icon' => 5954,
+        'name' => 'Ebonhide Scale',
+      ),
+      555004141 => 
+      array (
+        'icon' => 5952,
+        'name' => 'Gleaming Gold Scale',
+      ),
+      645470542 => 
+      array (
+        'icon' => 5951,
+        'name' => 'Mystic Emerald Scale',
+      ),
+      769645101 => 
+      array (
+        'icon' => 5954,
+        'name' => 'Obsidian Night Scale',
+      ),
+      3316697410 => 
+      array (
+        'icon' => 5953,
+        'name' => 'Frost Silver Scale',
+      ),
+      2268734403 => 
+      array (
+        'icon' => 5952,
+        'name' => 'Ancient Bronze Scale',
+      ),
+      1057986151 => 
+      array (
+        'icon' => 5953,
+        'name' => 'Iridescent Prismatic Scale',
       ),
     ),
   ),
@@ -22559,6 +23772,53 @@ $CollectionsData = array (
       ),
     ),
   ),
+  14215121 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Echoes of Betrayal',
+    'level' => 130,
+    'crc' => 14215121,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1067699606 => 
+      array (
+        'icon' => 608,
+        'name' => 'Forsaken Betrayer\'s Dagger',
+      ),
+      301319086 => 
+      array (
+        'icon' => 247,
+        'name' => 'Bloodied Knight\'s Shroud',
+      ),
+      1793587782 => 
+      array (
+        'icon' => 16,
+        'name' => 'Slain Sentinel\'s Shield',
+      ),
+      3729145600 => 
+      array (
+        'icon' => 5688,
+        'name' => 'Veiled Treacherous Mask',
+      ),
+      3104091740 => 
+      array (
+        'icon' => 4246,
+        'name' => 'Defiled Honor Banner',
+      ),
+      2554393065 => 
+      array (
+        'icon' => 20,
+        'name' => 'Tarnished Unity Medallion',
+      ),
+      2633576668 => 
+      array (
+        'icon' => 244,
+        'name' => 'Stained Treachery Cloak',
+      ),
+    ),
+  ),
   633434084 => 
   array (
     'category' => 'Fabled Echoes of Faydwer',
@@ -22655,6 +23915,95 @@ $CollectionsData = array (
       array (
         'icon' => 3165,
         'name' => 'Ancient Mistmoore Catacombs Map',
+      ),
+    ),
+  ),
+  4191628019 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Echoes of Frozen Waves',
+    'level' => 130,
+    'crc' => 4191628019,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2519764197 => 
+      array (
+        'icon' => 5732,
+        'name' => 'Frozen Tide Shell',
+      ),
+      2037084748 => 
+      array (
+        'icon' => 5694,
+        'name' => 'Glacial Wave Crystal',
+      ),
+      543184208 => 
+      array (
+        'icon' => 5697,
+        'name' => 'Ethereal Ice Shard',
+      ),
+      1228553888 => 
+      array (
+        'icon' => 5731,
+        'name' => 'Frozen Echo Conch',
+      ),
+      2426384940 => 
+      array (
+        'icon' => 5778,
+        'name' => 'Permafrost Coral Fragment',
+      ),
+    ),
+  ),
+  4082519273 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Echoes of Kerafyrm',
+    'level' => 130,
+    'crc' => 4082519273,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1570537436 => 
+      array (
+        'icon' => 5941,
+        'name' => 'Words of Kerafyrm',
+      ),
+      1398950755 => 
+      array (
+        'icon' => 5788,
+        'name' => 'Songs of Kerafyrm',
+      ),
+      2827886135 => 
+      array (
+        'icon' => 5802,
+        'name' => 'Sigils of Kerafyrm',
+      ),
+      4290830917 => 
+      array (
+        'icon' => 5953,
+        'name' => 'Fragment of Kerafyrm\'s Scale',
+      ),
+      138818173 => 
+      array (
+        'icon' => 5726,
+        'name' => 'Shard of Kerafyrm\'s Claw',
+      ),
+      786679108 => 
+      array (
+        'icon' => 5874,
+        'name' => 'Memories of Kerafyrm',
+      ),
+      2947349227 => 
+      array (
+        'icon' => 5939,
+        'name' => 'Writings of Kerafyrm',
+      ),
+      1629527874 => 
+      array (
+        'icon' => 5691,
+        'name' => 'Kerafyrm\'s Idol',
       ),
     ),
   ),
@@ -23687,6 +25036,78 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2047769938 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Enchanted Ice Crystals',
+    'level' => 130,
+    'crc' => 2047769938,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2131339445 => 
+      array (
+        'icon' => 4954,
+        'name' => 'Ethereal Ice Crystal',
+      ),
+      1887851623 => 
+      array (
+        'icon' => 4952,
+        'name' => 'Arcane Ice Crystal',
+      ),
+      2612792778 => 
+      array (
+        'icon' => 4952,
+        'name' => 'Charmed Ice Crystal',
+      ),
+      3956710519 => 
+      array (
+        'icon' => 4955,
+        'name' => 'Luminous Ice Crystal',
+      ),
+      2855190747 => 
+      array (
+        'icon' => 4955,
+        'name' => 'Crystalized Ice Crystal',
+      ),
+      2558441062 => 
+      array (
+        'icon' => 4950,
+        'name' => 'Enchanted Ice Crystal',
+      ),
+      4103274751 => 
+      array (
+        'icon' => 4955,
+        'name' => 'Frostbound Ice Crystal',
+      ),
+      3424745505 => 
+      array (
+        'icon' => 4953,
+        'name' => 'Darkened Ice Crystal',
+      ),
+      604166477 => 
+      array (
+        'icon' => 4952,
+        'name' => 'Frozen Veil Ice Crystal',
+      ),
+      2259667627 => 
+      array (
+        'icon' => 4955,
+        'name' => 'Velium Infused Ice Crystal',
+      ),
+      446954738 => 
+      array (
+        'icon' => 4952,
+        'name' => 'Shadow Frost Ice Crystal',
+      ),
+      569827454 => 
+      array (
+        'icon' => 4951,
+        'name' => 'Glimmering Arcane Ice Crystal',
+      ),
+    ),
+  ),
   3165771172 => 
   array (
     'category' => 'Planes of Prophecy',
@@ -23731,6 +25152,58 @@ $CollectionsData = array (
       array (
         'icon' => 710,
         'name' => 'Mystic Tenor Drone',
+      ),
+    ),
+  ),
+  1925144452 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Endless Mire',
+    'level' => 130,
+    'crc' => 1925144452,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1289584650 => 
+      array (
+        'icon' => 5757,
+        'name' => 'Mirebound Stone',
+      ),
+      2539344137 => 
+      array (
+        'icon' => 5762,
+        'name' => 'Gloomleaf Fragment',
+      ),
+      4193915536 => 
+      array (
+        'icon' => 5715,
+        'name' => 'Shrouded Driftwood',
+      ),
+      3866995734 => 
+      array (
+        'icon' => 5796,
+        'name' => 'Swampblight Tendril',
+      ),
+      2606015132 => 
+      array (
+        'icon' => 5735,
+        'name' => 'Wraithwater Shard',
+      ),
+      3893665503 => 
+      array (
+        'icon' => 5781,
+        'name' => 'Vortex Moss Cluster',
+      ),
+      2747982932 => 
+      array (
+        'icon' => 5737,
+        'name' => 'Fungal Spine',
+      ),
+      1116153883 => 
+      array (
+        'icon' => 5768,
+        'name' => 'Quagmire Essence',
       ),
     ),
   ),
@@ -28564,6 +30037,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  368802632 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Fallen Knight Relics',
+    'level' => 130,
+    'crc' => 368802632,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      55771883 => 
+      array (
+        'icon' => 18,
+        'name' => 'Broken Knight\'s Shield',
+      ),
+      3436958975 => 
+      array (
+        'icon' => 267,
+        'name' => 'Rusty Knight\'s Gauntlet',
+      ),
+      3877978823 => 
+      array (
+        'icon' => 1059,
+        'name' => 'Corroded Guardian Statue',
+      ),
+      3054241718 => 
+      array (
+        'icon' => 5929,
+        'name' => 'Faded Deepwater Banner',
+      ),
+      1768035883 => 
+      array (
+        'icon' => 665,
+        'name' => 'Rusted Sword Hilt',
+      ),
+    ),
+  ),
   2738166806 => 
   array (
     'category' => 'Blood of Luclin',
@@ -30861,6 +32371,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3718595063 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Forgotten Treasures of the Necropolis',
+    'level' => 130,
+    'crc' => 3718595063,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1219651351 => 
+      array (
+        'icon' => 4966,
+        'name' => 'Sapphire Dragon Eye',
+      ),
+      902084087 => 
+      array (
+        'icon' => 4867,
+        'name' => 'Enchanted Scale Necklace',
+      ),
+      3889313284 => 
+      array (
+        'icon' => 3193,
+        'name' => 'Golden Chalice of Eternity',
+      ),
+      3290252793 => 
+      array (
+        'icon' => 5690,
+        'name' => 'Obsidian Dragon Mask',
+      ),
+      480323825 => 
+      array (
+        'icon' => 4864,
+        'name' => 'Dragon\'s Breath Amulet',
+      ),
+    ),
+  ),
   920573592 => 
   array (
     'category' => 'Destiny of Velious',
@@ -32621,6 +34168,53 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1643725524 => 
+  array (
+    'category' => 'Tradeskill',
+    'name' => 'Gearloose\'s Loose Gears',
+    'level' => 130,
+    'crc' => 1643725524,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1148397559 => 
+      array (
+        'icon' => 1378,
+        'name' => 'Phantasmagnetic',
+      ),
+      4004926187 => 
+      array (
+        'icon' => 1378,
+        'name' => 'Magitronic',
+      ),
+      215334128 => 
+      array (
+        'icon' => 1378,
+        'name' => 'Positronic',
+      ),
+      2444739573 => 
+      array (
+        'icon' => 1378,
+        'name' => 'Confusilation',
+      ),
+      3617867713 => 
+      array (
+        'icon' => 1378,
+        'name' => 'Mesmeric',
+      ),
+      861867592 => 
+      array (
+        'icon' => 1378,
+        'name' => 'Cabalic',
+      ),
+      1500789706 => 
+      array (
+        'icon' => 1378,
+        'name' => 'Discombobulating',
+      ),
+    ),
+  ),
   1914876129 => 
   array (
     'category' => 'Klak\'Anon',
@@ -33265,6 +34859,48 @@ $CollectionsData = array (
       array (
         'icon' => 750,
         'name' => 'Workman\'s Tool Crumb',
+      ),
+    ),
+  ),
+  839593348 => 
+  array (
+    'category' => 'Lure of Darkness',
+    'name' => 'Gigantus\' Gigantic Crystals',
+    'level' => 130,
+    'crc' => 839593348,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2196001656 => 
+      array (
+        'icon' => 3838,
+        'name' => 'Gigantic Void Crystal',
+      ),
+      726122075 => 
+      array (
+        'icon' => 3836,
+        'name' => 'Gigantic Karborite Crystal',
+      ),
+      3580380843 => 
+      array (
+        'icon' => 3834,
+        'name' => 'Gigantic Amethyst Crystal',
+      ),
+      3477134070 => 
+      array (
+        'icon' => 3837,
+        'name' => 'Gigantic Tourmaline Crystal',
+      ),
+      2119972251 => 
+      array (
+        'icon' => 3835,
+        'name' => 'Gigantic Garnet Crystal',
+      ),
+      37834792 => 
+      array (
+        'icon' => 3833,
+        'name' => 'Gigantic Spinel Crystal',
       ),
     ),
   ),
@@ -34505,6 +36141,95 @@ $CollectionsData = array (
       array (
         'icon' => 374,
         'name' => 'Runnyeye Spell Scroll',
+      ),
+    ),
+  ),
+  3155795626 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Goblin Mischief',
+    'level' => 130,
+    'crc' => 3155795626,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2256905236 => 
+      array (
+        'icon' => 5706,
+        'name' => 'Goblin Toothpick',
+      ),
+      1737721800 => 
+      array (
+        'icon' => 229,
+        'name' => 'Mismatched Goblin Boots',
+      ),
+      1437571522 => 
+      array (
+        'icon' => 5777,
+        'name' => 'Jar of Sticky Goo',
+      ),
+      4074108047 => 
+      array (
+        'icon' => 5715,
+        'name' => 'Gnarled Goblin Staff',
+      ),
+      3319787374 => 
+      array (
+        'icon' => 5765,
+        'name' => 'Dirty Goblin Mug',
+      ),
+      3442515562 => 
+      array (
+        'icon' => 5795,
+        'name' => 'Goblin Grub Pouch',
+      ),
+    ),
+  ),
+  1546278998 => 
+  array (
+    'category' => 'Tradeskill',
+    'name' => 'Goblins vs Void',
+    'level' => 130,
+    'crc' => 1546278998,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      742694226 => 
+      array (
+        'icon' => 2497,
+        'name' => 'Scream Into It',
+      ),
+      607874687 => 
+      array (
+        'icon' => 2497,
+        'name' => 'Run in Circles',
+      ),
+      3847290422 => 
+      array (
+        'icon' => 2497,
+        'name' => 'Hide in Plain Sight',
+      ),
+      4232665357 => 
+      array (
+        'icon' => 2497,
+        'name' => 'Flail Wildly',
+      ),
+      879606983 => 
+      array (
+        'icon' => 2497,
+        'name' => 'Beg for Mercy',
+      ),
+      2037575536 => 
+      array (
+        'icon' => 2497,
+        'name' => 'Deny Existence',
+      ),
+      2619452333 => 
+      array (
+        'icon' => 2497,
+        'name' => 'Threaten Ineffectually',
       ),
     ),
   ),
@@ -37970,6 +39695,58 @@ $CollectionsData = array (
       ),
     ),
   ),
+  4155745867 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Hodan Basho Artifacts',
+    'level' => 130,
+    'crc' => 4155745867,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3672169990 => 
+      array (
+        'icon' => 4866,
+        'name' => 'Ancient Hodan Amulet',
+      ),
+      2883397802 => 
+      array (
+        'icon' => 5691,
+        'name' => 'Enigmatic Hodan Totem',
+      ),
+      1451210477 => 
+      array (
+        'icon' => 5614,
+        'name' => 'Hodan Ritual Dagger',
+      ),
+      3646935077 => 
+      array (
+        'icon' => 5694,
+        'name' => 'Hodan Spirit Stone',
+      ),
+      950217581 => 
+      array (
+        'icon' => 5689,
+        'name' => 'Hodan Tribal Mask',
+      ),
+      4210767665 => 
+      array (
+        'icon' => 5797,
+        'name' => 'Hodan Ancient Tablet',
+      ),
+      2843379818 => 
+      array (
+        'icon' => 5731,
+        'name' => 'Hodan Enchanted Shell',
+      ),
+      3871413874 => 
+      array (
+        'icon' => 5620,
+        'name' => 'Hodan Shaman Staff',
+      ),
+    ),
+  ),
   900961816 => 
   array (
     'category' => 'Destiny of Velious',
@@ -38120,6 +39897,98 @@ $CollectionsData = array (
       array (
         'icon' => 82,
         'name' => 'worn hooluk beak',
+      ),
+    ),
+  ),
+  3530447335 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Hope and Hopelessness',
+    'level' => 130,
+    'crc' => 3530447335,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2809052247 => 
+      array (
+        'icon' => 5929,
+        'name' => 'Blackhook Banner of Violence',
+      ),
+      3699149593 => 
+      array (
+        'icon' => 5929,
+        'name' => 'Blackhook Banner of the Forge',
+      ),
+      1918329885 => 
+      array (
+        'icon' => 5929,
+        'name' => 'Blackhook Banner of Legion',
+      ),
+      2319430600 => 
+      array (
+        'icon' => 5929,
+        'name' => 'Blackhook Banner of Shields',
+      ),
+      2526858789 => 
+      array (
+        'icon' => 5930,
+        'name' => 'Deepwater Banner of Pride',
+      ),
+      4164058610 => 
+      array (
+        'icon' => 5930,
+        'name' => 'Deepwater Banner of Hope',
+      ),
+      180052446 => 
+      array (
+        'icon' => 5930,
+        'name' => 'Deepwater Banner of Healing',
+      ),
+      1845041586 => 
+      array (
+        'icon' => 5930,
+        'name' => 'Deepwater Banner of Quellious',
+      ),
+      3352593090 => 
+      array (
+        'icon' => 5801,
+        'name' => 'Veeshanic Ruined Plinth',
+      ),
+      569177205 => 
+      array (
+        'icon' => 5797,
+        'name' => 'Veeshanic Ruined Frieze',
+      ),
+      1358444713 => 
+      array (
+        'icon' => 841,
+        'name' => 'Veeshanic Ruined Column',
+      ),
+      3900924483 => 
+      array (
+        'icon' => 2336,
+        'name' => 'Veeshanic Ruined Pediment',
+      ),
+      2238554658 => 
+      array (
+        'icon' => 5745,
+        'name' => 'Effigy of the Chetari',
+      ),
+      2291164199 => 
+      array (
+        'icon' => 5714,
+        'name' => 'Effigy of the Kromzek',
+      ),
+      831373730 => 
+      array (
+        'icon' => 5728,
+        'name' => 'Effigy of Tarinax',
+      ),
+      2984497032 => 
+      array (
+        'icon' => 5730,
+        'name' => 'Effigy of Lodizal',
       ),
     ),
   ),
@@ -38414,6 +40283,90 @@ $CollectionsData = array (
       array (
         'icon' => 3605,
         'name' => 'A Bloody Pygmy Shield',
+      ),
+    ),
+  ),
+  2607513948 => 
+  array (
+    'category' => 'Lure of Darkness',
+    'name' => 'Hurta\'s Hurtful Armor',
+    'level' => 130,
+    'crc' => 2607513948,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      625191949 => 
+      array (
+        'icon' => 270,
+        'name' => 'Hurtful Helmet',
+      ),
+      519647381 => 
+      array (
+        'icon' => 275,
+        'name' => 'Hurtful Boots',
+      ),
+      2699634565 => 
+      array (
+        'icon' => 273,
+        'name' => 'Hurtful Gauntlets',
+      ),
+      3901743363 => 
+      array (
+        'icon' => 247,
+        'name' => 'Hurtful Sash',
+      ),
+      1034267755 => 
+      array (
+        'icon' => 274,
+        'name' => 'Hurtful Greaves',
+      ),
+      4150761368 => 
+      array (
+        'icon' => 218,
+        'name' => 'Hurtful Chestplate',
+      ),
+    ),
+  ),
+  529375562 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Ice Giant Artifacts',
+    'level' => 130,
+    'crc' => 529375562,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1072061084 => 
+      array (
+        'icon' => 270,
+        'name' => 'Ice Giant Battle Helm',
+      ),
+      3767629347 => 
+      array (
+        'icon' => 2726,
+        'name' => 'Ice Giant War Banner',
+      ),
+      1329803535 => 
+      array (
+        'icon' => 60,
+        'name' => 'Ice Giant Warblade',
+      ),
+      3011012380 => 
+      array (
+        'icon' => 645,
+        'name' => 'Ice Giant Signet',
+      ),
+      4050790710 => 
+      array (
+        'icon' => 387,
+        'name' => 'Ice Giant Amulet',
+      ),
+      2670455887 => 
+      array (
+        'icon' => 14,
+        'name' => 'Ice Giant Battleshield',
       ),
     ),
   ),
@@ -40378,6 +42331,43 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3269078238 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Jewel Encrusted Relics',
+    'level' => 130,
+    'crc' => 3269078238,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1460437151 => 
+      array (
+        'icon' => 2983,
+        'name' => 'Opal Encrusted Bone Fragment',
+      ),
+      3427628684 => 
+      array (
+        'icon' => 2983,
+        'name' => 'Emerald Encrusted Rib Bone',
+      ),
+      2804816025 => 
+      array (
+        'icon' => 2983,
+        'name' => 'Ruby Studded Dragon Talon',
+      ),
+      3489893055 => 
+      array (
+        'icon' => 2983,
+        'name' => 'Aquamarine Encrusted Tailbone',
+      ),
+      3340014434 => 
+      array (
+        'icon' => 2983,
+        'name' => 'Diamond Encrusted Dragon Skull',
+      ),
+    ),
+  ),
   3604922548 => 
   array (
     'category' => 'Frostfell',
@@ -40474,6 +42464,63 @@ $CollectionsData = array (
       array (
         'icon' => 226,
         'name' => 'Faber\'s Gloves',
+      ),
+    ),
+  ),
+  1029078898 => 
+  array (
+    'category' => 'Bristlebane Day',
+    'name' => 'Jumble of Frivolous Revelry',
+    'level' => 20,
+    'crc' => 1029078898,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      253599201 => 
+      array (
+        'icon' => 3096,
+        'name' => 'Bright Blue Ribbon',
+      ),
+      2517945435 => 
+      array (
+        'icon' => 5833,
+        'name' => 'Orange Confetti',
+      ),
+      3776183501 => 
+      array (
+        'icon' => 575,
+        'name' => 'String of Fuchsia Beads',
+      ),
+      2138532206 => 
+      array (
+        'icon' => 5833,
+        'name' => 'Plum Confetti',
+      ),
+      141580792 => 
+      array (
+        'icon' => 575,
+        'name' => 'String of Yellow Beads',
+      ),
+      2440628290 => 
+      array (
+        'icon' => 3098,
+        'name' => 'Bright Pink Ribbon',
+      ),
+      3867031764 => 
+      array (
+        'icon' => 575,
+        'name' => 'String of Chartreuse Beads',
+      ),
+      1992369477 => 
+      array (
+        'icon' => 5833,
+        'name' => 'Teal Confetti',
+      ),
+      29758931 => 
+      array (
+        'icon' => 3102,
+        'name' => 'Bright Yellow Ribbon',
       ),
     ),
   ),
@@ -40692,6 +42739,130 @@ $CollectionsData = array (
       ),
     ),
   ),
+  678817952 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Kaborite Crafted Relics',
+    'level' => 130,
+    'crc' => 678817952,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3357676202 => 
+      array (
+        'icon' => 4863,
+        'name' => 'Kaborite Encrusted Amulet',
+      ),
+      889843907 => 
+      array (
+        'icon' => 5707,
+        'name' => 'Kaborite Tipped Arrow',
+      ),
+      2165317033 => 
+      array (
+        'icon' => 4942,
+        'name' => 'Kaborite Etched Ring',
+      ),
+      2074166121 => 
+      array (
+        'icon' => 5693,
+        'name' => 'Kaborite Carved Idol',
+      ),
+      2123160730 => 
+      array (
+        'icon' => 5657,
+        'name' => 'Kaborite Embedded Staff',
+      ),
+      846952619 => 
+      array (
+        'icon' => 3193,
+        'name' => 'Kaborite Engraved Chalice',
+      ),
+      3505894190 => 
+      array (
+        'icon' => 2577,
+        'name' => 'Kaborite Studded Lantern',
+      ),
+      915992658 => 
+      array (
+        'icon' => 4814,
+        'name' => 'Kaborite Bound Tome',
+      ),
+    ),
+  ),
+  319035929 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Kaborite Gemstones',
+    'level' => 130,
+    'crc' => 319035929,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3425338208 => 
+      array (
+        'icon' => 3835,
+        'name' => 'Rough Kaborite Gemstone',
+      ),
+      196776683 => 
+      array (
+        'icon' => 3832,
+        'name' => 'Jagged Kaborite Gemstone',
+      ),
+      1799645796 => 
+      array (
+        'icon' => 3837,
+        'name' => 'Glimmering Kaborite Gemstone',
+      ),
+      1209513098 => 
+      array (
+        'icon' => 3836,
+        'name' => 'Faceted Kaborite Gemstone',
+      ),
+      4274031491 => 
+      array (
+        'icon' => 3834,
+        'name' => 'Crystalline Kaborite Gemstone',
+      ),
+      3819751020 => 
+      array (
+        'icon' => 3837,
+        'name' => 'Weathered Kaborite Gemstone',
+      ),
+      3107075562 => 
+      array (
+        'icon' => 3832,
+        'name' => 'Arcane Kaborite Gemstone',
+      ),
+      3483014568 => 
+      array (
+        'icon' => 3833,
+        'name' => 'Corrupted Kaborite Gemstone',
+      ),
+      2121549578 => 
+      array (
+        'icon' => 3835,
+        'name' => 'Enchanted Kaborite Gemstone',
+      ),
+      1741528856 => 
+      array (
+        'icon' => 3833,
+        'name' => 'Mystic Kaborite Gemstone',
+      ),
+      4175839575 => 
+      array (
+        'icon' => 3838,
+        'name' => 'Void Touched Kaborite Gemstone',
+      ),
+      2747353336 => 
+      array (
+        'icon' => 3834,
+        'name' => 'Polished Kaborite Gemstone',
+      ),
+    ),
+  ),
   643632617 => 
   array (
     'category' => 'Destiny of Velious',
@@ -40879,6 +43050,125 @@ $CollectionsData = array (
       array (
         'icon' => 331,
         'name' => 'Kelp Tea',
+      ),
+    ),
+  ),
+  2183986914 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Kappa Lost Relics',
+    'level' => 130,
+    'crc' => 2183986914,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4040971729 => 
+      array (
+        'icon' => 5689,
+        'name' => 'Kappa Ceremonial Mask',
+      ),
+      2288265493 => 
+      array (
+        'icon' => 5750,
+        'name' => 'Forgotten Kappa Charm',
+      ),
+      3474575419 => 
+      array (
+        'icon' => 5800,
+        'name' => 'Kappa Carved Totem',
+      ),
+      838556840 => 
+      array (
+        'icon' => 5716,
+        'name' => 'Moss Covered Kappa Staff',
+      ),
+      359333409 => 
+      array (
+        'icon' => 5880,
+        'name' => 'Torn Kappa Ritual Cloth',
+      ),
+      2216386308 => 
+      array (
+        'icon' => 4867,
+        'name' => 'Sodden Kappa Amulet',
+      ),
+      1012186105 => 
+      array (
+        'icon' => 5691,
+        'name' => 'Shattered Kappa Idol',
+      ),
+    ),
+  ),
+  1813681278 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Kappa Shells',
+    'level' => 130,
+    'crc' => 1813681278,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2829826679 => 
+      array (
+        'icon' => 5730,
+        'name' => 'Moss Encrusted Kappa Shell',
+      ),
+      995413442 => 
+      array (
+        'icon' => 5730,
+        'name' => 'Luminescent Kappa Shell',
+      ),
+      2720170941 => 
+      array (
+        'icon' => 5730,
+        'name' => 'Spiked Kappa Shell',
+      ),
+      386266447 => 
+      array (
+        'icon' => 5730,
+        'name' => 'Jewel Encrusted Kappa Shell',
+      ),
+      3026673379 => 
+      array (
+        'icon' => 5730,
+        'name' => 'Weathered Kappa Shell',
+      ),
+      1984728699 => 
+      array (
+        'icon' => 5730,
+        'name' => 'Enchanted Kappa Shell',
+      ),
+      225131273 => 
+      array (
+        'icon' => 5730,
+        'name' => 'Cracked Kappa Shell',
+      ),
+      4289770982 => 
+      array (
+        'icon' => 5730,
+        'name' => 'Glimmering Kappa Shell',
+      ),
+      4101432207 => 
+      array (
+        'icon' => 5730,
+        'name' => 'Sacred Kappa Shell',
+      ),
+      3529871791 => 
+      array (
+        'icon' => 5730,
+        'name' => 'Fossilized Kappa Shell',
+      ),
+      404711452 => 
+      array (
+        'icon' => 5730,
+        'name' => 'Shimmering Kappa Shell',
+      ),
+      1821709244 => 
+      array (
+        'icon' => 5730,
+        'name' => 'Polished Kappa Shell',
       ),
     ),
   ),
@@ -41527,6 +43817,100 @@ $CollectionsData = array (
       array (
         'icon' => 2175,
         'name' => 'Yellow Door Key',
+      ),
+    ),
+  ),
+  3153031526 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Khaghar Cursed Relics',
+    'level' => 130,
+    'crc' => 3153031526,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1268492352 => 
+      array (
+        'icon' => 5693,
+        'name' => 'Whispering Idol of Khaghar',
+      ),
+      3562574304 => 
+      array (
+        'icon' => 4865,
+        'name' => 'Phantom\'s Veiled Amulet',
+      ),
+      1544885444 => 
+      array (
+        'icon' => 5697,
+        'name' => 'Khaghar Cursed Relic',
+      ),
+      921971868 => 
+      array (
+        'icon' => 5801,
+        'name' => 'Cursed Tablet of Khaghar',
+      ),
+      2782068684 => 
+      array (
+        'icon' => 3193,
+        'name' => 'Bone Chalice of Khaghar',
+      ),
+    ),
+  ),
+  2028020065 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Khaghar Offering Bowls',
+    'level' => 130,
+    'crc' => 2028020065,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2780121735 => 
+      array (
+        'icon' => 5756,
+        'name' => 'Bloodfilled Offering Bowl',
+      ),
+      3188595649 => 
+      array (
+        'icon' => 5756,
+        'name' => 'Charred Offering Bowl',
+      ),
+      2479037021 => 
+      array (
+        'icon' => 5756,
+        'name' => 'Ritualistic Offering Bowl',
+      ),
+      3498500607 => 
+      array (
+        'icon' => 5756,
+        'name' => 'Elder\'s Offering Bowl',
+      ),
+      1873910880 => 
+      array (
+        'icon' => 5756,
+        'name' => 'Stone Offering Bowl',
+      ),
+      3450028715 => 
+      array (
+        'icon' => 5756,
+        'name' => 'Cursed Offering Bowl',
+      ),
+      3963979852 => 
+      array (
+        'icon' => 5756,
+        'name' => 'Shaman\'s Offering Bowl',
+      ),
+      2149263738 => 
+      array (
+        'icon' => 5756,
+        'name' => 'Wooden Offering Bowl',
+      ),
+      1715993856 => 
+      array (
+        'icon' => 5756,
+        'name' => 'Chipped Offering Bowl',
       ),
     ),
   ),
@@ -46214,6 +48598,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  487535215 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Mandoko Jungle Relics',
+    'level' => 130,
+    'crc' => 487535215,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      228288702 => 
+      array (
+        'icon' => 5696,
+        'name' => 'Mandoko Dark Magic Charm',
+      ),
+      67391752 => 
+      array (
+        'icon' => 5706,
+        'name' => 'Mandoko Ritual Dagger',
+      ),
+      2540386203 => 
+      array (
+        'icon' => 5869,
+        'name' => 'Mandoko Vine Bracelet',
+      ),
+      4053284828 => 
+      array (
+        'icon' => 5717,
+        'name' => 'Mandoko Totem Staff',
+      ),
+      1538338758 => 
+      array (
+        'icon' => 4863,
+        'name' => 'Mandoko Bead Necklace',
+      ),
+      949607491 => 
+      array (
+        'icon' => 4868,
+        'name' => 'Mandoko Bone Amulet',
+      ),
+    ),
+  ),
   3134081824 => 
   array (
     'category' => 'Kunark',
@@ -50101,6 +52527,53 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1806899754 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Mysteries of the Ice Elemental',
+    'level' => 130,
+    'crc' => 1806899754,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1937304378 => 
+      array (
+        'icon' => 5893,
+        'name' => 'Frostbound Enigma',
+      ),
+      2872882178 => 
+      array (
+        'icon' => 4954,
+        'name' => 'Veiled Glacial Fragment',
+      ),
+      3453214890 => 
+      array (
+        'icon' => 5694,
+        'name' => 'Chilled Dragon\'s Tear',
+      ),
+      2537570232 => 
+      array (
+        'icon' => 5894,
+        'name' => 'Frost Warden\'s Sigil',
+      ),
+      3301789704 => 
+      array (
+        'icon' => 4929,
+        'name' => 'Mystic Frost Relic',
+      ),
+      2501112716 => 
+      array (
+        'icon' => 4955,
+        'name' => 'Icebound Rune Shard',
+      ),
+      3184585177 => 
+      array (
+        'icon' => 5941,
+        'name' => 'Frost Enigma Tome',
+      ),
+    ),
+  ),
   173254690 => 
   array (
     'category' => 'Reign of Shadows',
@@ -50340,6 +52813,63 @@ $CollectionsData = array (
       array (
         'icon' => 372,
         'name' => 'Faded Mystic\'s Orison',
+      ),
+    ),
+  ),
+  869537344 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Mystical Icicles of Western Wastes',
+    'level' => 130,
+    'crc' => 869537344,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2388500860 => 
+      array (
+        'icon' => 5697,
+        'name' => 'Glacial Core Icicle',
+      ),
+      236937938 => 
+      array (
+        'icon' => 5697,
+        'name' => 'Arcane Frost Icicle',
+      ),
+      2915847956 => 
+      array (
+        'icon' => 5697,
+        'name' => 'Crystalline Shard Icicle',
+      ),
+      2954189693 => 
+      array (
+        'icon' => 5697,
+        'name' => 'Enchanted Velium Icicle',
+      ),
+      1499904139 => 
+      array (
+        'icon' => 5697,
+        'name' => 'Whispering Frost Icicle',
+      ),
+      1862846037 => 
+      array (
+        'icon' => 5697,
+        'name' => 'Iridescent Icicle',
+      ),
+      85948367 => 
+      array (
+        'icon' => 5697,
+        'name' => 'Dark Veil Icicle',
+      ),
+      2821304598 => 
+      array (
+        'icon' => 5697,
+        'name' => 'Frozen Bane Icicle',
+      ),
+      787357917 => 
+      array (
+        'icon' => 5697,
+        'name' => 'Mystic Strife Icicle',
       ),
     ),
   ),
@@ -50723,6 +53253,58 @@ $CollectionsData = array (
       array (
         'icon' => 3784,
         'name' => 'Poisoned Blood',
+      ),
+    ),
+  ),
+  1272064793 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Necropolis Coins',
+    'level' => 130,
+    'crc' => 1272064793,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1893299478 => 
+      array (
+        'icon' => 5103,
+        'name' => 'Eldritch Draconic Coin',
+      ),
+      2154933193 => 
+      array (
+        'icon' => 5100,
+        'name' => 'Spiritual Draconic Coin',
+      ),
+      838147324 => 
+      array (
+        'icon' => 5100,
+        'name' => 'Abyssal Draconic Coin',
+      ),
+      2772007233 => 
+      array (
+        'icon' => 5101,
+        'name' => 'Storied Draconic Coin',
+      ),
+      2766381046 => 
+      array (
+        'icon' => 5101,
+        'name' => 'Arcane Draconic Coin',
+      ),
+      1389398804 => 
+      array (
+        'icon' => 5105,
+        'name' => 'Resplendant Draconic Coin',
+      ),
+      28712937 => 
+      array (
+        'icon' => 5102,
+        'name' => 'Elder Draconic Coin',
+      ),
+      2858517105 => 
+      array (
+        'icon' => 5104,
+        'name' => 'Interred Draconic Coin',
       ),
     ),
   ),
@@ -52108,6 +54690,90 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3962936090 => 
+  array (
+    'category' => 'Lure of Darkness',
+    'name' => 'Null Magnus\' Weapons of Vul',
+    'level' => 130,
+    'crc' => 3962936090,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3445747617 => 
+      array (
+        'icon' => 5712,
+        'name' => 'Null and Vul Hammer',
+      ),
+      681177044 => 
+      array (
+        'icon' => 5718,
+        'name' => 'Null and Vul Mace',
+      ),
+      803165066 => 
+      array (
+        'icon' => 5719,
+        'name' => 'Null and Vul Longsword',
+      ),
+      3632876136 => 
+      array (
+        'icon' => 5706,
+        'name' => 'Null and Vul Dagger',
+      ),
+      1745436573 => 
+      array (
+        'icon' => 5707,
+        'name' => 'Null and Vul Spear',
+      ),
+      2835745645 => 
+      array (
+        'icon' => 5721,
+        'name' => 'Null and Vul Greatsword',
+      ),
+    ),
+  ),
+  605317793 => 
+  array (
+    'category' => 'Lure of Darkness',
+    'name' => 'Nullstorm\'s Tempest Remnants',
+    'level' => 130,
+    'crc' => 605317793,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2285270276 => 
+      array (
+        'icon' => 5427,
+        'name' => 'Crackling Tempest Remnant',
+      ),
+      4157771847 => 
+      array (
+        'icon' => 5427,
+        'name' => 'Charged Tempest Remnant',
+      ),
+      3515363204 => 
+      array (
+        'icon' => 5427,
+        'name' => 'Magnetic Tempest Remnant',
+      ),
+      2232647384 => 
+      array (
+        'icon' => 5427,
+        'name' => 'Voltaic Tempest Remnant',
+      ),
+      1054718931 => 
+      array (
+        'icon' => 5427,
+        'name' => 'Juiced Tempest Remnant',
+      ),
+      1947188570 => 
+      array (
+        'icon' => 5427,
+        'name' => 'Powered Tempest Remnant',
+      ),
+    ),
+  ),
   239996247 => 
   array (
     'category' => 'Tradeskill',
@@ -52515,6 +55181,110 @@ $CollectionsData = array (
       array (
         'icon' => 4391,
         'name' => 'Tie the Eel in Knots',
+      ),
+    ),
+  ),
+  897914324 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Odus Levitation Artifacts',
+    'level' => 130,
+    'crc' => 897914324,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3149732424 => 
+      array (
+        'icon' => 5697,
+        'name' => 'Graviton Shard',
+      ),
+      3353290219 => 
+      array (
+        'icon' => 4860,
+        'name' => 'Levitator\'s Talisman',
+      ),
+      2398460754 => 
+      array (
+        'icon' => 4473,
+        'name' => 'Skybound Boots',
+      ),
+      2657809290 => 
+      array (
+        'icon' => 5898,
+        'name' => 'Aerial Lens',
+      ),
+      1590394296 => 
+      array (
+        'icon' => 5787,
+        'name' => 'Ethereal Driftstone',
+      ),
+      3847917984 => 
+      array (
+        'icon' => 5656,
+        'name' => 'Odus Gravistone Staff',
+      ),
+    ),
+  ),
+  2711443815 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Odus Levitation Stones',
+    'level' => 130,
+    'crc' => 2711443815,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2553324849 => 
+      array (
+        'icon' => 2924,
+        'name' => 'Ancient Levitation Stone',
+      ),
+      844513311 => 
+      array (
+        'icon' => 2923,
+        'name' => 'Cracked Levitation Stone',
+      ),
+      99735145 => 
+      array (
+        'icon' => 2921,
+        'name' => 'Luminous Levitation Stone',
+      ),
+      673139734 => 
+      array (
+        'icon' => 2918,
+        'name' => 'Veiled Levitation Stone',
+      ),
+      2769602688 => 
+      array (
+        'icon' => 2920,
+        'name' => 'Pulsating Levitation Stone',
+      ),
+      151080552 => 
+      array (
+        'icon' => 2932,
+        'name' => 'Runic Levitation Stone',
+      ),
+      2507886300 => 
+      array (
+        'icon' => 2933,
+        'name' => 'Shattered Levitation Stone',
+      ),
+      2056601399 => 
+      array (
+        'icon' => 2928,
+        'name' => 'Ethereal Levitation Stone',
+      ),
+      1499578523 => 
+      array (
+        'icon' => 2922,
+        'name' => 'Glimmering Levitation Stone',
+      ),
+      3531082071 => 
+      array (
+        'icon' => 2917,
+        'name' => 'Twilight Levitation Stone',
       ),
     ),
   ),
@@ -53484,6 +56254,48 @@ $CollectionsData = array (
       array (
         'icon' => 104,
         'name' => 'Wolf Paw',
+      ),
+    ),
+  ),
+  493575705 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Overlord\'s Legacy',
+    'level' => 130,
+    'crc' => 493575705,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3762542676 => 
+      array (
+        'icon' => 5831,
+        'name' => 'Wraithguard\'s Insignia',
+      ),
+      1127716154 => 
+      array (
+        'icon' => 5805,
+        'name' => 'Knight\'s Tattered Crest',
+      ),
+      317376528 => 
+      array (
+        'icon' => 5930,
+        'name' => 'Banner of Lucanic Legion',
+      ),
+      3899712972 => 
+      array (
+        'icon' => 5690,
+        'name' => 'Ebon Wraith Mask',
+      ),
+      2901960402 => 
+      array (
+        'icon' => 5832,
+        'name' => 'Emblem of Lucanic Order',
+      ),
+      1328788583 => 
+      array (
+        'icon' => 5663,
+        'name' => 'Relic of the Overlord\'s Reign',
       ),
     ),
   ),
@@ -58237,6 +61049,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  434141362 => 
+  array (
+    'category' => 'Lure of Darkness',
+    'name' => 'Rawmaw Leftovers',
+    'level' => 130,
+    'crc' => 434141362,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      771856135 => 
+      array (
+        'icon' => 5754,
+        'name' => 'Leftover Hand',
+      ),
+      2938327909 => 
+      array (
+        'icon' => 5754,
+        'name' => 'Leftover Leg',
+      ),
+      3236752411 => 
+      array (
+        'icon' => 5754,
+        'name' => 'Leftover Foot',
+      ),
+      2409080123 => 
+      array (
+        'icon' => 5754,
+        'name' => 'Leftover Finger',
+      ),
+      2851547147 => 
+      array (
+        'icon' => 5754,
+        'name' => 'Leftover Toe',
+      ),
+      1118678462 => 
+      array (
+        'icon' => 5754,
+        'name' => 'Leftover Arm',
+      ),
+    ),
+  ),
   3128033472 => 
   array (
     'category' => 'Ballads of Zimara',
@@ -58904,6 +61758,58 @@ $CollectionsData = array (
       array (
         'icon' => 4936,
         'name' => 'Ring of the Tribal Priest',
+      ),
+    ),
+  ),
+  70861847 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Relics of the Draconic Dead',
+    'level' => 130,
+    'crc' => 70861847,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      705248759 => 
+      array (
+        'icon' => 5741,
+        'name' => 'Ethereal Dragon Fang',
+      ),
+      934168609 => 
+      array (
+        'icon' => 5953,
+        'name' => 'Phantasmal Dragon Scale',
+      ),
+      3670075517 => 
+      array (
+        'icon' => 5903,
+        'name' => 'Spectral Dragon Claw',
+      ),
+      437812222 => 
+      array (
+        'icon' => 5737,
+        'name' => 'Wraith-Like Dragon Bone',
+      ),
+      3234060858 => 
+      array (
+        'icon' => 5736,
+        'name' => 'Ebon Dragon Bone Fragment',
+      ),
+      1247754803 => 
+      array (
+        'icon' => 5726,
+        'name' => 'Blighted Dragon Talon',
+      ),
+      2836308903 => 
+      array (
+        'icon' => 5727,
+        'name' => 'Cursed Dragon Skull Fragment',
+      ),
+      269133508 => 
+      array (
+        'icon' => 5739,
+        'name' => 'Necrotic Dragon Bone Spine',
       ),
     ),
   ),
@@ -64236,6 +67142,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1943983638 => 
+  array (
+    'category' => 'Lure of Darkness',
+    'name' => 'Sarkar\'s Stout Weapons',
+    'level' => 130,
+    'crc' => 1943983638,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2423268973 => 
+      array (
+        'icon' => 676,
+        'name' => 'Stout Axe',
+      ),
+      19953877 => 
+      array (
+        'icon' => 634,
+        'name' => 'Stout Mace',
+      ),
+      1808514241 => 
+      array (
+        'icon' => 633,
+        'name' => 'Stout Club',
+      ),
+      2952352871 => 
+      array (
+        'icon' => 692,
+        'name' => 'Stout Dagger',
+      ),
+      2697419299 => 
+      array (
+        'icon' => 612,
+        'name' => 'Stout Longsword',
+      ),
+      522692252 => 
+      array (
+        'icon' => 626,
+        'name' => 'Stout Spear',
+      ),
+    ),
+  ),
   2005749446 => 
   array (
     'category' => 'Kunark Ascending',
@@ -64645,6 +67593,90 @@ $CollectionsData = array (
       array (
         'icon' => 236,
         'name' => 'Theurgic Shawl',
+      ),
+    ),
+  ),
+  3773193450 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Scars of Destruction',
+    'level' => 130,
+    'crc' => 3773193450,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4031917858 => 
+      array (
+        'icon' => 3817,
+        'name' => 'Ulteran Petroglyph',
+      ),
+      2984921153 => 
+      array (
+        'icon' => 5943,
+        'name' => 'Words of Tarinax',
+      ),
+      1382069308 => 
+      array (
+        'icon' => 5874,
+        'name' => 'Lucan\'s Journal',
+      ),
+      864166448 => 
+      array (
+        'icon' => 5942,
+        'name' => 'Writings of Necromechanica',
+      ),
+      145741540 => 
+      array (
+        'icon' => 5879,
+        'name' => 'Map of the Wastes',
+      ),
+    ),
+  ),
+  1090298691 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Scattered Artifacts of Veeshan',
+    'level' => 130,
+    'crc' => 1090298691,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1922654794 => 
+      array (
+        'icon' => 5943,
+        'name' => 'Veeshanic Runes',
+      ),
+      3225132616 => 
+      array (
+        'icon' => 5942,
+        'name' => 'Veeshanic Tomes',
+      ),
+      2289238076 => 
+      array (
+        'icon' => 5787,
+        'name' => 'Veeshanic Sigils',
+      ),
+      1680941531 => 
+      array (
+        'icon' => 6030,
+        'name' => 'Veeshanic Effigy',
+      ),
+      121718231 => 
+      array (
+        'icon' => 5881,
+        'name' => 'Veeshanic Scrolls',
+      ),
+      579623580 => 
+      array (
+        'icon' => 5686,
+        'name' => 'Veeshanic Essence',
+      ),
+      4062517598 => 
+      array (
+        'icon' => 5697,
+        'name' => 'Veeshanic Fragments',
       ),
     ),
   ),
@@ -67815,6 +70847,58 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1854201118 => 
+  array (
+    'category' => 'Live Events',
+    'name' => 'Shining Distractions',
+    'level' => 25,
+    'crc' => 1854201118,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2913237889 => 
+      array (
+        'icon' => 2921,
+        'name' => 'Cracked Topaz',
+      ),
+      883763771 => 
+      array (
+        'icon' => 1126,
+        'name' => 'Crushed Malachite',
+      ),
+      1135221421 => 
+      array (
+        'icon' => 1187,
+        'name' => 'Tumbled Carnelian',
+      ),
+      3721301774 => 
+      array (
+        'icon' => 1163,
+        'name' => 'Rough Jade',
+      ),
+      2865348504 => 
+      array (
+        'icon' => 1181,
+        'name' => 'Raw Peridot',
+      ),
+      868281890 => 
+      array (
+        'icon' => 1122,
+        'name' => 'Crushed Jasper',
+      ),
+      1153949364 => 
+      array (
+        'icon' => 1184,
+        'name' => 'Tumbled Turquoise',
+      ),
+      3564684069 => 
+      array (
+        'icon' => 1165,
+        'name' => 'Raw Amber',
+      ),
+    ),
+  ),
   2661237611 => 
   array (
     'category' => 'Insect',
@@ -68995,6 +72079,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3344202972 => 
+  array (
+    'category' => 'Lure of Darkness',
+    'name' => 'Simian Servitor Tails',
+    'level' => 130,
+    'crc' => 3344202972,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3137746328 => 
+      array (
+        'icon' => 5796,
+        'name' => 'Broken Servitor Tail',
+      ),
+      2362239181 => 
+      array (
+        'icon' => 5796,
+        'name' => 'Skinny Servitor Tail',
+      ),
+      3168423909 => 
+      array (
+        'icon' => 5796,
+        'name' => 'Fury Servitor Tail',
+      ),
+      2917270311 => 
+      array (
+        'icon' => 5796,
+        'name' => 'Bald Servitor Tail',
+      ),
+      2850943538 => 
+      array (
+        'icon' => 5796,
+        'name' => 'Crooked Servitor Tail',
+      ),
+      1664525858 => 
+      array (
+        'icon' => 5796,
+        'name' => 'Long Servitor Tail',
+      ),
+    ),
+  ),
   2274036641 => 
   array (
     'category' => 'Chaos Descending',
@@ -69066,6 +72192,53 @@ $CollectionsData = array (
       array (
         'icon' => 4928,
         'name' => 'Rouland\'s Wind-Lance',
+      ),
+    ),
+  ),
+  2575903598 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Siren Jewelry',
+    'level' => 130,
+    'crc' => 2575903598,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      272221680 => 
+      array (
+        'icon' => 4862,
+        'name' => 'Frosted Siren\'s Choker',
+      ),
+      3242794814 => 
+      array (
+        'icon' => 4870,
+        'name' => 'Glacial Siren\'s Earrings',
+      ),
+      3341430310 => 
+      array (
+        'icon' => 4860,
+        'name' => 'Aurora Siren\'s Pendant',
+      ),
+      8355529 => 
+      array (
+        'icon' => 5749,
+        'name' => 'Shimmering Siren\'s Bracelet',
+      ),
+      1395702953 => 
+      array (
+        'icon' => 3457,
+        'name' => 'Ethereal Siren\'s Tiara',
+      ),
+      3404330915 => 
+      array (
+        'icon' => 5748,
+        'name' => 'Icy Siren\'s Anklet',
+      ),
+      1665184778 => 
+      array (
+        'icon' => 4861,
+        'name' => 'Frozen Echo Necklace',
       ),
     ),
   ),
@@ -69306,6 +72479,48 @@ $CollectionsData = array (
       array (
         'icon' => 75,
         'name' => 'Noxious Cloud Sketch',
+      ),
+    ),
+  ),
+  3088835535 => 
+  array (
+    'category' => 'Lure of Darkness',
+    'name' => 'Skirraks\' Most Venomous Vestiges',
+    'level' => 130,
+    'crc' => 3088835535,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1698625318 => 
+      array (
+        'icon' => 5741,
+        'name' => 'Most Venomous Stinger',
+      ),
+      424919476 => 
+      array (
+        'icon' => 5741,
+        'name' => 'Most Venomous Stabber',
+      ),
+      2655966879 => 
+      array (
+        'icon' => 5741,
+        'name' => 'Most Venomous Sticker',
+      ),
+      1829319339 => 
+      array (
+        'icon' => 5741,
+        'name' => 'Most Venomous Jabber',
+      ),
+      866668804 => 
+      array (
+        'icon' => 5741,
+        'name' => 'Most Venomous Piercer',
+      ),
+      3183584657 => 
+      array (
+        'icon' => 5741,
+        'name' => 'Most Venomous Puncturer',
       ),
     ),
   ),
@@ -69907,6 +73122,222 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2090443447 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Snowhorn Mammoth Remains',
+    'level' => 130,
+    'crc' => 2090443447,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2682964590 => 
+      array (
+        'icon' => 97,
+        'name' => 'Worn Mammoth Tusk',
+      ),
+      2969720400 => 
+      array (
+        'icon' => 5727,
+        'name' => 'Fractured Mammoth Skull',
+      ),
+      1962632852 => 
+      array (
+        'icon' => 5745,
+        'name' => 'Frozen Mammoth Hoof',
+      ),
+      3284838461 => 
+      array (
+        'icon' => 5729,
+        'name' => 'Ivory Mammoth Tooth',
+      ),
+      2050153726 => 
+      array (
+        'icon' => 5740,
+        'name' => 'Weathered Mammoth Tailbone',
+      ),
+    ),
+  ),
+  2102521624 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Sodden Stones',
+    'level' => 130,
+    'crc' => 2102521624,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1748468273 => 
+      array (
+        'icon' => 3827,
+        'name' => 'Mossy Sodden Stone',
+      ),
+      685631448 => 
+      array (
+        'icon' => 3829,
+        'name' => 'Weathered Sodden Stone',
+      ),
+      1904792574 => 
+      array (
+        'icon' => 3827,
+        'name' => 'Fungal Sodden Stone',
+      ),
+      2314703531 => 
+      array (
+        'icon' => 3830,
+        'name' => 'Muddy Sodden Stone',
+      ),
+      97698061 => 
+      array (
+        'icon' => 3828,
+        'name' => 'Cracked Sodden Stone',
+      ),
+      465022585 => 
+      array (
+        'icon' => 3827,
+        'name' => 'Algal Sodden stone',
+      ),
+      145079596 => 
+      array (
+        'icon' => 3827,
+        'name' => 'Veined Sodden Stone',
+      ),
+      1875350676 => 
+      array (
+        'icon' => 3830,
+        'name' => 'Tarnished Sodden Stone',
+      ),
+      2715019744 => 
+      array (
+        'icon' => 3831,
+        'name' => 'Glimmering Sodden Stone',
+      ),
+      157436148 => 
+      array (
+        'icon' => 3829,
+        'name' => 'Crystalline Sodden Stone',
+      ),
+      3525404368 => 
+      array (
+        'icon' => 3828,
+        'name' => 'Iridescent Sodden Stone',
+      ),
+      1034326682 => 
+      array (
+        'icon' => 3826,
+        'name' => 'Aged Sodden Stone',
+      ),
+      616258519 => 
+      array (
+        'icon' => 3826,
+        'name' => 'Eroded Sodden Stone',
+      ),
+      3438027170 => 
+      array (
+        'icon' => 3826,
+        'name' => 'Silted Sodden Stone',
+      ),
+      226834278 => 
+      array (
+        'icon' => 3830,
+        'name' => 'Decayed Sodden Stone',
+      ),
+    ),
+  ),
+  3898663856 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Soils and Silts of Exploration',
+    'level' => 130,
+    'crc' => 3898663856,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1145084650 => 
+      array (
+        'icon' => 5772,
+        'name' => 'Stonebrunt Mountains Loam',
+      ),
+      664520589 => 
+      array (
+        'icon' => 5768,
+        'name' => 'Dankmar Swamp Peat',
+      ),
+      210404659 => 
+      array (
+        'icon' => 5771,
+        'name' => 'Khaghar Island Sand',
+      ),
+      590760596 => 
+      array (
+        'icon' => 5769,
+        'name' => 'Barren Sound Chalk',
+      ),
+      1065811396 => 
+      array (
+        'icon' => 5771,
+        'name' => 'Deepwater Watch Sand',
+      ),
+      2401646834 => 
+      array (
+        'icon' => 5773,
+        'name' => 'Sodden Narrows Clay',
+      ),
+      841589574 => 
+      array (
+        'icon' => 5773,
+        'name' => 'Erud\'s Crossing Sand',
+      ),
+      2792804401 => 
+      array (
+        'icon' => 5769,
+        'name' => 'Barren Scree Chalk',
+      ),
+      3191503936 => 
+      array (
+        'icon' => 5771,
+        'name' => 'Remnant Shores Sand',
+      ),
+      1804722234 => 
+      array (
+        'icon' => 5772,
+        'name' => 'Charnel Scar Loam',
+      ),
+      4082999254 => 
+      array (
+        'icon' => 5769,
+        'name' => 'Nevermelt Peaks Chalk',
+      ),
+      4202669451 => 
+      array (
+        'icon' => 5768,
+        'name' => 'Frozen Nestlands Peat',
+      ),
+      2355713100 => 
+      array (
+        'icon' => 5772,
+        'name' => 'Hoarfang Ridge Loam',
+      ),
+      3881055945 => 
+      array (
+        'icon' => 5769,
+        'name' => 'Icespine Chalk',
+      ),
+      2933633190 => 
+      array (
+        'icon' => 5773,
+        'name' => 'Warming Warfields Clay',
+      ),
+      3530532886 => 
+      array (
+        'icon' => 5771,
+        'name' => 'Iceclad Ocean Sand',
+      ),
+    ),
+  ),
   3605184261 => 
   array (
     'category' => 'Kunark',
@@ -70263,6 +73694,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  2974691151 => 
+  array (
+    'category' => 'Lure of Darkness',
+    'name' => 'Sourgut\'s Fermented Molds',
+    'level' => 130,
+    'crc' => 2974691151,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3065283985 => 
+      array (
+        'icon' => 5777,
+        'name' => 'Fermented Aspergillus',
+      ),
+      2620050378 => 
+      array (
+        'icon' => 5777,
+        'name' => 'Fermented Alternaria',
+      ),
+      2733347015 => 
+      array (
+        'icon' => 5777,
+        'name' => 'Fermented Fusarium',
+      ),
+      257320299 => 
+      array (
+        'icon' => 5777,
+        'name' => 'Fermented Penicillium',
+      ),
+      2704016241 => 
+      array (
+        'icon' => 5777,
+        'name' => 'Fermented Stachybotrys',
+      ),
+      1583952431 => 
+      array (
+        'icon' => 5777,
+        'name' => 'Fermented Cladosporium',
+      ),
+    ),
+  ),
   991781570 => 
   array (
     'category' => 'Chaos Descending',
@@ -70462,6 +73935,140 @@ $CollectionsData = array (
       array (
         'icon' => 79,
         'name' => 'shriveled sphinx toe',
+      ),
+    ),
+  ),
+  2401273509 => 
+  array (
+    'category' => 'Lure of Darkness',
+    'name' => 'Spiral of Vul',
+    'level' => 130,
+    'crc' => 2401273509,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2862159150 => 
+      array (
+        'icon' => 4242,
+        'name' => 'Vegurd\'s Captains Bars',
+      ),
+      1376079659 => 
+      array (
+        'icon' => 5740,
+        'name' => 'Succulux\'s Spikiest Stickers',
+      ),
+      2213948611 => 
+      array (
+        'icon' => 5934,
+        'name' => 'Torkar\'s Tyranic Spurs',
+      ),
+      779803712 => 
+      array (
+        'icon' => 4848,
+        'name' => 'Lurdo\'s Vuldor Gate Keys',
+      ),
+      3143657790 => 
+      array (
+        'icon' => 5699,
+        'name' => 'Az\'Ael En\'Quaed\'s Cult of Vul Staff',
+      ),
+      1557783194 => 
+      array (
+        'icon' => 5832,
+        'name' => 'Coalesced Coal Clumps',
+      ),
+      2976676153 => 
+      array (
+        'icon' => 5763,
+        'name' => 'Kormork\'s Prime Predatory Pieces',
+      ),
+      2470021182 => 
+      array (
+        'icon' => 5700,
+        'name' => 'Arla Swiftshot\'s Swiftshot',
+      ),
+      4206597355 => 
+      array (
+        'icon' => 5764,
+        'name' => 'Carcasma\'s Corpse Snacks',
+      ),
+      2753947242 => 
+      array (
+        'icon' => 5695,
+        'name' => 'Balremos\' Fiery Chunks',
+      ),
+      582022840 => 
+      array (
+        'icon' => 5205,
+        'name' => 'Winds of Oblivion',
+      ),
+      1270245679 => 
+      array (
+        'icon' => 5017,
+        'name' => 'Tempered Karborite Frame',
+      ),
+      2151681845 => 
+      array (
+        'icon' => 5893,
+        'name' => 'Blot the Black\'s Black Blottings',
+      ),
+      2035503130 => 
+      array (
+        'icon' => 5904,
+        'name' => 'Oggorn Leg-Shorn\'s Missing Leg',
+      ),
+      3056627624 => 
+      array (
+        'icon' => 5802,
+        'name' => 'The Runic Ruins\' Ruined Rune',
+      ),
+      2689487690 => 
+      array (
+        'icon' => 5692,
+        'name' => 'The Dread Summoner\'s Summoned Dread',
+      ),
+    ),
+  ),
+  886873934 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Spiralbound Artifacts',
+    'level' => 130,
+    'crc' => 886873934,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2283540811 => 
+      array (
+        'icon' => 3490,
+        'name' => 'Kaborite Shard',
+      ),
+      1904440596 => 
+      array (
+        'icon' => 862,
+        'name' => 'Orcish Bone Totem',
+      ),
+      239252531 => 
+      array (
+        'icon' => 3386,
+        'name' => 'Void Scarred Artifact',
+      ),
+      1490975857 => 
+      array (
+        'icon' => 1267,
+        'name' => 'Blackhook Talisman',
+      ),
+      2076677403 => 
+      array (
+        'icon' => 1132,
+        'name' => 'Ruined Void Rune',
+      ),
+      1147905506 => 
+      array (
+        'icon' => 1269,
+        'name' => 'Eroded Orcish Sigil',
       ),
     ),
   ),
@@ -71513,6 +75120,53 @@ $CollectionsData = array (
       ),
     ),
   ),
+  8761744 => 
+  array (
+    'category' => 'Tradeskill',
+    'name' => 'Stocking the Wanderer',
+    'level' => 130,
+    'crc' => 8761744,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      748613076 => 
+      array (
+        'icon' => 2285,
+        'name' => 'Barrels of Salty Fish',
+      ),
+      1096641315 => 
+      array (
+        'icon' => 566,
+        'name' => 'Crates of Harvests',
+      ),
+      211715776 => 
+      array (
+        'icon' => 780,
+        'name' => 'Bundles of Bedding',
+      ),
+      1814771504 => 
+      array (
+        'icon' => 2683,
+        'name' => 'Supplies for Shelters',
+      ),
+      406396476 => 
+      array (
+        'icon' => 2695,
+        'name' => 'Random Crates and Barrels',
+      ),
+      78209504 => 
+      array (
+        'icon' => 2483,
+        'name' => 'Raffik\'s Hat',
+      ),
+      561019051 => 
+      array (
+        'icon' => 2347,
+        'name' => 'Shielding Device',
+      ),
+    ),
+  ),
   904989840 => 
   array (
     'category' => 'Visions of Vetrovia',
@@ -72093,6 +75747,48 @@ $CollectionsData = array (
       array (
         'icon' => 953,
         'name' => 'Belt of Crystallized Rain',
+      ),
+    ),
+  ),
+  2773654042 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Stormforged Relics',
+    'level' => 130,
+    'crc' => 2773654042,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1536853535 => 
+      array (
+        'icon' => 5697,
+        'name' => 'Stormshard Fragment',
+      ),
+      3116100291 => 
+      array (
+        'icon' => 5694,
+        'name' => 'Tempest Core',
+      ),
+      678540576 => 
+      array (
+        'icon' => 5943,
+        'name' => 'Ultera Rune Tablet',
+      ),
+      2758975972 => 
+      array (
+        'icon' => 4868,
+        'name' => 'Skybreaker Amulet',
+      ),
+      2025687764 => 
+      array (
+        'icon' => 5693,
+        'name' => 'Thunderspliced Idol',
+      ),
+      3403157940 => 
+      array (
+        'icon' => 5648,
+        'name' => 'Ethereal Windstaff',
       ),
     ),
   ),
@@ -74627,6 +78323,68 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1081383745 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Tales of the Scars',
+    'level' => 130,
+    'crc' => 1081383745,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      838556840 => 
+      array (
+        'icon' => 5716,
+        'name' => 'Moss Covered Kappa Staff',
+      ),
+      1544885444 => 
+      array (
+        'icon' => 5697,
+        'name' => 'Khaghar Cursed Relic',
+      ),
+      228288702 => 
+      array (
+        'icon' => 5696,
+        'name' => 'Mandoko Dark Magic Charm',
+      ),
+      99735145 => 
+      array (
+        'icon' => 2921,
+        'name' => 'Luminous Levitation Stone',
+      ),
+      1536853535 => 
+      array (
+        'icon' => 5697,
+        'name' => 'Stormshard Fragment',
+      ),
+      2725446418 => 
+      array (
+        'icon' => 576,
+        'name' => 'Emberscale Amulet',
+      ),
+      2519764197 => 
+      array (
+        'icon' => 5732,
+        'name' => 'Frozen Tide Shell',
+      ),
+      3011012380 => 
+      array (
+        'icon' => 645,
+        'name' => 'Ice Giant Signet',
+      ),
+      1665184778 => 
+      array (
+        'icon' => 4861,
+        'name' => 'Frozen Echo Necklace',
+      ),
+      2261234635 => 
+      array (
+        'icon' => 1198,
+        'name' => 'Glimmering Velium Rock',
+      ),
+    ),
+  ),
   3652619399 => 
   array (
     'category' => 'Destiny of Velious',
@@ -75027,6 +78785,58 @@ $CollectionsData = array (
       array (
         'icon' => 1104,
         'name' => 'Flannel Tallonite Sash of Station',
+      ),
+    ),
+  ),
+  2591898557 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Tarinax\'s Sigils',
+    'level' => 130,
+    'crc' => 2591898557,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3715143837 => 
+      array (
+        'icon' => 4432,
+        'name' => 'Tarinax\'s Forbidden Sigil',
+      ),
+      2483004721 => 
+      array (
+        'icon' => 4435,
+        'name' => 'Tarinax\'s Shadowed Sigil',
+      ),
+      3090000810 => 
+      array (
+        'icon' => 4434,
+        'name' => 'Tarinax\'s Void Touched Sigil',
+      ),
+      1626775883 => 
+      array (
+        'icon' => 4428,
+        'name' => 'Tarinax\'s Corrupted Sigil',
+      ),
+      1445458883 => 
+      array (
+        'icon' => 4430,
+        'name' => 'Tarinax\'s Enigmatic Sigil',
+      ),
+      875866824 => 
+      array (
+        'icon' => 4429,
+        'name' => 'Tarinax\'s Eclipsed Sigil',
+      ),
+      449932622 => 
+      array (
+        'icon' => 4433,
+        'name' => 'Tarinax\'s Ominous Sigil',
+      ),
+      2859493908 => 
+      array (
+        'icon' => 4428,
+        'name' => 'Tarinax\'s Warding Sigil',
       ),
     ),
   ),
@@ -75532,6 +79342,48 @@ $CollectionsData = array (
       array (
         'icon' => 2123,
         'name' => 'Hateful Hordeum',
+      ),
+    ),
+  ),
+  1222415787 => 
+  array (
+    'category' => 'Lure of Darkness',
+    'name' => 'Tembrusk\'s Void-Infected Timber',
+    'level' => 130,
+    'crc' => 1222415787,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3405426157 => 
+      array (
+        'icon' => 5164,
+        'name' => 'Void-Infected Bark',
+      ),
+      2423599077 => 
+      array (
+        'icon' => 5164,
+        'name' => 'Void-Infected Birch',
+      ),
+      757702344 => 
+      array (
+        'icon' => 5164,
+        'name' => 'Void-Infected Branch',
+      ),
+      2419462542 => 
+      array (
+        'icon' => 5164,
+        'name' => 'Void-Infected Banyan',
+      ),
+      2929790313 => 
+      array (
+        'icon' => 5164,
+        'name' => 'Void-Infected Balsam',
+      ),
+      827291217 => 
+      array (
+        'icon' => 5164,
+        'name' => 'Void-Infected Baobab',
       ),
     ),
   ),
@@ -84599,6 +88451,115 @@ $CollectionsData = array (
       ),
     ),
   ),
+  557482510 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Velium Relics',
+    'level' => 130,
+    'crc' => 557482510,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3967311323 => 
+      array (
+        'icon' => 2527,
+        'name' => 'Velium Infused Ore',
+      ),
+      3485401412 => 
+      array (
+        'icon' => 2517,
+        'name' => 'Ancient Velium Rune',
+      ),
+      2346454370 => 
+      array (
+        'icon' => 2526,
+        'name' => 'Velium Crystalline Fragment',
+      ),
+      3410224993 => 
+      array (
+        'icon' => 2515,
+        'name' => 'Glacial Velium Shard',
+      ),
+      3195192758 => 
+      array (
+        'icon' => 4860,
+        'name' => 'Velium Talisman',
+      ),
+      2947816830 => 
+      array (
+        'icon' => 2518,
+        'name' => 'Velium Cored Geode',
+      ),
+      516014239 => 
+      array (
+        'icon' => 998,
+        'name' => 'Velium Rune Tablet',
+      ),
+    ),
+  ),
+  3249713132 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Velium Rock Collection',
+    'level' => 130,
+    'crc' => 3249713132,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2350898446 => 
+      array (
+        'icon' => 1197,
+        'name' => 'Crystalline Velium Rock',
+      ),
+      112094273 => 
+      array (
+        'icon' => 1177,
+        'name' => 'Frosted Velium Rock',
+      ),
+      202234848 => 
+      array (
+        'icon' => 1188,
+        'name' => 'Veined Velium Rock',
+      ),
+      734055548 => 
+      array (
+        'icon' => 1173,
+        'name' => 'Weathered Velium Rock',
+      ),
+      2261234635 => 
+      array (
+        'icon' => 1198,
+        'name' => 'Glimmering Velium Rock',
+      ),
+      2412608289 => 
+      array (
+        'icon' => 1178,
+        'name' => 'Cracked Velium Rock',
+      ),
+      8527605 => 
+      array (
+        'icon' => 1160,
+        'name' => 'Chipped Velium Rock',
+      ),
+      464468217 => 
+      array (
+        'icon' => 1159,
+        'name' => 'Jagged Velium Rock',
+      ),
+      1634233905 => 
+      array (
+        'icon' => 1198,
+        'name' => 'Shimmering Velium Rock',
+      ),
+      2760600177 => 
+      array (
+        'icon' => 1176,
+        'name' => 'Veiled Velium Rock',
+      ),
+    ),
+  ),
   2175650635 => 
   array (
     'category' => 'Visions of Vetrovia',
@@ -84965,6 +88926,63 @@ $CollectionsData = array (
       array (
         'icon' => 4887,
         'name' => 'Empty Quartz Vial',
+      ),
+    ),
+  ),
+  1188369157 => 
+  array (
+    'category' => 'Erollisi Day',
+    'name' => 'Vibrant Feathers',
+    'level' => 20,
+    'crc' => 1188369157,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      506825983 => 
+      array (
+        'icon' => 5826,
+        'name' => 'Shining Yellow Feather',
+      ),
+      2268912965 => 
+      array (
+        'icon' => 149,
+        'name' => 'Outrageous Orange Feather',
+      ),
+      4030459347 => 
+      array (
+        'icon' => 147,
+        'name' => 'Vivid Violet Feather',
+      ),
+      1851750512 => 
+      array (
+        'icon' => 5825,
+        'name' => 'Mighty Magenta Feather',
+      ),
+      425216230 => 
+      array (
+        'icon' => 5822,
+        'name' => 'Sheen Green Feather',
+      ),
+      2152798556 => 
+      array (
+        'icon' => 5824,
+        'name' => 'Blazing Blue Feather',
+      ),
+      4149619146 => 
+      array (
+        'icon' => 5825,
+        'name' => 'Plucky Pink Feather',
+      ),
+      1743336539 => 
+      array (
+        'icon' => 147,
+        'name' => 'Intense Indigo Feather',
+      ),
+      284034253 => 
+      array (
+        'icon' => 5825,
+        'name' => 'Raging Red Feather',
       ),
     ),
   ),
@@ -85373,6 +89391,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1094153733 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Void Touched Artifacts',
+    'level' => 130,
+    'crc' => 1094153733,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      4032826823 => 
+      array (
+        'icon' => 3918,
+        'name' => 'Void Infused Shard',
+      ),
+      3749278891 => 
+      array (
+        'icon' => 3459,
+        'name' => 'Twisted Void Amulet',
+      ),
+      2680404607 => 
+      array (
+        'icon' => 3816,
+        'name' => 'Cursed Void Relic',
+      ),
+      1124612003 => 
+      array (
+        'icon' => 3933,
+        'name' => 'Void Tainted Scroll',
+      ),
+      1544012345 => 
+      array (
+        'icon' => 3819,
+        'name' => 'Void Touched Idol',
+      ),
+      1847020437 => 
+      array (
+        'icon' => 3810,
+        'name' => 'Shadowed Void Orb',
+      ),
+    ),
+  ),
   2989465787 => 
   array (
     'category' => 'Lavastorm',
@@ -85432,6 +89492,48 @@ $CollectionsData = array (
       array (
         'icon' => 3048,
         'name' => 'Void-Touched Substance',
+      ),
+    ),
+  ),
+  1806484043 => 
+  array (
+    'category' => 'Lure of Darkness',
+    'name' => 'Void-Cursed Geomagus Armor',
+    'level' => 130,
+    'crc' => 1806484043,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2545991421 => 
+      array (
+        'icon' => 4119,
+        'name' => 'Void-Cursed Robes',
+      ),
+      3980242046 => 
+      array (
+        'icon' => 4119,
+        'name' => 'Void-Cursed Frock',
+      ),
+      2479806209 => 
+      array (
+        'icon' => 4119,
+        'name' => 'Void-Cursed Garment',
+      ),
+      3150071105 => 
+      array (
+        'icon' => 4119,
+        'name' => 'Void-Cursed Vestment',
+      ),
+      698068358 => 
+      array (
+        'icon' => 4119,
+        'name' => 'Void-Cursed Mantle',
+      ),
+      530017721 => 
+      array (
+        'icon' => 4119,
+        'name' => 'Void-Cursed Kimono',
       ),
     ),
   ),
@@ -85506,6 +89608,43 @@ $CollectionsData = array (
       array (
         'icon' => 1342,
         'name' => 'Warmonger\'s Void-Touched Medallion',
+      ),
+    ),
+  ),
+  3963626191 => 
+  array (
+    'category' => 'Scars of Destruction ',
+    'name' => 'Voidstones',
+    'level' => 130,
+    'crc' => 3963626191,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3814634457 => 
+      array (
+        'icon' => 3773,
+        'name' => 'Fragment of Voidstone',
+      ),
+      4239966994 => 
+      array (
+        'icon' => 3771,
+        'name' => 'Cracked Voidstone Slab',
+      ),
+      4020421981 => 
+      array (
+        'icon' => 3778,
+        'name' => 'Glowing Voidstone Core',
+      ),
+      2502420951 => 
+      array (
+        'icon' => 5696,
+        'name' => 'Warped Voidstone Orb',
+      ),
+      4234488444 => 
+      array (
+        'icon' => 3773,
+        'name' => 'Veiled Voidstone Shard',
       ),
     ),
   ),
@@ -85622,6 +89761,48 @@ $CollectionsData = array (
       array (
         'icon' => 2525,
         'name' => 'A Golden Vortex Gate',
+      ),
+    ),
+  ),
+  861937650 => 
+  array (
+    'category' => 'Lure of Darkness',
+    'name' => 'Vuldor Vanguard Orders',
+    'level' => 130,
+    'crc' => 861937650,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1116446314 => 
+      array (
+        'icon' => 5989,
+        'name' => 'Smudged Orders',
+      ),
+      2038798868 => 
+      array (
+        'icon' => 5989,
+        'name' => 'Crumpled Orders',
+      ),
+      2052745403 => 
+      array (
+        'icon' => 5989,
+        'name' => 'Burnt Orders',
+      ),
+      1421120958 => 
+      array (
+        'icon' => 5989,
+        'name' => 'Wet Orders',
+      ),
+      293200861 => 
+      array (
+        'icon' => 5989,
+        'name' => 'Torn Orders',
+      ),
+      3645741786 => 
+      array (
+        'icon' => 5989,
+        'name' => 'Magical Orders',
       ),
     ),
   ),
@@ -88497,6 +92678,48 @@ $CollectionsData = array (
       array (
         'icon' => 774,
         'name' => 'a gnawed plank',
+      ),
+    ),
+  ),
+  3744832959 => 
+  array (
+    'category' => 'Lure of Darkness',
+    'name' => 'Woozit\'s Wonderous Watchers',
+    'level' => 130,
+    'crc' => 3744832959,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      576095645 => 
+      array (
+        'icon' => 5898,
+        'name' => 'Single-Lensed Watcher',
+      ),
+      3952086995 => 
+      array (
+        'icon' => 5898,
+        'name' => 'Telescoping Watcher',
+      ),
+      3332312304 => 
+      array (
+        'icon' => 5898,
+        'name' => 'Red-Lensed Watcher',
+      ),
+      3849770711 => 
+      array (
+        'icon' => 5898,
+        'name' => 'Dual-Lensed Watcher',
+      ),
+      3622605707 => 
+      array (
+        'icon' => 5898,
+        'name' => 'Monocled Watcher',
+      ),
+      3675705898 => 
+      array (
+        'icon' => 5898,
+        'name' => 'Pince-Nezed Watcher',
       ),
     ),
   ),
