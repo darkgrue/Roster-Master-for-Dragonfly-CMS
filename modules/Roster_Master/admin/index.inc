@@ -25,7 +25,6 @@
 if (!defined('CPG_NUKE')) { exit; }
 if (!defined('ADMIN_PAGES')) { exit; }
 
-
 // *********************** Module Instantiation ************************
 // Multiple instances of this module can be created by making a copy of
 // the module directory and adding an underscore followed by an integer
@@ -143,16 +142,17 @@ function rm_admin_menu($mode) {
 		$dev_commands[] = '[ <a href="'.adminlink('&mode=build_questsdata').'">'._BUILDQUESTS.'</a>';
 	}
 	if ($mode == 'build_collectionsdata') {
-		$dev_commands[] = '<b>'._BUILDCOLLECTIONS.'</b>';
+		$dev_commands[] = '<b>'._BUILDCOLLECTIONS.'</b> ]';
 	} else {
-		$dev_commands[] = '<a href="'.adminlink('&mode=build_collectionsdata').'">'._BUILDCOLLECTIONS.'</a>';
+		$dev_commands[] = '<a href="'.adminlink('&mode=build_collectionsdata').'">'._BUILDCOLLECTIONS.'</a> ]';
 	}
+/*
 	if ($mode == 'build_collectionsicons') {
 		$dev_commands[] = '<b>'._BUILDICONS.'</b> ]';
 	} else {
 		$dev_commands[] = '<a href="'.adminlink('&mode=build_collectionsicons').'">'._BUILDICONS.'</a> ]';
 	}
-
+*/
 
 	echo "<span class=\"gen\"><strong>{$mod_displayname} "._ADMINISTRATION."</strong></span><br />\n"
 		.implode('&nbsp;| ', $admin_commands)."<br />\n<br />\n";
@@ -855,10 +855,12 @@ function build_collectionsicons() {
 			OpenTable();
 			echo "<pre style=\"text-align:left\">local directory: modules/{$mod_dirname}/images/items/\nURL: {$config['census']}img/eq2/icons/\n\n";
 
+			trigger_error("#### Refreshing icon cache...", E_USER_NOTICE);
 			foreach ($CollectionsData as $collection) {
 				foreach ($collection['reference_list'] as $item) {
 					$filename = "modules/{$mod_dirname}/images/items/{$item['icon']}.png";
 					if (!file_exists($filename)) {
+//					    trigger_error("## Adding {$item['icon']}...", E_USER_NOTICE);
 						$fp = fopen($filename, 'w+');
 						$ch = curl_init("{$config['census']}img/eq2/icons/{$item['icon']}/item");
 						$filesize = 0;
@@ -888,10 +890,12 @@ function build_collectionsicons() {
 						curl_close($ch);
 						fclose($fp);
 						if ($filesize <= 0) {
-							// Failrly wasteful way of doing this, since it doesn't prevent subsequent retries...
+							// Fairly wasteful way of doing this, since it doesn't prevent subsequent retries...
 							unlink($filename);
 						}
 						$count++;
+					} else {
+//							trigger_error("## Skipping {$item['icon']}.", E_USER_NOTICE);
 					}
 				}
 			}
@@ -964,9 +968,11 @@ switch ($mode) {
 	case 'build_collectionsdata':
 		build_collectionsdata();
 		break;
+/*
 	case 'build_collectionsicons':
 		build_collectionsicons();
 		break;
+*/	
 	default:
 		lookup_guildid();
 }
