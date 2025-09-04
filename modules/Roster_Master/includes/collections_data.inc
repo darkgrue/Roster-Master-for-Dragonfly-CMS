@@ -33,7 +33,7 @@
 if (!defined('CPG_NUKE')) { exit; }
 
 
-// 2162 elements parsed.
+// 2179 elements parsed.
 
 $CollectionsData = array (
   209952092 => 
@@ -5697,6 +5697,53 @@ $CollectionsData = array (
       array (
         'icon' => 185,
         'name' => 'Rocky Pinnacles',
+      ),
+    ),
+  ),
+  3145151777 => 
+  array (
+    'category' => 'Fear of Eternity',
+    'name' => 'Ashlok Artifacts',
+    'level' => 130,
+    'crc' => 3145151777,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      813140122 => 
+      array (
+        'icon' => 5702,
+        'name' => 'Worn Bone Blade',
+      ),
+      3486769260 => 
+      array (
+        'icon' => 5802,
+        'name' => 'Blackened Totem Stone',
+      ),
+      4077381605 => 
+      array (
+        'icon' => 5870,
+        'name' => 'Chipped Signal Horn',
+      ),
+      1612388701 => 
+      array (
+        'icon' => 5691,
+        'name' => 'Cracked War Idol',
+      ),
+      3179023972 => 
+      array (
+        'icon' => 5741,
+        'name' => 'Charred Skyfire Tooth',
+      ),
+      1031801921 => 
+      array (
+        'icon' => 5943,
+        'name' => 'Boneplate Scrap',
+      ),
+      1552747929 => 
+      array (
+        'icon' => 5728,
+        'name' => 'Twisted Drake Fang',
       ),
     ),
   ),
@@ -12995,7 +13042,7 @@ $CollectionsData = array (
   array (
     'category' => 'Jubilee',
     'name' => 'Celestial Realm Notions',
-    'level' => 1,
+    'level' => 20,
     'crc' => 2525847714,
     'isclass' => false,
     'ismeta' => false,
@@ -13658,6 +13705,53 @@ $CollectionsData = array (
       array (
         'icon' => 1086,
         'name' => 'worn terracotta chip',
+      ),
+    ),
+  ),
+  2236908259 => 
+  array (
+    'category' => 'Fear of Eternity',
+    'name' => 'Chitari Tribal Tokens',
+    'level' => 130,
+    'crc' => 2236908259,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2488918715 => 
+      array (
+        'icon' => 5832,
+        'name' => 'Bone Token',
+      ),
+      1802971659 => 
+      array (
+        'icon' => 5832,
+        'name' => 'Claw Token',
+      ),
+      3061055372 => 
+      array (
+        'icon' => 5832,
+        'name' => 'Feather Token',
+      ),
+      3270477946 => 
+      array (
+        'icon' => 5832,
+        'name' => 'Fang Token',
+      ),
+      1407162922 => 
+      array (
+        'icon' => 5832,
+        'name' => 'Scale Token',
+      ),
+      1720975339 => 
+      array (
+        'icon' => 5832,
+        'name' => 'Tooth Token',
+      ),
+      1637947184 => 
+      array (
+        'icon' => 5832,
+        'name' => 'Hide Token',
       ),
     ),
   ),
@@ -29529,6 +29623,53 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1867220255 => 
+  array (
+    'category' => 'Fear of Eternity',
+    'name' => 'Faceless Fear Masks',
+    'level' => 130,
+    'crc' => 1867220255,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3639179754 => 
+      array (
+        'icon' => 5689,
+        'name' => 'Plain Fear Mask',
+      ),
+      2503531126 => 
+      array (
+        'icon' => 5689,
+        'name' => 'Worn Fear Mask',
+      ),
+      2879908747 => 
+      array (
+        'icon' => 5689,
+        'name' => 'Clay Fear Mask',
+      ),
+      2861137280 => 
+      array (
+        'icon' => 5689,
+        'name' => 'Wooden Fear Mask',
+      ),
+      1506154256 => 
+      array (
+        'icon' => 5689,
+        'name' => 'Leather Fear Mask',
+      ),
+      1562029902 => 
+      array (
+        'icon' => 5689,
+        'name' => 'Bone Fear Mask',
+      ),
+      770291618 => 
+      array (
+        'icon' => 5689,
+        'name' => 'Ash Fear Mask',
+      ),
+    ),
+  ),
   3194061781 => 
   array (
     'category' => 'Nights of the Dead',
@@ -30594,6 +30735,38 @@ $CollectionsData = array (
       ),
     ),
   ),
+  1531838980 => 
+  array (
+    'category' => 'Fear of Eternity',
+    'name' => 'Fear of Eternity',
+    'level' => 130,
+    'crc' => 1531838980,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2463431286 => 
+      array (
+        'icon' => 5929,
+        'name' => 'Banner of Baelon',
+      ),
+      240564617 => 
+      array (
+        'icon' => 5801,
+        'name' => 'Sigil of the Faceless',
+      ),
+      1077425595 => 
+      array (
+        'icon' => 5930,
+        'name' => 'Banner of Mrelg',
+      ),
+      4046565311 => 
+      array (
+        'icon' => 5802,
+        'name' => 'Sigil of World\'s End',
+      ),
+    ),
+  ),
   3742202868 => 
   array (
     'category' => 'Sentinel\'s Fate',
@@ -30853,6 +31026,53 @@ $CollectionsData = array (
       array (
         'icon' => 154,
         'name' => 'eagle feather',
+      ),
+    ),
+  ),
+  375813598 => 
+  array (
+    'category' => 'Fear of Eternity',
+    'name' => 'Feerling Keepsakes',
+    'level' => 130,
+    'crc' => 375813598,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2700671351 => 
+      array (
+        'icon' => 4864,
+        'name' => 'Worn Scale Pendant',
+      ),
+      3451268787 => 
+      array (
+        'icon' => 5726,
+        'name' => 'Old Tooth Charm',
+      ),
+      102465076 => 
+      array (
+        'icon' => 5691,
+        'name' => 'Carved Lizard Token',
+      ),
+      3939805282 => 
+      array (
+        'icon' => 5749,
+        'name' => 'Bent Copper Trinket',
+      ),
+      2054893632 => 
+      array (
+        'icon' => 5690,
+        'name' => 'Small Bone Figurine',
+      ),
+      2034006947 => 
+      array (
+        'icon' => 5727,
+        'name' => 'Cracked Bone Charm',
+      ),
+      1999631525 => 
+      array (
+        'icon' => 5729,
+        'name' => 'Dull Fearling Fang',
       ),
     ),
   ),
@@ -41119,6 +41339,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3111506143 => 
+  array (
+    'category' => 'Fear of Eternity',
+    'name' => 'Implements of Fear',
+    'level' => 130,
+    'crc' => 3111506143,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1277285004 => 
+      array (
+        'icon' => 2793,
+        'name' => 'Fist of the Shiverback King',
+      ),
+      1062707594 => 
+      array (
+        'icon' => 2698,
+        'name' => 'Phobis\' Goo',
+      ),
+      2578621132 => 
+      array (
+        'icon' => 2777,
+        'name' => 'Venekor\'s Fear Touched Fang',
+      ),
+      3624396611 => 
+      array (
+        'icon' => 2795,
+        'name' => 'Eye of the Enraged Imp',
+      ),
+      476460292 => 
+      array (
+        'icon' => 2799,
+        'name' => 'Thoughtbleeder\'s Pupil',
+      ),
+      3421599108 => 
+      array (
+        'icon' => 2717,
+        'name' => 'Baelon\'s Fear-Touched Mace',
+      ),
+    ),
+  ),
   403325862 => 
   array (
     'category' => 'Weird',
@@ -45422,6 +45684,83 @@ $CollectionsData = array (
       array (
         'icon' => 2119,
         'name' => 'Pine Tree Needle',
+      ),
+    ),
+  ),
+  882291934 => 
+  array (
+    'category' => 'Fear of Eternity',
+    'name' => 'Legacy of the Great Devourer',
+    'level' => 130,
+    'crc' => 882291934,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1262884804 => 
+      array (
+        'icon' => 5745,
+        'name' => 'Eye of the Devourer',
+      ),
+      1764877758 => 
+      array (
+        'icon' => 1113,
+        'name' => 'Wyrmtooth Binding Cord',
+      ),
+      1959580551 => 
+      array (
+        'icon' => 4878,
+        'name' => 'Bone Altar Fragment',
+      ),
+      2754657192 => 
+      array (
+        'icon' => 5799,
+        'name' => 'Devourer\'s Stone Sigil',
+      ),
+      3586498059 => 
+      array (
+        'icon' => 5688,
+        'name' => 'Charred Ritual Mask',
+      ),
+      3417976639 => 
+      array (
+        'icon' => 5990,
+        'name' => 'Hollowed Fang Chalice',
+      ),
+      2500647341 => 
+      array (
+        'icon' => 5779,
+        'name' => 'Ashen Incense Cradle',
+      ),
+      2002182007 => 
+      array (
+        'icon' => 4028,
+        'name' => 'Whispering Skull Fragment',
+      ),
+      123286886 => 
+      array (
+        'icon' => 2918,
+        'name' => 'Molten Wyrm Scale',
+      ),
+      1305635689 => 
+      array (
+        'icon' => 3448,
+        'name' => 'Runed Claw Talisman',
+      ),
+      3441666207 => 
+      array (
+        'icon' => 5693,
+        'name' => 'Fang Relic of the Devourer',
+      ),
+      372030018 => 
+      array (
+        'icon' => 569,
+        'name' => 'Sealed Ash Urn',
+      ),
+      1888782658 => 
+      array (
+        'icon' => 2941,
+        'name' => 'Mystical Shrine Stone',
       ),
     ),
   ),
@@ -52774,6 +53113,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3590009891 => 
+  array (
+    'category' => 'Fear of Eternity',
+    'name' => 'Mystic Shards of the Devourer',
+    'level' => 130,
+    'crc' => 3590009891,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2825347651 => 
+      array (
+        'icon' => 4434,
+        'name' => 'Charred Wyrmscale Shard',
+      ),
+      4176727563 => 
+      array (
+        'icon' => 4435,
+        'name' => 'Stagnant Rune Shard',
+      ),
+      2206684220 => 
+      array (
+        'icon' => 4433,
+        'name' => 'Glowing Bone Shard',
+      ),
+      914692118 => 
+      array (
+        'icon' => 4430,
+        'name' => 'Runed Bone Shard',
+      ),
+      1396153207 => 
+      array (
+        'icon' => 4428,
+        'name' => 'Warm Ash Shard',
+      ),
+      3107154270 => 
+      array (
+        'icon' => 4432,
+        'name' => 'Dull Ritual Shard',
+      ),
+    ),
+  ),
   940712843 => 
   array (
     'category' => 'Kunark Ascending',
@@ -55327,6 +55708,88 @@ $CollectionsData = array (
       array (
         'icon' => 185,
         'name' => 'Of Maj\'Dul Am I - Page 16',
+      ),
+    ),
+  ),
+  1107081765 => 
+  array (
+    'category' => 'Fear of Eternity',
+    'name' => 'Offerings of the Faceless',
+    'level' => 130,
+    'crc' => 1107081765,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      405228783 => 
+      array (
+        'icon' => 365,
+        'name' => 'Obsidian Eye of Thule',
+      ),
+      830993733 => 
+      array (
+        'icon' => 940,
+        'name' => 'Serpent\'s Blood Chalice',
+      ),
+      3006793061 => 
+      array (
+        'icon' => 880,
+        'name' => 'Fear-Etched Gold Mask',
+      ),
+      2364534366 => 
+      array (
+        'icon' => 2270,
+        'name' => 'Worn Cazic Coin',
+      ),
+      79714808 => 
+      array (
+        'icon' => 597,
+        'name' => 'Tarnished Thulian Ring',
+      ),
+      17654526 => 
+      array (
+        'icon' => 323,
+        'name' => 'Sealed Blood Jar',
+      ),
+      1690618144 => 
+      array (
+        'icon' => 878,
+        'name' => 'Carving of the Faceless',
+      ),
+      3158430146 => 
+      array (
+        'icon' => 5726,
+        'name' => 'Hollowed Fang Piece',
+      ),
+      657769721 => 
+      array (
+        'icon' => 2269,
+        'name' => 'Nail Scratched Token',
+      ),
+      2297968522 => 
+      array (
+        'icon' => 385,
+        'name' => 'Old Bone Pendant',
+      ),
+      850768228 => 
+      array (
+        'icon' => 165,
+        'name' => 'Copper Spike Shard',
+      ),
+      603008077 => 
+      array (
+        'icon' => 861,
+        'name' => 'Cracked Thulian Idol',
+      ),
+      1163642612 => 
+      array (
+        'icon' => 872,
+        'name' => 'Thulian Incense Bowl',
+      ),
+      284816825 => 
+      array (
+        'icon' => 389,
+        'name' => 'Amulet of the Faceless',
       ),
     ),
   ),
@@ -61486,6 +61949,48 @@ $CollectionsData = array (
       ),
     ),
   ),
+  4108460648 => 
+  array (
+    'category' => 'Fear of Eternity',
+    'name' => 'Relics of Fear',
+    'level' => 130,
+    'crc' => 4108460648,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      3645992633 => 
+      array (
+        'icon' => 646,
+        'name' => 'Jagged Fear Relic',
+      ),
+      2993058118 => 
+      array (
+        'icon' => 861,
+        'name' => 'Dark Idol Fragment',
+      ),
+      295984533 => 
+      array (
+        'icon' => 1214,
+        'name' => 'Tarnished Bone Token',
+      ),
+      2121244375 => 
+      array (
+        'icon' => 851,
+        'name' => 'Dull Dread Coin',
+      ),
+      3219507976 => 
+      array (
+        'icon' => 598,
+        'name' => 'Fear Worn Ring',
+      ),
+      1803559895 => 
+      array (
+        'icon' => 964,
+        'name' => 'Fear Touched Medallion',
+      ),
+    ),
+  ),
   3004703091 => 
   array (
     'category' => 'Shadow Odyssey',
@@ -63367,6 +63872,53 @@ $CollectionsData = array (
       array (
         'icon' => 4961,
         'name' => 'Recognizable Resonance',
+      ),
+    ),
+  ),
+  788547140 => 
+  array (
+    'category' => 'Fear of Eternity',
+    'name' => 'Resonant Fear Stones',
+    'level' => 130,
+    'crc' => 788547140,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1504527996 => 
+      array (
+        'icon' => 3837,
+        'name' => 'Whispering Fear Stone',
+      ),
+      2453254353 => 
+      array (
+        'icon' => 3836,
+        'name' => 'Shattered Fear Stone',
+      ),
+      1454263107 => 
+      array (
+        'icon' => 3833,
+        'name' => 'Burning Fear Stone',
+      ),
+      2069018667 => 
+      array (
+        'icon' => 3835,
+        'name' => 'Bleeding Fear Stone',
+      ),
+      2894737416 => 
+      array (
+        'icon' => 3833,
+        'name' => 'Echoing Fear Stone',
+      ),
+      1325853992 => 
+      array (
+        'icon' => 3838,
+        'name' => 'Flickering Fear Stone',
+      ),
+      3511299892 => 
+      array (
+        'icon' => 3834,
+        'name' => 'Pale Fear Stone',
       ),
     ),
   ),
@@ -70727,7 +71279,7 @@ $CollectionsData = array (
   array (
     'category' => 'Jubilee',
     'name' => 'Shindig Up Some Parts',
-    'level' => 1,
+    'level' => 20,
     'crc' => 3304243654,
     'isclass' => false,
     'ismeta' => false,
@@ -74892,6 +75444,53 @@ $CollectionsData = array (
       array (
         'icon' => 1165,
         'name' => 'yellow stained glass fragment',
+      ),
+    ),
+  ),
+  3351993853 => 
+  array (
+    'category' => 'Fear of Eternity',
+    'name' => 'Stalagmite Ores',
+    'level' => 130,
+    'crc' => 3351993853,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2292105022 => 
+      array (
+        'icon' => 5840,
+        'name' => 'Red Stalagmite Ore',
+      ),
+      581195936 => 
+      array (
+        'icon' => 5840,
+        'name' => 'Gray Stalagmite Ore',
+      ),
+      3994850551 => 
+      array (
+        'icon' => 5840,
+        'name' => 'Dull Stalagmite Ore',
+      ),
+      3224577009 => 
+      array (
+        'icon' => 5840,
+        'name' => 'Heavy Stalagmite Ore',
+      ),
+      2346691202 => 
+      array (
+        'icon' => 5840,
+        'name' => 'Sharp Stalagmite Ore',
+      ),
+      1701741490 => 
+      array (
+        'icon' => 5840,
+        'name' => 'Crumbly Stalagmite Ore',
+      ),
+      3283942268 => 
+      array (
+        'icon' => 5840,
+        'name' => 'Shiny Stalagmite Ore',
       ),
     ),
   ),
@@ -83727,6 +84326,53 @@ $CollectionsData = array (
       ),
     ),
   ),
+  3222054961 => 
+  array (
+    'category' => 'Fear of Eternity',
+    'name' => 'Thulian Coinage of the Forgotten',
+    'level' => 130,
+    'crc' => 3222054961,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2349092821 => 
+      array (
+        'icon' => 1358,
+        'name' => 'Gilded Thulian Coin',
+      ),
+      2439898946 => 
+      array (
+        'icon' => 1357,
+        'name' => 'Worn Thulian Coin',
+      ),
+      1841753077 => 
+      array (
+        'icon' => 1356,
+        'name' => 'Rusty Thulian Coin',
+      ),
+      809292046 => 
+      array (
+        'icon' => 1359,
+        'name' => 'Jagged Thulian Coin',
+      ),
+      859044035 => 
+      array (
+        'icon' => 1356,
+        'name' => 'Bent Thulian Coin',
+      ),
+      593643802 => 
+      array (
+        'icon' => 1357,
+        'name' => 'Cracked Thulian Coin',
+      ),
+      2927271842 => 
+      array (
+        'icon' => 1360,
+        'name' => 'Runed Thulian Coin',
+      ),
+    ),
+  ),
   3509375171 => 
   array (
     'category' => 'Cazic-Thule [Fabled]',
@@ -83761,6 +84407,48 @@ $CollectionsData = array (
       array (
         'icon' => 1129,
         'name' => 'Red Viscous Sludge',
+      ),
+    ),
+  ),
+  2681821798 => 
+  array (
+    'category' => 'Fear of Eternity',
+    'name' => 'Thulian Ritual Artifacts',
+    'level' => 130,
+    'crc' => 2681821798,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      1229925240 => 
+      array (
+        'icon' => 205,
+        'name' => 'Bronze Ritual Knife',
+      ),
+      4026260426 => 
+      array (
+        'icon' => 650,
+        'name' => 'Tarnished Offering Bowl',
+      ),
+      340493768 => 
+      array (
+        'icon' => 880,
+        'name' => 'Worn Mask of the Faceless',
+      ),
+      441454328 => 
+      array (
+        'icon' => 829,
+        'name' => 'Stone Idol Fragment',
+      ),
+      2634679016 => 
+      array (
+        'icon' => 944,
+        'name' => 'Etched Thulian Chalice',
+      ),
+      2001398080 => 
+      array (
+        'icon' => 569,
+        'name' => 'Old Thulian Urn',
       ),
     ),
   ),
@@ -84589,6 +85277,48 @@ $CollectionsData = array (
       array (
         'icon' => 2690,
         'name' => 'Curiously Animated Tome',
+      ),
+    ),
+  ),
+  224692061 => 
+  array (
+    'category' => 'Fear of Eternity',
+    'name' => 'Tools of the Bone Shaman',
+    'level' => 130,
+    'crc' => 224692061,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2770446937 => 
+      array (
+        'icon' => 5708,
+        'name' => 'Wyrm Tooth Carving Blade',
+      ),
+      366988689 => 
+      array (
+        'icon' => 5802,
+        'name' => 'Charcoal Sigil Stone',
+      ),
+      3409144715 => 
+      array (
+        'icon' => 5750,
+        'name' => 'Tied Fetish Cord',
+      ),
+      3515812408 => 
+      array (
+        'icon' => 5782,
+        'name' => 'Charred Clay Bowl',
+      ),
+      3658826008 => 
+      array (
+        'icon' => 5785,
+        'name' => 'Bone Flute Piece',
+      ),
+      1499408575 => 
+      array (
+        'icon' => 5698,
+        'name' => 'Fang Tipped Ritual Staff',
       ),
     ),
   ),
@@ -93165,6 +93895,95 @@ $CollectionsData = array (
       array (
         'icon' => 178,
         'name' => 'Vial of Devourer Poison',
+      ),
+    ),
+  ),
+  678740137 => 
+  array (
+    'category' => 'Fear of Eternity',
+    'name' => 'Wurmbone Fossils',
+    'level' => 130,
+    'crc' => 678740137,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      2321125018 => 
+      array (
+        'icon' => 102,
+        'name' => 'Fossilized Wyrm Talon',
+      ),
+      1710131421 => 
+      array (
+        'icon' => 90,
+        'name' => 'Calcified Rib Curve',
+      ),
+      3874498934 => 
+      array (
+        'icon' => 137,
+        'name' => 'Wormbone Tooth Fossil',
+      ),
+      1042310205 => 
+      array (
+        'icon' => 92,
+        'name' => 'Cracked Wing Finger Joint',
+      ),
+      1104709883 => 
+      array (
+        'icon' => 142,
+        'name' => 'Ancient Skull Fragment',
+      ),
+      3844775619 => 
+      array (
+        'icon' => 100,
+        'name' => 'Hollow Fossil Bone Chip',
+      ),
+      1561651019 => 
+      array (
+        'icon' => 101,
+        'name' => 'Jagged Fossil Chunk',
+      ),
+    ),
+  ),
+  3470492962 => 
+  array (
+    'category' => 'Fear of Eternity',
+    'name' => 'Wurmbone\'s Elite',
+    'level' => 130,
+    'crc' => 3470492962,
+    'isclass' => false,
+    'ismeta' => false,
+    'reference_list' => 
+    array (
+      383350776 => 
+      array (
+        'icon' => 5718,
+        'name' => 'Mace of Errlik',
+      ),
+      1843810187 => 
+      array (
+        'icon' => 5722,
+        'name' => 'Blade of Merglok',
+      ),
+      3563849249 => 
+      array (
+        'icon' => 5748,
+        'name' => 'Krelgrek\'s Crown',
+      ),
+      2666335843 => 
+      array (
+        'icon' => 2275,
+        'name' => 'Shield of the All-Blocker',
+      ),
+      1275596428 => 
+      array (
+        'icon' => 5699,
+        'name' => 'Necromunger\'s Staff',
+      ),
+      1262499882 => 
+      array (
+        'icon' => 5717,
+        'name' => 'Staff of the All-Tender',
       ),
     ),
   ),
